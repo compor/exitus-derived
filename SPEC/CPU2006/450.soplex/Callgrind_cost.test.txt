@@ -1,0 +1,1429 @@
+0 19 2460983099 2460983118 0x00000000000011e0
+2 657 1282409 1283066 _dl_start
+4 230 0 230 _dl_setup_hash
+6 269 1281767 1282036 
+8 12 0 12 brk
+10 2527 0 2527 strlen
+12 17 0 17 sbrk
+14 1426 1280277 1281703 dl_main
+16 554 0 554 _dl_next_ld_env_entry
+18 3063 0 3063 bcmp
+20 1728 2295 4023 _dl_new_object
+24 189 911 1100 calloc
+28 228 1907 2135 malloc
+32 1820 165 1985 __libc_memalign
+34 2091 0 2091 memcpy
+36 430 36 466 _dl_add_to_namespace_list
+38 58 0 58 rtld_lock_default_lock_recursive
+40 58 0 58 rtld_lock_default_unlock_recursive
+42 15687 72457 88144 strcmp
+43 72457 751864 824321 strcmp'2
+44 88 5 93 _dl_discover_osversion
+46 5 0 5 uname
+48 581 3398 3979 _dl_init_paths
+50 255 78 333 _dl_important_hwcaps
+52 1865 0 1865 mempcpy
+54 335 1153 1488 decompose_rpath
+56 198 1083 1281 expand_dynamic_string_token
+58 2544 0 2544 index
+60 457 2608 3065 fillin_rpath
+62 2738 0 2738 strsep
+66 12 0 12 free
+68 89 0 89 _dl_debug_initialize
+70 4 0 4 _dl_count_modids
+72 2 0 2 _dl_debug_state
+74 27 2683 2710 do_preload
+76 792 60411 61203 _dl_catch_error
+78 48 0 48 _dl_initial_error_catch_tsd
+80 440 0 440 __sigsetjmp
+82 12 2613 2625 map_doit
+84 4578 54980 59558 _dl_map_object
+86 22628 25729 48357 _dl_name_match_p
+88 2055 2849 4904 open_verify
+90 198 0 198 open
+92 40 0 40 read
+94 7094 18346 25440 _dl_map_object_from_fd
+96 90 0 90 _fxstat
+98 819 0 819 mmap
+100 90 0 90 mprotect
+102 13526 0 13526 memset
+104 45 0 45 close
+106 9 0 9 access
+108 2514 1162 3676 _dl_map_object_deps
+110 357 56945 57302 openaux
+112 1838 3328 5166 open_path
+114 140 0 140 _xstat
+116 1469 5440 6909 _dl_load_cache_lookup
+118 41 53 94 _dl_sysdep_read_whole_file
+120 4055 0 4055 _dl_cache_libcmp
+122 90 524 614 strdup
+124 6 0 6 _dl_next_tls_modid
+126 470 1801 2271 cache_rpath.part.5
+128 70 87 157 _dl_dst_count
+130 200 96 296 _dl_dst_substitute
+132 5 0 5 stpcpy
+134 370 36 406 memmove
+136 36 0 36 _wordcopy_fwd_aligned
+138 28 20724 20752 _dl_receive_error
+140 10 20712 20722 version_check_doit
+142 159 20553 20712 _dl_check_all_versions
+144 5389 15164 20553 _dl_check_map_versions
+146 3759 3284 7043 match_symbol
+148 102 554 656 init_tls
+150 56 0 56 _dl_determine_tlsoffset
+152 334 121 455 _dl_allocate_tls_storage
+154 195088 988608 1183696 _dl_relocate_object
+156 562646 552834 1115480 _dl_lookup_symbol_x
+158 395780 157054 552834 do_lookup_x
+160 67874 57017 124891 check_match.9440
+162 5 0 5 strcasecmp
+164 15 7 22 time
+166 28 0 28 _dl_vdso_vsym
+168 5 0 5 strnlen
+170 5 0 5 strncasecmp
+172 24 0 24 memset
+174 15 7 22 gettimeofday
+176 30 0 30 memcpy@GLIBC_2.2.5
+178 24 0 24 _dl_add_to_slotinfo
+180 8 0 8 __exp_finite
+182 8 0 8 cos
+184 5 0 5 rint
+186 5 0 5 __pow_finite
+188 8 0 8 __log_finite
+190 5 0 5 rintf
+192 5 0 5 __acos_finite
+194 5 0 5 floorf
+196 5 0 5 floor
+198 5 0 5 __asin_finite
+200 8 0 8 __atan2_finite
+202 8 0 8 sin
+204 81 157 238 _dl_allocate_tls_init
+206 1 0 1 _dl_sysdep_start_cleanup
+208 10 5 15 _dl_unload_cache
+210 5 0 5 munmap
+214 498 57698 58196 _dl_init
+216 4 9032 9036 0x00000000059e1400
+218 190 8842 9032 __pthread_initialize_minimal
+220 134 0 134 __libc_sigaction
+228 3741 137937 141678 _dl_runtime_resolve
+230 10210 127727 137937 _dl_fixup
+232 5 0 5 _dl_get_tls_static_info
+238 5 571 576 secure_getenv
+240 544 27 571 getenv
+242 41411 0 41411 __GI_strlen
+248 5 0 5 getrlimit
+254 3 0 3 __libc_dl_error_tsd
+260 393 50 443 __libc_pthread_init
+262 50 0 50 __register_atfork
+266 16 0 16 0x0000000000006720
+274 60 115 175 _init
+276 24 61 85 __init_misc
+278 61 0 61 __GI_strrchr
+280 16 0 16 __ctype_init
+282 150 1727 1877 init_cacheinfo
+284 94 1633 1727 handle_intel.isra.0
+286 407 1226 1633 intel_check_word
+288 902 324 1226 bsearch
+290 324 0 324 intel_02_known_compare
+292 6 0 6 0x0000000005bf9e98
+296 16 0 16 0x00000000000023f0
+304 6 0 6 0x00000000054077f8
+308 89 93 182 __cpu_indicator_init
+310 40 0 40 0x0000000000002c30
+314 53 0 53 0x0000000000002b60
+318 16 0 16 0x0000000000002fc0
+326 6 0 6 0x0000000005108278
+330 16 0 16 0x0000000000005820
+338 6 0 6 0x0000000004edd5c8
+342 16 0 16 0x0000000000008bd0
+350 6 0 6 0x0000000004c5b560
+354 16 0 16 0x0000000000039c80
+362 6 46261 46267 _GLOBAL__sub_I_iostream.cpp
+370 177 43938 44115 std::__1::ios_base::Init::Init()
+376 36 34008 34044 std::__1::basic_streambuf<char, std::__1::char_traits<char> >::basic_streambuf()
+382 80 33403 33483 std::__1::locale::locale()
+388 73 32600 32673 std::__1::locale::__global()
+394 54 3145 3199 __cxa_guard_acquire
+402 434 1302 1736 pthread_mutex_lock
+404 1356 0 1356 pthread_mutex_lock
+410 434 1054 1488 pthread_mutex_unlock
+412 1102 0 1102 pthread_mutex_unlock
+418 17 27193 27210 std::__1::locale::classic()
+420 207 26645 26852 std::__1::locale::__imp::__imp(unsigned long)
+422 240 23 263 std::__1::vector<std::__1::locale::facet*, std::__1::__sso_allocator<std::__1::locale::facet*, 28ul> >::vector(unsigned long)
+424 23 0 23 std::__1::vector<std::__1::locale::facet*, std::__1::__sso_allocator<std::__1::locale::facet*, 28ul> >::allocate(unsigned long)
+430 7 2424 2431 std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::basic_string(char const*)
+436 14 0 14 strlen
+438 196844 0 196844 __strlen_sse2_pminub
+444 28 1322 1350 std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::__init(char const*, unsigned long)
+450 22 0 22 memcpy@@GLIBC_2.14
+452 2118179 0 2118179 __memcpy_ssse3_back
+460 36472 10307 46779 std::__1::locale::id::__get()
+468 812 8602 9414 std::__1::__call_once(unsigned long volatile&, void*, void (*)(void*))
+478 224 168 392 void std::__1::__call_once_proxy<std::__1::tuple<std::__1::(anonymous namespace)::__fake_bind&&> >(void*)
+482 168 0 168 std::__1::locale::id::__init()
+490 217 403 620 pthread_cond_broadcast@@GLIBC_2.3.2
+492 403 0 403 pthread_cond_broadcast@@GLIBC_2.3.2
+494 868 1629 2497 std::__1::locale::__imp::install(std::__1::locale::facet*, long)
+500 4550 0 4550 std::__1::__shared_count::__add_shared()
+502 784 0 784 std::__1::vector<std::__1::locale::facet*, std::__1::__sso_allocator<std::__1::locale::facet*, 28ul> >::__append(unsigned long)
+514 14 5551 5565 std::__1::ctype<char>::ctype(unsigned short const*, bool, unsigned long)
+520 4 4792 4796 std::__1::ctype<char>::classic_table()
+526 96 4140 4236 std::__1::__cloc()
+532 40 0 40 newlocale
+538 36 2007 2043 __cxa_guard_release
+548 14 4 18 std::__1::codecvt<wchar_t, char, __mbstate_t>::codecvt(unsigned long)
+554 17 4 21 std::__1::numpunct<char>::numpunct(unsigned long)
+556 8 0 8 std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::basic_string()
+562 17 4 21 std::__1::numpunct<wchar_t>::numpunct(unsigned long)
+570 8924 4462 13386 std::__1::locale::locale(std::__1::locale const&)
+574 18 822 840 std::__1::__stdinbuf<char>::imbue(std::__1::locale const&)
+580 13440 62720 76160 std::__1::locale::use_facet(std::__1::locale::id&) const
+582 26880 0 26880 std::__1::locale::__imp::use_facet(long) const
+586 2 0 2 std::__1::codecvt<char, char, __mbstate_t>::do_encoding() const
+588 8 0 8 std::__1::codecvt<char, char, __mbstate_t>::do_always_noconv() const
+594 4464 14229 18693 std::__1::locale::~locale()
+600 13392 0 13392 std::__1::__shared_count::__release_shared()
+610 189 135 324 std::__1::ios_base::init(void*)
+616 27 45 72 std::__1::basic_streambuf<wchar_t, std::__1::char_traits<wchar_t> >::basic_streambuf()
+618 18 4317 4335 std::__1::__stdinbuf<wchar_t>::imbue(std::__1::locale const&)
+622 36 4223 4259 std::__1::codecvt<wchar_t, char, __mbstate_t>::do_encoding() const
+628 630 0 630 uselocale
+636 19 0 19 mbtowc
+644 5 0 5 __ctype_get_mb_cur_max
+646 6 0 6 std::__1::codecvt<wchar_t, char, __mbstate_t>::do_always_noconv() const
+648 60 172 232 std::__1::__stdoutbuf<char>::__stdoutbuf(_IO_FILE*, __mbstate_t*)
+654 60 172 232 std::__1::__stdoutbuf<wchar_t>::__stdoutbuf(_IO_FILE*, __mbstate_t*)
+664 44 83 127 __cxa_atexit
+666 83 0 83 __new_exitfn
+668 6 0 6 0x0000000004a22560
+672 16 0 16 0x0000000000000670
+682 16 2459641821 2459641837 0x000000000041e438
+690 62 2459640320 2459640382 (below main)
+692 41 1364 1405 __libc_csu_init
+694 6 0 6 0x000000000041de88
+698 16 0 16 0x000000000041e510
+706 5 1337 1342 _GLOBAL__sub_I_timer.cc
+708 12 1325 1337 __cxx_global_var_init
+714 31 6 37 sysconf
+716 6 0 6 __getclktck
+718 2 28 30 _setjmp
+720 19 9 28 __sigsetjmp
+722 9 0 9 __sigjmp_save
+724 1599 2459618951 2459620550 main
+726 98 2430574 2430672 soplex::NameSet::NameSet(int, int, double, double)
+728 52 59852 59904 soplex::DataSet<int>::DataSet(int)
+730 60 59382 59442 void soplex::spx_alloc<soplex::DataSet<int>::Item*>(soplex::DataSet<int>::Item*&, int)
+736 179373 995602 1174975 malloc
+737 40 1055 1095 malloc'2
+738 11 57734 57745 malloc_hook_ini
+740 585 56054 56639 ptmalloc_init.part.8
+742 55994 51 56045 _dl_addr
+744 9 0 9 __linkin_atfork
+746 967189 14705 981894 _int_malloc
+748 14515 0 14515 malloc_consolidate
+750 1211 760 1971 sysmalloc
+752 120 758 878 __default_morecore
+754 433 325 758 sbrk
+756 325 0 325 brk
+758 112 730 842 void soplex::spx_alloc<soplex::DataKey*>(soplex::DataKey*&, int)
+760 11130 0 11130 soplex::DataSet<int>::max() const
+762 78 2370154 2370232 soplex::DataHashTable<soplex::NameSet::Name, soplex::DataKey>::DataHashTable(int (*)(soplex::NameSet::Name const*), int, int, double)
+764 70 654 724 soplex::DataArray<soplex::DataHashTable<soplex::NameSet::Name, soplex::DataKey>::Element<soplex::NameSet::Name, soplex::DataKey> >::DataArray(int, int, double)
+766 56 540 596 void soplex::spx_alloc<soplex::DataHashTable<soplex::NameSet::Name, soplex::DataKey>::Element<soplex::NameSet::Name, soplex::DataKey>*>(soplex::DataHashTable<soplex::NameSet::Name, soplex::DataKey>::Element<soplex::NameSet::Name, soplex::DataKey>*&, int)
+768 264 0 264 mmap
+770 58 0 58 soplex::DataArray<soplex::DataHashTable<soplex::NameSet::Name, soplex::DataKey>::Element<soplex::NameSet::Name, soplex::DataKey> >::isConsistent() const
+772 600076 1000020 1600096 soplex::DataHashTable<soplex::NameSet::Name, soplex::DataKey>::clear()
+774 318395 0 318395 soplex::DataArray<soplex::DataHashTable<soplex::NameSet::Name, soplex::DataKey>::Element<soplex::NameSet::Name, soplex::DataKey> >::size() const
+776 912340 0 912340 soplex::DataArray<soplex::DataHashTable<soplex::NameSet::Name, soplex::DataKey>::Element<soplex::NameSet::Name, soplex::DataKey> >::operator[](int)
+778 92 1569290 1569382 soplex::DataHashTable<soplex::NameSet::Name, soplex::DataKey>::autoHashSize() const
+780 210 1412 1622 soplex::DataArray<bool>::DataArray(int, int, double)
+782 168 1070 1238 void soplex::spx_alloc<bool*>(bool*&, int)
+784 174 0 174 soplex::DataArray<bool>::isConsistent() const
+786 259974 379924 639898 _ZNK6soplex13DataHashTableINS_7NameSet4NameENS_7DataKeyEE12autoHashSizeEv_for.cond
+788 933470 0 933470 soplex::DataArray<bool>::operator[](int)
+790 393692 533628 927320 _ZNK6soplex13DataHashTableINS_7NameSet4NameENS_7DataKeyEE12autoHashSizeEv_for.cond.6
+792 36 2000 2036 soplex::DataArray<bool>::~DataArray()
+794 94 1906 2000 void soplex::spx_free<bool*>(bool*&)
+800 72047 475503 547550 free
+802 485956 2211 488167 _int_free
+804 56 362 418 void soplex::spx_alloc<char*>(char*&, int)
+810 6 190 196 atoi
+812 4 186 190 strtol
+814 186 0 186 ____strtol_l_internal
+820 4 186 190 log10
+822 38 148 186 __log10_finite
+826 148 0 148 __ieee754_log_avx
+828 5 0 5 soplex::Param::setEpsilon(double)
+830 5 0 5 soplex::Param::setVerbose(int)
+832 14 39451 39465 MySoPlex::MySoPlex(soplex::SoPlex::Type, soplex::SoPlex::Representation)
+834 65 29789 29854 soplex::SPxSolver::SPxSolver(soplex::SoPlex::Type, soplex::SoPlex::Representation)
+836 166 10687 10853 soplex::SoPlex::SoPlex(soplex::SoPlex::Type, soplex::SoPlex::Representation, soplex::SPxPricer*, soplex::SPxRatioTester*, soplex::SPxStarter*, soplex::SPxScaler*, soplex::SPxSimplifier*)
+838 27 4350 4377 soplex::SPxLP::SPxLP()
+840 22 1293 1315 soplex::LPRowSet::LPRowSet(int, int)
+842 102 1460 1562 soplex::SVSet::SVSet(int, int, double, double)
+844 60 466 526 soplex::DataArray<soplex::SVector::Element>::DataArray(int, int, double)
+846 224 1869 2093 void soplex::spx_alloc<soplex::SVector::Element*>(soplex::SVector::Element*&, int)
+848 638 0 638 soplex::DataArray<soplex::SVector::Element>::isConsistent() const
+850 52 846 898 soplex::DataSet<soplex::SVSet::DLPSV>::DataSet(int)
+852 56 358 414 void soplex::spx_alloc<soplex::DataSet<soplex::SVSet::DLPSV>::Item*>(soplex::DataSet<soplex::SVSet::DLPSV>::Item*&, int)
+854 10 26 36 soplex::IdList<soplex::SVSet::DLPSV>::IdList(soplex::SVSet::DLPSV*, soplex::SVSet::DLPSV*)
+856 26 0 26 soplex::IsList<soplex::SVSet::DLPSV>::IsList(soplex::SVSet::DLPSV*, soplex::SVSet::DLPSV*)
+858 42304 376304 418608 soplex::DVector::DVector(int)
+860 26248 0 26248 soplex::Vector::Vector(int, double*)
+862 95536 832719 928255 void soplex::spx_alloc<double*>(double*&, int)
+864 29 1549 1578 soplex::LPColSet::LPColSet(int, int)
+866 51 2322 2373 soplex::SPxLP::clear()
+868 81 993 1074 soplex::LPRowSet::clear()
+870 138 1293 1431 soplex::SVSet::clear()
+872 30 0 30 soplex::DataArray<soplex::SVector::Element>::clear()
+874 253 1320 1573 soplex::DataArray<soplex::SVector::Element>::reMax(int, int)
+876 128 674 802 void soplex::spx_free<soplex::SVector::Element*>(soplex::SVector::Element*&)
+878 60 0 60 soplex::DataSet<soplex::SVSet::DLPSV>::clear()
+880 36 0 36 soplex::IsList<soplex::SVSet::DLPSV>::clear()
+882 35110 77242 112352 soplex::LPRowSet::num() const
+884 3962856 3302380 7265236 soplex::SVSet::num() const
+886 3337750 0 3337750 soplex::DataSet<soplex::SVSet::DLPSV>::num() const
+888 70893 293546 364439 soplex::DVector::reDim(int)
+890 249918 0 249918 _ZN6soplex7DVector5reDimEi_for.cond
+892 105 1143 1248 soplex::LPColSet::clear()
+894 40015 88033 128048 soplex::LPColSet::num() const
+896 52 1183 1235 soplex::SPxBasis::SPxBasis()
+898 70 708 778 soplex::DataArray<soplex::SPxId>::DataArray(int, int, double)
+900 56 594 650 void soplex::spx_alloc<soplex::SPxId*>(soplex::SPxId*&, int)
+902 319 0 319 soplex::DataArray<soplex::SPxId>::isConsistent() const
+904 35 232 267 soplex::DataArray<soplex::SVector const*>::DataArray(int, int, double)
+906 28 175 203 void soplex::spx_alloc<soplex::SVector const**>(soplex::SVector const**&, int)
+908 290 0 290 soplex::DataArray<soplex::SVector const*>::isConsistent() const
+910 5411 11595 17006 soplex::SPxId::SPxId()
+912 45345 0 45345 soplex::DataKey::DataKey(int, int)
+914 48 912 960 soplex::SPxBasis::Desc::Desc()
+916 140 772 912 soplex::DataArray<soplex::SPxBasis::Desc::Status>::DataArray(int, int, double)
+918 112 544 656 void soplex::spx_alloc<soplex::SPxBasis::Desc::Status*>(soplex::SPxBasis::Desc::Status*&, int)
+920 638 0 638 soplex::DataArray<soplex::SPxBasis::Desc::Status>::isConsistent() const
+922 20 0 20 soplex::Timer::Timer()
+924 17 0 17 soplex::Array<soplex::UnitVector>::Array(int)
+926 16775 0 16775 soplex::Param::epsilon()
+928 51 2355 2406 soplex::UpdateVector::UpdateVector(int, double)
+930 18569 699947 718516 soplex::SSVector::SSVector(int, double)
+932 5990 26955 32945 soplex::IdxSet::IdxSet()
+934 252847 201694880 201947727 soplex::IdxSet::isConsistent() const
+936 56470230 145224650 201694880 _ZNK6soplex6IdxSet12isConsistentEv_for.cond
+938 291825200 0 291825200 soplex::IdxSet::size() const
+940 24360 235117 259477 void soplex::spx_alloc<int*>(int*&, int)
+942 45853 1205234 1251087 soplex::Vector::clear()
+944 79 113 192 soplex::SoPlex::setRep(soplex::SoPlex::Representation)
+946 6 0 6 soplex::SPxLP::colset()
+948 6 0 6 soplex::SPxLP::rowset()
+950 25 0 25 soplex::SoPlex::unInit()
+952 307 511771 512078 soplex::SoPlex::reDim()
+954 301445 0 301445 soplex::SoPlex::rep() const
+956 24132 64352 88484 soplex::SPxLP::nRows() const
+958 2026092 3714502 5740594 soplex::SoPlex::dim() const
+960 13605 0 13605 soplex::Array<soplex::UnitVector>::size() const
+962 112 0 112 soplex::SoPlex::isInitialized() const
+964 12905 0 12905 soplex::SPxBasis::status() const
+966 10 0 10 soplex::SoPlex::setDelta(double)
+968 28 16 44 soplex::SPxFastRT::SPxFastRT()
+970 16 0 16 soplex::SPxRatioTester::SPxRatioTester()
+972 158 3989 4147 soplex::SPxSteepPR::SPxSteepPR()
+974 22 0 22 soplex::SPxPricer::SPxPricer(char const*)
+976 350 1930 2280 soplex::DataArray<double>::DataArray(int, int, double)
+978 290 0 290 soplex::DataArray<double>::isConsistent() const
+980 114 2476 2590 soplex::SPxWeightST::SPxWeightST()
+982 14 0 14 soplex::SPxStarter::SPxStarter()
+984 175 1251 1426 soplex::DataArray<int>::DataArray(int, int, double)
+986 145 0 145 soplex::DataArray<int>::isConsistent() const
+988 654 20344 20998 soplex::SLUFactor::SLUFactor()
+990 14 0 14 soplex::SLinSolver::SLinSolver()
+992 12 52 64 soplex::CLUFactor::CLUFactor()
+994 40 12 52 soplex::CLUFactor::Temp::Temp()
+996 12 0 12 soplex::CLUFactor::Pring::Pring()
+1002 1204052 0 1204052 __GI_memset
+1004 16785 0 16785 soplex::Vector::get_ptr()
+1006 108 711 819 void soplex::spx_alloc<soplex::CLUFactor::Dring*>(soplex::CLUFactor::Dring*&, int)
+1008 882 23598 24480 soplex::SLUFactor::clear()
+1010 128025 279848798 279976823 soplex::SSVector::clear()
+1012 34344345 0 34344345 soplex::SSVector::isSetup() const
+1014 754318 0 754318 _ZN6soplex8SSVector5clearEv_for.cond
+1016 26185 0 26185 soplex::IdxSet::clear()
+1018 513743 1797047186 1797560929 soplex::SSVector::isConsistent() const
+1020 53211520 0 53211520 soplex::Vector::dim() const
+1022 62560 0 62560 soplex::IdxSet::max() const
+1024 2663417 497155 3160572 soplex::IdxSet::dim() const
+1026 137151592 1454170693 1591322285 _ZNK6soplex8SSVector12isConsistentEv_for.cond
+1028 76047360 1354313093 1430360453 soplex::SSVector::number(int) const
+1030 95149436 1225892937 1321042373 soplex::IdxSet::number(int) const
+1032 964737282 261155655 1225892937 _ZNK6soplex6IdxSet6numberEi_for.cond
+1034 246384 245916 492300 soplex::DVector::isConsistent() const
+1036 194586 51330 245916 soplex::Vector::isConsistent() const
+1038 54592 412094 466686 void soplex::spx_free<double*>(double*&)
+1040 13920 109596 123516 void soplex::spx_free<int*>(int*&)
+1042 60 29 89 soplex::SoPlex::setTester(soplex::SPxRatioTester*)
+1044 20 0 20 soplex::SPxRatioTester::clear()
+1046 66 54 120 soplex::SoPlex::setPricer(soplex::SPxPricer*)
+1048 22 0 22 soplex::SoPlex::setPricing(soplex::SoPlex::Pricing)
+1050 24 0 24 soplex::SPxSteepPR::clear()
+1052 10 0 10 soplex::SoPlex::setStarter(soplex::SPxStarter*)
+1054 6 3789 3795 soplex::SoPlex::setSolver(soplex::SLinSolver*)
+1056 14 3775 3789 soplex::SPxBasis::loadSolver(soplex::SLinSolver*)
+1058 6 5 11 soplex::SPxSolver::setUtype(soplex::SLUFactor::UpdateType)
+1060 5 0 5 soplex::SLUFactor::setUtype(soplex::SLUFactor::UpdateType)
+1062 13 0 13 soplex::SoPlex::setTerminationTime(double)
+1064 8 0 8 soplex::SoPlex::setTerminationIter(int)
+1066 448 31346 31794 std::__1::basic_ostream<char, std::__1::char_traits<char> >& std::__1::operator<< <std::__1::char_traits<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, char const*)
+1068 196 1849 2045 std::__1::char_traits<char>::length(char const*)
+1074 2538 26763 29301 std::__1::basic_ostream<char, std::__1::char_traits<char> >& std::__1::__put_character_sequence<char, std::__1::char_traits<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, char const*, unsigned long)
+1080 1227 3250 4477 std::__1::basic_ostream<char, std::__1::char_traits<char> >::sentry::sentry(std::__1::basic_ostream<char, std::__1::char_traits<char> >&)
+1081 180 0 180 std::__1::basic_ostream<char, std::__1::char_traits<char> >::sentry::sentry(std::__1::basic_ostream<char, std::__1::char_traits<char> >&)'2
+1084 295 0 295 std::__1::char_traits<char>::eof()
+1086 256 0 256 std::__1::char_traits<char>::eq_int_type(int, int)
+1092 15554 15554 31108 std::__1::ios_base::getloc() const
+1098 4400 0 4400 std::__1::ctype<char>::do_widen(char) const
+1104 1984 6935 8919 std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> > std::__1::__pad_and_output<char, std::__1::char_traits<char> >(std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> >, char const*, char const*, char const*, std::__1::ios_base&, char)
+1106 855 8393 9248 std::__1::__stdoutbuf<char>::xsputn(char const*, long)
+1112 4795 5675 10470 fwrite
+1114 3429 2246 5675 _IO_file_xsputn@@GLIBC_2.2.5
+1116 296 316 612 _IO_file_overflow@@GLIBC_2.2.5
+1118 59 220 279 _IO_doallocbuf
+1120 84 136 220 _IO_file_doallocate
+1122 8 20 28 _IO_file_stat
+1124 20 0 20 _fxstat
+1126 307 5 312 _IO_setb
+1128 1015 731 1746 _IO_do_write@@GLIBC_2.2.5
+1130 878 0 878 _IO_default_xsputn
+1136 1446 10498 11944 std::__1::basic_ostream<char, std::__1::char_traits<char> >::sentry::~sentry()
+1142 212 25929 26141 std::__1::basic_ostream<char, std::__1::char_traits<char> >::operator<<(double)
+1156 292 22636 22928 std::__1::num_put<char, std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> > >::do_put(std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> >, std::__1::ios_base&, char, double) const
+1162 120 0 120 std::__1::__num_put_base::__format_float(char*, char const*, unsigned int)
+1164 450 16973 17423 std::__1::__snprintf_l(char*, unsigned long, __locale_struct*, char const*, ...)
+1170 484 14709 15193 vsnprintf
+1172 253 267 520 _IO_no_init
+1174 267 0 267 _IO_old_init
+1176 385 231 616 _IO_str_init_static_internal
+1178 3259 10372 13631 vfprintf
+1180 506 0 506 strchrnul
+1182 4362 4287 8649 __printf_fp
+1184 28 0 28 isnan
+1186 52 0 52 isinf
+1188 84 0 84 __mpn_extract_double
+1190 86933 0 86933 __mpn_lshift
+1192 57038 30123 87161 __mpn_mul
+1194 31053 0 31053 __mpn_mul_1
+1196 127 0 127 __mpn_rshift
+1198 1262 1659 2921 hack_digit.13574
+1200 2559 0 2559 __GI_mempcpy
+1210 88 0 88 std::__1::__num_put_base::__identify_padding(char*, char*, std::__1::ios_base const&)
+1218 432 2766 3198 std::__1::__num_put<char>::__widen_and_group_float(char*, char*, char*, char*, char*&, char*&, std::__1::locale const&)
+1222 44 1160 1204 std::__1::numpunct<char>::do_grouping() const
+1228 132 0 132 std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::basic_string(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+1234 453 0 453 std::__1::ctype<char>::do_widen(char const*, char const*, char*) const
+1236 8 0 8 std::__1::numpunct<char>::do_decimal_point() const
+1242 39 0 39 std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::~basic_string()
+1244 538 4830 5368 std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> > std::__1::__pad_and_output<char, std::__1::char_traits<char> >(std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> >, char const*, char const*, char const*, std::__1::ios_base&, char)
+1246 10 2446 2456 std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::basic_string(unsigned long, char)
+1252 32 1338 1370 std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::__init(unsigned long, char)
+1270 684 4422 5106 std::__1::basic_ostream<char, std::__1::char_traits<char> >::put(char)
+1276 72 0 72 std::__1::__stdoutbuf<char>::overflow(int)
+1282 900 8376 9276 std::__1::basic_ostream<char, std::__1::char_traits<char> >::flush()
+1283 60 306 366 std::__1::basic_ostream<char, std::__1::char_traits<char> >::flush()'2
+1284 1892 6324 8216 std::__1::__stdoutbuf<char>::sync()
+1286 132 0 132 std::__1::codecvt<char, char, __mbstate_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
+1292 1886 2349 4235 fflush
+1294 781 1581 2362 _IO_file_sync@@GLIBC_2.2.5
+1296 972 189 1161 _IO_file_write@@GLIBC_2.2.5
+1298 54 135 189 write
+1300 135 0 135 __write_nocancel
+1302 1926 5486015 5487941 soplex::SoPlex::isConsistent() const
+1304 1404109 1203522 2607631 soplex::SoPlex::epsilon() const
+1306 1206816 0 1206816 soplex::UpdateVector::delta() const
+1308 420 7881952 7882372 soplex::SPxLP::isConsistent() const
+1310 22104 58944 81048 soplex::SPxLP::nCols() const
+1312 258730 2388918 2647648 _ZNK6soplex5SPxLP12isConsistentEv_for.cond
+1314 261650 1888832 2150482 _ZNK6soplex5SPxLP12isConsistentEv_for.cond.24
+1316 470 1853753 1854223 soplex::LPRowSet::isConsistent() const
+1318 760 3079010 3079770 soplex::SVSet::isConsistent() const
+1320 58990 0 58990 soplex::IdList<soplex::SVSet::DLPSV>::first() const
+1322 180151 2320749 2500900 _ZNK6soplex5SVSet12isConsistentEv_for.cond
+1324 1040 76880 77920 soplex::DataSet<soplex::SVSet::DLPSV>::isConsistent() const
+1326 76880 0 76880 _ZNK6soplex7DataSetINS_5SVSet5DLPSVEE12isConsistentEv_for.cond
+1328 460 499050 499510 soplex::IdList<soplex::SVSet::DLPSV>::isConsistent() const
+1330 134212 233420 367632 _ZNK6soplex6IdListINS_5SVSet5DLPSVEE12isConsistentEv_for.cond
+1332 649 130669 131318 soplex::IsList<soplex::SVSet::DLPSV>::isConsistent() const
+1334 400 0 400 soplex::IsList<soplex::SVSet::DLPSV>::first() const
+1336 18130 0 18130 soplex::IsList<soplex::SVSet::DLPSV>::last() const
+1338 580 1228579 1229159 soplex::LPColSet::isConsistent() const
+1340 28770 533009991 533038761 soplex::UpdateVector::isConsistent() const
+1342 1078990 0 1078990 soplex::SSVector::dim() const
+1344 429 140598 141027 soplex::SPxBasis::isConsistent() const
+1346 162 522 684 soplex::SPxBasis::Desc::isConsistent() const
+1348 480 11311076 11311556 soplex::SLUFactor::isConsistent() const
+1350 52398 105379568 105431966 soplex::CLUFactor::isConsistent() const
+1356 50 2989 3039 operator new(unsigned long)
+1362 5 0 5 soplex::SPxPricer::getName() const
+1364 5 0 5 soplex::SoPlex::setScaler(soplex::SPxScaler*)
+1366 5 0 5 soplex::SoPlex::setSimplifier(soplex::SPxSimplifier*)
+1368 87 27671515 27671602 soplex::SoPlex::readFile(char const*, soplex::NameSet*, soplex::NameSet*, soplex::DIdxSet*)
+1374 103 4922 5025 std::__1::basic_filebuf<char, std::__1::char_traits<char> >::basic_filebuf()
+1388 16 16 32 std::__1::locale::has_facet(std::__1::locale::id&) const
+1390 56 1569 1625 std::__1::basic_filebuf<char, std::__1::char_traits<char> >::setbuf(char*, long)
+1396 8 1724 1732 operator new[](unsigned long)
+1402 61 1780 1841 std::__1::basic_filebuf<char, std::__1::char_traits<char> >::open(char const*, unsigned int)
+1408 2 519 521 fopen@@GLIBC_2.2.5
+1410 40 479 519 __fopen_internal
+1414 13 115 128 _IO_file_init@@GLIBC_2.2.5
+1416 104 22 126 _IO_link_in
+1418 28 0 28 _pthread_cleanup_push_defer
+1420 16 0 16 _pthread_cleanup_pop_restore
+1422 70 43 113 _IO_file_fopen@@GLIBC_2.2.5
+1424 2 5 7 open
+1426 5 0 5 __open_nocancel
+1428 25 0 25 __GI_strstr
+1430 4 0 4 __fopen_maybe_mmap
+1432 80 27652409 27652489 soplex::SoPlex::read(std::__1::basic_istream<char, std::__1::char_traits<char> >&, soplex::NameSet*, soplex::NameSet*, soplex::DIdxSet*)
+1434 76 1749 1825 soplex::SoPlex::clear()
+1436 50 93280 93330 soplex::Array<soplex::UnitVector>::reSize(int)
+1438 36 894 930 soplex::UpdateVector::clear()
+1440 19740 80279897 80299637 soplex::UpdateVector::clearUpdate()
+1442 68 12 80 soplex::SPxBasis::setStatus(soplex::SPxBasis::SPxStatus)
+1444 12 0 12 soplex::SPxBasis::invalidate()
+1446 315 3442 3757 soplex::SPxBasis::reDim()
+1448 78 2966 3044 soplex::SPxBasis::Desc::reSize(int, int)
+1450 328 2682 3010 soplex::DataArray<soplex::SPxBasis::Desc::Status>::reSize(int)
+1452 330 0 330 soplex::DataArray<soplex::SVector const*>::size() const
+1454 11155 0 11155 soplex::DataArray<soplex::SPxId>::size() const
+1456 7 18 25 soplex::SPxBasis::unLoad()
+1458 63 27010308 27010371 soplex::SPxLP::read(std::__1::basic_istream<char, std::__1::char_traits<char> >&, soplex::NameSet*, soplex::NameSet*, soplex::DIdxSet*)
+1464 24 5519 5543 std::__1::basic_istream<char, std::__1::char_traits<char> >::get()
+1470 67642 0 67642 std::__1::basic_istream<char, std::__1::char_traits<char> >::sentry::sentry(std::__1::basic_istream<char, std::__1::char_traits<char> >&, bool)
+1480 10 3061 3071 std::__1::basic_streambuf<char, std::__1::char_traits<char> >::uflow()
+1482 2742 22993 25735 std::__1::basic_filebuf<char, std::__1::char_traits<char> >::underflow()
+1484 419 0 419 std::__1::basic_filebuf<char, std::__1::char_traits<char> >::__read_mode()
+1490 348 0 348 __memmove_ssse3_back
+1496 1353 17966 19319 fread
+1498 75 17891 17966 _IO_sgetn
+1500 1570 16321 17891 _IO_file_xsgetn
+1502 104 182 286 _IO_file_read
+1504 52 130 182 read
+1506 130 0 130 __read_nocancel
+1508 150 0 150 std::__1::char_traits<char>::to_int_type(char)
+1510 6 0 6 std::__1::char_traits<char>::to_char_type(int)
+1516 35 730 765 std::__1::basic_istream<char, std::__1::char_traits<char> >::putback(char)
+1522 13086 0 13086 std::__1::ios_base::clear(unsigned int)
+1526 187 27001170 27001357 soplex::SPxLP::readMPS(std::__1::basic_istream<char, std::__1::char_traits<char> >&, soplex::NameSet*, soplex::NameSet*, soplex::DIdxSet*)
+1528 26 800068 800094 soplex::NameSet::clear()
+1530 20 0 20 soplex::DataSet<int>::clear()
+1532 5 452 457 soplex::LPColSet::memRemax(int)
+1534 26 426 452 soplex::SVSet::memRemax(int)
+1536 35 0 35 munmap
+1538 15 0 15 _ZN6soplex5SVSet8memRemaxEi_for.cond
+1540 35 4552 4587 soplex::LPColSet::reMax(int)
+1542 294 484433 484727 soplex::SVSet::reMax(int)
+1544 1050 18581 19631 soplex::DataSet<soplex::SVSet::DLPSV>::reMax(int)
+1546 56465 0 56465 soplex::DataSet<soplex::SVSet::DLPSV>::size() const
+1548 357 0 357 _ZN6soplex7DataSetINS_5SVSet5DLPSVEE5reMaxEi_while.cond
+1550 571 8438 9009 void soplex::spx_realloc<soplex::DataSet<soplex::SVSet::DLPSV>::Item*>(soplex::DataSet<soplex::SVSet::DLPSV>::Item*&, int)
+1556 63330 243262 306592 realloc
+1558 82 512 594 realloc_hook_ini
+1560 47319 195861 243180 _int_realloc
+1562 230242 0 230242 __GI_memcpy
+1564 567 8543 9110 void soplex::spx_realloc<soplex::DataKey*>(soplex::DataKey*&, int)
+1566 451 464351 464802 soplex::IdList<soplex::SVSet::DLPSV>::move(long)
+1568 15 33 48 soplex::LPColSet::max() const
+1570 13470 11225 24695 soplex::SVSet::max() const
+1572 16780 0 16780 soplex::DataSet<soplex::SVSet::DLPSV>::max() const
+1574 2100 43554 45654 soplex::DVector::reSize(int)
+1576 4050 79203 83253 void soplex::spx_realloc<double*>(double*&, int)
+1578 19 0 19 soplex::MPSInput::MPSInput(std::__1::basic_istream<char, std::__1::char_traits<char> >&)
+1580 63 9933 9996 soplex::readName(soplex::MPSInput&)
+1582 3358200 6297955 9656155 soplex::MPSInput::readLine()
+1588 2180728 103334 2284062 std::__1::basic_istream<char, std::__1::char_traits<char> >::getline(char*, long, char)
+1596 871864 0 871864 soplex::clear_from(char*, int)
+1602 1173931 0 1173931 strtok
+1604 10935 0 10935 soplex::MPSInput::field0() const
+1610 5 0 5 strcmp
+1612 439041 0 439041 __strcmp_sse42
+1614 28775 0 28775 soplex::MPSInput::field1() const
+1616 14 1315 1329 soplex::MPSInput::setProbName(char const*)
+1622 5 0 5 strcpy
+1624 35616 0 35616 __strcpy_sse2_unaligned
+1626 2415 0 2415 soplex::Param::verbose()
+1628 25 0 25 soplex::MPSInput::setSection(soplex::MPSInput::Section)
+1630 40 0 40 soplex::MPSInput::section() const
+1632 42321 4112095 4154416 soplex::readRows(soplex::MPSInput&, soplex::LPRowSet&, soplex::NameSet&)
+1634 10 250 260 soplex::LPRow::LPRow(int)
+1636 78 984 1062 soplex::DSVector::DSVector(int)
+1638 6805 81528 88333 soplex::SVector::SVector(int, soplex::SVector::Element*)
+1640 99465 93003 192468 soplex::SVector::setMem(int, soplex::SVector::Element*)
+1642 54 867 921 soplex::DSVector::allocMem(int)
+1644 154854 0 154854 soplex::SVector::set_size(int)
+1646 64740 0 64740 soplex::SVector::set_max(int)
+1648 238522 1296900 1535422 soplex::patch_field(char*, int, int)
+1650 522844 0 522844 _ZN6soplexL11patch_fieldEPcii_while.cond
+1652 158404 0 158404 _ZN6soplexL11patch_fieldEPcii_while.cond.2
+1654 615652 0 615652 _ZN6soplexL11patch_fieldEPcii_for.cond
+1656 16290 0 16290 soplex::MPSInput::objName() const
+1658 29975 0 29975 soplex::MPSInput::field2() const
+1660 10 22 32 soplex::MPSInput::setObjName(char const*)
+1662 8449 150100 158549 soplex::NameSet::has(char const*) const
+1664 28820 0 28820 soplex::NameSet::Name::Name(char const*)
+1666 61875 2362193 2424068 soplex::DataHashTable<soplex::NameSet::Name, soplex::DataKey>::has(soplex::NameSet::Name const&) const
+1668 489451 3032858 3522309 soplex::DataHashTable<soplex::NameSet::Name, soplex::DataKey>::index(soplex::NameSet::Name const&) const
+1670 16665 1850755 1867420 soplex::NameSet::add(char const*)
+1672 36663 0 36663 soplex::DataKey::DataKey()
+1674 88880 1749654 1838534 soplex::NameSet::add(soplex::DataKey&, char const*)
+1676 5555 5555 11110 soplex::NameSet::size() const
+1678 20780 0 20780 soplex::DataSet<int>::size() const
+1680 5555 5555 11110 soplex::NameSet::max() const
+1682 5555 0 5555 soplex::NameSet::memSize() const
+1684 5555 0 5555 soplex::NameSet::memMax() const
+1686 65549 34441 99990 soplex::DataSet<int>::create(soplex::DataKey&)
+1688 5555 0 5555 soplex::DataSet<int>::num() const
+1690 236166 0 236166 soplex::DataKey::operator=(soplex::DataKey const&)
+1692 89991 1133322 1223313 soplex::DataHashTable<soplex::NameSet::Name, soplex::DataKey>::add(soplex::NameSet::Name const&, soplex::DataKey const&)
+1694 1985104 0 1985104 soplex::NameSetNameHashFunction(soplex::NameSet::Name const*)
+1696 20189 23770 43959 _ZN6soplex13DataHashTableINS_7NameSet4NameENS_7DataKeyEE3addERKS2_RKS3__for.cond
+1698 334451 813729 1148180 _ZNK6soplex13DataHashTableINS_7NameSet4NameENS_7DataKeyEE5indexERKS2__while.cond
+1700 573160 0 573160 soplex::DataArray<soplex::DataHashTable<soplex::NameSet::Name, soplex::DataKey>::Element<soplex::NameSet::Name, soplex::DataKey> >::operator[](int) const
+1702 91596 207713 299309 soplex::operator==(soplex::NameSet::Name const&, soplex::NameSet::Name const&)
+1704 2485 0 2485 soplex::LPRow::setLhs(double)
+1706 2485 0 2485 soplex::LPRow::setRhs(double)
+1708 7455 1161952 1169407 soplex::LPRowSet::add(soplex::LPRow const&)
+1710 12425 1144060 1156485 soplex::LPRowSet::add(soplex::DataKey&, soplex::LPRow const&)
+1712 2485 0 2485 soplex::LPRow::lhs() const
+1714 2982 0 2982 soplex::LPRow::rowVector() const
+1716 2485 0 2485 soplex::LPRow::rhs() const
+1718 30317 1105791 1136108 soplex::LPRowSet::add(soplex::DataKey&, double, soplex::SVector const&, double)
+1720 24442 1590212 1614654 soplex::SVSet::add(soplex::DataKey&, soplex::SVector const&)
+1722 40376 531353 571729 soplex::SVSet::ensurePSVec(int)
+1724 24564840 0 24564840 soplex::SVector::size() const
+1726 26664 838523 865187 soplex::SVSet::create(soplex::DataKey&, int)
+1728 131048 601930 732978 soplex::SVSet::create(int)
+1730 94400 0 94400 soplex::IdList<soplex::SVSet::DLPSV>::last() const
+1732 46566 51740 98306 soplex::SVSet::ensureMem(int)
+1734 33380 33380 66760 soplex::SVSet::memSize() const
+1736 46305 0 46305 soplex::DataArray<soplex::SVector::Element>::size() const
+1738 18495 18495 36990 soplex::SVSet::memMax() const
+1740 18495 0 18495 soplex::DataArray<soplex::SVector::Element>::max() const
+1742 14443 113322 127765 soplex::DataSet<soplex::SVSet::DLPSV>::create()
+1744 66660 34441 101101 soplex::DataSet<soplex::SVSet::DLPSV>::create(soplex::DataKey&)
+1746 41278 39781 81059 soplex::IdList<soplex::SVSet::DLPSV>::append(soplex::SVSet::DLPSV*)
+1748 36900 39852 76752 soplex::DataArray<soplex::SVector::Element>::insert(int, int)
+1750 32472 0 32472 soplex::DataArray<soplex::SVector::Element>::reSize(int)
+1752 23600 0 23600 soplex::DataArray<soplex::SVector::Element>::last()
+1754 65593 310076 375669 soplex::SVSet::key(int) const
+1756 161001 149075 310076 soplex::DataSet<soplex::SVSet::DLPSV>::key(int) const
+1758 611880 0 611880 soplex::DataKey::DataKey(soplex::DataKey const&)
+1760 77293 276353 353646 soplex::SVector::operator=(soplex::SVector const&)
+1762 419880 0 419880 soplex::SVector::max() const
+1764 146835 0 146835 _ZN6soplex7SVectoraSERKS0__while.cond
+1766 61836621 14723005 76559626 soplex::Vector::operator[](int)
+1768 91350 2658227 2749577 soplex::NameSet::number(char const*) const
+1770 51765 1221016 1272781 soplex::DataHashTable<soplex::NameSet::Name, soplex::DataKey>::get(soplex::NameSet::Name const&) const
+1772 15225 106575 121800 soplex::NameSet::number(soplex::DataKey) const
+1774 91350 15225 106575 soplex::DataSet<int>::number(soplex::DataKey const&) const
+1776 24398 5545 29943 soplex::DataArray<soplex::SVector::Element>::removeLast(int)
+1778 104196 0 104196 soplex::SVSet::DLPSV::next()
+1780 106374 0 106374 soplex::SVSet::DLPSV::prev()
+1782 520 219319 219839 soplex::IsList<soplex::SVSet::DLPSV>::move(long)
+1784 86416 132803 219219 _ZN6soplex6IsListINS_5SVSet5DLPSVEE4moveEl_for.cond
+1786 103908 44412 148320 soplex::IsList<soplex::SVSet::DLPSV>::next(soplex::SVSet::DLPSV const*) const
+1788 90294 0 90294 soplex::SVSet::DLPSV::next() const
+1790 86416 157996 244412 _ZN6soplex6IdListINS_5SVSet5DLPSVEE4moveEl_for.cond
+1792 57584 39469 97053 soplex::IdList<soplex::SVSet::DLPSV>::prev(soplex::SVSet::DLPSV const*) const
+1794 21474 0 21474 soplex::SVSet::DLPSV::prev() const
+1796 649 1774 2423 __underflow
+1798 999 775 1774 _IO_file_underflow@@GLIBC_2.2.5
+1800 500 0 500 _IO_switch_to_get_mode
+1802 6 107 113 soplex::LPRow::~LPRow()
+1804 18 371 389 soplex::DSVector::~DSVector()
+1806 29 439035 439064 soplex::SoPlex::addedRows(int)
+1808 6 0 6 soplex::SPxLP::addedRows(int)
+1810 1817748 3332538 5150286 soplex::SoPlex::coDim() const
+1812 13 93242 93255 soplex::Array<soplex::UnitVector>::append(int)
+1814 7516 85721 93237 soplex::Array<soplex::UnitVector>::insert(int, int)
+1816 19880 150094 169974 soplex::UnitVector::UnitVector(int)
+1818 118944 165200 284144 soplex::SVector::add(int, double)
+1820 10947 105364 116311 _ZN6soplex6SoPlex5reDimEv_while.cond
+1822 20223 4815 25038 soplex::Array<soplex::UnitVector>::operator[](int)
+1824 7455 0 7455 soplex::UnitVector::operator=(soplex::UnitVector const&)
+1826 59472 307272 366744 soplex::SPxLP::rowVector(int) const
+1828 49560 257712 307272 soplex::LPRowSet::rowVector(int) const
+1830 250698 835660 1086358 soplex::SVSet::operator[](int) const
+1832 835660 0 835660 soplex::DataSet<soplex::SVSet::DLPSV>::operator[](int) const
+1834 137880 1892013 2029893 soplex::SVector::isConsistent() const
+1836 1535889 172284 1708173 _ZNK6soplex7SVector12isConsistentEv_for.cond
+1838 85428 0 85428 soplex::SVector::mem() const
+1840 61280 0 61280 soplex::DataArray<soplex::SVector::Element>::last() const
+1842 122576 84187 206763 soplex::IdList<soplex::SVSet::DLPSV>::next(soplex::SVSet::DLPSV const*) const
+1844 140 130094 130234 soplex::IsList<soplex::SVSet::DLPSV>::find(soplex::SVSet::DLPSV const*) const
+1846 53634 76460 130094 _ZNK6soplex6IsListINS_5SVSet5DLPSVEE4findEPKS2__do.body
+1848 183585 14002217 14185802 soplex::readCols(soplex::MPSInput&, soplex::LPRowSet&, soplex::NameSet&, soplex::LPColSet&, soplex::NameSet&, soplex::DIdxSet*)
+1850 11 359 370 soplex::LPCol::LPCol(int)
+1852 5095 0 5095 soplex::LPCol::setObj(double)
+1854 7374 17206 24580 soplex::SVector::clear()
+1856 17660 0 17660 soplex::MPSInput::field3() const
+1858 3070 0 3070 soplex::LPCol::setLower(double)
+1860 3070 0 3070 soplex::LPCol::setUpper(double)
+1862 4298 0 4298 soplex::MPSInput::isInteger() const
+1868 5904 1918266 1924170 atof
+1870 11808 1906458 1918266 strtod
+1872 516965 767075 1284040 ____strtod_l_internal
+1874 308536 0 308536 str_to_mpn.isra.0
+1876 200294 41328 241622 round_and_return
+1878 41328 0 41328 __mpn_construct_double
+1880 14440 0 14440 soplex::MPSInput::field5() const
+1882 20680 0 20680 soplex::MPSInput::field4() const
+1884 36960 307531 344491 soplex::DSVector::add(int, double)
+1886 64377 72738 137115 soplex::DSVector::makeMem(int)
+1888 203 2275 2478 soplex::DSVector::setMax(int)
+1890 189 1484 1673 void soplex::spx_realloc<soplex::SVector::Element*>(soplex::SVector::Element*&, int)
+1892 5526 189760 195286 soplex::LPCol::setColVector(soplex::SVector const&)
+1894 14122 175638 189760 soplex::DSVector::operator=(soplex::SVector const&)
+1896 9210 941155 950365 soplex::LPColSet::add(soplex::LPCol const&)
+1898 17806 916595 934401 soplex::LPColSet::add(soplex::DataKey&, soplex::LPCol const&)
+1900 3070 0 3070 soplex::LPCol::obj() const
+1902 3070 0 3070 soplex::LPCol::lower() const
+1904 3684 0 3684 soplex::LPCol::colVector() const
+1906 3070 0 3070 soplex::LPCol::upper() const
+1908 49734 853967 903701 soplex::LPColSet::add(soplex::DataKey&, double, double, soplex::SVector const&, double)
+1910 6 135 141 soplex::LPCol::~LPCol()
+1912 58 501556 501614 soplex::readRhs(soplex::MPSInput&, soplex::LPRowSet&, soplex::NameSet&)
+1914 7861 493587 501448 _ZN6soplexL7readRhsERNS_8MPSInputERNS_8LPRowSetERNS_7NameSetE_while.cond
+1916 16968 73528 90496 soplex::LPRowSet::rhs(int)
+1918 15984 69264 85248 soplex::LPRowSet::lhs(int)
+1920 51 735077 735128 soplex::readBounds(soplex::MPSInput&, soplex::LPColSet&, soplex::NameSet&, soplex::DIdxSet*)
+1922 14110 720886 734996 _ZN6soplexL10readBoundsERNS_8MPSInputERNS_8LPColSetERNS_7NameSetEPNS_7DIdxSetE_while.cond
+1924 14112 61152 75264 soplex::LPColSet::lower(int)
+1926 11934 51714 63648 soplex::LPColSet::upper(int)
+1928 14 0 14 soplex::MPSInput::hasError() const
+1930 5 0 5 soplex::MPSInput::objSense() const
+1932 16 13564 13580 soplex::SoPlex::changeSense(soplex::SPxLP::SPxSense)
+1934 21 13538 13559 soplex::SPxLP::changeSense(soplex::SPxLP::SPxSense)
+1936 6 0 6 soplex::LPColSet::obj()
+1938 27393 8055 35448 soplex::Vector::operator*=(double)
+1940 183487 870922 1054409 soplex::SPxLP::added2Set(soplex::SVSet&, soplex::SVSet const&, int)
+1942 15 0 15 soplex::DataArray<int>::get_ptr()
+1944 5475 0 5475 _ZN6soplex5SPxLP9added2SetERNS_5SVSetERKS1_i_for.cond
+1946 652701 372972 1025673 soplex::SVector::index(int) const
+1948 22806 76020 98826 soplex::SVSet::operator[](int)
+1950 76020 0 76020 soplex::DataSet<soplex::SVSet::DLPSV>::operator[](int)
+1952 45344 263431 308775 soplex::SVSet::xtend(soplex::SVector&, int)
+1954 2190 14600 16790 soplex::SVSet::has(soplex::SVector const*) const
+1956 3285 11315 14600 soplex::DataSet<soplex::SVSet::DLPSV>::has(soplex::SVSet::DLPSV const*) const
+1958 9490 1825 11315 soplex::DataSet<soplex::SVSet::DLPSV>::number(soplex::SVSet::DLPSV const*) const
+1960 14179 16735 30914 soplex::IdList<soplex::SVSet::DLPSV>::remove(soplex::SVSet::DLPSV*)
+1962 2966348 1618008 4584356 soplex::SVector::index(int)
+1964 868035 496020 1364055 soplex::SVector::value(int) const
+1966 1707594 975768 2683362 soplex::SVector::value(int)
+1968 30 675 705 soplex::DataArray<int>::~DataArray()
+1970 29 2551691 2551720 soplex::SoPlex::addedCols(int)
+1972 6 0 6 soplex::SPxLP::addedCols(int)
+1974 56316 290966 347282 soplex::SPxLP::colVector(int) const
+1976 46930 244036 290966 soplex::LPColSet::colVector(int) const
+1978 471240 1733880 2205120 soplex::SVector::number(int) const
+1980 1567560 0 1567560 _ZNK6soplex7SVector6numberEi_while.cond
+1982 40 640081 640121 soplex::SPxBasis::load(soplex::SoPlex*)
+1984 56 3089 3145 soplex::SPxBasis::setRep()
+1986 180 2502 2682 soplex::DataArray<soplex::SPxBasis::Desc::Status>::reMax(int, int)
+1988 108 2394 2502 void soplex::spx_realloc<soplex::SPxBasis::Desc::Status*>(soplex::SPxBasis::Desc::Status*&, int)
+1990 27 623 650 soplex::DataArray<soplex::SVector const*>::reSize(int)
+1992 45 578 623 soplex::DataArray<soplex::SVector const*>::reMax(int, int)
+1994 27 551 578 void soplex::spx_realloc<soplex::SVector const**>(soplex::SVector const**&, int)
+1996 27 620 647 soplex::DataArray<soplex::SPxId>::reSize(int)
+1998 45 575 620 soplex::DataArray<soplex::SPxId>::reMax(int, int)
+2000 27 548 575 void soplex::spx_realloc<soplex::SPxId*>(soplex::SPxId*&, int)
+2002 54 200389 200443 soplex::SPxBasis::addedRows(int)
+2004 18405 181721 200126 _ZN6soplex8SPxBasis9addedRowsEi_for.cond
+2006 60011 106324 166335 soplex::SPxBasis::dualRowStatus(int) const
+2008 15768 84096 99864 soplex::SPxLP::rhs(int)
+2010 14916 79552 94468 soplex::SPxLP::lhs(int)
+2012 21295 85180 106475 soplex::SPxBasis::Desc::rowStatus(int)
+2014 726180 0 726180 soplex::DataArray<soplex::SPxBasis::Desc::Status>::operator[](int)
+2016 46308 154360 200668 soplex::SPxBasis::baseId(int)
+2018 257540 0 257540 soplex::DataArray<soplex::SPxId>::operator[](int)
+2020 42891 272484 315375 soplex::SPxLP::rId(int) const
+2022 25230 158949 184179 soplex::LPRowSet::key(int) const
+2024 37845 50460 88305 soplex::SPxRowId::SPxRowId(soplex::DataKey const&)
+2026 29223 36099 65322 soplex::SPxId::operator=(soplex::SPxRowId const&)
+2028 48 125267 125315 soplex::SPxBasis::addedCols(int)
+2030 15979 109025 125004 _ZN6soplex8SPxBasis9addedColsEi_for.cond.37
+2032 24808 54723 79531 soplex::primalColStatus(int, soplex::SPxLP const*)
+2034 7386 38161 45547 soplex::SPxLP::upper(int) const
+2036 7386 30775 38161 soplex::LPColSet::upper(int) const
+2038 36758420 9189605 45948025 soplex::Vector::operator[](int) const
+2040 11436 59086 70522 soplex::SPxLP::lower(int) const
+2042 11436 47650 59086 soplex::LPColSet::lower(int) const
+2044 30972 103240 134212 soplex::SPxBasis::Desc::colStatus(int)
+2046 20502 105927 126429 soplex::SPxLP::maxObj(int) const
+2048 20502 85425 105927 soplex::LPColSet::obj(int) const
+2050 203 625395 625598 soplex::SPxBasis::loadDesc(soplex::SPxBasis::Desc const&)
+2052 20 20 40 soplex::SPxBasis::Desc::nRows() const
+2054 65 0 65 soplex::DataArray<soplex::SPxBasis::Desc::Status>::size() const
+2056 30 25 55 soplex::SPxBasis::Desc::nCols() const
+2058 71400 88200 159600 soplex::SPxId::operator=(soplex::SPxId const&)
+2060 60133 325198 385331 _ZN6soplex8SPxBasis8loadDescERKNS0_4DescE_for.cond
+2062 609112 217540 826652 soplex::SoPlex::isBasic(soplex::SPxBasis::Desc::Status) const
+2064 41818 135548 177366 soplex::SoPlex::vector(soplex::SPxRowId const&) const
+2066 26490 0 26490 soplex::DataKey::isValid() const
+2068 28452 222874 251326 soplex::SPxLP::number(soplex::SPxRowId const&) const
+2070 25705 215922 241627 soplex::LPRowSet::number(soplex::DataKey const&) const
+2072 65442 392652 458094 soplex::SVSet::number(soplex::DataKey const&) const
+2074 338117 54535 392652 soplex::DataSet<soplex::SVSet::DLPSV>::number(soplex::DataKey const&) const
+2076 36456 8680 45136 soplex::Array<soplex::UnitVector>::operator[](int) const
+2078 58400 0 58400 soplex::DataArray<soplex::SVector const*>::operator[](int)
+2080 49835 178622 228457 _ZN6soplex8SPxBasis8loadDescERKNS0_4DescE_for.cond.53
+2082 20 11224 11244 std::__1::basic_ifstream<char, std::__1::char_traits<char> >::~basic_ifstream()
+2083 29 8459 8488 std::__1::basic_ifstream<char, std::__1::char_traits<char> >::~basic_ifstream()'2
+2084 40 7165 7205 std::__1::basic_filebuf<char, std::__1::char_traits<char> >::~basic_filebuf()
+2086 54 3336 3390 std::__1::basic_filebuf<char, std::__1::char_traits<char> >::close()
+2088 72 1414 1486 std::__1::basic_filebuf<char, std::__1::char_traits<char> >::sync()
+2094 44 96 140 fseeko
+2096 18 78 96 _IO_seekoff_unlocked
+2098 60 18 78 _IO_file_seekoff@@GLIBC_2.2.5
+2100 18 0 18 _IO_unsave_markers
+2102 2 7 9 _IO_file_seek
+2104 2 5 7 lseek
+2106 5 0 5 __lseek_nocancel
+2112 75 372 447 fclose@@GLIBC_2.2.5
+2114 111 22 133 _IO_un_link
+2116 48 65 113 _IO_file_close_it@@GLIBC_2.2.5
+2118 2 5 7 _IO_file_close
+2120 5 0 5 __close_nocancel
+2122 8 24 32 _IO_file_finish@@GLIBC_2.2.5
+2124 14 10 24 _IO_default_finish
+2130 2 2015 2017 operator delete[](void*)
+2136 15 1835 1850 operator delete(void*)
+2146 5 9 14 std::__1::basic_streambuf<char, std::__1::char_traits<char> >::~basic_streambuf()
+2152 6 0 6 std::__1::basic_istream<char, std::__1::char_traits<char> >::~basic_istream()
+2158 4 1562 1566 std::__1::basic_ios<char, std::__1::char_traits<char> >::~basic_ios()
+2164 18 897 915 std::__1::ios_base::~ios_base()
+2170 15 0 15 std::__1::ios_base::__call_callbacks(std::__1::ios_base::event)
+2172 17424 90251 107675 _ZNK6soplex8SPxBasis12isConsistentEv_for.cond
+2174 23856 79520 103376 soplex::SPxBasis::Desc::rowStatus(int) const
+2176 177760 0 177760 soplex::DataArray<soplex::SPxBasis::Desc::Status>::operator[](int) const
+2178 14764 16578 31342 _ZNK6soplex8SPxBasis12isConsistentEv_for.cond.47
+2180 34384 98240 132624 soplex::SPxBasis::Desc::colStatus(int) const
+2186 427 13031 13458 std::__1::basic_ostream<char, std::__1::char_traits<char> >::operator<<(int)
+2194 357 10359 10716 std::__1::num_put<char, std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> > >::do_put(std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> >, std::__1::ios_base&, char, long) const
+2200 175 0 175 std::__1::__num_put_base::__format_int(char*, char const*, bool, unsigned int)
+2202 286 0 286 _itoa_word
+2208 420 822 1242 std::__1::__num_put<char>::__widen_and_group_int(char*, char*, char*, char*, char*&, char*&, std::__1::locale const&)
+2214 50 1348 1398 soplex::Timer::start()
+2216 100 1318 1418 soplex::Timer::updateTicks() const
+2222 44 0 44 times
+2224 148987 2426408601 2426557588 soplex::SoPlex::solve()
+2226 5 0 5 soplex::SoPlex::slinSolver() const
+2228 8 0 8 soplex::Timer::reset()
+2230 205 35 240 soplex::SoPlex::status() const
+2232 13797068 15963057 29760125 soplex::SPxWeightST::generate(soplex::SoPlex&)
+2234 27 742 769 soplex::DataArray<int>::reSize(int)
+2236 45 697 742 soplex::DataArray<int>::reMax(int, int)
+2238 16875 204590 221465 void soplex::spx_realloc<int*>(int*&, int)
+2240 223 3085 3308 soplex::DataArray<double>::reSize(int)
+2242 225 2860 3085 soplex::DataArray<double>::reMax(int, int)
+2244 54 1038 1092 soplex::DataArray<bool>::reSize(int)
+2246 90 948 1038 soplex::DataArray<bool>::reMax(int, int)
+2248 54 894 948 void soplex::spx_realloc<bool*>(bool*&, int)
+2250 40 0 40 soplex::DataArray<double>::size() const
+2252 107 849482 849589 soplex::SPxWeightST::setupWeights(soplex::SoPlex&)
+2254 6 6 12 soplex::SPxLP::maxObj() const
+2256 6 0 6 soplex::LPColSet::obj() const
+2258 12 12 24 soplex::SPxLP::lower() const
+2260 12 0 12 soplex::LPColSet::lower() const
+2262 12 12 24 soplex::SPxLP::upper() const
+2264 12 0 12 soplex::LPColSet::upper() const
+2266 12 12 24 soplex::SPxLP::rhs() const
+2268 12 0 12 soplex::LPRowSet::rhs() const
+2270 12 12 24 soplex::SPxLP::lhs() const
+2272 12 0 12 soplex::LPRowSet::lhs() const
+2274 30151 61655 91806 _ZN6soplex11SPxWeightST12setupWeightsERNS_6SoPlexE_for.cond
+2276 24256 49406 73662 _ZN6soplex11SPxWeightST12setupWeightsERNS_6SoPlexE_for.cond.24
+2278 77325 0 77325 soplex::SoPlex::type() const
+2280 22149 5 22154 soplex::Vector::maxAbs() const
+2282 50966 133905 184871 _ZN6soplex11SPxWeightST12setupWeightsERNS_6SoPlexE_for.cond.232
+2284 53860 0 53860 soplex::DataArray<double>::operator[](int)
+2286 46697 430168 476865 _ZN6soplex11SPxWeightST12setupWeightsERNS_6SoPlexE_for.cond.323
+2288 12922 309855 322777 soplex::Vector::operator*(soplex::SVector const&) const
+2290 26743725 3469932 30213657 soplex::SVector::dim() const
+2292 72807 152460 225267 _ZNK6soplex6VectormlERKNS_7SVectorE_for.cond
+2294 81174 930232 1011406 soplex::initPrefs(soplex::DataArray<soplex::SPxId>&, soplex::SoPlex const&, soplex::DataArray<double> const&, soplex::DataArray<double> const&)
+2296 6473 9940 16413 _ZN6soplexL9initPrefsERNS_9DataArrayINS_5SPxIdEEERKNS_6SoPlexERKNS0_IdEES9__for.cond
+2298 10239560 0 10239560 soplex::DataArray<int>::operator[](int)
+2300 3260 0 3260 soplex::DataArray<double>::get_const_ptr() const
+2302 2519970 0 2519970 soplex::DataArray<int>::size() const
+2304 160 552587 552747 void soplex::sorter_qsort<int, soplex::Compare>(int*, int, soplex::Compare&, int)
+2305 43760 2964964 3008724 void soplex::sorter_qsort<int, soplex::Compare>(int*, int, soplex::Compare&, int)'2
+2306 410497 98330 508827 _ZN6soplex12sorter_qsortIiNS_7CompareEEEvPT_iRT0_i_for.cond.outer
+2308 98330 0 98330 soplex::Compare::operator()(int, int)
+2310 7994 12280 20274 _ZN6soplexL9initPrefsERNS_9DataArrayINS_5SPxIdEEERKNS_6SoPlexERKNS0_IdEES9__for.cond.18
+2312 42640 0 42640 soplex::DataArray<double>::operator[](int) const
+2314 39593 251532 291125 soplex::SPxLP::cId(int) const
+2316 23290 146727 170017 soplex::LPColSet::key(int) const
+2318 34935 46580 81515 soplex::SPxColId::SPxColId(soplex::DataKey const&)
+2320 15011 18543 33554 soplex::SPxId::operator=(soplex::SPxColId const&)
+2322 6969 9940 16909 _ZN6soplex11SPxWeightST8generateERNS_6SoPlexE_for.cond
+2324 29650 236014 265664 soplex::SoPlex::vector(soplex::SPxId const&) const
+2326 65967 0 65967 soplex::SPxId::isValid() const
+2328 140514 0 140514 soplex::SPxId::isSPxRowId() const
+2330 92391 124527 216918 soplex::SPxRowId::SPxRowId(soplex::SPxId const&)
+2332 67958 0 67958 soplex::SPxId::isSPxColId() const
+2334 16898 134380 151278 soplex::setDualStatus(soplex::SPxBasis::Desc&, soplex::SoPlex const&, soplex::SPxId const&)
+2336 5802 0 5802 soplex::SoPlex::basis() const
+2338 117392 158224 275616 soplex::SPxColId::SPxColId(soplex::SPxId const&)
+2340 35003 113458 148461 soplex::SoPlex::vector(soplex::SPxColId const&) const
+2342 32238 252531 284769 soplex::SPxLP::number(soplex::SPxColId const&) const
+2344 28830 242172 271002 soplex::LPColSet::number(soplex::DataKey const&) const
+2346 21557 38228 59785 soplex::SPxBasis::dualColStatus(int) const
+2348 11448 61056 72504 soplex::SPxLP::upper(int)
+2350 13596 72512 86108 soplex::SPxLP::lower(int)
+2352 36799 146387 183186 soplex::SPxWeightST::setPrimalStatus(soplex::SPxBasis::Desc&, soplex::SoPlex const&, soplex::SPxId const&)
+2354 3852 19902 23754 soplex::SPxLP::rhs(int) const
+2356 3852 16050 19902 soplex::LPRowSet::rhs(int) const
+2358 3348 17298 20646 soplex::SPxLP::lhs(int) const
+2360 3348 13950 17298 soplex::LPRowSet::lhs(int) const
+2362 83747 5844 89591 soplex::SVector::maxAbs() const
+2364 12060 52260 64320 soplex::SoPlex::coVector(int) const
+2366 20100 124620 144720 soplex::SoPlex::coId(int) const
+2368 8040 12060 20100 soplex::SPxId::SPxId(soplex::SPxRowId const&)
+2370 22 314226 314248 soplex::SoPlex::loadBasis(soplex::SPxBasis::Desc const&)
+2372 26 2190 2216 soplex::SPxBasis::Desc::operator=(soplex::SPxBasis::Desc const&)
+2374 64 2126 2190 soplex::DataArray<soplex::SPxBasis::Desc::Status>::operator=(soplex::DataArray<soplex::SPxBasis::Desc::Status> const&)
+2380 12 274 286 soplex::DataArray<soplex::SPxId>::~DataArray()
+2382 32 242 274 void soplex::spx_free<soplex::SPxId*>(soplex::SPxId*&)
+2384 28 586 614 soplex::SPxBasis::Desc::~Desc()
+2386 24 562 586 soplex::DataArray<soplex::SPxBasis::Desc::Status>::~DataArray()
+2388 64 498 562 void soplex::spx_free<soplex::SPxBasis::Desc::Status*>(soplex::SPxBasis::Desc::Status*&)
+2390 230 7329816 7330046 soplex::SoPlex::init()
+2392 48 220589 220637 soplex::UpdateVector::reDim(int)
+2394 231 438538 438769 soplex::SSVector::reDim(int)
+2396 77 0 77 _ZN6soplex8SSVector5reDimEi_for.cond
+2398 35 0 35 soplex::DVector::memSize() const
+2400 13804 78277 92081 soplex::SSVector::setMax(int)
+2402 5 0 5 soplex::SPxBasis::solver() const
+2404 63 25184 25247 soplex::SoPlex::setPrimalBounds()
+2406 39600 1106979 1146579 soplex::DVector::operator=(soplex::Vector const&)
+2408 97440 2149891 2247331 soplex::Vector::operator=(soplex::Vector const&)
+2410 26 21916 21942 soplex::DVector::operator*=(double)
+2412 16415 275624 292039 soplex::SoPlex::setEnterBounds()
+2414 38065 152260 190325 soplex::SPxId::SPxId(soplex::SPxId const&)
+2416 21520 82314 103834 soplex::SoPlex::setEnterBound4Col(int, int)
+2418 26922 0 26922 soplex::SPxBasis::desc()
+2420 18240 69540 87780 soplex::SoPlex::setEnterBound4Row(int, int)
+2422 20 257512 257532 soplex::SoPlex::computeEnterCoPrhs()
+2424 16186 241304 257490 _ZN6soplex6SoPlex18computeEnterCoPrhsEv_for.cond
+2426 18292 72899 91191 soplex::SoPlex::computeEnterCoPrhs4Col(int, int)
+2428 9462 50464 59926 soplex::SPxLP::maxObj(int)
+2430 9462 41002 50464 soplex::LPColSet::obj(int)
+2432 14364 51756 66120 soplex::SoPlex::computeEnterCoPrhs4Row(int, int)
+2434 710 5146871 5147581 soplex::SPxBasis::coSolve(soplex::Vector&, soplex::Vector const&)
+2435 66 119144 119210 soplex::SPxBasis::coSolve(soplex::Vector&, soplex::Vector const&)'2
+2436 294 78017925 78018219 non-virtual thunk to soplex::SoPlex::factorize()
+2438 5953 81121761 81127714 soplex::SoPlex::factorize()
+2440 4386 48815118 48819504 soplex::SPxBasis::factorize()
+2442 255 0 255 soplex::DataArray<soplex::SVector const*>::get_ptr()
+2444 5351 48807278 48812629 soplex::SLUFactor::load(soplex::SVector const**, int)
+2446 3179 765 3944 soplex::SLUFactor::stability() const
+2448 4965 0 4965 soplex::SLUFactor::status() const
+2450 54 1263 1317 void soplex::spx_realloc<soplex::CLUFactor::Dring*>(soplex::CLUFactor::Dring*&, int)
+2452 1377 37287613 37288990 _ZN6soplex9SLUFactor4loadEPPKNS_7SVectorEi_for.cond
+2454 3340 37282957 37286297 soplex::CLUFactor::factor(soplex::SVector**, double, double)
+2456 1788 23594 25382 soplex::CLUFactor::Temp::init(int)
+2458 558297 0 558297 soplex::CLUFactor::initPerm()
+2460 6426 18474736 18481162 soplex::CLUFactor::initFactorMatrix(soplex::SVector**, double)
+2462 406062 0 406062 _ZN6soplex9CLUFactor16initFactorMatrixEPPNS_7SVectorEd_for.cond
+2464 1800538 2123844 3924382 _ZN6soplex9CLUFactor16initFactorMatrixEPPNS_7SVectorEd_for.cond.6
+2466 782 91174 91956 soplex::CLUFactor::minRowMem(int)
+2468 697 55905 56602 soplex::CLUFactor::minColMem(int)
+2470 57462 4284 61746 soplex::CLUFactor::minLMem(int)
+2472 1168104 0 1168104 _ZN6soplex9CLUFactor16initFactorMatrixEPPNS_7SVectorEd_for.cond.55
+2474 5912849 6909894 12822743 _ZN6soplex9CLUFactor16initFactorMatrixEPPNS_7SVectorEd_for.cond.106
+2476 277910 0 277910 soplex::isZero(double, double)
+2478 1292900 0 1292900 soplex::CLUFactor::setPivot(int, int, int, double)
+2480 3260120 0 3260120 soplex::isNotZero(double, double)
+2482 1683 4503312 4504995 soplex::CLUFactor::colSingletons()
+2484 4113027 390285 4503312 _ZN6soplex9CLUFactor13colSingletonsEv_for.cond
+2486 1530 2438551 2440081 soplex::CLUFactor::rowSingletons()
+2488 430701 0 430701 _ZN6soplex9CLUFactor13rowSingletonsEv_for.cond
+2490 1568715 439135 2007850 _ZN6soplex9CLUFactor13rowSingletonsEv_for.cond.14
+2492 8340 2753125 2761465 soplex::CLUFactor::setupRowVals()
+2494 1116951 0 1116951 _ZN6soplex9CLUFactor12setupRowValsEv_for.cond
+2496 222603 0 222603 _ZN6soplex9CLUFactor12setupRowValsEv_for.cond.46
+2498 533307 0 533307 _ZN6soplex9CLUFactor12setupRowValsEv_for.cond.56
+2500 762921 0 762921 _ZN6soplex9CLUFactor12setupRowValsEv_for.cond.67
+2502 2341 3654088 3656429 soplex::CLUFactor::setupColVals()
+2504 330021 0 330021 _ZN6soplex9CLUFactor12setupColValsEv_for.cond
+2506 3303255 0 3303255 _ZN6soplex9CLUFactor12setupColValsEv_for.cond.14
+2508 11007741 0 11007741 _ZNK6soplex9CLUFactor12isConsistentEv_for.cond
+2510 9609342 0 9609342 _ZNK6soplex9CLUFactor12isConsistentEv_for.cond.73
+2512 6326472 0 6326472 _ZNK6soplex9CLUFactor12isConsistentEv_for.cond.152
+2514 38984443 0 38984443 _ZNK6soplex9CLUFactor12isConsistentEv_for.cond.186
+2516 39451570 0 39451570 _ZNK6soplex9CLUFactor12isConsistentEv_for.cond.290
+2518 7864 0 7864 soplex::SLUFactor::memory() const
+2520 16685 0 16685 soplex::SoPlex::fVec() const
+2522 16092 472289 488381 soplex::DVector::DVector(soplex::DVector const&)
+2524 44928 1172832 1217760 soplex::DVector::operator=(soplex::DVector const&)
+2526 7695 0 7695 soplex::SoPlex::pVec() const
+2528 11465 0 11465 soplex::SoPlex::coPvec() const
+2530 7520587 182423730 189944317 soplex::SoPlex::testVecs()
+2532 5988384 57686442 63674826 soplex::SPxBasis::multWithBase(soplex::Vector&) const
+2534 52920 1501801 1554721 soplex::DVector::DVector(soplex::Vector const&)
+2536 10942720 0 10942720 soplex::DataArray<soplex::SVector const*>::operator[](int) const
+2538 25785728 20682492 46468220 soplex::SVector::operator*(soplex::Vector const&) const
+2540 19686 447304 466990 soplex::DVector::~DVector()
+2542 19383 37424250 37443633 soplex::DVector::operator-=(soplex::Vector const&)
+2544 29820 37394430 37424250 soplex::Vector::operator-=(soplex::Vector const&)
+2546 14962245 22417275 37379520 _ZN6soplex6VectormIERKS0__for.cond
+2548 11652 18437929 18449581 soplex::Vector::length() const
+2550 20187 24775115 24795302 soplex::Vector::length2() const
+2552 53880 24743209 24797089 soplex::Vector::operator*(soplex::Vector const&) const
+2554 24720759 0 24720759 _ZNK6soplex6VectormlERKS0__for.cond
+2560 11260 0 11260 sqrt
+2562 1119635 0 1119635 soplex::SoPlex::delta() const
+2564 840 1923125 1923965 soplex::SLUFactor::solveLeft(soplex::Vector&, soplex::Vector const&)
+2566 805 1896910 1897715 soplex::SLUFactor::solve2left(soplex::Vector&, soplex::Vector&)
+2568 875 1879340 1880215 soplex::CLUFactor::solveLeft(double*, double*)
+2570 880986 0 880986 soplex::CLUFactor::solveUleft(double*, double*)
+2572 910 0 910 soplex::CLUFactor::solveLleftForest(double*, int*, double)
+2574 1015 996429 997444 soplex::CLUFactor::solveLleft(double*)
+2576 996429 0 996429 _ZN6soplex9CLUFactor10solveLleftEPd_for.cond
+2578 13205370 102391654 115597024 soplex::SPxBasis::multBaseWith(soplex::Vector&) const
+2580 277359 1222200 1499559 soplex::SoPlex::computeCoTest()
+2582 132762 379320 512082 soplex::SPxBasis::Desc::coStatus(int) const
+2584 277322 354473 631795 soplex::SoPlex::coTest(int, soplex::SPxBasis::Desc::Status) const
+2586 29500 358162 387662 soplex::SoPlex::computePvec()
+2588 31104 134784 165888 soplex::SoPlex::vector(int) const
+2590 69 365074 365143 soplex::SoPlex::computeFrhs()
+2592 33 95772 95805 soplex::SoPlex::computeFrhs1(soplex::Vector const&, soplex::Vector const&)
+2594 25413 70336 95749 _ZN6soplex6SoPlex12computeFrhs1ERKNS_6VectorES3__for.cond
+2596 54887 156820 211707 soplex::SPxBasis::Desc::status(int) const
+2598 6611005 68245656 74856661 soplex::Vector::multAdd(double, soplex::SVector const&)
+2600 24004285 12763776 36768061 _ZN6soplex6Vector7multAddEdRKNS_7SVectorE_for.cond
+2602 24 69360 69384 soplex::SoPlex::computeFrhs2(soplex::Vector const&, soplex::Vector const&)
+2604 21957 47397 69354 _ZN6soplex6SoPlex12computeFrhs2ERKNS_6VectorES3__for.cond
+2606 726 1549289 1550015 soplex::SPxBasis::solve(soplex::Vector&, soplex::Vector const&)
+2608 792 1548497 1549289 soplex::SLUFactor::solveRight(soplex::Vector&, soplex::Vector const&)
+2610 594 1524044 1524638 soplex::SLUFactor::solve2right(soplex::Vector&, soplex::Vector&)
+2612 6213 8207795 8214008 soplex::CLUFactor::solveRight(double*, double*)
+2614 14715 1550637 1565352 soplex::CLUFactor::solveLright(double*)
+2616 1370937 0 1370937 _ZN6soplex9CLUFactor11solveLrightEPd_for.cond
+2618 179700 0 179700 _ZN6soplex9CLUFactor11solveLrightEPd_for.cond.30
+2620 6642443 0 6642443 soplex::CLUFactor::solveUright(double*, double*)
+2622 32 166447 166479 soplex::SoPlex::shiftFvec()
+2624 22913 60925 83838 _ZN6soplex6SoPlex9shiftFvecEv_for.cond
+2626 812 1508 2320 soplex::SoPlex::shiftLBbound(int, double)
+2628 1107 2132 3239 soplex::SoPlex::shiftUBbound(int, double)
+2630 12955 69938479 69951434 soplex::SoPlex::testBounds() const
+2632 4113824 10412160 14525984 _ZNK6soplex6SoPlex10testBoundsEv_for.cond
+2634 16405 88265 104670 soplex::SoPlex::computeTest()
+2636 159494 306088 465582 soplex::SoPlex::test(int, soplex::SPxBasis::Desc::Status) const
+2638 61 70372 70433 soplex::SPxSteepPR::load(soplex::SoPlex*)
+2640 17 33 50 soplex::SPxFastRT::load(soplex::SoPlex*)
+2642 69 15 84 soplex::SPxFastRT::setType(soplex::SoPlex::Type)
+2644 14 0 14 soplex::SPxPricer::setEpsilon(double)
+2646 115 4161517 4161632 soplex::SoPlex::setType(soplex::SoPlex::Type)
+2648 10 0 10 soplex::SPxPricer::solver() const
+2650 160 445610 445770 soplex::SPxSteepPR::setType(soplex::SoPlex::Type)
+2652 103 80566 80669 soplex::SPxSteepPR::setupPrefs(soplex::SoPlex::Type)
+2654 236 80262 80498 soplex::SPxSteepPR::setupPrefs(double, double, double, double, double, int, int, int, int)
+2656 40 0 40 soplex::DataArray<double>::get_ptr()
+2658 12946 0 12946 _ZN6soplex10SPxSteepPR10setupPrefsEdddddiiii_for.cond
+2660 15988 0 15988 _ZN6soplex10SPxSteepPR10setupPrefsEdddddiiii_for.cond.20
+2662 22890 0 22890 _ZN6soplex10SPxSteepPR10setupPrefsEdddddiiii_while.cond
+2664 28270 0 28270 _ZN6soplex10SPxSteepPR10setupPrefsEdddddiiii_while.cond.41
+2666 7465 12922 20387 _ZN6soplex10SPxSteepPR7setTypeENS_6SoPlex4TypeE_for.cond
+2668 9220 15964 25184 _ZN6soplex10SPxSteepPR7setTypeENS_6SoPlex4TypeE_for.cond.20
+2670 15 0 15 soplex::SPxRatioTester::solver() const
+2672 24910 171158268 171183178 soplex::SoPlex::terminate()
+2674 110628 319592 430220 soplex::SoPlex::isCoBasic(int) const
+2676 62160 0 62160 soplex::SPxBasis::desc() const
+2678 55800 161200 217000 soplex::SoPlex::isBasic(int) const
+2680 3290 5170 8460 soplex::SoPlex::iterations() const
+2682 4680 0 4680 soplex::SPxBasis::iteration() const
+2684 32789 2391671935 2391704724 _ZN6soplex6SoPlex5solveEv_while.cond
+2686 14082 158615590 158629672 soplex::SPxSteepPR::selectEnter()
+2688 18054 16482064 16500118 soplex::SPxSteepPR::selectEnterX(double&, int, int, int, int)
+2690 2124 885 3009 soplex::SoPlex::test() const
+2692 15210 0 15210 soplex::Vector::get_const_ptr() const
+2694 3264 1360 4624 soplex::SoPlex::coTest() const
+2696 2656138 135378 2791516 _ZN6soplex10SPxSteepPR12selectEnterXERdiiii_for.cond
+2698 36150 224130 260280 soplex::SoPlex::id(int) const
+2700 14460 21690 36150 soplex::SPxId::SPxId(soplex::SPxColId const&)
+2702 2194841 47524 2242365 _ZN6soplex10SPxSteepPR12selectEnterXERdiiii_for.cond.26
+2704 18145 11421230 11439375 soplex::SPxSteepPR::isConsistent() const
+2706 1761858 3342822 5104680 _ZNK6soplex10SPxSteepPR12isConsistentEv_for.cond.60
+2708 2176038 4129764 6305802 _ZNK6soplex10SPxSteepPR12isConsistentEv_for.cond.77
+2710 66306 0 66306 soplex::UpdateVector::delta()
+2712 11574 0 11574 soplex::SoPlex::basis()
+2714 3853 44322843 44326696 soplex::SPxBasis::solve4update(soplex::SSVector&, soplex::SVector const&)
+2716 1000 0 1000 soplex::betterThreshold(double)
+2718 950 0 950 _ZN6soplex9SLUFactor4loadEPPKNS_7SVectorEi_while.cond
+2720 15050 42774687 42789737 soplex::SLUFactor::solveRight4update(soplex::SSVector&, soplex::SVector const&)
+2722 5628 64685681 64691309 soplex::SSVector::operator=(soplex::SVector const&)
+2724 35641 88674273 88709914 soplex::SSVector::assign(soplex::SVector const&)
+2726 107230 196468 303698 _ZN6soplex8SSVector6assignERKNS_7SVectorE_for.cond
+2728 116793300 29198325 145991625 soplex::IdxSet::index(int) const
+2730 38130 19065 57195 soplex::SSVector::altValues()
+2732 53380 0 53380 soplex::SSVector::unSetup()
+2734 38130 19065 57195 soplex::SSVector::altIndexMem()
+2736 10850 1472084 1482934 soplex::CLUFactor::vSolveRight4update(double, double*, int*, double*, int*, int, double*, int*, int*)
+2738 12775 209895 222670 soplex::CLUFactor::vSolveLright(double*, int*, int, double)
+2740 99952 31700 131652 _ZN6soplex9CLUFactor12vSolveLrightEPdPiid_for.cond
+2742 78243 0 78243 _ZN6soplex9CLUFactor12vSolveLrightEPdPiid_for.cond.44
+2744 33903 42517 76420 _ZN6soplex9CLUFactor18vSolveRight4updateEdPdPiS1_S2_iS1_S2_S2__for.cond
+2746 1244912 2494641 3739553 soplex::enQueueMax(int*, int*, int)
+2748 2494641 0 2494641 _ZN6soplexL10enQueueMaxEPiS0_i_while.cond
+2750 36130 5148833 5184963 soplex::CLUFactor::vSolveUright(double*, int*, double*, int*, int, double)
+2752 1889277 3228466 5117743 _ZN6soplex9CLUFactor12vSolveUrightEPdPiS1_S2_id_while.cond.outer
+2754 1591806 5124170 6715976 soplex::deQueueMax(int*, int*)
+2756 5124170 0 5124170 _ZN6soplexL10deQueueMaxEPiS0__for.cond
+2758 54560 24800 79360 soplex::SSVector::setSize(int)
+2760 12400 0 12400 soplex::SSVector::forceSetup()
+2762 26080 429278371 429304451 soplex::SSVector::setup_and_assign(soplex::SSVector&)
+2764 7544 83791 91335 soplex::IdxSet::operator=(soplex::IdxSet const&)
+2766 62396 15875 78271 _ZN6soplex6IdxSetaSERKS0__for.cond
+2768 68562 226118 294680 _ZN6soplex8SSVector16setup_and_assignERS0__for.cond
+2770 1247582 1069356 2316938 soplex::SSVector::size() const
+2772 361648 723296 1084944 soplex::SSVector::index(int) const
+2774 19881 6728987 6748868 soplex::SSVector::length2() const
+2776 354904 0 354904 _ZNK6soplex8SSVector7length2Ev_for.cond
+2778 2975 875 3850 soplex::SoPlex::setup4coSolve(soplex::Vector*, soplex::SSVector*)
+2780 68962 332856236 332925198 soplex::SoPlex::enter(soplex::SPxId&)
+2782 11725 93331 105056 soplex::SoPlex::enterVector(soplex::SPxId const&)
+2784 23825 106772 130597 soplex::SoPlex::getEnterVals(soplex::SPxId, double&, double&, double&, double&, double&, double&, soplex::SPxBasis::Desc::Status&, double&)
+2786 2275 80793 83068 soplex::DVector::operator-=(soplex::SVector const&)
+2788 2975 77818 80793 soplex::Vector::operator-=(soplex::SVector const&)
+2790 18204 59614 77818 _ZN6soplex6VectormIERKNS_7SVectorE_for.cond
+2792 13233 555751 568984 soplex::SPxFastRT::selectLeave(double&)
+2794 2814 0 2814 soplex::SPxFastRT::resetTols()
+2796 14278 532854 547132 _ZN6soplex9SPxFastRT11selectLeaveERd_do.body.21
+2798 6055 276602 282657 soplex::SPxFastRT::minDelta(double&, double&)
+2800 3828 0 3828 soplex::SoPlex::lbBound()
+2802 3432 0 3432 soplex::SoPlex::ubBound()
+2804 33852 587477 621329 soplex::SPxFastRT::minDelta(double&, double&, soplex::UpdateVector&, soplex::Vector&, soplex::Vector&, int, int)
+2806 7860 0 7860 soplex::SSVector::values() const
+2808 11150 0 11150 soplex::SSVector::indexMem() const
+2810 565091 0 565091 _ZN6soplex9SPxFastRT8minDeltaERdS1_RNS_12UpdateVectorERNS_6VectorES5_ii_for.cond
+2812 10774 13788 24562 soplex::SPxFastRT::minShortLeave(double&, int, double, double)
+2814 293118 0 293118 soplex::SSVector::operator[](int) const
+2816 2394 0 2394 soplex::minStability(double, double)
+2818 8037 191742 199779 soplex::SPxFastRT::minSelect(double&, double&, double&, double)
+2820 16776 172059 188835 soplex::SPxFastRT::minSelect(double&, double&, double&, double&, double, soplex::UpdateVector const&, soplex::Vector const&, soplex::Vector const&, int, int)
+2822 160260 0 160260 _ZN6soplex9SPxFastRT9minSelectERdS1_S1_S1_dRKNS_12UpdateVectorERKNS_6VectorES7_ii_for.cond
+2824 9287 14165 23452 soplex::SPxFastRT::minReleave(double&, int, double)
+2826 7491 0 7491 soplex::SPxFastRT::tighten()
+2828 4472 28815726 28820198 soplex::SPxBasis::coSolve(soplex::SSVector&, soplex::Vector&, soplex::SVector const&, soplex::SSVector&)
+2830 16512 28799214 28815726 soplex::SLUFactor::solveLeft(soplex::SSVector&, soplex::Vector&, soplex::SVector const&, soplex::SSVector&)
+2832 11008 8603834 8614842 soplex::CLUFactor::vSolveLeft2(double, double*, int*, double*, int*, int, double*, double*, int*, int)
+2834 55480 1719037 1774517 soplex::CLUFactor::solveUleft(double, double*, int*, double*, int*, int)
+2836 21280 34200 55480 _ZN6soplex9CLUFactor10solveUleftEdPdPiS1_S2_i_for.cond
+2838 405771 750537 1156308 soplex::enQueueMin(int*, int*, int) [clone .1484]
+2840 750537 0 750537 _ZN6soplexL10enQueueMinEPiS0_i.1484_while.cond
+2842 733139 930418 1663557 _ZN6soplex9CLUFactor10solveUleftEdPdPiS1_S2_i_while.cond.outer
+2844 764462 1805152 2569614 soplex::deQueueMin(int*, int*) [clone .1485]
+2846 1805152 0 1805152 _ZN6soplexL10deQueueMinEPiS0_.1485_for.cond
+2848 429925 30670 460595 soplex::CLUFactor::solveLleftForest(double, double*, int*, int)
+2850 10836 4724425 4735261 soplex::CLUFactor::solveUleftNoNZ(double, double*, double*, int*, int)
+2852 44326 342891 387217 _ZN6soplex9CLUFactor14solveUleftNoNZEdPdS1_Pii_for.cond
+2854 1670715 2666493 4337208 _ZN6soplex9CLUFactor14solveUleftNoNZEdPdS1_Pii_while.cond
+2856 53488 0 53488 soplex::CLUFactor::solveLleftForestNoNZ(double*)
+2858 15580 960626 976206 soplex::CLUFactor::solveLleft(double, double*, int*, int)
+2860 27640 172890 200530 _ZN6soplex9CLUFactor10solveLleftEdPdPii_for.cond
+2862 226346 482698 709044 _ZN6soplex9CLUFactor10solveLleftEdPdPii_while.cond.outer
+2864 51052 0 51052 _ZN6soplex9CLUFactor10solveLleftEdPdPii_for.cond.65
+2866 21518 11073419 11094937 soplex::CLUFactor::solveLleftNoNZ(double*)
+2868 11073419 0 11073419 _ZN6soplex9CLUFactor14solveLleftNoNZEPd_for.cond
+2870 12546 0 12546 soplex::UpdateVector::value()
+2872 3790 0 3790 soplex::SoPlex::pricing() const
+2874 19572 533059066 533078638 soplex::SoPlex::setupPupdate()
+2876 29160 338294377 338323537 soplex::SSVector::assign2product4setup(soplex::SVSet const&, soplex::SSVector const&)
+2878 28684 146070617 146099301 soplex::SSVector::assign2productShort(soplex::SVSet const&, soplex::SSVector const&)
+2880 269976 154272 424248 soplex::SVector::element(int)
+2882 55384 0 55384 _ZN6soplex8SSVector19assign2productShortERKNS_5SVSetERKS0__for.cond
+2884 1408542 359402 1767944 _ZN6soplex8SSVector19assign2productShortERKNS_5SVSetERKS0__for.cond.19
+2886 418870 130180 549050 _ZN6soplex8SSVector19assign2productShortERKNS_5SVSetERKS0__for.cond.55
+2888 10749 195296218 195306967 soplex::SSVector::setup()
+2890 7038 1762321 1769359 soplex::SoPlex::doPupdate()
+2892 18144 2472319 2490463 soplex::UpdateVector::update()
+2894 41472 2430847 2472319 soplex::Vector::multAdd(double, soplex::SSVector const&)
+2896 1056130 1346205 2402335 _ZN6soplex6Vector7multAddEdRKNS_8SSVectorE_for.cond
+2898 13473 49830 63303 soplex::SoPlex::getEnterVals2(int, double, double&)
+2900 66504 352568 419072 soplex::SoPlex::updateCoTest()
+2902 9420 9420 18840 soplex::UpdateVector::idx() const
+2904 9420 0 9420 soplex::SSVector::indices() const
+2906 118470 759273 877743 soplex::SoPlex::updateTest()
+2908 63532 176407419 176470951 soplex::SPxBasis::change(int, soplex::SPxId&, soplex::SVector const*, soplex::SSVector const*)
+2910 22834 3728 26562 soplex::SPxBasis::doFactorize()
+2912 22260 103097572 103119832 soplex::SLUFactor::change(int, soplex::SVector const&, soplex::SSVector const*)
+2914 189756 102866656 103056412 soplex::CLUFactor::forestUpdate(int, double*, int, int*)
+2916 52782 0 52782 _ZN6soplex9CLUFactor12forestUpdateEiPdiPi_for.cond
+2918 360710 147557 508267 _ZN6soplex9CLUFactor12forestUpdateEiPdiPi_for.cond.68
+2920 1769 0 1769 _ZN6soplex9CLUFactor12forestUpdateEiPdiPi_for.cond.830
+2922 5159 11725 16884 soplex::SPxBasis::lastEntered() const
+2924 3220 0 3220 soplex::SPxBasis::lastIndex() const
+2926 3850 1544447 1548297 soplex::SPxSteepPR::entered4(soplex::SPxId, int)
+2928 24847 1515225 1540072 soplex::SPxSteepPR::entered4X(soplex::SPxId, int, int, int, int, int)
+2930 74978 47150 122128 _ZN6soplex10SPxSteepPR9entered4XENS_5SPxIdEiiiii_for.cond
+2932 175294 1186327 1361621 _ZN6soplex10SPxSteepPR9entered4XENS_5SPxIdEiiiii_for.cond.78
+2934 8911 80298773 80307684 soplex::SoPlex::clearUpdateVecs()
+2936 1760 22812 24572 soplex::SoPlex::computePvec(int)
+2938 2720 17280 20000 soplex::SoPlex::computeTest(int)
+2940 486 1620 2106 soplex::SPxBasis::Desc::status(int)
+2942 165 0 165 soplex::EQ(double, double, double)
+2944 4275 8386302 8390577 soplex::SSVector::assign2product1(soplex::SVSet const&, soplex::SSVector const&)
+2946 6484 0 6484 _ZN6soplex8SSVector15assign2product1ERKNS_5SVSetERKS0__for.cond
+2948 52529 32684 85213 soplex::CLUFactor::forestReMaxCol(int, int)
+2950 32684 0 32684 _ZN6soplex9CLUFactor14forestReMaxColEii_for.cond
+2952 77726 62924 140650 soplex::CLUFactor::remaxRow(int, int)
+2954 62924 0 62924 _ZN6soplex9CLUFactor8remaxRowEii_for.cond
+2956 1167120 0 1167120 _ZN6soplex9CLUFactor12forestUpdateEiPdiPi_for.cond.284
+2958 1026560 0 1026560 _ZN6soplex9CLUFactor12forestUpdateEiPdiPi_for.cond.297
+2960 1167120 0 1167120 _ZN6soplex9CLUFactor12forestUpdateEiPdiPi_for.cond.309
+2962 1026560 0 1026560 _ZN6soplex9CLUFactor12forestUpdateEiPdiPi_for.cond.322
+2964 74338 0 74338 _ZN6soplex9CLUFactor12forestUpdateEiPdiPi_for.cond.590
+2966 268788 56859 325647 soplex::CLUFactor::makeLvec(int, int)
+2968 2596975 0 2596975 _ZN6soplex9CLUFactor12forestUpdateEiPdiPi_for.cond.630
+2970 514808 0 514808 _ZN6soplex9CLUFactor12forestUpdateEiPdiPi_for.cond.714
+2972 494320 42796 537116 _ZN6soplex9CLUFactor12forestUpdateEiPdiPi_for.cond.745.outer
+2974 9888 12360 22248 soplex::SPxBasis::baseVec(int) const
+2976 25780 5310 31090 _ZN6soplex9CLUFactor12vSolveUrightEPdPiS1_S2_id_for.cond
+2978 10 0 10 soplex::SPxFastRT::relax()
+2980 39 185 224 soplex::SoPlex::rejectEnter(soplex::SPxId, double, soplex::SPxBasis::Desc::Status)
+2982 17817 53064 70881 soplex::SPxLP::number(soplex::SPxId const&) const
+2984 15840 0 15840 soplex::SPxId::type() const
+2986 14592 0 14592 soplex::SoPlex::isId(soplex::SPxId) const
+2988 2480 587747 590227 soplex::CLUFactor::initFactorRings()
+2990 4480 40203 44683 void soplex::spx_alloc<soplex::CLUFactor::Pring*>(soplex::CLUFactor::Pring*&, int)
+2992 35722 0 35722 _ZN6soplex9CLUFactor15initFactorRingsEv_for.cond
+2994 507342 0 507342 _ZN6soplex9CLUFactor15initFactorRingsEv_for.cond.38
+2996 2670 4237076 4239746 soplex::CLUFactor::eliminateNucleus(double, double)
+2998 2696965 1538312 4235277 _ZN6soplex9CLUFactor16eliminateNucleusEdd_while.cond
+3000 9200 337901 347101 soplex::CLUFactor::selectPivots(double)
+3002 337901 0 337901 _ZN6soplex9CLUFactor12selectPivotsEd_for.cond.outer.outer
+3004 133407 894894 1028301 soplex::CLUFactor::eliminatePivot(int, int, double)
+3006 86541 0 86541 _ZN6soplex9CLUFactor14eliminatePivotEiid_for.cond
+3008 50852 258221 309073 _ZN6soplex9CLUFactor14eliminatePivotEiid_for.cond.171
+3010 40032 316233 356265 _ZN6soplex9CLUFactor14eliminatePivotEiid_for.cond.204
+3012 211494 362960 574454 soplex::CLUFactor::updateRow(int, int, int, int, double, double)
+3014 34563 0 34563 _ZN6soplex9CLUFactor9updateRowEiiiidd_for.cond
+3016 135796 6820 142616 _ZN6soplex9CLUFactor9updateRowEiiiidd_for.cond.47
+3018 95822 89766 185588 _ZN6soplex9CLUFactor9updateRowEiiiidd_for.cond.169
+3020 44966 39430 84396 soplex::CLUFactor::remaxCol(int, int)
+3022 39430 0 39430 _ZN6soplex9CLUFactor8remaxColEii_for.cond
+3024 59860 0 59860 _ZN6soplex9CLUFactor14eliminatePivotEiid_for.cond.243
+3026 1520 23653 25173 soplex::CLUFactor::freeFactorRings()
+3028 2560 21093 23653 void soplex::spx_free<soplex::CLUFactor::Pring*>(soplex::CLUFactor::Pring*&)
+3030 132 1232 1364 soplex::SoPlex::ungetEnterVal(soplex::SPxId, soplex::SPxBasis::Desc::Status, double, soplex::SVector const&)
+3032 3317 1520925 1524242 soplex::SSVector::assign2productFull(soplex::SVSet const&, soplex::SSVector const&)
+3034 989509 527885 1517394 _ZN6soplex8SSVector18assign2productFullERKNS_5SVSetERKS0__for.cond
+3036 1664273 471175 2135448 _ZN6soplex8SSVector5setupEv_for.cond
+3038 2871 159401 162272 soplex::CLUFactor::eliminateRowSingletons()
+3040 125836 33565 159401 _ZN6soplex9CLUFactor22eliminateRowSingletonsEv_for.cond
+3042 132 3767 3899 _ZN6soplex9SPxFastRT11selectLeaveERd_do.body
+3044 70 3115 3185 soplex::SPxFastRT::maxDelta(double&, double&)
+3046 60760 1768111 1828871 soplex::SPxFastRT::maxDelta(double&, double&, soplex::UpdateVector&, soplex::Vector&, soplex::Vector&, int, int)
+3048 1727931 0 1727931 _ZN6soplex9SPxFastRT8maxDeltaERdS1_RNS_12UpdateVectorERNS_6VectorES5_ii_for.cond
+3050 140 162 302 soplex::SPxFastRT::maxShortLeave(double&, int, double, double)
+3052 116 164 280 soplex::SPxFastRT::maxReleave(double&, int, double)
+3054 15 0 15 soplex::SoPlex::shift() const
+3056 32 286799 286831 soplex::SoPlex::setDualColBounds()
+3058 19891 75820 95711 _ZN6soplex6SoPlex16setDualColBoundsEv_for.cond
+3060 51979 0 51979 soplex::SoPlex::clearDualBounds(soplex::SPxBasis::Desc::Status, double&, double&)
+3062 40535 150498 191033 _ZN6soplex6SoPlex16setDualColBoundsEv_for.cond.14
+3064 16415 288205 304620 soplex::SoPlex::setLeaveBounds()
+3066 20740 81496 102236 soplex::SoPlex::setLeaveBound4Row(int, int)
+3068 18469 83490 101959 soplex::SoPlex::setLeaveBound4Col(int, int)
+3070 20 278383 278403 soplex::SoPlex::computeLeaveCoPrhs()
+3072 16170 262191 278361 _ZN6soplex6SoPlex18computeLeaveCoPrhsEv_for.cond
+3074 18820 68076 86896 soplex::SoPlex::computeLeaveCoPrhs4Row(int, int)
+3076 19916 71386 91302 soplex::SoPlex::computeLeaveCoPrhs4Col(int, int)
+3078 832 2800216 2801048 soplex::SoPlex::computeFtest()
+3080 7464 3110 10574 soplex::SoPlex::fTest() const
+3082 731448 2067520 2798968 _ZN6soplex6SoPlex12computeFtestEv_for.cond
+3084 31 120118 120149 soplex::SoPlex::computeFrhsXtra()
+3086 29365 90721 120086 _ZN6soplex6SoPlex15computeFrhsXtraEv_for.cond
+3088 23212 55570 78782 _ZN6soplex6SoPlex11computeFrhsEv_for.cond
+3090 38 830715 830753 soplex::SoPlex::shiftPvec()
+3092 32814 254464 287278 _ZN6soplex6SoPlex9shiftPvecEv_for.cond
+3094 27775 226147 253922 soplex::SoPlex::isBasic(soplex::SPxId) const
+3096 11431 51688 63119 soplex::SoPlex::isBasic(soplex::SPxRowId) const
+3098 40536 314982 355518 _ZN6soplex6SoPlex9shiftPvecEv_for.cond.61
+3100 14122 64470 78592 soplex::SoPlex::isBasic(soplex::SPxColId) const
+3102 7041945 17745430 24787375 _ZNK6soplex6SoPlex10testBoundsEv_for.cond.20
+3104 8698665 21921745 30620410 _ZNK6soplex6SoPlex10testBoundsEv_for.cond.44
+3106 37034 159293 196327 _ZN6soplex10SPxSteepPR7setTypeENS_6SoPlex4TypeE_for.cond.35
+3108 18274 375984229 376002503 soplex::SPxSteepPR::selectLeave()
+3110 4666121 14504 4680625 soplex::SPxSteepPR::selectLeaveX(double&, int, int)
+3112 1764 7644 9408 soplex::SoPlex::unitVector(int) const
+3114 12936 79211396 79224332 soplex::SPxBasis::coSolve(soplex::SSVector&, soplex::SVector const&)
+3116 11172 79200224 79211396 soplex::SLUFactor::solveLeft(soplex::SSVector&, soplex::SVector const&)
+3118 28884 41442908 41471792 soplex::SLUFactor::solve2left(soplex::SSVector&, soplex::SSVector&)
+3120 28242 10491170 10519412 soplex::CLUFactor::vSolveLeft(double, double*, int*, double*, int*, int)
+3122 3273536 826480 4100016 _ZN6soplex8SSVector16setup_and_assignERS0__for.cond.15
+3124 4998 1470 6468 soplex::SoPlex::setup4solve(soplex::Vector*, soplex::SSVector*)
+3126 140752 1193013933 1193154685 soplex::SoPlex::leave(int)
+3128 14139 3719582 3733721 soplex::SSVector::operator-=(soplex::SSVector const&)
+3130 499120 2623684 3122804 _ZN6soplex8SSVectormIERKS0__for.cond
+3132 509912 647196 1157108 soplex::SSVector::value(int) const
+3134 4116 6383934 6388050 soplex::SSVector::length() const
+3136 10183 173658 183841 soplex::SSVector::~SSVector()
+3138 27001 91255 118256 soplex::SoPlex::getLeaveVals(int, soplex::SPxBasis::Desc::Status&, soplex::SPxId&, double&, double&, int&)
+3140 24608 2591600 2616208 soplex::SPxFastRT::selectEnter(double&)
+3142 4750 411929 416679 _ZN6soplex9SPxFastRT11selectEnterERd_do.body.23
+3144 3786 359568 363354 soplex::SPxFastRT::minDelta(int&, double&, double&)
+3146 7176 0 7176 soplex::SoPlex::lcBound()
+3148 7080 0 7080 soplex::SoPlex::ucBound()
+3150 7500 0 7500 soplex::SoPlex::lpBound()
+3152 7068 0 7068 soplex::SoPlex::upBound()
+3154 17517 23977 41494 soplex::SPxFastRT::shortEnter(soplex::SPxId&, int, double, double)
+3156 8916 0 8916 soplex::SoPlex::isCoId(soplex::SPxId) const
+3158 7949 30122 38071 soplex::SPxFastRT::minReenter(double&, double, double, soplex::SPxId, int)
+3160 2352 0 2352 soplex::SPxId::operator!=(soplex::SPxId const&)
+3162 7644 96879949 96887593 soplex::SPxBasis::solve4update(soplex::SSVector&, soplex::Vector&, soplex::SVector const&, soplex::SSVector&)
+3164 35574 96844375 96879949 soplex::SLUFactor::solve2right4update(soplex::SSVector&, soplex::Vector&, soplex::SVector const&, soplex::SSVector&)
+3166 1470 1470 2940 soplex::SSVector::get_ptr()
+3168 32263 23958362 23990625 soplex::CLUFactor::vSolveRight4update2(double, double*, int*, double*, int*, int, double*, double, double*, int*, int, double*, int*, int*)
+3170 36456 5152839 5189295 soplex::CLUFactor::vSolveLright2(double*, int*, int*, double, double*, int*, int*, double)
+3172 4002238 848480 4850718 _ZN6soplex9CLUFactor13vSolveLright2EPdPiS2_dS1_S2_S2_d_for.cond
+3174 302121 0 302121 _ZN6soplex9CLUFactor13vSolveLright2EPdPiS2_dS1_S2_S2_d_for.cond.125
+3176 126599 202499 329098 _ZN6soplex9CLUFactor19vSolveRight4update2EdPdPiS1_S2_iS1_dS1_S2_iS1_S2_S2__for.cond
+3178 498071 1291329 1789400 _ZN6soplex9CLUFactor19vSolveRight4update2EdPdPiS1_S2_iS1_dS1_S2_iS1_S2_S2__for.cond.51
+3180 21034 12617566 12638600 soplex::CLUFactor::vSolveUrightNoNZ(double*, double*, int*, int, double)
+3182 2998326 5624220 8622546 _ZN6soplex9CLUFactor16vSolveUrightNoNZEPdS1_Piid_while.cond
+3184 3282870 712150 3995020 _ZN6soplex9CLUFactor16vSolveUrightNoNZEPdS1_Piid_for.cond
+3186 6468 22222593 22229061 soplex::SPxBasis::solve(soplex::SSVector&, soplex::SVector const&)
+3188 7056 22215537 22222593 soplex::SLUFactor::solveRight(soplex::SSVector&, soplex::SVector const&)
+3190 24591 64182 88773 soplex::Vector::assign(soplex::SVector const&)
+3192 6762 22120002 22126764 soplex::SLUFactor::solve2right(soplex::SSVector&, soplex::Vector&)
+3194 31725 145989 177714 soplex::SoPlex::getLeaveVals2(double, soplex::SPxId, double&, double&, double&, double&)
+3196 9702 1785734 1795436 soplex::SoPlex::updateFtest()
+3198 434758 1339510 1774268 _ZN6soplex6SoPlex11updateFtestEv_for.cond
+3200 1764 0 1764 soplex::SoPlex::fRhs() const
+3202 3234 7350 10584 soplex::SPxBasis::lastLeft() const
+3204 16250 972614 988864 soplex::SPxSteepPR::left4(int, soplex::SPxId)
+3206 33356 877230 910586 soplex::SPxSteepPR::left4X(int, soplex::SPxId, int, int)
+3208 343124 216050 559174 _ZN6soplex10SPxSteepPR6left4XEiNS_5SPxIdEii_for.cond
+3210 23424 2130623 2154047 _ZN6soplex9SPxFastRT11selectEnterERd_do.body
+3212 18513 1883862 1902375 soplex::SPxFastRT::maxDelta(int&, double&, double&)
+3214 38233 137269 175502 soplex::SPxFastRT::maxReenter(double&, double, double, soplex::SPxId, int)
+3216 48 590 638 soplex::CLUFactor::eliminateColSingletons()
+3218 488 102 590 _ZN6soplex9CLUFactor22eliminateColSingletonsEv_for.cond
+3220 60 305536 305596 soplex::SoPlex::unShift()
+3222 34396 89241 123637 _ZN6soplex6SoPlex7unShiftEv_for.cond.325
+3224 51952 129865 181817 _ZN6soplex6SoPlex7unShiftEv_for.cond.386
+3226 32 197803 197835 soplex::SoPlex::maxInfeas() const
+3228 26363 60154 86517 _ZNK6soplex6SoPlex9maxInfeasEv_for.cond.44
+3230 33169 78107 111276 _ZNK6soplex6SoPlex9maxInfeasEv_for.cond.92
+3232 52 94 146 soplex::Timer::stop()
+3234 24 0 24 soplex::Timer::ticks2sec(long) const
+3244 24 8253 8277 std::uncaught_exception()
+3250 60 7508 7568 std::uncaught_exceptions()
+3256 24 6521 6545 __cxa_uncaught_exception
+3262 60 0 60 
+3268 84 4889 4973 __cxa_get_globals_fast
+3274 72 1595 1667 pthread_once
+3276 6 1582 1588 __cxxabiv1::(anonymous namespace)::construct_()
+3282 19 0 19 pthread_key_create
+3288 144 0 144 pthread_getspecific
+3290 90 232458 232548 soplex::SoPlex::value() const
+3292 10 0 10 soplex::SPxLP::spxSense() const
+3294 100 210328 210428 soplex::SoPlex::nonbasicValue() const
+3296 45466 70072 115538 _ZNK6soplex6SoPlex13nonbasicValueEv_for.cond
+3298 34354 60316 94670 _ZNK6soplex6SoPlex13nonbasicValueEv_for.cond.23
+3300 12 0 12 soplex::SoPlex::coPrhs() const
+3302 66 0 66 __mpn_cmp
+3304 807 0 807 __mpn_divrem
+3306 51 178481 178532 soplex::SoPlex::getPrimal(soplex::Vector&) const
+3308 15635 34785 50420 _ZNK6soplex6SoPlex9getPrimalERNS_6VectorE_for.cond
+3310 18232 109731 127963 _ZNK6soplex6SoPlex9getPrimalERNS_6VectorE_for.cond.21
+3312 13974 36990 50964 soplex::SPxBasis::baseId(int) const
+3314 16440 0 16440 soplex::DataArray<soplex::SPxId>::operator[](int) const
+3316 14443 0 14443 soplex::LT(double, double, double)
+3318 9999 0 9999 soplex::GT(double, double, double)
+3320 6 5 11 soplex::SPxSolver::getFactorCount() const
+3322 5 0 5 soplex::SLUFactor::getFactorCount() const
+3324 53 2052 2105 soplex::SPxWeightST::~SPxWeightST()
+3325 36 763 799 soplex::SPxWeightST::~SPxWeightST()'2
+3326 60 1229 1289 soplex::DataArray<double>::~DataArray()
+3328 10 0 10 soplex::SPxStarter::~SPxStarter()
+3334 59 2350 2409 soplex::SPxSteepPR::~SPxSteepPR()
+3335 46 1271 1317 soplex::SPxSteepPR::~SPxSteepPR()'2
+3336 18 0 18 soplex::SPxPricer::~SPxPricer()
+3338 18 110 128 soplex::SPxFastRT::~SPxFastRT()
+3339 5 8 13 soplex::SPxFastRT::~SPxFastRT()'2
+3340 16 0 16 soplex::SPxRatioTester::~SPxRatioTester()
+3342 17 18133 18150 MySoPlex::~MySoPlex()
+3344 76 10318 10394 soplex::SLUFactor::~SLUFactor()
+3346 309 7532 7841 soplex::SLUFactor::freeAll()
+3348 64 426 490 void soplex::spx_free<soplex::CLUFactor::Dring*>(soplex::CLUFactor::Dring*&)
+3350 12 488 500 soplex::CLUFactor::~CLUFactor()
+3352 10 478 488 soplex::CLUFactor::Temp::~Temp()
+3354 75 403 478 soplex::CLUFactor::Temp::clear()
+3356 10 0 10 soplex::SLinSolver::~SLinSolver()
+3358 32 14666 14698 soplex::SPxSolver::~SPxSolver()
+3360 114 316 430 systrim.isra.3
+3362 86 6068 6154 soplex::SoPlex::~SoPlex()
+3364 45 1325 1370 soplex::UpdateVector::~UpdateVector()
+3366 18 122 140 soplex::Array<soplex::UnitVector>::~Array()
+3368 22 632 654 soplex::SPxBasis::~SPxBasis()
+3370 6 148 154 soplex::DataArray<soplex::SVector const*>::~DataArray()
+3372 16 132 148 void soplex::spx_free<soplex::SVector const**>(soplex::SVector const**&)
+3374 16 1562 1578 soplex::SPxLP::~SPxLP()
+3376 25 794 819 soplex::LPColSet::~LPColSet()
+3378 30 663 693 soplex::SVSet::~SVSet()
+3380 22 520 542 soplex::DataSet<soplex::SVSet::DLPSV>::~DataSet()
+3382 32 171 203 void soplex::spx_free<soplex::DataSet<soplex::SVSet::DLPSV>::Item*>(soplex::DataSet<soplex::SVSet::DLPSV>::Item*&)
+3384 64 543 607 void soplex::spx_free<soplex::DataKey*>(soplex::DataKey*&)
+3386 12 109 121 soplex::DataArray<soplex::SVector::Element>::~DataArray()
+3388 20 723 743 soplex::LPRowSet::~LPRowSet()
+3390 36 976 1012 soplex::NameSet::~NameSet()
+3392 30 226 256 void soplex::spx_free<char*>(char*&)
+3394 10 114 124 soplex::DataHashTable<soplex::NameSet::Name, soplex::DataKey>::~DataHashTable()
+3396 12 102 114 soplex::DataArray<soplex::DataHashTable<soplex::NameSet::Name, soplex::DataKey>::Element<soplex::NameSet::Name, soplex::DataKey> >::~DataArray()
+3398 32 70 102 void soplex::spx_free<soplex::DataHashTable<soplex::NameSet::Name, soplex::DataKey>::Element<soplex::NameSet::Name, soplex::DataKey>*>(soplex::DataHashTable<soplex::NameSet::Name, soplex::DataKey>::Element<soplex::NameSet::Name, soplex::DataKey>*&)
+3400 22 574 596 soplex::DataSet<int>::~DataSet()
+3402 32 252 284 void soplex::spx_free<soplex::DataSet<int>::Item*>(soplex::DataSet<int>::Item*&)
+3404 4 18265 18269 exit
+3406 66 18199 18265 __run_exit_handlers
+3408 569 17370 17939 _dl_fini
+3410 704 203 907 _dl_sort_fini
+3412 8 8 16 0x000000000041e4f0
+3416 8 0 8 0x000000000041e470
+3422 3 0 3 0x00000000004b8b74
+3424 17 974 991 0x0000000000000630
+3436 386 5408 5794 __cxa_finalize
+3438 133 0 133 __unregister_atfork
+3442 9 0 9 0x00000000000005c0
+3448 3 0 3 0x0000000004a227e0
+3450 17 6792 6809 0x0000000000039c40
+3460 10 5257 5267 std::__1::ios_base::Init::~Init()
+3466 60 3915 3975 std::__1::basic_ostream<wchar_t, std::__1::char_traits<wchar_t> >::flush()
+3472 12 0 12 
+3476 86 1863 1949 std::__1::__stdoutbuf<wchar_t>::sync()
+3478 90 1619 1709 std::__1::codecvt<wchar_t, char, __mbstate_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
+3486 32 0 32 wcrtomb
+3488 8 0 8 _dl_mcount_wrapper_check
+3490 80 0 80 __gconv_transform_internal_ascii
+3498 28 0 28 std::__1::basic_ostream<wchar_t, std::__1::char_traits<wchar_t> >::sentry::~sentry()
+3502 9 0 9 0x0000000000039bd0
+3508 3 0 3 0x0000000004ca9690
+3510 11 1502 1513 0x0000000000008b90
+3522 9 0 9 0x0000000000008b20
+3528 3 0 3 0x0000000004ef972c
+3530 17 1502 1519 0x00000000000057e0
+3544 9 0 9 0x0000000000005770
+3550 3 0 3 0x0000000005172988
+3552 17 1502 1519 0x0000000000002f80
+3566 9 0 9 0x0000000000002f10
+3572 3 0 3 0x0000000005417298
+3574 17 1502 1519 0x00000000000023b0
+3588 9 0 9 0x0000000000002340
+3594 3 0 3 0x0000000005bfd0b4
+3596 17 1502 1519 0x00000000000066e0
+3608 9 0 9 0x0000000000006670
+3614 3 0 3 0x00000000059ec7d4
+3616 101 154 255 _IO_cleanup
+3618 88 0 88 _IO_flush_all_lockp
+3620 15 51 66 _IO_file_setbuf@@GLIBC_2.2.5
+3622 38 13 51 _IO_default_setbuf
+3624 5 0 5 _Exit

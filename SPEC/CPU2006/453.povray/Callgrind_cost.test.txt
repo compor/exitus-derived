@@ -1,0 +1,1636 @@
+0 19 5154081192 5154081211 0x00000000000011e0
+2 657 1267310 1267967 _dl_start
+4 230 0 230 _dl_setup_hash
+6 619 1266668 1267287 _dl_sysdep_start
+8 12 0 12 brk
+10 2620 0 2620 strlen
+12 17 0 17 sbrk
+14 1426 1265174 1266600 dl_main
+16 554 0 554 _dl_next_ld_env_entry
+18 3063 0 3063 bcmp
+20 1728 2320 4048 _dl_new_object
+24 189 911 1100 calloc
+28 228 1907 2135 malloc
+32 1820 165 1985 __libc_memalign
+34 1780 0 1780 memcpy
+36 430 36 466 _dl_add_to_namespace_list
+38 58 0 58 rtld_lock_default_lock_recursive
+40 58 0 58 rtld_lock_default_unlock_recursive
+42 19054 66223 85277 strcmp
+43 66223 398052 464275 strcmp'2
+44 88 5 93 _dl_discover_osversion
+46 5 0 5 uname
+48 581 3471 4052 _dl_init_paths
+50 255 78 333 _dl_important_hwcaps
+52 1865 0 1865 mempcpy
+54 335 1226 1561 decompose_rpath
+56 198 1156 1354 expand_dynamic_string_token
+58 2540 0 2540 index
+60 457 2608 3065 fillin_rpath
+62 2738 0 2738 strsep
+66 12 0 12 free
+68 89 0 89 _dl_debug_initialize
+70 4 0 4 _dl_count_modids
+72 2 0 2 _dl_debug_state
+74 27 2683 2710 do_preload
+76 792 60455 61247 _dl_catch_error
+78 48 0 48 _dl_initial_error_catch_tsd
+80 440 0 440 __sigsetjmp
+82 12 2613 2625 map_doit
+84 4578 55024 59602 _dl_map_object
+86 28487 32169 60656 _dl_name_match_p
+88 2055 2849 4904 open_verify
+90 198 0 198 open
+92 40 0 40 read
+94 7094 18371 25465 _dl_map_object_from_fd
+96 90 0 90 _fxstat
+98 819 0 819 mmap
+100 90 0 90 mprotect
+102 13526 0 13526 memset
+104 45 0 45 close
+106 9 0 9 access
+108 4811 61229 66040 _dl_map_object_deps
+110 357 56989 57346 openaux
+112 1838 3328 5166 open_path
+114 140 0 140 _xstat
+116 1469 5440 6909 _dl_load_cache_lookup
+118 41 53 94 _dl_sysdep_read_whole_file
+120 4055 0 4055 _dl_cache_libcmp
+122 90 524 614 strdup
+124 6 0 6 _dl_next_tls_modid
+126 470 1801 2271 cache_rpath.part.5
+128 70 87 157 _dl_dst_count
+130 200 96 296 _dl_dst_substitute
+132 96 0 96 stpcpy
+134 370 36 406 memmove
+136 36 0 36 _wordcopy_fwd_aligned
+138 28 20724 20752 _dl_receive_error
+140 10 20712 20722 version_check_doit
+142 159 20553 20712 _dl_check_all_versions
+144 5389 15164 20553 _dl_check_map_versions
+146 3759 3284 7043 match_symbol
+148 102 554 656 init_tls
+150 56 0 56 _dl_determine_tlsoffset
+152 334 121 455 _dl_allocate_tls_storage
+154 194644 973831 1168475 _dl_relocate_object
+156 551358 571748 1123106 _dl_lookup_symbol_x
+158 410741 161007 571748 do_lookup_x
+160 68835 47710 116545 check_match.9440
+162 5 0 5 strcasecmp
+164 30 14 44 time
+166 35 0 35 _dl_vdso_vsym
+168 5 0 5 strnlen
+170 5 0 5 strncasecmp
+172 24 0 24 memset
+174 15 7 22 gettimeofday
+176 45 0 45 memcpy@GLIBC_2.2.5
+178 24 0 24 _dl_add_to_slotinfo
+180 8 0 8 __exp_finite
+182 16 0 16 cos
+184 5 0 5 rint
+186 5 0 5 __pow_finite
+188 8 0 8 __log_finite
+190 5 0 5 rintf
+192 5 0 5 __acos_finite
+194 5 0 5 floorf
+196 10 0 10 floor
+198 5 0 5 __asin_finite
+200 8 0 8 __atan2_finite
+202 16 0 16 sin
+204 81 157 238 _dl_allocate_tls_init
+206 1 0 1 _dl_sysdep_start_cleanup
+208 10 5 15 _dl_unload_cache
+210 5 0 5 munmap
+214 498 57677 58175 _dl_init
+216 4 9032 9036 0x00000000059e1400
+218 190 8842 9032 __pthread_initialize_minimal
+220 134 0 134 __libc_sigaction
+228 4234 161512 165746 _dl_runtime_resolve
+230 11598 149914 161512 _dl_fixup
+232 5 0 5 _dl_get_tls_static_info
+238 5 571 576 secure_getenv
+240 544 27 571 getenv
+242 147456 0 147456 __GI_strlen
+248 5 0 5 getrlimit
+254 3 0 3 __libc_dl_error_tsd
+260 393 50 443 __libc_pthread_init
+262 50 0 50 __register_atfork
+266 16 0 16 0x0000000000006720
+274 60 105 165 _init
+276 24 51 75 __init_misc
+278 51 0 51 __GI_strrchr
+280 16 0 16 __ctype_init
+282 150 1727 1877 init_cacheinfo
+284 94 1633 1727 handle_intel.isra.0
+286 407 1226 1633 intel_check_word
+288 902 324 1226 bsearch
+290 324 0 324 intel_02_known_compare
+292 6 0 6 0x0000000005bf9e98
+296 16 0 16 0x00000000000023f0
+304 6 0 6 0x00000000054077f8
+308 89 93 182 __cpu_indicator_init
+310 40 0 40 0x0000000000002c30
+314 53 0 53 0x0000000000002b60
+318 16 0 16 0x0000000000002fc0
+326 6 0 6 0x0000000005108278
+330 16 0 16 0x0000000000005820
+338 6 0 6 0x0000000004edd5c8
+342 16 0 16 0x0000000000008bd0
+350 6 0 6 0x0000000004c5b560
+354 16 0 16 0x0000000000039c80
+362 6 46250 46256 _GLOBAL__sub_I_iostream.cpp
+370 177 43927 44104 std::__1::ios_base::Init::Init()
+376 27 33982 34009 std::__1::basic_streambuf<char, std::__1::char_traits<char> >::basic_streambuf()
+382 70 33380 33450 std::__1::locale::locale()
+388 65 32589 32654 std::__1::locale::__global()
+394 9 0 9 __cxa_guard_acquire
+402 588 1764 2352 pthread_mutex_lock
+404 2412 0 2412 pthread_mutex_lock
+410 588 1428 2016 pthread_mutex_unlock
+412 2004 0 2004 pthread_mutex_unlock
+418 17 27182 27199 std::__1::locale::classic()
+420 207 26634 26841 std::__1::locale::__imp::__imp(unsigned long)
+422 240 23 263 std::__1::vector<std::__1::locale::facet*, std::__1::__sso_allocator<std::__1::locale::facet*, 28ul> >::vector(unsigned long)
+424 23 0 23 std::__1::vector<std::__1::locale::facet*, std::__1::__sso_allocator<std::__1::locale::facet*, 28ul> >::allocate(unsigned long)
+430 17 3722 3739 std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::basic_string(char const*)
+436 28 0 28 strlen
+438 393185 0 393185 __strlen_sse2_pminub
+444 28 1322 1350 std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::__init(char const*, unsigned long)
+450 44 0 44 memcpy@@GLIBC_2.14
+452 35041436 0 35041436 __memcpy_ssse3_back
+460 712 10307 11019 std::__1::locale::id::__get()
+468 812 8602 9414 std::__1::__call_once(unsigned long volatile&, void*, void (*)(void*))
+478 224 168 392 void std::__1::__call_once_proxy<std::__1::tuple<std::__1::(anonymous namespace)::__fake_bind&&> >(void*)
+482 168 0 168 std::__1::locale::id::__init()
+490 217 403 620 pthread_cond_broadcast@@GLIBC_2.3.2
+492 403 0 403 pthread_cond_broadcast@@GLIBC_2.3.2
+494 868 1637 2505 std::__1::locale::__imp::install(std::__1::locale::facet*, long)
+500 98 0 98 std::__1::__shared_count::__add_shared()
+502 784 0 784 std::__1::vector<std::__1::locale::facet*, std::__1::__sso_allocator<std::__1::locale::facet*, 28ul> >::__append(unsigned long)
+514 14 5532 5546 std::__1::ctype<char>::ctype(unsigned short const*, bool, unsigned long)
+520 4 4773 4777 std::__1::ctype<char>::classic_table()
+526 20 4140 4160 std::__1::__cloc()
+532 40 0 40 newlocale
+538 36 2007 2043 __cxa_guard_release
+548 14 4 18 std::__1::codecvt<wchar_t, char, __mbstate_t>::codecvt(unsigned long)
+554 17 4 21 std::__1::numpunct<char>::numpunct(unsigned long)
+556 8 0 8 std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::basic_string()
+562 17 4 21 std::__1::numpunct<wchar_t>::numpunct(unsigned long)
+570 28 14 42 std::__1::locale::locale(std::__1::locale const&)
+574 18 822 840 std::__1::__stdinbuf<char>::imbue(std::__1::locale const&)
+580 36 168 204 std::__1::locale::use_facet(std::__1::locale::id&) const
+582 72 0 72 std::__1::locale::__imp::use_facet(long) const
+586 2 0 2 std::__1::codecvt<char, char, __mbstate_t>::do_encoding() const
+588 6 0 6 std::__1::codecvt<char, char, __mbstate_t>::do_always_noconv() const
+594 12 873 885 std::__1::locale::~locale()
+600 36 0 36 std::__1::__shared_count::__release_shared()
+610 168 120 288 std::__1::ios_base::init(void*)
+616 27 45 72 std::__1::basic_streambuf<wchar_t, std::__1::char_traits<wchar_t> >::basic_streambuf()
+618 18 4317 4335 std::__1::__stdinbuf<wchar_t>::imbue(std::__1::locale const&)
+622 36 4223 4259 std::__1::codecvt<wchar_t, char, __mbstate_t>::do_encoding() const
+628 168 0 168 uselocale
+636 19 0 19 mbtowc
+644 5 0 5 __ctype_get_mb_cur_max
+646 6 0 6 std::__1::codecvt<wchar_t, char, __mbstate_t>::do_always_noconv() const
+648 60 172 232 std::__1::__stdoutbuf<char>::__stdoutbuf(_IO_FILE*, __mbstate_t*)
+654 60 172 232 std::__1::__stdoutbuf<wchar_t>::__stdoutbuf(_IO_FILE*, __mbstate_t*)
+664 66 127 193 __cxa_atexit
+666 127 0 127 __new_exitfn
+668 6 0 6 0x0000000004a22560
+672 16 0 16 0x0000000000000670
+682 16 5152755034 5152755050 0x000000000041f1a6
+690 62 5152753533 5152753595 (below main)
+692 41 60579 60620 __libc_csu_init
+694 6 0 6 0x000000000041eb40
+698 16 0 16 0x000000000041f270
+706 5 60552 60557 _GLOBAL__sub_I_userio.cpp
+708 19 60533 60552 __cxx_global_var_init
+710 17 59078 59095 pov::DebugTextStreamBuffer::DebugTextStreamBuffer()
+712 357 63841 64198 pov_base::TextStreamBuffer::TextStreamBuffer(unsigned long, unsigned int)
+714 378 63463 63841 POVMSUtil_TempAlloc(void**, int)
+720 5419093 12878951 18298044 malloc
+721 40 1046 1086 malloc'2
+722 11 57725 57736 malloc_hook_ini
+724 585 56054 56639 ptmalloc_init.part.8
+726 55994 51 56045 _dl_addr
+728 9 0 9 __linkin_atfork
+730 11868875 1076503 12945378 _int_malloc
+732 1553605 0 1553605 malloc_consolidate
+734 2059 1342 3401 sysmalloc
+736 264 1710 1974 __default_morecore
+738 969 741 1710 sbrk
+740 741 0 741 brk
+746 2 28 30 _setjmp
+748 19 9 28 __sigsetjmp
+750 9 0 9 __sigjmp_save
+752 265 5152668841 5152669106 main
+754 14 8 22 pov_base::DefaultPlatformBase::DefaultPlatformBase()
+756 8 0 8 pov_base::PlatformBase::PlatformBase()
+758 20 0 20 pov::spec_srand(int)
+760 79 22767 22846 povray_init()
+762 78 910 988 POVMS_OpenContext(void**)
+764 88 0 88 POVMSStream_Init()
+766 2228145 0 2228145 POVMS_AssertFunction(int, char const*, char const*, int)
+768 40 376 416 POVMS_Sys_QueueOpen_Default()
+770 666 4354 5020 POVMS_InstallReceiver(void*, int (*)(POVMSData*, POVMSData*, int, void*), unsigned int, unsigned int, void*)
+772 700 3654 4354 POVMS_AddReceiveHandlerNode(POVMSContextData*)
+774 18 16 34 pov::mem_init()
+776 32 0 32 pov::mem_stats_init()
+778 31686 0 31686 pov::pre_init_tokenizer()
+780 71450 14290 85740 POVMS_GetContextAddress(void*, void**)
+782 28225 0 28225 POVMS_Sys_QueueToAddress_Default(POVMS_Sys_QueueNode_Default*)
+784 18 18983 19001 pov_frontend::DefaultRenderFrontend::DefaultRenderFrontend(void*, void*)
+786 39 14747 14786 pov_frontend::RenderFrontend::RenderFrontend(void*, void*)
+788 147 12890 13037 pov_frontend::MessageOutput::MessageOutput(void*)
+790 9 0 9 POVMS_MessageReceiver::POVMS_MessageReceiver(void*)
+796 704 30867 31571 operator new[](unsigned long)
+802 2590 42275 44865 operator new(unsigned long)
+808 129 0 129 _ZN12pov_frontend13MessageOutputC2EPv_for.cond
+810 422 8937 9359 void POVMS_MessageReceiver::InstallFront<pov_frontend::MessageOutput>(unsigned int, unsigned int, pov_frontend::MessageOutput*, POVMS_MessageReceiver::MemberHandler<pov_frontend::MessageOutput>::MemberHandlerPtr)
+816 264 84 348 POVMS_MessageReceiver::MemberHandler<pov_frontend::MessageOutput>::MemberHandler(pov_frontend::MessageOutput*, void (pov_frontend::MessageOutput::*)(POVMSData*, POVMSData*, int))
+818 84 0 84 POVMS_MessageReceiver::Handler::Handler()
+820 598 5771 6369 POVMS_MessageReceiver::AddNodeFront(unsigned int, unsigned int, POVMS_MessageReceiver::HandlerOO*, POVMS_MessageReceiver::Handler*)
+822 38 816 854 void POVMS_MessageReceiver::InstallBack<pov_frontend::MessageOutput>(unsigned int, unsigned int, pov_frontend::MessageOutput*, POVMS_MessageReceiver::MemberHandler<pov_frontend::MessageOutput>::MemberHandlerPtr)
+824 106 1120 1226 POVMS_MessageReceiver::AddNodeBack(unsigned int, unsigned int, POVMS_MessageReceiver::HandlerOO*, POVMS_MessageReceiver::Handler*)
+826 158 0 158 _ZN21POVMS_MessageReceiver11AddNodeBackEjjPNS_9HandlerOOEPNS_7HandlerE_while.cond
+828 38 762 800 void POVMS_MessageReceiver::InstallFront<pov_frontend::RenderFrontend>(unsigned int, unsigned int, pov_frontend::RenderFrontend*, POVMS_MessageReceiver::MemberHandlerOO<pov_frontend::RenderFrontend>::MemberHandlerPtr)
+830 44 14 58 POVMS_MessageReceiver::MemberHandlerOO<pov_frontend::RenderFrontend>::MemberHandlerOO(pov_frontend::RenderFrontend*, void (pov_frontend::RenderFrontend::*)(POVMS_Message&, POVMS_Message&, int))
+832 14 0 14 POVMS_MessageReceiver::HandlerOO::HandlerOO()
+834 38 872 910 void POVMS_MessageReceiver::InstallBack<pov_frontend::RenderFrontend>(unsigned int, unsigned int, pov_frontend::RenderFrontend*, POVMS_MessageReceiver::MemberHandlerOO<pov_frontend::RenderFrontend>::MemberHandlerPtr)
+836 1282 11888 13170 pov_frontend::DefaultRenderFrontend::OpenStreams(bool)
+838 528 5120 5648 pov_frontend::DefaultRenderFrontend::DefaultStreamBuffer::DefaultStreamBuffer(pov_base::OStream*, bool, bool)
+840 120025 316507 436532 pov_base::pov_stricmp(char const*, char const*)
+842 227914 88593 316507 _ZN8pov_base11pov_stricmpEPKcS1__while.cond
+848 87450 0 87450 toupper
+850 16 9 25 pov_frontend::ProcessRenderOptions::ProcessRenderOptions()
+852 9 0 9 pov_base::ProcessOptions::ProcessOptions(pov_base::ProcessOptions::INI_Parser_Table*, pov_base::ProcessOptions::Cmd_Parser_Table*)
+854 146979 3465527 3612506 POVMSObject_New(POVMSData*, unsigned int)
+856 235719 3357183 3592902 POVMSUtil_SetType(POVMSData*, unsigned int, unsigned int)
+858 265244 0 265244 POVMSAttr_New(POVMSData*)
+860 1136764 2578843 3715607 POVMSAttr_Set(POVMSData*, unsigned int, void const*, int)
+866 5846860 0 5846860 __memmove_ssse3_back
+868 2808282 9399498 12207780 POVMSObject_Set(POVMSData*, POVMSData*, unsigned int)
+870 1564752 3528336 5093088 POVMSObject_Find(POVMSData*, unsigned int)
+872 3528336 0 3528336 _Z16POVMSObject_FindP9POVMSDataj_for.cond
+874 26 955452 955478 pov_base::ProcessOptions::ParseString(char const*, POVMSData*, bool)
+876 157 955295 955452 _ZN8pov_base14ProcessOptions11ParseStringEPKcP9POVMSDatab_while.cond
+882 483 0 483 isalnum
+884 53 18806 18859 pov_base::ProcessOptions::Parse_CL_Option(char const*&, POVMSData*, bool)
+886 94 5568 5662 pov_base::ProcessOptions::Parse_CL_String(char const*&, int)
+892 2415 1482 3897 _ZN8pov_base14ProcessOptions15Parse_CL_StringERPKci_while.cond
+898 621187 0 621187 isspace
+900 1222 10386 11608 _ZN8pov_base14ProcessOptions15Parse_CL_OptionERPKcP9POVMSDatab_while.cond
+906 176 25042 25218 operator delete[](void*)
+912 777 31713 32490 operator delete(void*)
+918 2221422 10535568 12756990 free
+920 10200202 399766 10599968 _int_free
+922 120 933982 934102 pov_frontend::ProcessRenderOptions::ProcessUnknownString(char*, POVMSData*)
+928 6 0 6 rindex
+930 416 0 416 __strrchr_sse42
+932 107 928715 928822 pov_base::ProcessOptions::ParseFile(char const*, POVMSData*)
+934 46 2859 2905 pov_base::ProcessOptions::Parse_INI_Specification(char const*, char*&, char*&)
+940 6 0 6 index
+942 41 0 41 __strchr_sse42
+948 5 0 5 strcpy
+950 44721 0 44721 __strcpy_sse2_unaligned
+952 12 11822 11834 pov_frontend::ProcessRenderOptions::OpenFileForRead(char const*, POVMSData*)
+954 58 11764 11822 pov_frontend::ProcessRenderOptions::OpenINIFileStream(char const*, unsigned int, char*, POVMSData*)
+956 551 659 1210 pov_base::Has_Extension(char const*)
+958 53 0 53 _ZN12pov_frontend20ProcessRenderOptions17OpenINIFileStreamEPKcjPcP9POVMSData_for.cond
+960 76 0 76 _ZN12pov_frontend20ProcessRenderOptions17OpenINIFileStreamEPKcjPcP9POVMSData_for.cond.30
+962 386 20877 21263 pov_base::File_Exist(char const*)
+968 76 22625 22701 fopen@@GLIBC_2.2.5
+970 1520 21105 22625 __fopen_internal
+974 195254 214350 409604 _IO_no_init
+976 214350 0 214350 _IO_old_init
+978 494 4370 4864 _IO_file_init@@GLIBC_2.2.5
+980 3952 836 4788 _IO_link_in
+982 80850 0 80850 _pthread_cleanup_push_defer
+984 46200 0 46200 _pthread_cleanup_pop_restore
+986 2942 1634 4576 _IO_file_fopen@@GLIBC_2.2.5
+988 76 190 266 open
+990 190 0 190 __open_nocancel
+992 950 0 950 __GI_strstr
+994 152 0 152 __fopen_maybe_mmap
+1000 2850 14231 17081 fclose@@GLIBC_2.2.5
+1002 4250 836 5086 _IO_un_link
+1004 1842 2176 4018 _IO_file_close_it@@GLIBC_2.2.5
+1006 342 0 342 _IO_unsave_markers
+1008 76 190 266 _IO_file_close
+1010 190 0 190 __close_nocancel
+1012 205178 100 205278 _IO_setb
+1014 304 912 1216 _IO_file_finish@@GLIBC_2.2.5
+1016 532 380 912 _IO_default_finish
+1020 67 7740 7807 pov_base::ITextStream::ITextStream(char const*, unsigned int)
+1022 900 24110 25010 pov_base::New_IStream(char const*, unsigned int)
+1024 100 0 100 pov_base::PlatformBase::GetPlatformBaseReference()
+1026 396 3016 3412 pov_base::DefaultPlatformBase::CreateIStream(unsigned int)
+1028 324 198 522 pov_base::IStream::IStream(unsigned int)
+1030 220 0 220 pov_base::IOBase::IOBase(unsigned int, unsigned int)
+1032 90 0 90 pov_base::Pointer<pov_base::IStream>::Pointer(pov_base::IStream*)
+1034 162 0 162 pov_base::Pointer<pov_base::IStream>::operator==(void*)
+1036 90 0 90 pov_base::Pointer<pov_base::IStream>::operator->() const
+1038 1334 20987 22321 pov_base::IOBase::open(char const*, unsigned int)
+1040 720 9056 9776 pov_base::IOBase::close()
+1046 5 0 5 strcat
+1048 928 0 928 __strcat_sse2_unaligned
+1050 108 0 108 pov_base::Pointer<pov_base::IStream>::release()
+1052 216 0 216 pov_base::Pointer<pov_base::IStream>::~Pointer()
+1054 832 9932 10764 pov_base::IOBase::seekg(unsigned long, unsigned int)
+1060 1584 7089 8673 fseek
+1062 846 7053 7899 _IO_seekoff_unlocked
+1064 3975 3078 7053 _IO_file_seekoff@@GLIBC_2.2.5
+1066 383 2200 2583 _IO_doallocbuf
+1068 840 1360 2200 _IO_file_doallocate
+1070 152 380 532 _IO_file_stat
+1072 380 0 380 _fxstat
+1074 660 0 660 mmap
+1076 72 252 324 _IO_file_seek
+1078 72 180 252 lseek
+1080 180 0 180 __lseek_nocancel
+1082 324 567 891 _IO_file_read
+1084 162 405 567 read
+1086 405 0 405 __read_nocancel
+1088 274 2842 3116 pov_base::IOBase::tellg()
+1094 774 810 1584 ftell
+1096 25740 172115 197855 pov_base::ITextStream::RefillBuffer()
+1098 16024 150371 166395 pov_base::IOBase::read(void*, unsigned long)
+1104 25758 123339 149097 fread
+1106 1431 121908 123339 _IO_sgetn
+1108 17127 104781 121908 _IO_file_xsgetn
+1110 375491 0 375491 __GI_memcpy
+1112 5720 0 5720 pov_base::IOBase::operator void*() const
+1114 8226 904248 912474 _ZN8pov_base14ProcessOptions9ParseFileEPKcP9POVMSData_while.cond.outer
+1116 6897 5121 12018 pov_base::ITextStream::eof()
+1118 1334 3787 5121 pov_base::IOBase::eof()
+1124 2520 0 2520 feof
+1126 10248 36778 47026 pov_base::ProcessOptions::Parse_INI_Skip_Space(pov_base::ITextStream*, bool)
+1128 14012 20090 34102 _ZN8pov_base14ProcessOptions20Parse_INI_Skip_SpaceEPNS_11ITextStreamEb_while.cond
+1130 12924094 188087 13112181 pov_base::ITextStream::getchar()
+1132 740910 0 740910 pov_base::ITextStream::ungetchar(int)
+1134 660670 0 660670 pov_base::ITextStream::tellg()
+1136 7548 867594 875142 pov_base::ProcessOptions::Parse_INI_Option(pov_base::ITextStream*, POVMSData*)
+1138 6800 200571 207371 pov_base::ProcessOptions::Parse_INI_String(pov_base::ITextStream*, int, bool)
+1140 113513 61095 174608 _ZN8pov_base14ProcessOptions16Parse_INI_StringEPNS_11ITextStreamEib_while.cond
+1142 41850 416019 457869 _ZN8pov_base14ProcessOptions16Parse_INI_OptionEPNS_11ITextStreamEP9POVMSData_while.cond
+1144 660 632 1292 systrim.isra.3
+1146 2757 132538 135295 pov_base::ProcessOptions::Process_INI_Option(pov_base::ProcessOptions::INI_Parser_Table*, char*, POVMSData*)
+1152 96883 6702653 6799536 sscanf
+1154 188067 6514586 6702653 vsscanf
+1156 339500 294884 634384 _IO_str_init_static_internal
+1158 91184 0 91184 __GI___rawmemchr
+1160 560398 3084436 3644834 _IO_vfscanf
+1162 79814 0 79814 _IO_sputbackc
+1164 148174 119679 267853 __uflow
+1166 45592 74087 119679 _IO_default_uflow
+1168 74087 0 74087 _IO_str_underflow
+1170 51 1793 1844 __strtol_internal
+1172 1793 0 1793 ____strtol_l_internal
+1174 91146 1402343 1493489 POVMSUtil_SetInt(POVMSData*, unsigned int, int)
+1176 2380 9534 11914 pov_base::ProcessOptions::Parse_INI_Skip_Line(pov_base::ITextStream*)
+1178 1292 4704 5996 _ZN8pov_base14ProcessOptions19Parse_INI_Skip_LineEPNS_11ITextStreamE_while.cond
+1180 789 10178 10967 pov_base::ProcessOptions::IsTrue(char const*)
+1182 7863 2315 10178 pov_base::ProcessOptions::Matches(char const*, char const*)
+1188 1200 0 1200 tolower
+1190 3113 71031 74144 POVMSUtil_SetBool(POVMSData*, unsigned int, int)
+1192 117100 1132093 1249193 POVMSUtil_SetString(POVMSData*, unsigned int, char const*)
+1194 17049 2799534 2816583 __strtod_internal
+1196 1230446 977868 2208314 ____strtod_l_internal
+1198 315556 0 315556 str_to_mpn.isra.0
+1200 150000 0 150000 __mpn_lshift
+1202 331431 68474 399905 round_and_return
+1204 68474 0 68474 __mpn_construct_double
+1206 957 24517 25474 POVMSUtil_SetFloat(POVMSData*, unsigned int, float)
+1208 879251 13684857 14564108 POVMSAttr_Delete(POVMSData*)
+1209 1772170 12320492 14092662 POVMSAttr_Delete(POVMSData*)'2
+1214 10640 0 10640 __correctly_grouped_prefixmb
+1216 1721 46942 48663 pov_frontend::ProcessRenderOptions::ReadSpecialOptionHandler(pov_base::ProcessOptions::INI_Parser_Table*, char*, POVMSData*)
+1218 728 6980 7708 POVMSObject_Exist(POVMSData*, unsigned int)
+1220 412821 13566228 13979049 POVMSObject_Get(POVMSData*, POVMSData*, unsigned int)
+1221 83088 706272 789360 POVMSObject_Get(POVMSData*, POVMSData*, unsigned int)'2
+1222 650726 19617685 20268411 POVMSAttr_Copy(POVMSData*, POVMSData*)
+1223 1840809 14095336 15936145 POVMSAttr_Copy(POVMSData*, POVMSData*)'2
+1224 239778 18078587 18318365 POVMSObject_Copy(POVMSData*, POVMSData*)
+1226 160690 2612947 2773637 POVMSUtil_GetType(POVMSData*, unsigned int, unsigned int*)
+1228 650906 180442 831348 POVMSAttr_Get(POVMSData*, unsigned int, void*, int*)
+1230 938958 12220362 13159320 _Z16POVMSObject_CopyP9POVMSDataS0__for.cond
+1232 120150 12603526 12723676 POVMSObject_Delete(POVMSData*)
+1233 115700 5385520 5501220 POVMSObject_Delete(POVMSData*)'2
+1234 553032 12050494 12603526 _Z18POVMSObject_DeleteP9POVMSData_for.cond
+1235 456876 4928644 5385520 _Z18POVMSObject_DeleteP9POVMSData_for.cond'2
+1236 16 7 23 _ZN12pov_frontend20ProcessRenderOptions24ReadSpecialOptionHandlerEPN8pov_base14ProcessOptions16INI_Parser_TableEPcP9POVMSData_while.cond.14
+1238 32 14 46 _ZN12pov_frontend20ProcessRenderOptions24ReadSpecialOptionHandlerEPN8pov_base14ProcessOptions16INI_Parser_TableEPcP9POVMSData_while.cond
+1240 234 15626 15860 pov_base::ITextStream::~ITextStream()
+1241 522 12830 13352 pov_base::ITextStream::~ITextStream()'2
+1242 238 10946 11184 pov_base::IStream::~IStream()
+1243 90 8685 8775 pov_base::IStream::~IStream()'2
+1244 240 9476 9716 pov_base::IOBase::~IOBase()
+1246 100 0 100 munmap
+1252 812 0 812 POVMSAttrList_New(POVMSData*)
+1254 123706 729962 853668 POVMSAttrList_Append(POVMSData*, POVMSData*)
+1260 223472 709570 933042 realloc
+1262 32 97 129 realloc_hook_ini
+1264 226 6968 7194 POVMSUtil_GetStringLength(POVMSData*, unsigned int, int*)
+1266 20 10 30 POVMS_Object::POVMS_Object(POVMSData&)
+1268 90 0 90 POVMS_Container::POVMS_Container()
+1270 60 179407 179467 pov_frontend::RenderFrontend::StartRender(POVMS_Object&)
+1272 42 6845 6887 POVMS_Message::POVMS_Message(unsigned int, unsigned int, unsigned int)
+1274 38 1402 1440 POVMS_Object::POVMS_Object(unsigned int)
+1276 2520 259765 262285 POVMSMsg_SetupMessage(POVMSData*, unsigned int, unsigned int)
+1278 1152 62412 63564 POVMSMsg_SetMessageClass(POVMSData*, unsigned int)
+1280 1152 64963 66115 POVMSMsg_SetMessageIdentifier(POVMSData*, unsigned int)
+1282 2304 62233 64537 POVMSMsg_SetSourceAddress(POVMSData*, void*)
+1284 4608 94800 99408 POVMSMsg_SetDestinationAddress(POVMSData*, void*)
+1286 15 89146 89161 POVMS_Object::Merge(POVMS_Object&)
+1288 48 89098 89146 POVMSObject_Merge(POVMSData*, POVMSData*)
+1290 2446 84084 86530 _Z17POVMSObject_MergeP9POVMSDataS0__for.cond
+1292 4996 9977933 9982929 POVMSAttrList_Copy(POVMSData*, POVMSData*)
+1294 64638 9902060 9966698 _Z18POVMSAttrList_CopyP9POVMSDataS0__for.cond
+1296 22 1646 1668 POVMS_Message::SetDestinationAddress(void*)
+1298 58 81505 81563 POVMS_SendMessage(void*, POVMS_Message&, POVMS_Message*, int)
+1300 13130 15292357 15305487 POVMS_Send(void*, POVMSData*, POVMSData*, int)
+1302 13097 288274 301371 POVMSUtil_GetInt(POVMSData*, unsigned int, int*)
+1304 2080 30430 32510 POVMSMsg_GetDestinationAddress(POVMSData*, void**)
+1306 5265 1308656 1313921 POVMSStream_Size(POVMSData*)
+1307 794831 2060438 2855269 POVMSStream_Size(POVMSData*)'2
+1308 65755 1242901 1308656 _Z16POVMSStream_SizeP9POVMSData_for.cond
+1309 338676 559498 898174 _Z16POVMSStream_SizeP9POVMSData_for.cond'2
+1310 69254 1052870 1122124 _Z16POVMSStream_SizeP9POVMSData_for.cond.7
+1312 72840 498430 571270 POVMSStream_WriteString(char const*, unsigned char*, int*)
+1314 476685 0 476685 POVMSStream_WriteDataUnordered(unsigned char*, unsigned char*, int)
+1316 467424 1635984 2103408 POVMSStream_WriteInt(int, unsigned char*, int*)
+1318 5377920 0 5377920 POVMSStream_WriteDataOrdered(unsigned char*, unsigned char*, int*, int)
+1320 5330 9165791 9171121 POVMSStream_Write(POVMSData*, unsigned char*, int*)
+1321 1179676 20326594 21506270 POVMSStream_Write(POVMSData*, unsigned char*, int*)'2
+1322 860080 2778720 3638800 POVMSStream_WriteType(unsigned int, unsigned char*, int*)
+1324 86079 9065542 9151621 _Z17POVMSStream_WriteP9POVMSDataPhPi_for.cond
+1325 421572 6440569 6862141 _Z17POVMSStream_WriteP9POVMSDataPhPi_for.cond'2
+1326 504 1512 2016 POVMSStream_WriteFloat(float, unsigned char*, int*)
+1328 64194 7549949 7614143 _Z17POVMSStream_WriteP9POVMSDataPhPi_for.cond.22
+1330 325 0 325 POVMS_Sys_AddressToQueue_Default(void*)
+1332 4027 75248 79275 POVMS_Sys_QueueSend_Default(POVMS_Sys_QueueNode_Default*, void*, int)
+1334 3740 8898369 8902109 POVMSAttrList_Delete(POVMSData*)
+1336 6568 8891801 8898369 POVMSAttrList_Clear(POVMSData*)
+1338 169668 8479524 8649192 _Z19POVMSAttrList_ClearP9POVMSData_for.cond
+1340 28 0 28 POVMS_Container::DetachData()
+1342 30 354 384 POVMS_Message::~POVMS_Message()
+1344 140 19039 19179 POVMS_Object::~POVMS_Object()
+1346 45 0 45 POVMS_Container::~POVMS_Container()
+1348 15 0 15 pov_frontend::RenderFrontend::GetState()
+1350 79 5151465272 5151465351 povray_cooperate()
+1352 161 86665 86826 pov::Send_InitInfo()
+1354 54 2853 2907 pov::POVMSUtil_SetFormatString(POVMSData*, unsigned int, char const*, ...)
+1360 76 1514 1590 vsprintf
+1362 611801 3116626 3728427 vfprintf
+1364 227040 0 227040 strchrnul
+1366 625613 168517 794130 _IO_default_xsputn
+1368 239308 0 239308 __GI_mempcpy
+1370 192 2128 2320 _ZN3pov13Send_InitInfoEv_for.cond
+1372 318058 386134 704192 _int_realloc
+1374 1482 17519 19001 _ZN3pov13Send_InitInfoEv_for.cond.51
+1376 1050 2100 3150 povray_getoutputcontext()
+1378 208 6272 6480 pov::init_vars()
+1380 3808 1260 5068 pov::init_statistics(long long*)
+1382 1260 0 1260 pov::Init_Counter(long long&)
+1384 400 759 1159 pov::Make_Pigment_Entries()
+1386 462 297 759 pov::Make_Blend_Map_Entry(pov::Blend_Map_Entry&, float, unsigned char, float, float, float, float, float)
+1388 3181428 0 3181428 pov::Make_ColourA(float*, float, float, float, float, float)
+1390 506167 71416115 71922282 pov::Do_Cooperate(int)
+1392 651 307389 308040 _ZN3pov12Do_CooperateEi_while.cond
+1394 145655 71593227 71738882 POVMS_ProcessMessages(void*, int)
+1396 120586 101051 221637 POVMS_Sys_QueueReceive_Default(POVMS_Sys_QueueNode_Default*, int*, bool)
+1398 65556 457380 522936 POVMSStream_ReadString(char*, unsigned char*, int, int*)
+1400 476685 0 476685 POVMSStream_ReadDataUnordered(unsigned char*, unsigned char*, int)
+1402 564804 1635984 2200788 POVMSStream_ReadInt(int*, unsigned char*, int*)
+1404 5377920 0 5377920 POVMSStream_ReadDataOrdered(unsigned char*, unsigned char*, int*, int)
+1406 5655 13063675 13069330 POVMSStream_Read(POVMSData*, unsigned char*, int*)
+1407 1313648 28423378 29737026 POVMSStream_Read(POVMSData*, unsigned char*, int*)'2
+1408 959320 2778720 3738040 POVMSStream_ReadType(unsigned int*, unsigned char*, int*)
+1410 140112 12908873 13048985 _Z16POVMSStream_ReadP9POVMSDataPhPi_for.cond
+1411 663408 9346966 10010374 _Z16POVMSStream_ReadP9POVMSDataPhPi_for.cond'2
+1412 576 1512 2088 POVMSStream_ReadFloat(float*, unsigned char*, int*)
+1414 64194 10720166 10784360 _Z16POVMSStream_ReadP9POVMSDataPhPi_for.cond.29
+1416 5525 54704228 54709753 POVMS_Receive(void*, POVMSData*, POVMSData*, int)
+1418 14924 0 14924 _Z13POVMS_ReceivePvP9POVMSDataS1_i_for.cond
+1420 897 175001 175898 pov::Receive_RenderOptions(POVMSData*, POVMSData*, int, void*)
+1422 790 17654 18444 POVMSUtil_GetFloat(POVMSData*, unsigned int, float*)
+1424 2355 44243 46598 POVMSUtil_GetBool(POVMSData*, unsigned int, int*)
+1426 88135 1071059 1159194 POVMSUtil_GetString(POVMSData*, unsigned int, char*, int*)
+1432 5 0 5 strcmp
+1434 882282 0 882282 __strcmp_sse42
+1436 624 28444 29068 pov::SetCommandOption(POVMSData*, unsigned int, pov::shelldata*)
+1438 169 8919 9088 _ZN3pov21Receive_RenderOptionsEP9POVMSDataS1_iPv_for.cond.483
+1440 42 0 42 POVMSAttr_Type(POVMSData*, unsigned int*)
+1442 42 0 42 POVMSAttr_Size(POVMSData*, int*)
+1444 548600 3434957 3983557 pov::pov_malloc(unsigned long, char const*, int, char const*)
+1446 260583 0 260583 pov::add_node(pov::mem_node*)
+1448 412948 0 412948 pov::mem_stats_alloc(unsigned long, char const*, int)
+1450 33 380 413 pov::IsTrue(char const*)
+1452 680 80 760 pov::Matches(char const*, char const*)
+1454 33 380 413 pov::IsFalse(char const*)
+1456 329160 2123513 2452673 pov::pov_free(void*, char const*, int)
+1458 342287 0 342287 pov::remove_node(pov::mem_node*)
+1460 100499 0 100499 pov::mem_stats_free(unsigned long)
+1462 1504 135126 136630 pov::BuildRenderOptions(POVMSData*)
+1464 720 33061 33781 pov::BuildCommand(POVMSData*, unsigned int, pov::shelldata*)
+1466 38 0 38 _ZN3pov18BuildRenderOptionsEP9POVMSData_for.cond
+1468 14 0 14 pov::Receive_RenderAll(POVMSData*, POVMSData*, int, void*)
+1470 1017 71107058 71108075 _ZN3pov12Do_CooperateEi_while.cond.2
+1472 26845 54335698 54362543 POVMS_MessageReceiver::ReceiveHandler(POVMSData*, POVMSData*, int, void*)
+1474 1386 57989 59375 POVMSMsg_GetMessageClass(POVMSData*, unsigned int*)
+1476 2772 54126687 54129459 POVMS_MessageReceiver::MemberHandler<pov_frontend::MessageOutput>::Call(POVMSData*, POVMSData*, int)
+1478 150 636361 636511 pov_frontend::MessageOutput::InitInfo(POVMSData*, POVMSData*, int)
+1480 2640 13680 16320 pov_frontend::MessageOutput::Flush(int)
+1482 4840 8954 13794 pov_base::TextStreamBuffer::flush()
+1484 6061448 5116986 11178434 pov_base::TextStreamBuffer::lineflush()
+1486 116348 24812447 24928795 pov_frontend::MessageOutput::Printf(int, char const*, ...)
+1492 175956 5382676 5558632 vsnprintf
+1494 31968 20803272 20835240 pov_base::TextStreamBuffer::print(char const*)
+1496 213200 20618457 20831657 pov_base::TextStreamBuffer::printf(char const*, ...)
+1498 94121 7584332 7678453 pov_base::TextStreamBuffer::directflush(char const*, unsigned int)
+1500 18655 0 18655 pov_base::TextStreamBuffer::rawoutput(char const*, unsigned int)
+1502 6339883 1201566 7541449 _ZN8pov_base16TextStreamBuffer11directflushEPKcj_for.cond
+1504 109392 1116318 1225710 pov_frontend::DefaultRenderFrontend::DefaultStreamBuffer::directoutput(char const*, unsigned int)
+1510 5 0 5 strncat
+1512 432437 0 432437 __strncat_sse2_unaligned
+1518 68339 264572 332911 fputs
+1520 13400 0 13400 _IO_file_xsputn@@GLIBC_2.2.5
+1522 29613 20394 50007 _IO_file_overflow@@GLIBC_2.2.5
+1524 86545 57104 143649 _IO_do_write@@GLIBC_2.2.5
+1526 96048 18676 114724 _IO_file_write@@GLIBC_2.2.5
+1528 5336 13340 18676 write
+1530 13340 0 13340 __write_nocancel
+1532 80104 213859 293963 pov_frontend::DefaultRenderFrontend::DefaultStreamBuffer::lineoutput(char const*, unsigned int)
+1534 1400 0 1400 POVMSAttrList_Count(POVMSData*, int*)
+1536 261 47596 47857 _ZN12pov_frontend13MessageOutput8InitInfoEP9POVMSDataS2_i_for.cond
+1538 97986 8518321 8616307 POVMSAttrList_GetNth(POVMSData*, int, POVMSData*)
+1540 77262 0 77262 read_int
+1542 57003 190561 247564 _IO_padn
+1544 2081 405105 407186 _ZN12pov_frontend13MessageOutput8InitInfoEP9POVMSDataS2_i_for.cond.47
+1546 60 23056 23116 pov::Send_RenderStarted(bool)
+1548 76 469 545 pov::fix_up_scene_name()
+1550 85 0 85 _ZN3pov17fix_up_scene_nameEv_for.cond
+1552 268 0 268 _ZN3pov17fix_up_scene_nameEv_while.cond
+1554 39 0 39 pov::fix_up_animation_values()
+1556 108 68 176 pov::fix_up_rendering_window()
+1558 38 30 68 pov::closest_power_of_2(unsigned int)
+1560 30 0 30 _ZN3pov18closest_power_of_2Ej_while.cond
+1562 172 1690 1862 pov::init_output_file_handle()
+1564 39 102 141 pov_base::Split_Path(char*, char*, char*)
+1570 34 0 34 getcwd
+1572 48 147135 147183 pov::Send_RenderOptions()
+1574 58 5148662914 5148662972 pov::FrameLoop()
+1576 104 56 160 pov::pov_shellout(pov::shelltype)
+1578 54 5148662780 5148662834 _ZN3pov9FrameLoopEv_for.cond
+1580 41 1631 1672 pov::setup_output_file_name()
+1586 5 0 5 strncpy
+1588 195 0 195 __strncpy_sse2_unaligned
+1590 237 5148660784 5148661021 pov::FrameRender()
+1596 105 0 105 0x000000003805cf3d
+1600 420 41812 42232 pov::Send_Progress(char const*, int)
+1602 578 11010 11588 pov::BuildProgress(POVMSData*, int)
+1608 256 0 256 difftime
+1610 208824 3468815 3677639 POVMSUtil_SetLong(POVMSData*, unsigned int, long long)
+1612 39 1748645 1748684 pov::Initialize_Noise()
+1614 11 385060 385071 pov::InitTextureTable()
+1616 15 15 30 pov::POV_SRAND(int)
+1618 45064 0 45064 _ZN3povL16InitTextureTableEv_for.cond
+1620 94218 188416 282634 _ZN3povL16InitTextureTableEv_for.cond.1
+1622 3118290 6695116 9813406 pov::POV_RAND()
+1624 6695116 0 6695116 pov::spec_rand()
+1626 57352 0 57352 _ZN3povL16InitTextureTableEv_for.cond.15
+1628 16 1186885 1186901 pov::InitSolidNoise()
+1630 389657 630184 1019841 _ZN3povL14InitSolidNoiseEv_for.cond
+1632 47808 0 47808 pov::VSumSqr(double*)
+1638 2635665 0 2635665 sqrt
+1640 40332 0 40332 pov::VScaleEq(double*, double)
+1642 33421350 0 33421350 pov::Assign_Vector(double*, double*)
+1644 20488 0 20488 _ZN3povL14InitSolidNoiseEv_for.cond.17
+1646 25610 45076 70686 _ZN3povL14InitSolidNoiseEv_for.cond.25
+1648 55360 20500 75860 _ZN3povL14InitSolidNoiseEv_for.cond.41
+1650 5348 0 5348 _ZN3pov16Initialize_NoiseEv_for.cond
+1652 23014 134078 157092 _ZN3pov16Initialize_NoiseEv_for.cond.10
+1658 1533087 9893 1542980 __sin_avx
+1660 369 0 369 __dubsin
+1662 421 6282 6703 _ZN3pov16Initialize_NoiseEv_for.cond.21
+1664 105343 0 105343 pov::Make_Vector(double*, double, double, double)
+1666 114565132 1551172 116116304 pov::DNoise(double*, double*)
+1668 149430239 0 149430239 pov::Increase_Counter(long long&)
+1670 1143855 2897766 4041621 pov::VNormalize(double*, double const*)
+1672 5197925 1367875 6565800 pov::VLength(double&, double const*)
+1674 1067598 0 1067598 pov::VInverseScale(double*, double const*, double)
+1676 21 1650 1671 pov::POVFPU_Init()
+1678 76 5018 5094 pov::POVFPU_NewContext()
+1680 1670 5116 6786 pov::POVFPU_AddConstant(double)
+1682 2796 0 2796 _ZN3pov18POVFPU_AddConstantEd_for.cond
+1684 48462 265184 313646 pov::pov_realloc(void*, unsigned long, char const*, int, char const*)
+1686 7 570 577 pov::Initialize_Mesh_Code()
+1688 99 24776 24875 pov::Create_Priority_Queue(unsigned int)
+1690 72 70357282 70357354 pov::Parse()
+1692 6 0 6 pov::Init_Random_Generators()
+1694 77 298525 298602 pov::Initialize_Tokenizer()
+1696 646 49076 49722 pov::Locate_File(char*, unsigned int, char*, bool)
+1698 884 23840 24724 pov::Locate_Filename(char*, unsigned int, bool)
+1700 901 0 901 _ZN3pov15Locate_FilenameEPcjb_for.cond
+1702 1292 0 1292 _ZN3pov15Locate_FilenameEPcjb_for.cond.29
+1704 85 22339 22424 pov::New_Checked_IStream(char*, unsigned int)
+1706 1156 21635 22791 pov_base::ITextStream::ITextStream(char const*, pov_base::IStream*)
+1708 1625 4599 6224 __underflow
+1710 2646 1953 4599 _IO_file_underflow@@GLIBC_2.2.5
+1712 1260 0 1260 _IO_switch_to_get_mode
+1714 11786 270250 282036 pov::init_sym_tables()
+1716 540 68587 69127 pov::Add_Sym_Table(char const*)
+1718 52947 594796 647743 pov::pov_strdup(char const*)
+1720 51048 0 51048 _ZN3povL13Add_Sym_TableEPKc_for.cond
+1722 19474 1091559 1111033 pov::Add_Symbol(int, char*, int)
+1724 48364 757091 805455 pov::Create_Entry(int, char*, int)
+1726 32956 253148 286104 pov::Add_Entry(int, pov::Sym_Table_Entry*)
+1728 2524832 0 2524832 pov::get_hash_value(char*)
+1730 8422936 13030343 21453279 pov::Echo_getc()
+1732 13 0 13 _ZN3pov20Initialize_TokenizerEv_for.cond
+1734 1295000 734130 2029130 pov::Echo_ungetc(int)
+1736 273 4591 4864 pov::Create_Camera()
+1738 51820 2993415 3045235 pov::Create_Transform()
+1740 2878896 0 2878896 pov::MIdentity(double (*) [4])
+1742 15372 155757 171129 pov::Create_Texture()
+1744 20672 0 20672 pov::Init_TPat_Fields(pov::Pattern_Struct*)
+1746 21373 215749 237122 pov::Create_Pigment()
+1748 1387320 0 1387320 pov::Make_Colour(float*, float, float, float)
+1750 47436 204881 252317 pov::Create_Finish()
+1752 14868 0 14868 pov::Make_RGB(float*, float, float, float)
+1754 45 4488 4533 pov::Frame_Init()
+1756 90 7615 7705 pov::Copy_Camera(pov::Camera_Struct*)
+1758 5572 2043 7615 pov::Destroy_Tnormal(pov::Tnormal_Struct*)
+1760 59614 462722 522336 pov::Destroy_Transform(pov::Transform_Struct*)
+1766 71568 2472308 2543876 pov::Copy_Transform(pov::Transform_Struct*)
+1768 11 0 11 pov::IncludeHeader(char*)
+1770 946 67630942 67631888 pov::Parse_Frame()
+1772 4530 65616153 65620683 pov::Get_Token()
+1773 1297703 57775292 59072995 pov::Get_Token()'2
+1774 176932 65439221 65616153 _ZN3pov9Get_TokenEv_while.cond
+1775 2004139 55094892 57099031 _ZN3pov9Get_TokenEv_while.cond'2
+1776 795043 9105759 9900802 pov::Skip_Spaces()
+1778 1391680 6720679 8112359 _ZN3povL11Skip_SpacesEv_while.body
+1780 947636 18719 966355 pov::Begin_String_Fast()
+1782 400345 15084468 15484813 pov::Read_Symbol()
+1784 1455932 7572647 9028579 _ZN3povL11Read_SymbolEv_while.body
+1790 599641 0 599641 isalpha
+1792 1434030 0 1434030 pov::Stuff_Character_Fast(int)
+1798 302813 0 302813 isdigit
+1800 319549 244361 563910 pov::End_String_Fast()
+1802 487465 3903874 4391339 pov::Find_Symbol(int, char*)
+1804 758526 873664 1632190 _ZN3povL11Find_SymbolEiPc_while.cond
+1806 1121642 622300 1743942 pov::Write_Token(int, int)
+1808 225 11180 11405 pov::Parse_Global_Settings()
+1810 29720 576043 605763 pov::Parse_Begin()
+1812 111696 12082034 12193730 pov::Parse_Float()
+1814 146748 19463203 19609951 pov::Parse_Rel_Factor(double*, int*)
+1815 153643 7331757 7485400 pov::Parse_Rel_Factor(double*, int*)'2
+1816 161660 19256749 19418409 pov::Parse_Num_Term(double*, int*)
+1817 154128 7130474 7284602 pov::Parse_Num_Term(double*, int*)'2
+1818 198639 19009576 19208215 pov::Parse_Num_Factor(double*, int*)
+1819 206451 7186586 7393037 pov::Parse_Num_Factor(double*, int*)'2
+1820 648564 14584897 15233461 _ZN3povL16Parse_Num_FactorEPdPi_while.cond
+1821 555396 5188097 5743493 _ZN3povL16Parse_Num_FactorEPdPi_while.cond'2
+1822 241026 11137778 11378804 pov::Read_Float()
+1824 1410503 2204930 3615433 _ZN3povL10Read_FloatEv_while.cond
+1826 239633 4975120 5214753 _ZN3povL16Parse_Num_FactorEPdPi_while.cond.674.outer
+1827 407 4048 4455 _ZN3povL16Parse_Num_FactorEPdPi_while.cond.674.outer'2
+1828 167660 0 167660 pov::Unget_Token()
+1830 26748 88518 115266 pov::Parse_End()
+1832 7840 62941841 62949681 pov::Parse_Directive(int)
+1833 68973 10386754 10455727 pov::Parse_Directive(int)'2
+1834 89571 62849134 62938705 _ZN3pov15Parse_DirectiveEi_while.cond
+1835 136950 10219804 10356754 _ZN3pov15Parse_DirectiveEi_while.cond'2
+1836 1040 220772 221812 pov::Open_Include()
+1838 425 91628 92053 pov::Parse_C_String(bool)
+1840 935 75667 76602 pov::Parse_String(bool)
+1842 43175 284347 327522 pov::Parse_String_Literal()
+1844 2838 48265 51103 pov::Begin_String()
+1846 42168 0 42168 pov::Stuff_Character(int)
+1848 2064 45810 47874 pov::End_String()
+1850 1751 30745 32496 pov::String_To_UCS2(char*, bool)
+1852 6970 0 6970 _ZN3pov14String_To_UCS2EPcb_for.cond
+1854 7966 0 7966 _ZN3pov14String_To_UCS2EPcb_for.cond.48
+1856 6385 6228 12613 pov::UCS2_To_String(unsigned short*, bool)
+1858 3100 0 3100 pov::UCS2_strlen(unsigned short*)
+1860 1255 0 1255 pov_base::ITextStream::name()
+1862 3672 0 3672 pov::Inc_CS_Index()
+1864 1247 144067 145314 pov::Parse_Ifdef_Param()
+1866 1621 33280 34901 _ZN3pov17Parse_Ifdef_ParamEv_for.cond
+1868 78533 45105130 45183663 pov::Parse_Declare(bool, bool)
+1870 124915 3097522 3222437 _ZN3pov13Parse_DeclareEbb_while.cond.outer
+1872 108721 1154440 1263161 _ZN3povL11Read_SymbolEv_for.cond
+1874 218644 38411889 38630533 pov::Parse_RValue(int, int*, void**, pov::Sym_Table_Entry*, bool, bool, bool, bool, int)
+1876 4884 587835 592719 pov::Parse_Unknown_Vector(double*, bool, bool*)
+1878 8844 0 8844 _ZN3pov20Parse_Unknown_VectorEPdbPb_for.cond
+1880 3770 2900 6670 pov::Parse_Semi_Colon(bool)
+1882 14781 1950 16731 pov::Test_Redefine(int, int*, void*, bool)
+1884 1302 25680 26982 pov::Create_Float()
+1886 3570 13972085 13975655 pov::Skip_Tokens(pov::cond_type)
+1887 4212 8227078 8231290 pov::Skip_Tokens(pov::cond_type)'2
+1888 101526 13870559 13972085 _ZN3povL11Skip_TokensENS_9cond_typeE_while.cond
+1889 97572 8129506 8227078 _ZN3povL11Skip_TokensENS_9cond_typeE_while.cond'2
+1890 428213 1018267 1446480 pov::Parse_C_Comments()
+1892 7632 10792601 10800233 pov::Parse_Object()
+1893 37970 14101214 14139184 pov::Parse_Object()'2
+1894 928 861616 862544 pov::Parse_Sphere()
+1896 6000 152363 158363 pov::Parse_Object_Id()
+1898 37744 191452 229196 pov::Create_Sphere()
+1900 28370 0 28370 pov::Make_BBox(pov::Bounding_Box_Struct&, float, float, float, float, float, float)
+1902 17150 3745396 3762546 pov::Parse_Vector(double*)
+1904 32830 0 32830 _ZN3pov12Parse_VectorEPd_for.cond
+1906 32392 173616 206008 pov::Parse_Comma()
+1908 24500 0 24500 _ZN3pov12Parse_VectorEPd_for.cond.6
+1910 9970 145270 155240 pov::Compute_Sphere_BBox(pov::Sphere_Struct*)
+1912 8080 4055946 4064026 pov::Parse_Object_Mods(pov::Object_Struct*)
+1914 55001 3994701 4049702 _ZN3pov17Parse_Object_ModsEPNS_13Object_StructE_while.cond
+1916 583 382003 382586 pov::Parse_Quadric()
+1918 15984 66368 82352 pov::Create_Quadric()
+1920 13877 2007 15884 pov::Compute_Quadric_BBox(pov::Quadric_Struct*, double*, double*)
+1922 624 0 624 pov::VSubEq(double*, double const*)
+1924 6543 0 6543 pov::BOUNDS_VOLUME(double&, pov::Bounding_Box_Struct const&)
+1926 1820 0 1820 pov::VAddEq(double*, double const*)
+1928 11704 0 11704 pov::Make_BBox_from_min_max(pov::Bounding_Box_Struct&, double*, double*)
+1930 129 62936 63065 pov::Parse_Cone()
+1932 10384 174303 184687 pov::Create_Cone()
+1934 84 45 129 _ZN3povL10Parse_ConeEv_while.cond
+1936 273 23575 23848 pov::Compute_Cone_Data(pov::Object_Struct*)
+1938 78375752 0 78375752 pov::VSub(double*, double const*, double const*)
+1940 2378278 0 2378278 pov::VInverseScaleEq(double*, double)
+1942 5941008 0 5941008 pov::VScale(double*, double const*, double)
+1944 476 42174 42650 pov::Compute_Coordinate_Transform(pov::Transform_Struct*, double*, double*, double, double)
+1946 3690 109224 112914 pov::Compute_Scaling_Transform(pov::Transform_Struct*, double*)
+1952 101472 1721669 1823141 acos
+1956 531894 13590 545484 __ieee754_acos_sse2
+1958 900 18521 19421 pov::Compute_Axis_Rotation_Transform(pov::Transform_Struct*, double*, double)
+1964 9283 13842 23125 __cos_avx
+1966 1764 12078 13842 csloww
+1968 57260 0 57260 pov::MTranspose(double (*) [4], double (*) [4])
+1970 18802 433552 452354 pov::Compose_Transforms(pov::Transform_Struct*, pov::Transform_Struct*)
+1972 252448 0 252448 pov::MTimesA(double (*) [4], double (*) [4])
+1974 252448 0 252448 pov::MTimesB(double (*) [4], double (*) [4])
+1976 3393 77256 80649 pov::Compute_Translation_Transform(pov::Transform_Struct*, double*)
+1978 1500 87786 89286 pov::Compute_Cone_BBox(pov::Cone_Struct*)
+1980 27883 692135 720018 pov::Recompute_BBox(pov::Bounding_Box_Struct*, pov::Transform_Struct*)
+1982 8260 0 8260 pov::Assign_BBox_Vect(double (&) [3], float*)
+1984 322087 346920 669007 _ZN3pov14Recompute_BBoxEPNS_19Bounding_Box_StructEPNS_16Transform_StructE_for.cond
+1986 1943605 0 1943605 pov::MTransPoint(double*, double*, pov::Transform_Struct*)
+1988 2538 563179 565717 pov::Parse_Plane()
+1990 43288 221652 264940 pov::Create_Plane()
+1992 6936 2890 9826 pov::Compute_Plane_BBox(pov::Plane_Struct*)
+1994 61338115 0 61338115 pov::Sqr(double)
+1996 135 363901 364036 pov::Parse_Box()
+1998 304 6289 6593 pov::Create_Box()
+2000 93 78 171 pov::Compute_Box_BBox(pov::Box_Struct*)
+2002 30 0 30 pov::Assign_BBox_Vect(float (&) [3], double*)
+2004 48 0 48 pov::VSub(float*, double const*, double const*)
+2006 205 115073 115278 pov::Parse_Cylinder()
+2008 465 7552 8017 pov::Create_Cylinder()
+2010 140 75 215 _ZN3povL14Parse_CylinderEv_while.cond
+2012 195 33940 34135 pov::Compute_Cylinder_Data(pov::Object_Struct*)
+2014 15393 0 15393 _ZN3povL11Read_SymbolEv_while.cond
+2016 106488 2399106 2505594 pov::Destroy_Table(int)
+2018 279 44494 44773 pov::Parse_Float_Param()
+2020 46998 10612105 10659103 pov::Parse_Express(double*, int*)
+2021 882 342637 343519 pov::Parse_Express(double*, int*)'2
+2022 55950 10519488 10575438 pov::Parse_Logical(double*, int*)
+2023 1050 341020 342070 pov::Parse_Logical(double*, int*)'2
+2024 78460 10424243 10502703 pov::Parse_Rel_Term(double*, int*)
+2025 1522 339183 340705 pov::Parse_Rel_Term(double*, int*)'2
+2026 17592 5398 22990 pov::Promote_Express(double*, int*, int)
+2032 7157 42521 49678 exp
+2036 42521 0 42521 __ieee754_exp_avx
+2038 200 2500 2700 pov::Create_Vector()
+2040 113430 86364 199794 __mpn_mul
+2042 192336 0 192336 __mpn_mul_1
+2044 8778 1791828 1800606 pov::Parse_DeclareFunction(int*, char*, bool)
+2046 9500 234285 243785 pov::FNCode::FNCode(pov::FunctionCode*, bool, char*)
+2048 148125 0 148125 _ZN3pov6FNCodeC2EPNS_12FunctionCodeEbPc_for.cond
+2050 1599 113895 115494 pov::FNCode::Parameter()
+2052 1326 22373 23699 pov::FNSyntax_GetTrapExpression(unsigned int)
+2054 9940 77557 87497 pov::new_expr_node(int, int)
+2056 10329 208468 218797 pov::FNCode::Compile(pov::ExprNodeStruct*)
+2058 30268 0 30268 pov::FNCode::compile_instruction(unsigned int, unsigned int, unsigned int, unsigned int)
+2060 2875 96964 99839 pov::FNSyntax_DeleteExpression(pov::ExprNodeStruct*)
+2061 7619 232667 240286 pov::FNSyntax_DeleteExpression(pov::ExprNodeStruct*)'2
+2062 7250 71997 79247 _ZN3pov25FNSyntax_DeleteExpressionEPNS_14ExprNodeStructE_for.cond
+2063 17272 190402 207674 _ZN3pov25FNSyntax_DeleteExpressionEPNS_14ExprNodeStructE_for.cond'2
+2064 5985 109827 115812 pov::POVFPU_AddFunction(pov::FunctionCode*)
+2066 253 371447 371700 pov::FNSyntax_ParseExpression()
+2068 18855 342489 361344 pov::parse_expr()
+2069 47009 314610 361619 pov::parse_expr()'2
+2070 15996 172424 188420 pov::expr_get_token()
+2072 2923 41949 44872 pov::expr_put(pov::ExprNodeStruct*&, int, int)
+2074 1662 13014 14676 pov::expr_grow(pov::ExprNodeStruct*&, int, int)
+2076 236 0 236 _ZN3pov9expr_growERPNS_14ExprNodeStructEii_while.cond
+2078 416 0 416 _ZN3pov9expr_growERPNS_14ExprNodeStructEii_for.cond
+2080 1221 260995 262216 pov::expr_call(pov::ExprNodeStruct*&, int, int)
+2081 690 83204 83894 pov::expr_call(pov::ExprNodeStruct*&, int, int)'2
+2082 230 0 230 pov::POVFPU_GetFunctionAndReference(unsigned int)
+2084 495 0 495 _ZN3pov9expr_callERPNS_14ExprNodeStructEii_while.cond
+2086 1330 475 1805 pov::expr_ret(pov::ExprNodeStruct*&, int, int)
+2088 768 116423 117191 _ZN3pov9expr_callERPNS_14ExprNodeStructEii_while.cond.22
+2089 24 3316 3340 _ZN3pov9expr_callERPNS_14ExprNodeStructEii_while.cond.22'2
+2090 145 0 145 _ZN3pov9expr_growERPNS_14ExprNodeStructEii_while.cond.18
+2092 644 9459 10103 pov::optimise_expr(pov::ExprNodeStruct*)
+2093 4506 25664 30170 pov::optimise_expr(pov::ExprNodeStruct*)'2
+2094 1587 0 1587 pov::optimise_call(pov::ExprNodeStruct*)
+2096 1274 3489 4763 _ZN3pov13optimise_exprEPNS_14ExprNodeStructE_for.cond.80
+2097 304 180 484 _ZN3pov13optimise_exprEPNS_14ExprNodeStructE_for.cond.80'2
+2098 341 1306 1647 pov::left_subtree_has_variable_expr(pov::ExprNodeStruct*)
+2100 297 1009 1306 _ZN3pov30left_subtree_has_variable_exprEPNS_14ExprNodeStructE_for.cond
+2102 384 625 1009 pov::right_subtree_has_variable_expr(pov::ExprNodeStruct*)
+2103 244 316 560 pov::right_subtree_has_variable_expr(pov::ExprNodeStruct*)'2
+2104 237 388 625 _ZN3pov31right_subtree_has_variable_exprEPNS_14ExprNodeStructE_for.cond
+2105 144 172 316 _ZN3pov31right_subtree_has_variable_exprEPNS_14ExprNodeStructE_for.cond'2
+2106 1631 27754 29385 pov::FNCode::compile_parameters()
+2108 6422 8836 15258 _ZN3pov6FNCode18compile_parametersEv_for.cond
+2110 506 50844 51350 pov::FNCode::compile_recursive(pov::ExprNodeStruct*)
+2111 3244 121893 125137 pov::FNCode::compile_recursive(pov::ExprNodeStruct*)'2
+2112 1081 49763 50844 _ZN3pov6FNCode17compile_recursiveEPNS_14ExprNodeStructE_for.cond
+2113 7429 110507 117936 _ZN3pov6FNCode17compile_recursiveEPNS_14ExprNodeStructE_for.cond'2
+2114 1548 799 2347 pov::FNCode::compile_push_result()
+2116 2975 33666 36641 pov::FNCode::compile_call(pov::ExprNodeStruct*, unsigned int, int, char*)
+2117 1665 8933 10598 pov::FNCode::compile_call(pov::ExprNodeStruct*, unsigned int, int, char*)'2
+2118 803 8497 9300 pov::FNCode::compile_float_function_call(pov::ExprNodeStruct*, unsigned int, char*)
+2120 485 2830 3315 _ZN3pov6FNCode27compile_float_function_callEPNS_14ExprNodeStructEjPc_for.cond
+2122 2734 7329 10063 pov::FNCode::compile_variable(char*)
+2124 722 799 1521 pov::FNCode::compile_pop_result(unsigned int)
+2126 1295 0 1295 pov::FNCode::compile_instruction(unsigned int, unsigned int, unsigned int, unsigned int, unsigned int)
+2128 9645 248816 258461 pov::POVFPU_RemoveFunction(unsigned int)
+2129 224 1169 1393 pov::POVFPU_RemoveFunction(unsigned int)'2
+2130 6600 1405666 1412266 pov::Parse_Macro()
+2132 1980 0 1980 pov::Check_Macro_Vers()
+2134 5610 414500 420110 _ZN3povL11Parse_MacroEv_while.cond.outer
+2136 3630 37074 40704 _ZN3povL11Parse_MacroEv_while.cond.6.outer
+2138 28056 809703 837759 _ZN3povL11Parse_MacroEv_while.cond.17.outer
+2140 345 62645 62990 pov::Parse_PatternFunction(pov::Pattern_Struct*)
+2142 2889 49484 52373 _ZN3pov21Parse_PatternFunctionEPNS_14Pattern_StructE_while.cond
+2144 4004 31723 35727 pov::Check_Turb(pov::Warps_Struct**)
+2146 23654 467316 490970 pov::Create_Warp(int)
+2148 4807 5465 10272 _ZN3pov21Parse_PatternFunctionEPNS_14Pattern_StructE_while.cond.241
+2150 22543 16981 39524 pov::Post_Pigment(pov::Pigment_Struct*)
+2151 275 352 627 pov::Post_Pigment(pov::Pigment_Struct*)'2
+2152 4052 0 4052 _ZN3pov12Post_PigmentEPNS_14Pigment_StructE_for.cond.77
+2154 543214 1474438 2017652 pov::VNormalizeEq(double*)
+2156 8119 11206728 11214847 pov::Parse_Pigment(pov::Pigment_Struct**)
+2157 253 158693 158946 pov::Parse_Pigment(pov::Pigment_Struct**)'2
+2158 10612 976023 986635 _ZN3pov13Parse_PigmentEPPNS_14Pigment_StructE_while.cond
+2160 24016 10271730 10295746 pov::Parse_Pattern(pov::Pattern_Struct*, int)
+2161 737 141982 142719 pov::Parse_Pattern(pov::Pattern_Struct*, int)'2
+2162 45761 867948 913709 _ZN3povL13Parse_PatternEPNS_14Pattern_StructEi_while.cond
+2164 17780 128641 146421 pov::Destroy_Blend_Map(pov::Blend_Map_Struct*)
+2165 268 2028 2296 pov::Destroy_Blend_Map(pov::Blend_Map_Struct*)'2
+2166 81 20147 20228 pov::Parse_Blend_List(int, pov::Blend_Map_Struct*, int)
+2168 41 1478 1519 _ZN3pov16Parse_Blend_ListEiPNS_16Blend_Map_StructEi_while.cond
+2170 1254 143265 144519 pov::Create_BMap_Entries(int)
+2172 3196 140069 143265 pov::pov_calloc(unsigned long, unsigned long, char const*, int, char const*)
+2178 102250 0 102250 __GI_memset
+2180 206 16493 16699 _ZN3pov16Parse_Blend_ListEiPNS_16Blend_Map_StructEi_while.cond.4.outer
+2182 36750 12803287 12840037 pov::Parse_Colour(float*)
+2184 70350 0 70350 _ZN3pov12Parse_ColourEPf_for.cond
+2186 261080 12101909 12362989 _ZN3pov12Parse_ColourEPf_while.cond
+2188 5398 0 5398 _ZN3povL15Promote_ExpressEPdPii_for.cond
+2190 14 0 14 _ZN3pov16Parse_Blend_ListEiPNS_16Blend_Map_StructEi_while.cond.124
+2192 1938 38723 40661 pov::Create_Blend_Map()
+2194 128867 9268284 9397151 _ZN3povL13Parse_PatternEPNS_14Pattern_StructEi_while.cond.638
+2195 3521 75886 79407 _ZN3povL13Parse_PatternEPNS_14Pattern_StructEi_while.cond.638'2
+2196 14 0 14 _ZN3pov9expr_growERPNS_14ExprNodeStructEii_while.cond.32
+2198 56 136 192 POVMS_Message::POVMS_Message(POVMSData*)
+2200 96 40 136 POVMS_Object::POVMS_Object(POVMSData*)
+2202 88 16 104 POVMS_MessageReceiver::MemberHandlerOO<pov_frontend::RenderFrontend>::Call(POVMS_Message&, POVMS_Message&, int)
+2204 8 0 8 pov_frontend::RenderFrontend::RenderStarted(POVMS_Message&, POVMS_Message&, int)
+2206 18 82701 82719 POVMS_Object::operator()()
+2208 88 82613 82701 POVMS_Object::POVMS_Object(POVMS_Object&)
+2214 36 3048 3084 __cxa_allocate_exception
+2228 44 47953 47997 __cxa_throw
+2234 41 8535 8576 __cxa_get_globals
+2240 42 4818 4860 __cxa_get_globals_fast
+2246 112 1631 1743 pthread_once
+2248 6 1582 1588 __cxxabiv1::(anonymous namespace)::construct_()
+2254 19 0 19 pthread_key_create
+2260 97 0 97 pthread_getspecific
+2266 73 57 130 calloc
+2272 34 0 34 pthread_setspecific
+2278 8 0 8 std::get_unexpected()
+2284 8 0 8 std::get_terminate()
+2286 380 37047 37427 _Unwind_RaiseException
+2288 186 7691 7877 uw_init_context_1
+2290 3684 21959 25643 uw_frame_state_for
+2292 578 12555 13133 _Unwind_Find_FDE
+2298 1610 16480 18090 dl_iterate_phdr
+2300 4420 4652 9072 _Unwind_IteratePhdrCallback
+2302 364 0 364 base_from_cb_data.isra.4
+2304 1680 0 1680 read_encoded_value_with_base
+2306 642 2008 2650 get_cie_encoding
+2312 616 0 616 read_sleb128
+2314 168 0 168 size_of_encoded_value
+2316 7668 0 7668 execute_cfa_program
+2318 18 0 18 init_dwarf_reg_size_table
+2320 3760 0 3760 uw_update_context_1
+2322 232 2936 3168 uw_update_context
+2328 384 5282 5666 __gxx_personality_v0
+2330 2150 2894 5044 scan_eh_tab
+2332 16 0 16 _Unwind_GetLanguageSpecificData
+2334 16 0 16 _Unwind_GetIP
+2336 16 0 16 _Unwind_GetRegionStart
+2338 2760 0 2760 readEncodedPointer
+2340 34 0 34 readSLEB128
+2342 46 64 110 get_shim_type_info
+2344 6 0 6 __cxxabiv1::__fundamental_type_info::can_catch(__cxxabiv1::__shim_type_info const*, void*&) const
+2346 128 8444 8572 _Unwind_RaiseException_Phase2
+2348 80 136 216 set_registers.isra.0
+2350 128 0 128 _Unwind_SetGR
+2352 8 0 8 _Unwind_SetIP
+2354 588 1448 2036 uw_install_context_1
+2360 4 0 4 _Unwind_DebugHook
+2366 158 28250 28408 _Unwind_Resume
+2368 190 12687 12877 0x000000000000f6b0
+2386 2168 18064 20232 0x000000000000ece0
+2412 484 12210 12694 _Unwind_Find_FDE
+2426 3030 3256 6286 0x00000000000112e0
+2476 208 0 208 0x0000000000011270
+2490 980 0 980 0x00000000000102b0
+2540 380 1732 2112 0x00000000000103e0
+2554 176 0 176 0x0000000000010050
+2576 96 0 96 0x0000000000010240
+2606 176 0 176 0x000000000000d190
+2640 4226 0 4226 0x000000000000d530
+2718 18 0 18 0x000000000000d1e0
+2728 2232 0 2232 0x000000000000e880
+2776 222 13227 13449 0x000000000000f8c0
+2870 12 0 12 _Unwind_GetCFA
+2886 116 1408 1524 0x000000000000ec50
+2910 564 1356 1920 0x000000000000d260
+2958 4 0 4 0x000000000000fb90
+2964 54 82 136 __cxa_begin_catch
+2970 52 3088 3140 __cxa_end_catch
+2976 24 2214 2238 __cxa_decrement_exception_refcount
+2982 4 1534 1538 __cxa_free_exception
+2984 32 1496 1528 __cxxabiv1::do_free(void*)
+2990 286 151038 151324 pov_frontend::MessageOutput::RenderStarted(POVMSData*, POVMSData*, int)
+2992 213 2872 3085 _ZN12pov_frontend13MessageOutput13RenderStartedEP9POVMSDataS2_i_for.cond
+2994 208 4809 5017 pov_frontend::DefaultRenderFrontend::DefaultStreamBuffer::~DefaultStreamBuffer()
+2995 267 3086 3353 pov_frontend::DefaultRenderFrontend::DefaultStreamBuffer::~DefaultStreamBuffer()'2
+2996 374 2227 2601 pov_base::TextStreamBuffer::~TextStreamBuffer()
+2998 255 1972 2227 POVMSUtil_TempFree(void*)
+3000 114 2953 3067 pov_base::New_OStream(char const*, unsigned int, bool)
+3002 44 446 490 pov_base::DefaultPlatformBase::CreateOStream(unsigned int)
+3004 36 22 58 pov_base::OStream::OStream(unsigned int)
+3006 10 0 10 pov_base::Pointer<pov_base::OStream>::Pointer(pov_base::OStream*)
+3008 18 0 18 pov_base::Pointer<pov_base::OStream>::operator==(void*)
+3010 10 0 10 pov_base::Pointer<pov_base::OStream>::operator->() const
+3012 12 0 12 pov_base::Pointer<pov_base::OStream>::release()
+3014 24 0 24 pov_base::Pointer<pov_base::OStream>::~Pointer()
+3016 25560 299113 324673 pov_base::OStream::operator<<(char const*)
+3018 38344 215423 253767 pov_base::IOBase::write(void*, unsigned long)
+3024 80585 133629 214214 fwrite
+3026 17277 229762 247039 pov_base::OStream::flush()
+3028 19939 209823 229762 pov_base::IOBase::flush()
+3034 54653 154113 208766 fflush
+3036 30609 123504 154113 _IO_file_sync@@GLIBC_2.2.5
+3038 276 9292 9568 pov_frontend::MessageOutput::GetOptionSwitchString(POVMSData*, unsigned int, bool)
+3040 466 274501 274967 pov_frontend::MessageOutput::RenderOptions(POVMSData*, POVMSData*, int)
+3042 1186680 1481149 2667829 __printf_fp
+3044 10213 0 10213 isnan
+3046 18967 0 18967 isinf
+3048 30639 0 30639 __mpn_extract_double
+3050 384286 485335 869621 hack_digit.13574
+3052 19 0 19 _ZN12pov_frontend13MessageOutput13RenderOptionsEP9POVMSDataS2_i_for.cond
+3054 6128 0 6128 _itoa_word
+3056 45917 0 45917 __mpn_rshift
+3058 57845 324435 382280 pov::Check_User_Abort(int)
+3060 795 55563 56358 pov::Send_ProgressUpdate(int, int)
+3062 1682 59680 61362 _ZN3pov6FNCode9ParameterEv_for.cond
+3064 828 0 828 _ZN3pov6FNCode16compile_variableEPc_for.cond
+3066 2022 1518 3540 _ZN3pov6FNCode16compile_variableEPc_for.cond.45
+3068 212 1560 1772 _ZN3pov6FNCode12compile_callEPNS_14ExprNodeStructEjiPc_for.cond.115
+3070 212 2376 2588 _ZN3pov6FNCode12compile_callEPNS_14ExprNodeStructEjiPc_for.cond
+3072 602 8794 9396 pov::FNCode::compile_select(pov::ExprNodeStruct*)
+3074 100 39874 39974 pov::expr_new(pov::ExprNodeStruct*&, int, int)
+3075 50 14160 14210 pov::expr_new(pov::ExprNodeStruct*&, int, int)'2
+3076 60 0 60 pov::expr_noop(pov::ExprNodeStruct*&, int, int)
+3078 164502 961704 1126206 POVMSStream_WriteLong(long long, unsigned char*, int*)
+3080 183483 961704 1145187 POVMSStream_ReadLong(long long*, unsigned char*, int*)
+3082 297 8354 8651 pov_frontend::MessageOutput::Progress(POVMSData*, POVMSData*, int)
+3084 195683 3131736 3327419 POVMSUtil_GetLong(POVMSData*, unsigned int, long long*)
+3086 3696 47783 51479 pov::Create_Colour()
+3088 406 0 406 pov::Assign_Colour_Express(float*, double*)
+3090 16261 271042 287303 pov::Copy_Finish(pov::Finish_Struct*)
+3092 3582 1924895 1928477 pov::Parse_Finish(pov::Finish_Struct**)
+3094 7518 535223 542741 _ZN3pov12Parse_FinishEPPNS_13Finish_StructE_while.cond
+3096 37399 1252849 1290248 _ZN3pov12Parse_FinishEPPNS_13Finish_StructE_while.cond.2
+3098 600 0 600 pov::Assign_RGB(float*, float*)
+3100 50504 2342861 2393365 pov::Destroy_Entry(int, pov::Sym_Table_Entry*)
+3102 69416 1918650 1988066 pov::Destroy_Ident_Data(void*, int)
+3104 1302 13457 14759 pov::Destroy_Float(double*)
+3106 99864 13620180 13720044 pov::Parse_Colour_Map()
+3112 7 0 7 bcmp
+3114 2452 0 2452 __memcmp_sse4_1
+3116 22108 649309 671417 pov::Copy_Pigment(pov::Pigment_Struct*)
+3117 9856 0 9856 pov::Copy_Pigment(pov::Pigment_Struct*)'2
+3118 75120 410669 485789 pov::Copy_TPat_Fields(pov::Pattern_Struct*, pov::Pattern_Struct*)
+3120 23711 307177 330888 pov::Copy_Warps(pov::Warps_Struct*)
+3121 6352 27145 33497 pov::Copy_Warps(pov::Warps_Struct*)'2
+3122 12759 0 12759 pov::Copy_Blend_Map(pov::Blend_Map_Struct*)
+3124 15318 9873767 9889085 pov::Parse_Texture()
+3125 96 260225 260321 pov::Parse_Texture()'2
+3126 15864 1149501 1165365 _ZN3pov13Parse_TextureEv_while.cond.outer
+3128 141864 950493 1092357 pov::Copy_Textures(pov::Texture_Struct*)
+3130 7654 433 8087 pov::Copy_Tnormal(pov::Tnormal_Struct*)
+3132 19581 82328 101909 _ZN3pov13Parse_TextureEv_while.cond.6.outer
+3134 45193 8531660 8576853 _ZN3pov13Parse_TextureEv_while.cond.28
+3136 2990 1141311 1144301 pov::Parse_Scale_Vector(double*)
+3138 1376 214084 215460 pov::Scale_Tpattern(pov::Pattern_Struct*, double*)
+3140 7449 265613 273062 pov::Transform_Tpattern(pov::Pattern_Struct*, pov::Transform_Struct*)
+3142 12416 7130 19546 pov::Link_Textures(pov::Texture_Struct**, pov::Texture_Struct*)
+3144 7130 0 7130 _ZN3pov13Link_TexturesEPPNS_14Texture_StructES1__for.cond
+3146 1088 0 1088 _ZN3povL10Check_TurbEPPNS_12Warps_StructE_while.cond
+3148 15256 373737 388993 pov::Destroy_Pigment(pov::Pigment_Struct*)
+3149 7601 6259 13860 pov::Destroy_Pigment(pov::Pigment_Struct*)'2
+3150 60029 221157 281186 pov::Destroy_TPat_Fields(pov::Pattern_Struct*)
+3151 705 5073 5778 pov::Destroy_TPat_Fields(pov::Pattern_Struct*)'2
+3152 23730 86817 110547 pov::Destroy_Warps(pov::Warps_Struct*)
+3154 320 27220 27540 pov::Translate_Tpattern(pov::Pattern_Struct*, double*)
+3156 384 84091 84475 pov::Rotate_Tpattern(pov::Pattern_Struct*, double*)
+3158 4900 157189 162089 pov::Compute_Rotation_Transform(pov::Transform_Struct*, double*)
+3160 2800 0 2800 pov::MTranspose(double (*) [4])
+3162 120 70286 70406 pov::Parse_Tnormal(pov::Tnormal_Struct**)
+3164 140 8968 9108 _ZN3pov13Parse_TnormalEPPNS_14Tnormal_StructE_while.cond
+3166 144 1650 1794 pov::Create_Tnormal()
+3168 380 13499 13879 pov::Allow_Float(double)
+3170 144 41685 41829 pov::Parse_Cond_Param()
+3172 356 72894 73250 pov::Parse_Interior(pov::Interior_Struct**)
+3174 532 51453 51985 _ZN3pov14Parse_InteriorEPPNS_15Interior_StructE_while.cond
+3176 735 5807 6542 pov::Create_Interior()
+3178 1264 11523 12787 _ZN3pov14Parse_InteriorEPPNS_15Interior_StructE_while.cond.3
+3180 80 0 80 pov::Init_Interior(pov::Interior_Struct*)
+3182 210 3826 4036 pov::Create_Material()
+3184 238 197218 197456 pov::Parse_Material(pov::Material_Struct*)
+3186 392 22326 22718 _ZN3pov14Parse_MaterialEPNS_15Material_StructE_while.cond
+3188 2380 165624 168004 _ZN3pov14Parse_MaterialEPNS_15Material_StructE_while.cond.9
+3190 3790738 0 3790738 pov::Assign_Colour(float*, float*)
+3192 29569 3243 32812 pov::Destroy_Interior(pov::Interior_Struct*)
+3194 33320 4921 38241 pov::Copy_Interior(pov::Interior_Struct*)
+3196 196 0 196 pov::Copy_Media(pov::Media_Struct*)
+3198 21858 118830 140688 pov::Transform_Textures(pov::Texture_Struct*, pov::Transform_Struct*)
+3200 161 861605 861766 pov::Parse_Skysphere()
+3202 280 29022 29302 _ZN3pov15Parse_SkysphereEv_while.cond
+3204 147 10037 10184 pov::Create_Skysphere()
+3206 808 828247 829055 _ZN3pov15Parse_SkysphereEv_while.cond.3.outer
+3208 1409 252224 253633 pov::Parse_Blend_Map(int, int)
+3210 931 7293489 7294420 pov::Parse_CSG(int)
+3211 1495 2475969 2477464 pov::Parse_CSG(int)'2
+3212 1175 6929 8104 pov::Create_CSG_Union()
+3214 4291 7194977 7199268 _ZN3povL9Parse_CSGEi_while.cond
+3215 5215 2213141 2218356 _ZN3povL9Parse_CSGEi_while.cond'2
+3216 2548 0 2548 pov::Link(pov::Object_Struct*, pov::Object_Struct**)
+3218 4225 34223 38448 pov::Compute_CSG_BBox(pov::Object_Struct*)
+3220 9065 2415 11480 _ZN3pov16Compute_CSG_BBoxEPNS_13Object_StructE_for.cond.91
+3222 2875 0 2875 pov::Make_min_max_from_BBox(double (&) [3], double (&) [3], pov::Bounding_Box_Struct)
+3224 60 1159 1219 pov::Destroy_Camera(pov::Camera_Struct*)
+3226 357 316656 317013 pov::Parse_Camera(pov::Camera_Struct**)
+3228 38 2020 2058 _ZN3povL12Parse_CameraEPPNS_13Camera_StructE_while.cond.outer
+3230 71 15 86 _ZN3povL12Parse_CameraEPPNS_13Camera_StructE_while.cond.56
+3232 698 312412 313110 _ZN3povL12Parse_CameraEPPNS_13Camera_StructE_while.cond.93.outer
+3234 766 311481 312247 pov::Parse_Camera_Mods(pov::Camera_Struct*)
+3236 62 71508 71570 pov::Debug_Info(char const*, ...)
+3238 14 0 14 pov::DebugTextStreamBuffer::directoutput(char const*, unsigned int)
+3240 92 23017 23109 pov::DebugTextStreamBuffer::lineoutput(char const*, unsigned int)
+3242 68 19093 19161 pov_frontend::MessageOutput::DebugInfo(POVMSData*, POVMSData*, int)
+3244 135 50 185 pov::VCross(double*, double const*, double const*)
+3246 301037893 0 301037893 pov::VDot(double&, double const*, double const*)
+3248 36 362 398 pov::Transform_Camera(pov::Camera_Struct*, pov::Transform_Struct*)
+3250 3649 0 3649 pov::MTransDirection(double*, double*, pov::Transform_Struct*)
+3252 58 17013 17071 pov::Parse_Light_Source()
+3254 195 426 621 pov::Create_Light_Source()
+3256 164 15 179 _ZN3povL18Parse_Light_SourceEv_while.cond
+3258 894 349606 350500 pov::Post_Process(pov::Object_Struct*, pov::Object_Struct*)
+3259 174306 1195010 1369316 pov::Post_Process(pov::Object_Struct*, pov::Object_Struct*)'2
+3260 8656 74367 83023 pov::Post_Textures(pov::Texture_Struct*)
+3261 26 582 608 pov::Post_Textures(pov::Texture_Struct*)'2
+3262 106 346485 346591 _ZN3pov12Post_ProcessEPNS_13Object_StructES1__for.cond.346
+3263 9105 1022831 1031936 _ZN3pov12Post_ProcessEPNS_13Object_StructES1__for.cond.346'2
+3264 12643 35326 47969 pov::Test_Opacity(pov::Texture_Struct*)
+3266 270 54143 54413 pov::Link_To_Frame(pov::Object_Struct*)
+3267 10386 128650 139036 pov::Link_To_Frame(pov::Object_Struct*)'2
+3268 736 4392 5128 pov::Create_CSG_Intersection()
+3270 5889 5318 11207 _ZN3pov16Compute_CSG_BBoxEPNS_13Object_StructE_for.cond
+3272 2677 330 3007 pov::Compute_Plane_Min_Max(pov::Plane_Struct*, double*, double*)
+3274 1200 7141 8341 _ZN3pov16Compute_CSG_BBoxEPNS_13Object_StructE_for.cond.42
+3276 1258 99662 100920 pov::Scale_Object(pov::Object_Struct*, double*, pov::Transform_Struct*)
+3278 231 0 231 _ZN3pov12Scale_ObjectEPNS_13Object_StructEPdPNS_16Transform_StructE_for.cond
+3280 8327 0 8327 pov::Transform_Interior(pov::Interior_Struct*, pov::Transform_Struct*)
+3282 270 30589 30859 pov::Scale_Sphere(pov::Object_Struct*, double*, pov::Transform_Struct*)
+3284 1476 180928 182404 pov::Transform_Sphere(pov::Object_Struct*, pov::Transform_Struct*)
+3286 3308 1653761 1657069 pov::Translate_Object(pov::Object_Struct*, double*, pov::Transform_Struct*)
+3287 35442 2818903 2854345 pov::Translate_Object(pov::Object_Struct*, double*, pov::Transform_Struct*)'2
+3288 7205 0 7205 _ZN3pov16Translate_ObjectEPNS_13Object_StructEPdPNS_16Transform_StructE_for.cond
+3290 3414 160386 163800 pov::Translate_Sphere(pov::Object_Struct*, double*, pov::Transform_Struct*)
+3292 5328 4567693 4573021 pov::Copy_Object(pov::Object_Struct*)
+3293 164088 13503543 13667631 pov::Copy_Object(pov::Object_Struct*)'2
+3294 4009 91045 95054 pov::Copy_Quadric(pov::Object_Struct*)
+3296 51766 0 51766 pov::Copy_Bound_Clip(pov::Object_Struct*)
+3298 585 192972 193557 pov::Translate_Quadric(pov::Object_Struct*, double*, pov::Transform_Struct*)
+3300 2870 240611 243481 pov::Transform_Quadric(pov::Object_Struct*, pov::Transform_Struct*)
+3302 2624 26896 29520 pov::Quadric_To_Matrix(pov::Quadric_Struct*, double (*) [4])
+3304 26896 0 26896 pov::MZero(double (*) [4])
+3306 2460 0 2460 pov::Matrix_To_Quadric(double (*) [4], pov::Quadric_Struct*)
+3308 108 35612 35720 pov::Scale_Quadric(pov::Object_Struct*, double*, pov::Transform_Struct*)
+3310 2280 4489283 4491563 pov::Copy_CSG(pov::Object_Struct*)
+3311 22990 9442747 9465737 pov::Copy_CSG(pov::Object_Struct*)'2
+3312 7500 4464151 4471651 _ZN3povL8Copy_CSGEPNS_13Object_StructE_for.cond
+3313 59450 9203480 9262930 _ZN3povL8Copy_CSGEPNS_13Object_StructE_for.cond'2
+3314 2760 355137 357897 pov::Copy_Cone(pov::Object_Struct*)
+3316 17256 302365 319621 pov::Copy_Plane(pov::Object_Struct*)
+3318 15408 519698 535106 pov::Copy_Sphere(pov::Object_Struct*)
+3320 65 681 746 pov::Invert_Object(pov::Object_Struct*)
+3321 156 108 264 pov::Invert_Object(pov::Object_Struct*)'2
+3322 132 144 276 pov::Invert_Quadric(pov::Object_Struct*)
+3324 1380 182893 184273 pov::Rotate_Object(pov::Object_Struct*, double*, pov::Transform_Struct*)
+3325 3440 212342 215782 pov::Rotate_Object(pov::Object_Struct*, double*, pov::Transform_Struct*)'2
+3326 891 0 891 _ZN3pov13Rotate_ObjectEPNS_13Object_StructEPdPNS_16Transform_StructE_for.cond
+3328 874 4674 5548 pov::Rotate_Plane(pov::Object_Struct*, double*, pov::Transform_Struct*)
+3330 5319 9259 14578 pov::Translate_Plane(pov::Object_Struct*, double*, pov::Transform_Struct*)
+3332 2561 0 2561 pov::VEvaluate(double*, double const*, double const*)
+3334 2420 1489991 1492411 pov::Translate_CSG(pov::Object_Struct*, double*, pov::Transform_Struct*)
+3335 8408 1681484 1689892 pov::Translate_CSG(pov::Object_Struct*, double*, pov::Transform_Struct*)'2
+3336 444 142178 142622 pov::Rotate_CSG(pov::Object_Struct*, double*, pov::Transform_Struct*)
+3337 592 103377 103969 pov::Rotate_CSG(pov::Object_Struct*, double*, pov::Transform_Struct*)'2
+3338 424 11107 11531 pov::Rotate_Sphere(pov::Object_Struct*, double*, pov::Transform_Struct*)
+3340 141 264 405 pov::Invert_CSG_Union(pov::Object_Struct*)
+3342 108 0 108 pov::Invert_Sphere(pov::Object_Struct*)
+3344 18 4424 4442 pov::Rotate_Cone(pov::Object_Struct*, double*, pov::Transform_Struct*)
+3346 408 74608 75016 pov::Transform_Cone(pov::Object_Struct*, pov::Transform_Struct*)
+3348 45 14897 14942 pov::Rotate_Quadric(pov::Object_Struct*, double*, pov::Transform_Struct*)
+3350 78 7414 7492 pov::Copy_Skysphere(pov::Skysphere_Struct*)
+3352 64 1045 1109 _ZN3pov14Copy_SkysphereEPNS_16Skysphere_StructE_for.cond
+3354 288 70592 70880 pov::Translate_Cone(pov::Object_Struct*, double*, pov::Transform_Struct*)
+3356 58 289807 289865 _ZN3pov13Parse_TextureEv_while.cond.61.outer
+3358 60840 581296 642136 pov::Destroy_Textures(pov::Texture_Struct*)
+3359 38 2909 2947 pov::Destroy_Textures(pov::Texture_Struct*)'2
+3360 30714 550582 581296 _ZN3pov16Destroy_TexturesEPNS_14Texture_StructE_while.cond
+3361 114 2795 2909 _ZN3pov16Destroy_TexturesEPNS_14Texture_StructE_while.cond'2
+3362 58 272986 273044 pov::Parse_Tiles()
+3364 69 177821 177890 _ZN3povL11Parse_TilesEv_while.cond.outer
+3366 49 93631 93680 _ZN3povL11Parse_TilesEv_while.cond.30.outer
+3368 91 15888 15979 pov::Parse_Texture_Transform(pov::Texture_Struct*)
+3370 13083 0 13083 pov::Copy_Texture_Pointer(pov::Texture_Struct*)
+3372 7932 0 7932 pov::Copy_Interior_Pointer(pov::Interior_Struct*)
+3374 6620 0 6620 pov::Post_Media(pov::Media_Struct*)
+3376 34909 39458 74367 _ZN3pov13Post_TexturesEPNS_14Texture_StructE_for.cond
+3377 102 480 582 _ZN3pov13Post_TexturesEPNS_14Texture_StructE_for.cond'2
+3378 6890 0 6890 pov::Post_Tnormal(pov::Tnormal_Struct*)
+3380 35326 0 35326 _ZN3pov12Test_OpacityEPNS_14Texture_StructE_for.cond
+3382 2025 0 2025 _ZN3pov13Link_To_FrameEPNS_13Object_StructE_for.cond
+3384 117 53007 53124 _ZN3pov13Link_To_FrameEPNS_13Object_StructE_for.cond.90
+3385 4608 86029 90637 _ZN3pov13Link_To_FrameEPNS_13Object_StructE_for.cond.90'2
+3386 12495 1566551 1579046 pov::Destroy_Object(pov::Object_Struct*)
+3387 110208 3615145 3725353 pov::Destroy_Object(pov::Object_Struct*)'2
+3388 2805 1401959 1404764 pov::Destroy_CSG(pov::Object_Struct*)
+3389 7785 2501304 2509089 pov::Destroy_CSG(pov::Object_Struct*)'2
+3390 24 5531 5555 pov::Copy_Box(pov::Object_Struct*)
+3392 86 627 713 _ZN3pov12Post_PigmentEPNS_14Pigment_StructE_for.cond
+3394 56 2417909 2417965 pov::Terminate_Tokenizer()
+3396 24 2416807 2416831 _ZN3pov19Terminate_TokenizerEv_while.cond
+3398 2352 24360 26712 pov::Destroy_Colour(float (*) [5])
+3400 2125 276393 278518 pov::Destroy_Function(unsigned int*)
+3402 13731 1393 15124 _ZN3pov21POVFPU_RemoveFunctionEj_for.cond
+3403 50 0 50 _ZN3pov21POVFPU_RemoveFunctionEj_for.cond'2
+3404 6466 83164 89630 pov::FNCode_Delete(pov::FunctionCode*)
+3406 11833 7540 19373 _ZN3pov13FNCode_DeleteEPNS_12FunctionCodeE_for.cond
+3408 1625 0 1625 _ZN3pov13FNCode_DeleteEPNS_12FunctionCodeE_for.cond.29
+3410 4723 0 4723 _ZN3pov21POVFPU_RemoveFunctionEj_for.cond.28
+3412 3630 106501 110131 pov::Destroy_Macro(pov::Pov_Macro_Struct*)
+3414 7628 48136 55764 _ZN3pov13Destroy_MacroEPNS_16Pov_Macro_StructE_for.cond
+3416 1845 47382 49227 pov::Destroy_Cone(pov::Object_Struct*)
+3418 11595 150213 161808 pov::Destroy_Plane(pov::Object_Struct*)
+3420 10110 178292 188402 pov::Destroy_Sphere(pov::Object_Struct*)
+3422 1554 43162 44716 pov::Destroy_Quadric(pov::Object_Struct*)
+3424 322 15963 16285 pov::Destroy_Material(pov::Material_Struct*)
+3426 220 0 220 pov::Destroy_Media(pov::Media_Struct*)
+3428 12691 9437 22128 _ZN3pov17Destroy_Blend_MapEPNS_16Blend_Map_StructE_for.cond
+3429 422 0 422 _ZN3pov17Destroy_Blend_MapEPNS_16Blend_Map_StructE_for.cond'2
+3430 140 1450 1590 pov::Destroy_Vector(double (*) [3])
+3432 189 17855 18044 pov::Destroy_Skysphere(pov::Skysphere_Struct*)
+3434 234 14289 14523 _ZN3pov17Destroy_SkysphereEPNS_16Skysphere_StructE_for.cond
+3436 60 774 834 pov::Destroy_Box(pov::Object_Struct*)
+3438 22 0 22 _ZN3pov19Terminate_TokenizerEv_while.cond.4
+3440 25 0 25 _ZN3pov19Terminate_TokenizerEv_for.cond
+3442 18 0 18 pov::Destroy_Random_Generators()
+3444 146 58422 58568 pov::Warning(unsigned int, char const*, ...)
+3450 17 661 678 sprintf
+3452 1145 0 1145 pov::CleanupString(char*)
+3454 20 24808 24828 pov_frontend::MessageOutput::Warning(POVMSData*, POVMSData*, int)
+3456 45 24491 24536 pov_frontend::MessageOutput::FileMessage(int, POVMSData*)
+3458 4 0 4 pov::Initialize_Atmosphere_Code()
+3460 7 23586 23593 pov::Initialize_BBox_Code()
+3462 35 30490 30525 pov::Initialize_Lighting_Code()
+3464 140 30020 30160 pov::InitMallocPools()
+3466 437 6888 7325 _ZN3povL15InitMallocPoolsEv_for.cond
+3468 1235 18334 19569 _ZN3povL15InitMallocPoolsEv_for.cond.67
+3470 7 0 7 pov::InitComTexDataPool()
+3472 29 1397 1426 pov::Initialize_VLBuffer_Code()
+3474 25 152347 152372 pov::Initialize_Radiosity_Code()
+3476 30410 121600 152010 _ZN3pov25Initialize_Radiosity_CodeEv_for.cond
+3478 38400 83200 121600 pov::VUnpack(double*, pov::byte_xyz const*) [clone .1714]
+3480 84 2441492 2441576 pov::Build_Bounding_Slabs(pov::BBox_Tree_Struct**)
+3482 6021 0 6021 _ZN3pov20Build_Bounding_SlabsEPPNS_16BBox_Tree_StructE_while.cond
+3484 2482 65679 68161 _ZN3pov20Build_Bounding_SlabsEPPNS_16BBox_Tree_StructE_for.cond
+3486 10452 89745 100197 pov::create_bbox_node(int)
+3488 132 3368 3500 _ZN3pov20Build_Bounding_SlabsEPPNS_16BBox_Tree_StructE_for.cond.30
+3490 10641 0 10641 _ZN3pov20Build_Bounding_SlabsEPPNS_16BBox_Tree_StructE_for.cond.38
+3492 92 2352218 2352310 pov::Build_BBox_Tree(pov::BBox_Tree_Struct**, long, pov::BBox_Tree_Struct**&, long, pov::BBox_Tree_Struct**)
+3494 61 2349485 2349546 _ZN3pov15Build_BBox_TreeEPPNS_16BBox_Tree_StructElRS2_lS2__while.cond
+3496 402 2348519 2348921 pov::sort_and_split(pov::BBox_Tree_Struct**, pov::BBox_Tree_Struct**&, long*, long, long)
+3497 15928 6355837 6371765 pov::sort_and_split(pov::BBox_Tree_Struct**, pov::BBox_Tree_Struct**&, long*, long, long)'2
+3498 101834 1666 103500 pov::find_axis(pov::BBox_Tree_Struct**, long, long)
+3500 2142 1687943 1690085 pov::spec_qsort(void*, int, int, int (*)(void*, void*))
+3502 7930 1680013 1687943 pov::spec_sort(char*, unsigned long, int, int, int (*)(void*, void*))
+3503 118622 7357851 7476473 pov::spec_sort(char*, unsigned long, int, int, int (*)(void*, void*))'2
+3504 334700 894677 1229377 _ZN3povL9spec_sortEPcmiiPFiPvS1_E_while.cond.outer
+3506 289509 0 289509 pov::compboxes(void*, void*)
+3508 937182 0 937182 pov::spec_swap(void*, void*, unsigned long)
+3510 269776 46024 315800 pov::build_area_table(pov::BBox_Tree_Struct**, long, long, double*)
+3512 65537 0 65537 _ZN3povL14sort_and_splitEPPNS_16BBox_Tree_StructERS2_Plll_for.cond
+3514 5104 0 5104 _ZN3povL14sort_and_splitEPPNS_16BBox_Tree_StructERS2_Plll_for.cond.31
+3516 18644 2268 20912 pov::calc_bbox(pov::Bounding_Box_Struct*, pov::BBox_Tree_Struct**, long, long)
+3518 30 374 404 pov::pov_memmove(void*, void*, unsigned long)
+3520 278 96 374 _ZN3pov11pov_memmoveEPvS0_m_while.cond
+3522 184 0 184 _ZN3pov15Build_BBox_TreeEPPNS_16BBox_Tree_StructElRS2_lS2__for.cond
+3524 36 0 36 pov::Build_Vista_Buffer()
+3526 31 610673 610704 pov::Build_Light_Buffers()
+3528 286 605535 605821 _ZN3pov19Build_Light_BuffersEv_for.cond
+3530 492 592078 592570 pov::project_bounding_slab(int, double*, pov::Project_Struct*, pov::Project_Tree_Node_Struct**, pov::BBox_Tree_Struct*, int, pov::Project_Struct*)
+3531 25886 1574681 1600567 pov::project_bounding_slab(int, double*, pov::Project_Struct*, pov::Project_Tree_Node_Struct**, pov::BBox_Tree_Struct*, int, pov::Project_Struct*)'2
+3532 32382 0 32382 pov::bbox_invisible(int, pov::Bounding_Box_Struct*, double*)
+3534 2758 586264 589022 _ZN3povL21project_bounding_slabEiPdPNS_14Project_StructEPPNS_24Project_Tree_Node_StructEPNS_16BBox_Tree_StructEiS2__for.cond
+3535 25310 1014303 1039613 _ZN3povL21project_bounding_slabEiPdPNS_14Project_StructEPPNS_24Project_Tree_Node_StructEPNS_16BBox_Tree_StructEiS2__for.cond'2
+3536 12590 362330 374920 pov::project_object(pov::Project_Struct*, pov::Object_Struct*, int, double*, int, pov::Project_Struct*)
+3538 10640 158080 168720 pov::calc_points(int, pov::Object_Struct*, int*, double (*) [3], double*)
+3540 87020 0 87020 _ZN3povL11calc_pointsEiPNS_13Object_StructEPiPA3_dPd_for.cond
+3542 71060 0 71060 _ZN3povL11calc_pointsEiPNS_13Object_StructEPiPA3_dPd_for.cond.80
+3544 31730 161880 193610 pov::project_bbox(pov::Project_Struct*, double (*) [3], int*)
+3546 161880 0 161880 _ZN3povL12project_bboxEPNS_14Project_StructEPA3_dPi_for.cond
+3548 33 0 33 pov::variable_store(int)
+3550 48 13976 14024 pov::Send_ParseStatistics()
+3552 38 1449 1487 pov::BuildParseStatistics(POVMSData*)
+3554 28 4576 4604 pov::open_output_file()
+3556 51 4525 4576 pov::Open_Image(int, char*, int, int, int, int)
+3558 240 4167 4407 pov::Targa_Image::Targa_Image(char*, int, int, int, int)
+3560 8 0 8 pov::Image_File_Class::Image_File_Class()
+3562 9 1499 1508 pov::New_Checked_OStream(char*, unsigned int, bool)
+3564 187954 294697 482651 pov_base::OStream::Write_Byte(unsigned char)
+3570 293203 192 293395 fputc
+3572 7 185 192 __overflow
+3574 7 0 7 pov::Image_File_Class::Valid()
+3576 236 411237 411473 pov::Initialize_Renderer()
+3578 1642 918 2560 _ZN3pov19Initialize_RendererEv_for.cond
+3580 1140 400553 401693 pov::chdtri(double, double)
+3582 2152 398401 400553 pov::igami(double, double)
+3584 3310 25589 28899 pov::ndtri(double)
+3590 3720 109357 113077 log
+3594 109357 0 109357 __ieee754_log_avx
+3596 24196 0 24196 pov::polevl(double, double const*, int)
+3598 15820 0 15820 pov::p1evl(double, double const*, int)
+3600 15667 81925 97592 pov::lgam(double)
+3602 14366 340100 354466 _ZN3povL5igamiEdd_for.cond
+3604 7350 275794 283144 pov::igamc(double, double)
+3606 12810 262984 275794 pov::igam(double, double)
+3608 123282 0 123282 _ZN3povL4igamEdd_do.body
+3610 752 392303 393055 _ZN3pov19Initialize_RendererEv_for.cond.52
+3612 13520 0 13520 _ZN3povL4lgamEd_while.cond
+3614 4022 0 4022 _ZN3povL4lgamEd_while.cond.26
+3616 979 0 979 _ZN3pov19Initialize_RendererEv_for.cond.92
+3618 63 5071659079 5071659142 pov::Start_Non_Adaptive_Tracing()
+3620 97064 5071420311 5071517375 _ZN3pov26Start_Non_Adaptive_TracingEv_for.cond
+3622 2907 23846532 23849439 pov::Send_RenderStatistics(bool)
+3624 25143 8566937 8592080 pov::BuildRenderStatistics(POVMSData*, long long*)
+3626 10404 1272448 1282852 pov::AddStatistic(POVMSData*, unsigned int, long long*)
+3628 54213 6985628 7039841 _ZN3pov21BuildRenderStatisticsEP9POVMSDataPx_for.cond
+3630 192780 6792848 6985628 pov::AddOIStatistic(POVMSData*, int, long long*)
+3632 255 0 255 pov::mem_stats_smallest_alloc()
+3634 765 0 765 pov::Long_To_Counter(long, long long&)
+3636 255 0 255 pov::mem_stats_largest_alloc()
+3638 255 0 255 pov::mem_stats_largest_mem_usage()
+3640 75 60318 60393 pov_frontend::MessageOutput::ParseStatistics(POVMSData*, POVMSData*, int)
+3642 19438 52922976 52942414 pov_frontend::MessageOutput::RenderStatistics(POVMSData*, POVMSData*, int)
+3644 105903 23813712 23919615 _ZN12pov_frontend13MessageOutput16RenderStatisticsEP9POVMSDataS2_i_for.cond
+3646 39894 0 39894 __mpn_cmp
+3648 379395 0 379395 __mpn_divrem
+3650 500 0 500 pov::Prune_Vista_Tree(int)
+3652 100000 4972268801 4972368801 pov::trace_pixel(int, int, float*, float*)
+3654 175002 4972041299 4972216301 pov::focal_blur(pov::Ray_Struct*, float*, double, double)
+3656 5158768 4966732531 4971891299 _ZN3povL10focal_blurEPNS_10Ray_StructEPfdd_do.body
+3658 3701808 123086747 126788555 pov::create_ray(pov::Ray_Struct*, double, double, int)
+3660 552840 0 552840 pov::Initialize_Ray_Containers(pov::Ray_Struct*, unsigned int)
+3662 959728 0 959728 pov::VLinComb3(double*, double, double const*, double, double const*, double, double const*)
+3664 3084840 7405136 10489976 pov::jitter_camera_ray(pov::Ray_Struct*, int)
+3666 445588 0 445588 pov::VAdd(double*, double const*, double const*)
+3668 856911 108415088 109271999 pov::initialize_ray_container_state(pov::Ray_Struct*, int)
+3670 1953732 106152860 108106592 pov::initialize_ray_container_state_tree(pov::Ray_Struct*, pov::BBox_Tree_Struct*)
+3671 30540004 155064624 185604628 pov::initialize_ray_container_state_tree(pov::Ray_Struct*, pov::BBox_Tree_Struct*)'2
+3672 5724092 100428768 106152860 _ZN3povL35initialize_ray_container_state_treeEPNS_10Ray_StructEPNS_16BBox_Tree_StructE_for.cond
+3673 6306784 85175860 91482644 _ZN3povL35initialize_ray_container_state_treeEPNS_10Ray_StructEPNS_16BBox_Tree_StructE_for.cond'2
+3674 5933046 61114856 67047902 pov::Inside_CSG_Intersection(double*, pov::Object_Struct*)
+3676 14182598 46932258 61114856 _ZN3povL23Inside_CSG_IntersectionEPdPNS_13Object_StructE_for.cond
+3678 141519096 291074160 432593256 pov::Inside_Object(double*, pov::Object_Struct*)
+3679 3347649 7739458 11087107 pov::Inside_Object(double*, pov::Object_Struct*)'2
+3680 75116090 0 75116090 _ZN3pov13Inside_ObjectEPdPNS_13Object_StructE_for.cond
+3682 45205560 0 45205560 pov::Inside_Quadric(double*, pov::Object_Struct*)
+3684 96229225 50039197 146268422 pov::Inside_Plane(double*, pov::Object_Struct*)
+3686 308484 0 308484 _ZN3pov30initialize_ray_container_stateEPNS_10Ray_StructEi_for.cond.13
+3688 12 0 12 _ZN3pov30initialize_ray_container_stateEPNS_10Ray_StructEi_for.cond.25
+3690 3530429 4828691223 4832221652 pov::Trace(pov::Ray_Struct*, float*, double)
+3691 3485677 3017026290 3020511967 pov::Trace(pov::Ray_Struct*, float*, double)'2
+3692 4051745 2820241974 2824293719 pov::Intersect_BBox_Tree(pov::BBox_Tree_Struct*, pov::Ray_Struct*, pov::istk_entry*, pov::Object_Struct**, bool)
+3694 10697790 1150300 11848090 pov::Create_Rayinfo(pov::Ray_Struct*, pov::Rayinfo_Struct*)
+3696 234465137 193956058 428421195 pov::Check_And_Enqueue(pov::Priority_Queue_Struct*, pov::BBox_Tree_Struct*, pov::Bounding_Box_Struct*, pov::Rayinfo_Struct*)
+3698 80504731 98144777 178649508 pov::priority_queue_insert(pov::Priority_Queue_Struct*, double, pov::BBox_Tree_Struct*)
+3700 86334650 0 86334650 _ZN3povL21priority_queue_insertEPNS_21Priority_Queue_StructEdPNS_16BBox_Tree_StructE_while.cond
+3702 115402595 2691041175 2806443770 _ZN3pov19Intersect_BBox_TreeEPNS_16BBox_Tree_StructEPNS_10Ray_StructEPNS_10istk_entryEPPNS_13Object_StructEb_while.cond.outer
+3704 70383867 127205543 197589410 pov::Priority_Queue_Delete(pov::Priority_Queue_Struct*, double*, pov::BBox_Tree_Struct**)
+3706 127205543 0 127205543 _ZN3pov21Priority_Queue_DeleteEPNS_21Priority_Queue_StructEPdPPNS_16BBox_Tree_StructE_while.cond
+3708 47905905 3309501415 3357407320 pov::Intersection(pov::istk_entry*, pov::Object_Struct*, pov::Ray_Struct*)
+3710 233746320 175309740 409056060 pov::Ray_In_Bound(pov::Ray_Struct*, pov::Object_Struct*)
+3712 175309740 0 175309740 _ZN3pov12Ray_In_BoundEPNS_10Ray_StructEPNS_13Object_StructE_for.cond
+3714 32130109 49572 32179681 pov::open_istack()
+3716 3744 45828 49572 pov::create_istack()
+3718 38621275 3203176039 3241797314 pov::All_CSG_Intersect_Intersections(pov::Object_Struct*, pov::Ray_Struct*, pov::istack_struct*)
+3719 15735041 1152780108 1168515149 pov::All_CSG_Intersect_Intersections(pov::Object_Struct*, pov::Ray_Struct*, pov::istack_struct*)'2
+3720 351035580 2823432769 3174468349 _ZN3povL31All_CSG_Intersect_IntersectionsEPNS_13Object_StructEPNS_10Ray_StructEPNS_13istack_structE_for.cond
+3721 172515236 968677715 1141192951 _ZN3povL31All_CSG_Intersect_IntersectionsEPNS_13Object_StructEPNS_10Ray_StructEPNS_13istack_structE_for.cond'2
+3722 22190198 129365974 151556172 pov::All_Quadric_Intersections(pov::Object_Struct*, pov::Ray_Struct*, pov::istack_struct*)
+3724 87706468 10020228 97726696 pov::Intersect_Quadric(pov::Ray_Struct*, pov::Quadric_Struct*, double*, double*)
+3726 117411354 738259051 855670405 pov::All_Plane_Intersections(pov::Object_Struct*, pov::Ray_Struct*, pov::istack_struct*)
+3728 220137778 138602016 358739794 pov::Intersect_Plane(pov::Ray_Struct*, pov::Plane_Struct*, double*)
+3730 47113074 0 47113074 pov::VEvaluateRay(double*, double const*, double, double const*)
+3732 55095520 38566864 93662384 pov::Point_In_Clip(double*, pov::Object_Struct*)
+3734 38566864 0 38566864 _ZN3pov13Point_In_ClipEPdPNS_13Object_StructE_for.cond
+3736 90734035 197022476 287756511 pov::push_entry(double, double*, pov::Object_Struct*, pov::istack_struct*)
+3738 119019132 0 119019132 pov::itop(pov::istack_struct*)
+3740 20739208 0 20739208 pov::Assign_UV_Vect(double*, double*)
+3742 35812088 0 35812088 pov::incstack(pov::istack_struct*)
+3744 76947244 0 76947244 pov::pop_entry(pov::istack_struct*)
+3746 20446433 0 20446433 pov::close_istack(pov::istack_struct*)
+3748 142411339 643557170 785968509 pov::All_Sphere_Intersections(pov::Object_Struct*, pov::Ray_Struct*, pov::istack_struct*)
+3750 323207573 289228881 612436454 pov::Intersect_Sphere(pov::Ray_Struct*, double*, double, double*, double*)
+3752 6100111 16233979 22334090 _ZN3pov12IntersectionEPNS_10istk_entryEPNS_13Object_StructEPNS_10Ray_StructE_while.cond.outer
+3754 4367809 3309810130 3314177939 pov::Determine_Apparent_Colour(pov::istk_entry*, float*, pov::Ray_Struct*, double)
+3755 2339022 1508580684 1510919706 pov::Determine_Apparent_Colour(pov::istk_entry*, float*, pov::Ray_Struct*, double)'2
+3756 1052200 0 1052200 _ZN3pov25Determine_Apparent_ColourEPNS_10istk_entryEPfPNS_10Ray_StructEd_for.cond
+3758 268974 158220 427194 pov::Plane_Normal(double*, pov::Object_Struct*, pov::istk_entry*)
+3760 3063071 0 3063071 pov::create_texture_list(pov::istk_entry*, double)
+3762 3221944 3300040192 3303262136 _ZN3pov25Determine_Apparent_ColourEPNS_10istk_entryEPfPNS_10Ray_StructEd_for.cond.56
+3763 1723396 1502671522 1504394918 _ZN3pov25Determine_Apparent_ColourEPNS_10istk_entryEPfPNS_10Ray_StructEd_for.cond.56'2
+3764 2393536 3297646656 3300040192 pov::do_texture_map(float*, pov::Texture_Struct*, double*, double*, pov::Ray_Struct*, double, pov::istk_entry*, int)
+3765 1894336 2754451289 2756345625 pov::do_texture_map(float*, pov::Texture_Struct*, double*, double*, pov::Ray_Struct*, double, pov::istk_entry*, int)'2
+3766 7609272 3283011464 3290620736 pov::compute_lighted_texture(float*, pov::Texture_Struct*, double*, double*, pov::Ray_Struct*, double, pov::istk_entry*)
+3767 4070148 1495574142 1499644290 pov::compute_lighted_texture(float*, pov::Texture_Struct*, double*, double*, pov::Ray_Struct*, double, pov::istk_entry*)'2
+3768 2079707 131283 2210990 pov::NewComTexData()
+3770 27785998 1709943299 1737729297 _ZN3povL23compute_lighted_textureEPfPNS_14Texture_StructEPdS3_PNS_10Ray_StructEdPNS_10istk_entryE_for.cond
+3772 5959921 273500715 279460636 pov::Compute_Pigment(float*, pov::Pigment_Struct*, double*, pov::istk_entry*)
+3773 3331258 167019097 170350355 pov::Compute_Pigment(float*, pov::Pigment_Struct*, double*, pov::istk_entry*)'2
+3774 6133584 1157280 7290864 pov::determine_reflectivity(double*, float*, float*, float*, int, double, double, pov::Ray_Struct*, pov::Interior_Struct*)
+3776 1157280 0 1157280 pov::CRGBLinComb2(float*, float, float const*, float, float const*)
+3778 2740166 0 2740166 pov::VAddEq(float*, float const*)
+3780 3851168 1591949444 1595800612 pov::Diffuse(pov::Finish_Struct*, double*, pov::Ray_Struct*, double*, float*, float*, double, pov::Object_Struct*)
+3782 3240384 1588709060 1591949444 _ZN3povL7DiffuseEPNS_13Finish_StructEPdPNS_10Ray_StructES2_PfS5_dPNS_13Object_StructE_for.cond
+3784 8465948 1580243112 1588709060 pov::Diffuse_One_Light(pov::Light_Source_Struct*, int, double*, pov::Finish_Struct*, double*, pov::Ray_Struct*, double*, float*, float*, double, pov::Object_Struct*)
+3786 3761160 9200376 12961536 pov::do_light(pov::Light_Source_Struct*, double*, pov::Ray_Struct*, pov::Ray_Struct*, double*, float*)
+3788 2198832 0 2198832 pov::Attenuate_Light(pov::Light_Source_Struct*, pov::Ray_Struct*, double)
+3790 694368 0 694368 pov::VScaleEq(float*, float)
+3792 1615918 1045594 2661512 pov::Copy_Ray_Containers(pov::Ray_Struct*, pov::Ray_Struct*)
+3794 1045594 0 1045594 _ZN3pov19Copy_Ray_ContainersEPNS_10Ray_StructES1__for.cond
+3796 2788576 1523803023 1526591599 pov::block_light_source(pov::Light_Source_Struct*, double, pov::Ray_Struct*, pov::Ray_Struct*, double*, float*)
+3798 7570451 1508530971 1516101422 pov::block_point_light_LBuffer(pov::Light_Source_Struct*, double*, pov::Ray_Struct*, float*)
+3800 3124088 1420889269 1424013357 _ZN3povL25block_point_light_LBufferEPNS_19Light_Source_StructEPdPNS_10Ray_StructEPf_while.cond.123
+3802 3794480 1416667712 1420462192 pov::Intersect_Light_Tree(pov::Ray_Struct*, pov::Project_Tree_Node_Struct*, int, int, pov::istk_entry*, pov::Object_Struct**, pov::Light_Source_Struct*)
+3804 81608399 97916920 179525319 _ZN3pov20Intersect_Light_TreeEPNS_10Ray_StructEPNS_24Project_Tree_Node_StructEiiPNS_10istk_entryEPPNS_13Object_StructEPNS_19Light_Source_StructE_while.cond
+3806 9141924 0 9141924 pov::Reinitialize_VLBuffer_Code()
+3808 12257677 1219350472 1231608149 _ZN3pov20Intersect_Light_TreeEPNS_10Ray_StructEPNS_24Project_Tree_Node_StructEiiPNS_10istk_entryEPPNS_13Object_StructEPNS_19Light_Source_StructE_while.cond.51.outer
+3810 3636358 5950843 9587201 pov::do_diffuse(pov::Finish_Struct*, pov::Ray_Struct*, double*, float*, float*, float*, double)
+3812 2488152 520776 3008928 pov::PhotonDiffuse(pov::Finish_Struct*, double*, pov::Ray_Struct*, double*, double*, float*, float*, double, pov::Object_Struct*)
+3814 3783260 2044187504 2047970764 _ZN3povL23compute_lighted_textureEPfPNS_14Texture_StructEPdS3_PNS_10Ray_StructEdPNS_10istk_entryE_for.cond.740
+3815 2048166 985473203 987521369 _ZN3povL23compute_lighted_textureEPfPNS_14Texture_StructEPdS3_PNS_10Ray_StructEdPNS_10istk_entryE_for.cond.740'2
+3816 1732716 0 1732716 pov::FreeComTexData(pov::ComTexData_Struct*)
+3818 2111970 5139127 7251097 pov::Do_Finite_Atmosphere(pov::Ray_Struct*, pov::istk_entry*, float*, int)
+3820 1548778 0 1548778 pov::do_rainbow(pov::Ray_Struct*, pov::istk_entry*, float*)
+3822 2675162 0 2675162 pov::Simulate_Media(pov::Media_Struct**, pov::Ray_Struct*, pov::istk_entry*, float*, int)
+3824 915187 0 915187 pov::do_fog(pov::Ray_Struct*, pov::istk_entry*, float*, int)
+3826 651244 0 651244 pov::Add_Colour(float*, float*, float*)
+3828 685520 0 685520 pov::Sqr(float)
+3830 60000 0 60000 pov::Scale_Colour(float*, float*, double)
+3832 45000 72500 117500 pov::plot_pixel(int, int, float*)
+3834 37500 35000 72500 pov::Compensate_For_Alpha_AA(float*, float*)
+3836 1096 6987680 6988776 pov::output_prev_image_line_and_advance(int)
+3838 1850 7127534 7129384 pov::output_single_image_line_with_alpha_correction(float (*) [5], int)
+3840 102800 3157615 3260415 _ZN3pov46output_single_image_line_with_alpha_correctionEPA5_fi_for.cond.15
+3842 140250 3017365 3157615 pov::extract_colors(float*, unsigned char*, unsigned char*, unsigned char*, unsigned char*, double*)
+3844 382270 0 382270 pov::Clip_Colour(float*, float*)
+3846 229504 5421895 5651399 pov::gamma_correct(float*)
+3852 1530651 30896956 32427607 pow
+3856 2543552 11932788 14476340 __ieee754_pow_sse2
+3858 5665003 0 5665003 __exp1
+3860 67000 3016304 3083304 pov::prepare_output_line(float (*) [5])
+3862 2800 781015 783815 pov::Targa_Image::Write_Line(float (*) [5])
+3864 80650 691115 771765 _ZN3pov11Targa_Image10Write_LineEPA5_f_for.cond
+3866 177504 513611 691115 pov::Targa_Image::Write_Pixel(double, double, double, double)
+3872 109308 0 109308 __floor_sse41
+3874 17500 0 17500 pov_base::IOBase::operator!() const
+3876 9300584 6693861 15994445 pov::Inside_Sphere(double*, pov::Object_Struct*)
+3878 2335511 12360329 14695840 pov::push_copy(pov::istack_struct*, pov::istk_entry*)
+3880 201546 302319 503865 pov::Sphere_Normal(double*, pov::Object_Struct*, pov::istk_entry*)
+3882 3684989 25930303 29615292 pov::do_specular(pov::Finish_Struct*, pov::Ray_Struct*, double*, double*, float*, float*, float*)
+3884 634201 0 634201 pov::VHalf(double*, double const*, double const*)
+3886 520395 0 520395 pov::CRGBAddScaledEq(float*, float, float const*)
+3888 1918130 2042269374 2044187504 pov::Reflect(double*, pov::Ray_Struct*, double*, double*, float*, double)
+3889 1168640 984304563 985473203 pov::Reflect(double*, pov::Ray_Struct*, double*, double*, float*, double)'2
+3890 669420 0 669420 pov::VAddScaled(double*, double const*, double, double const*)
+3892 480303 186946341 187426644 pov::Do_Infinite_Atmosphere(pov::Ray_Struct*, float*)
+3894 1565432 185131863 186697295 pov::do_skysphere(pov::Ray_Struct*, float*)
+3896 15564768 0 15564768 pov::MInvTransPoint(double*, double*, pov::Transform_Struct*)
+3898 1351964 181734164 183086128 _ZN3povL12do_skysphereEPNS_10Ray_StructEPf_for.cond
+3900 2637950 137376281 140014231 pov::Warp_EPoint(double*, double*, pov::Pattern_Struct*)
+3902 9176739 118597404 127774143 _ZN3pov11Warp_EPointEPdS0_PNS_14Pattern_StructE_while.cond
+3904 8546958 0 8546958 _ZN3pov11Warp_EPointEPdS0_PNS_14Pattern_StructE_for.cond
+3906 5190794 124213145 129403939 pov::Evaluate_TPat(pov::Pattern_Struct*, double*, pov::istk_entry*)
+3908 444725 231257 675982 pov::gradient_pattern(double*, pov::Pattern_Struct*)
+3914 772650 2040441 2813091 fmod
+3916 2040441 0 2040441 __fmod_finite
+3918 3702993 3284714 6987707 pov::Search_Blend_Map(double, pov::Blend_Map_Struct*, pov::Blend_Map_Entry**, pov::Blend_Map_Entry**)
+3920 3284714 0 3284714 _ZN3pov16Search_Blend_MapEdPNS_16Blend_Map_StructEPPNS_15Blend_Map_EntryES4__while.cond
+3922 12113368 118326924 130440292 pov::DTurbulence(double*, double*, pov::Turb_Struct*)
+3924 80761665 1667645 82429310 pov::Noise(double*, pov::Pattern_Struct*)
+3926 1294416 74788480 76082896 pov::wrinkles_pattern(double*, pov::Pattern_Struct*)
+3928 10642976 57925116 68568092 _ZN3povL16wrinkles_patternEPdPNS_14Pattern_StructE_for.cond
+3930 1185968 9403297 10589265 pov::Inside_CSG_Union(double*, pov::Object_Struct*)
+3932 2266344 7136953 9403297 _ZN3povL16Inside_CSG_UnionEPdPNS_13Object_StructE_for.cond
+3934 2213112 45672066 47885178 pov::All_CSG_Union_Intersections(pov::Object_Struct*, pov::Ray_Struct*, pov::istack_struct*)
+3936 6995639 37956064 44951703 _ZN3povL27All_CSG_Union_IntersectionsEPNS_13Object_StructEPNS_10Ray_StructEPNS_13istack_structE_for.cond
+3938 379644 282872 662516 pov::Quadric_Normal(double*, pov::Object_Struct*, pov::istk_entry*)
+3940 622863 1551051 2173914 pov::Inside_Ellipsoid(double*, pov::Object_Struct*)
+3942 3341620 20677652 24019272 pov::All_Ellipsoid_Intersections(pov::Object_Struct*, pov::Ray_Struct*, pov::istack_struct*)
+3944 4905720 0 4905720 pov::MInvTransDirection(double*, double*, pov::Transform_Struct*)
+3946 228725 16167590 16396315 pov::granite_pattern(double*, pov::Pattern_Struct*)
+3948 2051990 14037180 16089170 _ZN3povL15granite_patternEPdPNS_14Pattern_StructE_for.cond
+3950 160308 89060 249368 pov::filter_shadow_ray(pov::istk_entry*, pov::Ray_Struct*, float*)
+3952 142182 456527 598709 _ZN3povL25block_point_light_LBufferEPNS_19Light_Source_StructEPdPNS_10Ray_StructEPf_while.cond
+3954 121118 290648 411766 pov::do_blocking(pov::istk_entry*, pov::Ray_Struct*, float*, pov::istack_struct*)
+3956 39487 85282 124769 _ZN3povL11do_blockingEPNS_10istk_entryEPNS_10Ray_StructEPfPNS_13istack_structE_while.cond
+3958 973152 5925014 6898166 pov::All_Box_Intersections(pov::Object_Struct*, pov::Ray_Struct*, pov::istack_struct*)
+3960 2346326 209280 2555606 pov::Intersect_Box(pov::Ray_Struct*, pov::Transform_Struct*, double*, double*, double*, double*, int*, int*)
+3962 849728 1699456 2549184 pov::push_entry_i1(double, double*, pov::Object_Struct*, int, pov::istack_struct*)
+3964 303456 73248 376704 pov::Box_Normal(double*, pov::Object_Struct*, pov::istk_entry*)
+3966 449758 62784 512542 pov::checker_pattern(double*)
+3968 165619 1576236 1741855 pov::Ellipsoid_Normal(double*, pov::Object_Struct*, pov::istk_entry*)
+3970 875862 0 875862 pov::MTransNormal(double*, double*, pov::Transform_Struct*)
+3972 192640 4730575 4923215 pov::All_Cone_Intersections(pov::Object_Struct*, pov::Ray_Struct*, pov::istack_struct*)
+3974 1894278 1962537 3856815 pov::intersect_cone(pov::Ray_Struct*, pov::Cone_Struct*, pov::Cone_Intersection_Structure*)
+3976 247904 625856 873760 _ZN3povL22All_Cone_IntersectionsEPNS_13Object_StructEPNS_10Ray_StructEPNS_13istack_structE_for.cond
+3978 109488 519049 628537 pov::Cone_Normal(double*, pov::Object_Struct*, pov::istk_entry*)
+3980 241684 20667935 20909619 pov::wood_pattern(double*, pov::Pattern_Struct*)
+3982 120842 99826 220668 pov::Search_For_Turb(pov::Warps_Struct*)
+3984 99826 0 99826 _ZN3povL15Search_For_TurbEPNS_12Warps_StructE_while.cond
+3986 347708 1416335 1764043 pov::cycloidal(double)
+3988 152366 10508 162874 pov::Triangle_Wave(double)
+3990 616 15500 16116 __docos
+3992 13314 0 13314 __dubcos
+3994 13590 0 13590 __doasin
+3996 404 11929722 11930126 __slowpow
+3998 138 0 138 __halfulp
+4000 22992 0 22992 __dbl_mp
+4002 950 9346673 9347623 __mplog
+4004 75132 0 75132 __cpy
+4006 17406 11803004 11820410 __mpexp
+4008 309568 0 309568 __mul
+4010 14578 4942664 4957242 __dvd
+4012 1044 18745 19789 __mp_dbl
+4014 18745 0 18745 norm
+4016 17600 270560 288160 __sub
+4018 10098 0 10098 __acr
+4020 281582 0 281582 sub_magnitudes
+4028 50393 27516 77909 __add
+4030 13 833 846 pov::Targa_Image::~Targa_Image()
+4031 38 702 740 pov::Targa_Image::~Targa_Image()'2
+4032 26 1227 1253 pov_base::OStream::~OStream()
+4033 10 1031 1041 pov_base::OStream::~OStream()'2
+4034 5 0 5 pov::Image_File_Class::~Image_File_Class()
+4036 24 0 24 pov::FreeBacktraceEverything()
+4038 8 0 8 pov::Deinitialize_Atmosphere_Code()
+4040 17 338 355 pov::Deinitialize_BBox_Code()
+4042 63 951 1014 pov::Destroy_Priority_Queue(pov::Priority_Queue_Struct*)
+4044 39 19298 19337 pov::Deinitialize_Lighting_Code()
+4046 193 17949 18142 pov::DeInitMallocPools()
+4048 556 4184 4740 _ZN3povL17DeInitMallocPoolsEv_for.cond
+4050 1391 9858 11249 _ZN3povL17DeInitMallocPoolsEv_for.cond.86
+4052 16 970 986 pov::FreeComTexDataPool()
+4054 12 0 12 _ZN3pov18FreeComTexDataPoolEv_while.cond
+4056 67 891 958 _ZN3pov18FreeComTexDataPoolEv_while.cond.1
+4058 17 338 355 pov::Deinitialize_Mesh_Code()
+4060 38 655 693 pov::Deinitialize_VLBuffer_Code()
+4062 43 172 215 pov::Deinitialize_Radiosity_Code()
+4064 40 69836 69876 pov::Destroy_Light_Buffers()
+4066 158 69678 69836 _ZN3pov21Destroy_Light_BuffersEv_for.cond
+4068 156 69522 69678 pov::Destroy_Project_Tree(pov::Project_Tree_Node_Struct*)
+4069 6258 146009 152267 pov::Destroy_Project_Tree(pov::Project_Tree_Node_Struct*)'2
+4070 1152 66505 67657 _ZN3pov20Destroy_Project_TreeEPNS_24Project_Tree_Node_StructE_for.cond
+4071 5352 85762 91114 _ZN3pov20Destroy_Project_TreeEPNS_24Project_Tree_Node_StructE_for.cond'2
+4072 30 0 30 pov::Destroy_Vista_Buffer()
+4074 16 58162 58178 pov::Destroy_Bounding_Slabs()
+4076 31 58131 58162 pov::Destroy_BBox_Tree(pov::BBox_Tree_Struct*)
+4077 5691 136644 142335 pov::Destroy_BBox_Tree(pov::BBox_Tree_Struct*)'2
+4078 168 57673 57841 _ZN3pov17Destroy_BBox_TreeEPNS_16BBox_Tree_StructE_for.cond
+4079 5199 84662 89861 _ZN3pov17Destroy_BBox_TreeEPNS_16BBox_Tree_StructE_for.cond'2
+4080 46 445210 445256 pov::Destroy_Frame()
+4082 9 0 9 _ZN3pov13Destroy_FrameEv_for.cond
+4084 9 0 9 _ZN3pov13Destroy_FrameEv_for.cond.1
+4086 27 236 263 pov::Destroy_Light_Source(pov::Object_Struct*)
+4088 92 1689 1781 pov::Terminate_Renderer()
+4090 26 0 26 pov::FreeFontInfo()
+4092 24 0 24 pov::Free_Iteration_Stack()
+4094 34 519 553 pov::Free_Noise_Tables()
+4096 16 5812 5828 pov::POVFPU_Terminate()
+4098 33 5228 5261 pov::POVFPU_Reset()
+4100 25 0 25 _ZN3pov12POVFPU_ResetEv_for.cond
+4102 36 539 575 _ZN3pov12POVFPU_ResetEv_while.cond
+4104 36 515 551 _ZN3pov16POVFPU_TerminateEv_while.cond
+4106 61 24170 24231 pov::close_all()
+4108 12 114 126 pov::FlushDebugMessageBuffer()
+4110 14 0 14 pov::destroy_libraries()
+4112 4 0 4 pov::destroy_histogram()
+4114 93 23479 23572 pov::Destroy_IStacks()
+4116 155 0 155 pov::init_shellouts()
+4118 74 12171 12245 pov::mem_release_all()
+4120 38 0 38 _ZN3pov15mem_release_allEv_while.cond
+4122 82 19612 19694 pov::Send_RenderDone(bool)
+4124 62 3709 3771 pov::BuildRenderTime(POVMSData*, unsigned int, int, int, int, int)
+4126 33 8405 8438 pov_frontend::MessageOutput::RenderDone(POVMSData*, POVMSData*, int)
+4128 517 2944 3461 pov_frontend::DefaultRenderFrontend::CloseStreams()
+4130 8 0 8 pov_frontend::RenderFrontend::RenderDone(POVMS_Message&, POVMS_Message&, int)
+4134 5 5 10 pov_frontend::ProcessRenderOptions::~ProcessRenderOptions()
+4136 5 0 5 pov_base::ProcessOptions::~ProcessOptions()
+4138 14 6960 6974 pov_frontend::DefaultRenderFrontend::~DefaultRenderFrontend()
+4140 9 6737 6746 pov_frontend::RenderFrontend::~RenderFrontend()
+4142 20 6717 6737 pov_frontend::MessageOutput::~MessageOutput()
+4144 174 6421 6595 POVMS_MessageReceiver::~POVMS_MessageReceiver()
+4146 823 5598 6421 POVMS_MessageReceiver::RemoveNode(POVMS_MessageReceiver::HandlerNode*)
+4148 350 2644 2994 POVMS_RemoveReceiver(void*, unsigned int, unsigned int)
+4150 308 676 984 POVMS_FindReceiveHandlerNode(POVMSContextData*, unsigned int, unsigned int)
+4152 676 0 676 _Z28POVMS_FindReceiveHandlerNodeP16POVMSContextDatajj_for.cond
+4154 531 1602 2133 POVMS_RemoveReceiveHandlerNode(POVMSContextData*, POVMSReceiveHandlerNode*)
+4156 12 5567 5579 povray_terminate()
+4158 56 915 971 POVMS_CloseContext(void*)
+4160 34 178 212 POVMS_Sys_QueueClose_Default(POVMS_Sys_QueueNode_Default*)
+4162 52 473 525 _Z18POVMS_CloseContextPv_while.cond
+4164 5 5 10 pov_base::DefaultPlatformBase::~DefaultPlatformBase()
+4166 5 0 5 pov_base::PlatformBase::~PlatformBase()
+4168 4 23707 23711 exit
+4170 86 23621 23707 __run_exit_handlers
+4172 5 153 158 pov::DebugTextStreamBuffer::~DebugTextStreamBuffer()
+4174 569 22751 23320 _dl_fini
+4176 1535 349 1884 _dl_sort_fini
+4178 8 8 16 0x000000000041f250
+4182 8 0 8 0x000000000041f1d0
+4188 3 0 3 0x0000000000586404
+4190 17 974 991 0x0000000000000630
+4202 386 10789 11175 __cxa_finalize
+4204 133 0 133 __unregister_atfork
+4208 9 0 9 0x00000000000005c0
+4214 3 0 3 0x0000000004a227e0
+4216 17 12173 12190 0x0000000000039c40
+4226 10 10634 10644 std::__1::ios_base::Init::~Init()
+4232 60 4748 4808 std::__1::basic_ostream<char, std::__1::char_traits<char> >::flush()
+4238 30 0 30 std::__1::basic_ostream<char, std::__1::char_traits<char> >::sentry::sentry(std::__1::basic_ostream<char, std::__1::char_traits<char> >&)
+4242 86 2704 2790 std::__1::__stdoutbuf<char>::sync()
+4244 6 0 6 std::__1::codecvt<char, char, __mbstate_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
+4258 4 0 4 std::__1::basic_ostream<char, std::__1::char_traits<char> >::sentry::~sentry()
+4264 60 3915 3975 std::__1::basic_ostream<wchar_t, std::__1::char_traits<wchar_t> >::flush()
+4270 30 0 30 std::__1::basic_ostream<wchar_t, std::__1::char_traits<wchar_t> >::sentry::sentry(std::__1::basic_ostream<wchar_t, std::__1::char_traits<wchar_t> >&)
+4274 24 108 132 std::__1::__stdoutbuf<wchar_t>::sync()
+4276 90 1619 1709 std::__1::codecvt<wchar_t, char, __mbstate_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
+4284 124 88 212 wcrtomb
+4286 8 0 8 _dl_mcount_wrapper_check
+4288 80 0 80 __gconv_transform_internal_ascii
+4296 28 0 28 std::__1::basic_ostream<wchar_t, std::__1::char_traits<wchar_t> >::sentry::~sentry()
+4300 9 0 9 0x0000000000039bd0
+4306 3 0 3 0x0000000004ca9690
+4308 17 1502 1519 0x0000000000008b90
+4320 9 0 9 0x0000000000008b20
+4326 3 0 3 0x0000000004ef972c
+4328 17 1502 1519 0x00000000000057e0
+4340 9 0 9 0x0000000000005770
+4346 3 0 3 0x0000000005172988
+4348 17 1502 1519 0x0000000000002f80
+4360 9 0 9 0x0000000000002f10
+4366 3 0 3 0x0000000005417298
+4368 17 1502 1519 0x00000000000023b0
+4382 9 0 9 0x0000000000002340
+4388 3 0 3 0x0000000005bfd0b4
+4390 17 1502 1519 0x00000000000066e0
+4402 9 0 9 0x0000000000006670
+4408 3 0 3 0x00000000059ec7d4
+4410 50 88 138 _IO_cleanup
+4412 88 0 88 _IO_flush_all_lockp
+4414 5 0 5 _Exit

@@ -1,0 +1,530 @@
+0 19 5098636478682 5098636478701 0x00000000000011e0
+2 657 1266865 1267522 _dl_start
+4 230 0 230 _dl_setup_hash
+6 619 1266223 1266842 _dl_sysdep_start
+8 12 0 12 brk
+10 2597 0 2597 strlen
+12 17 0 17 sbrk
+14 1426 1264733 1266159 dl_main
+16 554 0 554 _dl_next_ld_env_entry
+18 3063 0 3063 bcmp
+20 1728 2314 4042 _dl_new_object
+24 189 911 1100 calloc
+28 228 1907 2135 malloc
+32 1820 165 1985 __libc_memalign
+34 1679 0 1679 memcpy
+36 430 36 466 _dl_add_to_namespace_list
+38 58 0 58 rtld_lock_default_lock_recursive
+40 58 0 58 rtld_lock_default_unlock_recursive
+42 14315 53336 67651 strcmp
+43 53336 344523 397859 strcmp'2
+44 88 5 93 _dl_discover_osversion
+46 5 0 5 uname
+48 581 3479 4060 _dl_init_paths
+50 255 78 333 _dl_important_hwcaps
+52 1865 0 1865 mempcpy
+54 335 1200 1535 decompose_rpath
+56 198 1130 1328 expand_dynamic_string_token
+58 2516 0 2516 index
+60 457 2608 3065 fillin_rpath
+62 2738 0 2738 strsep
+66 12 0 12 free
+68 89 0 89 _dl_debug_initialize
+70 4 0 4 _dl_count_modids
+72 2 0 2 _dl_debug_state
+74 27 2683 2710 do_preload
+76 792 60433 61225 _dl_catch_error
+78 48 0 48 _dl_initial_error_catch_tsd
+80 440 0 440 __sigsetjmp
+82 12 2613 2625 map_doit
+84 4578 55002 59580 _dl_map_object
+86 20954 23846 44800 _dl_name_match_p
+88 2055 2849 4904 open_verify
+90 198 0 198 open
+92 40 0 40 read
+94 7094 18365 25459 _dl_map_object_from_fd
+96 90 0 90 _fxstat
+98 819 0 819 mmap
+100 90 0 90 mprotect
+102 13526 0 13526 memset
+104 45 0 45 close
+106 9 0 9 access
+108 4811 61197 66008 _dl_map_object_deps
+110 357 56967 57324 openaux
+112 1838 3328 5166 open_path
+114 140 0 140 _xstat
+116 1469 5440 6909 _dl_load_cache_lookup
+118 41 53 94 _dl_sysdep_read_whole_file
+120 4055 0 4055 _dl_cache_libcmp
+122 90 524 614 strdup
+124 6 0 6 _dl_next_tls_modid
+126 470 1801 2271 cache_rpath.part.5
+128 70 87 157 _dl_dst_count
+130 200 96 296 _dl_dst_substitute
+132 96 0 96 stpcpy
+134 370 36 406 memmove
+136 36 0 36 _wordcopy_fwd_aligned
+138 28 20724 20752 _dl_receive_error
+140 10 20712 20722 version_check_doit
+142 159 20553 20712 _dl_check_all_versions
+144 5389 15164 20553 _dl_check_map_versions
+146 3759 3284 7043 match_symbol
+148 102 554 656 init_tls
+150 56 0 56 _dl_determine_tlsoffset
+152 334 121 455 _dl_allocate_tls_storage
+154 193354 974737 1168091 _dl_relocate_object
+156 539886 514842 1054728 _dl_lookup_symbol_x
+158 382998 131844 514842 do_lookup_x
+160 64831 38407 103238 check_match.9440
+162 5 0 5 strcasecmp
+164 15 7 22 time
+166 28 0 28 _dl_vdso_vsym
+168 5 0 5 strnlen
+170 5 0 5 strncasecmp
+172 8 0 8 memset
+174 15 7 22 gettimeofday
+176 15 0 15 memcpy@GLIBC_2.2.5
+178 24 0 24 _dl_add_to_slotinfo
+180 8 0 8 __exp_finite
+182 16 0 16 cos
+184 5 0 5 rint
+186 5 0 5 __pow_finite
+188 8 0 8 __log_finite
+190 5 0 5 rintf
+192 5 0 5 __acos_finite
+194 5 0 5 floorf
+196 5 0 5 floor
+198 5 0 5 __asin_finite
+200 8 0 8 __atan2_finite
+202 8 0 8 sin
+204 81 157 238 _dl_allocate_tls_init
+206 1 0 1 _dl_sysdep_start_cleanup
+208 10 5 15 _dl_unload_cache
+210 5 0 5 munmap
+214 498 57722 58220 _dl_init
+216 4 9032 9036 0x00000000059e1400
+218 190 8842 9032 __pthread_initialize_minimal
+220 134 0 134 __libc_sigaction
+228 2378 86865 89243 _dl_runtime_resolve
+230 6485 80380 86865 _dl_fixup
+232 5 0 5 _dl_get_tls_static_info
+238 5 571 576 secure_getenv
+240 544 27 571 getenv
+242 5465473 0 5465473 __GI_strlen
+248 5 0 5 getrlimit
+254 3 0 3 __libc_dl_error_tsd
+260 393 50 443 __libc_pthread_init
+262 50 0 50 __register_atfork
+266 16 0 16 0x0000000000006720
+274 60 115 175 _init
+276 24 61 85 __init_misc
+278 61 0 61 __GI_strrchr
+280 16 0 16 __ctype_init
+282 150 1727 1877 init_cacheinfo
+284 94 1633 1727 handle_intel.isra.0
+286 407 1226 1633 intel_check_word
+288 902 324 1226 bsearch
+290 324 0 324 intel_02_known_compare
+292 6 0 6 0x0000000005bf9e98
+296 16 0 16 0x00000000000023f0
+304 6 0 6 0x00000000054077f8
+308 4 0 4 __cpu_indicator_init
+310 40 0 40 0x0000000000002c30
+314 53 0 53 0x0000000000002b60
+318 16 0 16 0x0000000000002fc0
+326 6 0 6 0x0000000005108278
+330 16 0 16 0x0000000000005820
+338 6 0 6 0x0000000004edd5c8
+342 16 0 16 0x0000000000008bd0
+350 6 0 6 0x0000000004c5b560
+354 16 0 16 0x0000000000039c80
+362 6 46285 46291 _GLOBAL__sub_I_iostream.cpp
+370 177 43962 44139 std::__1::ios_base::Init::Init()
+376 27 34017 34044 std::__1::basic_streambuf<char, std::__1::char_traits<char> >::basic_streambuf()
+382 70 33407 33477 std::__1::locale::locale()
+388 65 32616 32681 std::__1::locale::__global()
+394 36 1599 1635 __cxa_guard_acquire
+402 434 1302 1736 pthread_mutex_lock
+404 1356 0 1356 pthread_mutex_lock
+410 434 1054 1488 pthread_mutex_unlock
+412 1102 0 1102 pthread_mutex_unlock
+418 17 27209 27226 std::__1::locale::classic()
+420 207 26661 26868 std::__1::locale::__imp::__imp(unsigned long)
+422 240 23 263 std::__1::vector<std::__1::locale::facet*, std::__1::__sso_allocator<std::__1::locale::facet*, 28ul> >::vector(unsigned long)
+424 23 0 23 std::__1::vector<std::__1::locale::facet*, std::__1::__sso_allocator<std::__1::locale::facet*, 28ul> >::allocate(unsigned long)
+430 17 3722 3739 std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::basic_string(char const*)
+436 7 0 7 strlen
+438 14 0 14 __strlen_sse2_pminub
+444 28 1322 1350 std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::__init(char const*, unsigned long)
+450 22 0 22 memcpy@@GLIBC_2.14
+452 1764 0 1764 __memcpy_ssse3_back
+460 712 10307 11019 std::__1::locale::id::__get()
+468 812 8602 9414 std::__1::__call_once(unsigned long volatile&, void*, void (*)(void*))
+478 224 168 392 void std::__1::__call_once_proxy<std::__1::tuple<std::__1::(anonymous namespace)::__fake_bind&&> >(void*)
+482 168 0 168 std::__1::locale::id::__init()
+490 217 403 620 pthread_cond_broadcast@@GLIBC_2.3.2
+492 403 0 403 pthread_cond_broadcast@@GLIBC_2.3.2
+494 868 1629 2497 std::__1::locale::__imp::install(std::__1::locale::facet*, long)
+500 98 0 98 std::__1::__shared_count::__add_shared()
+502 784 0 784 std::__1::vector<std::__1::locale::facet*, std::__1::__sso_allocator<std::__1::locale::facet*, 28ul> >::__append(unsigned long)
+514 14 5532 5546 std::__1::ctype<char>::ctype(unsigned short const*, bool, unsigned long)
+520 4 4773 4777 std::__1::ctype<char>::classic_table()
+526 20 4140 4160 std::__1::__cloc()
+532 40 0 40 newlocale
+538 36 2007 2043 __cxa_guard_release
+548 14 4 18 std::__1::codecvt<wchar_t, char, __mbstate_t>::codecvt(unsigned long)
+554 17 4 21 std::__1::numpunct<char>::numpunct(unsigned long)
+556 8 0 8 std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::basic_string()
+562 17 4 21 std::__1::numpunct<wchar_t>::numpunct(unsigned long)
+570 28 14 42 std::__1::locale::locale(std::__1::locale const&)
+574 18 822 840 std::__1::__stdinbuf<char>::imbue(std::__1::locale const&)
+580 36 168 204 std::__1::locale::use_facet(std::__1::locale::id&) const
+582 72 0 72 std::__1::locale::__imp::use_facet(long) const
+586 2 0 2 std::__1::codecvt<char, char, __mbstate_t>::do_encoding() const
+588 6 0 6 std::__1::codecvt<char, char, __mbstate_t>::do_always_noconv() const
+594 12 873 885 std::__1::locale::~locale()
+600 36 0 36 std::__1::__shared_count::__release_shared()
+610 168 120 288 std::__1::ios_base::init(void*)
+616 27 45 72 std::__1::basic_streambuf<wchar_t, std::__1::char_traits<wchar_t> >::basic_streambuf()
+618 5 0 5 std::__1::__stdinbuf<wchar_t>::imbue(std::__1::locale const&)
+622 36 4223 4259 std::__1::codecvt<wchar_t, char, __mbstate_t>::do_encoding() const
+628 168 0 168 uselocale
+636 19 0 19 mbtowc
+644 5 0 5 __ctype_get_mb_cur_max
+646 6 0 6 std::__1::codecvt<wchar_t, char, __mbstate_t>::do_always_noconv() const
+648 46 110 156 std::__1::__stdoutbuf<char>::__stdoutbuf(_IO_FILE*, __mbstate_t*)
+654 60 172 232 std::__1::__stdoutbuf<wchar_t>::__stdoutbuf(_IO_FILE*, __mbstate_t*)
+664 44 83 127 __cxa_atexit
+666 83 0 83 __new_exitfn
+668 6 0 6 0x0000000004a22560
+672 16 0 16 0x0000000000000670
+682 16 5098635152924 5098635152940 0x0000000000404de0
+690 62 5098635151423 5098635151485 (below main)
+692 34 22 56 __libc_csu_init
+694 2 0 2 0x0000000000404be0
+698 16 0 16 0x0000000000404eb0
+706 2 28 30 _setjmp
+708 19 9 28 __sigsetjmp
+710 9 0 9 __sigjmp_save
+712 14032 5098635113216 5098635127248 main
+714 223 3605 3828 main_for.cond
+720 5 0 5 strcmp
+722 2066092 0 2066092 __strcmp_sse42
+728 85 16081 16166 sscanf
+730 165 15916 16081 vsscanf
+732 166 160 326 _IO_no_init
+734 160 0 160 _IO_old_init
+736 175 231 406 _IO_str_init_static_internal
+738 126 0 126 __GI___rawmemchr
+740 202 5 207 _IO_setb
+742 722133900 551438233 1273572133 _IO_vfscanf
+744 10403428 0 10403428 _pthread_cleanup_push_defer
+746 50940918 0 50940918 _IO_sputbackc
+748 48282 153956 202238 __uflow
+750 22264 131692 153956 _IO_default_uflow
+752 65 0 65 _IO_str_underflow
+754 4162794 162268757 166431551 __strtol_internal
+756 162271582 0 162271582 ____strtol_l_internal
+758 5944816 0 5944816 _pthread_cleanup_pop_restore
+764 4 58537 58541 fopen@@GLIBC_2.2.5
+766 80 58457 58537 __fopen_internal
+770 52933 253532 306465 malloc
+771 40 1053 1093 malloc'2
+772 11 57732 57743 malloc_hook_ini
+774 585 56054 56639 ptmalloc_init.part.8
+776 55994 51 56045 _dl_addr
+778 9 0 9 __linkin_atfork
+780 182416 14426 196842 _int_malloc
+782 815 0 815 malloc_consolidate
+784 8032 5579 13611 sysmalloc
+786 528 3763 4291 __default_morecore
+788 2042 1721 3763 sbrk
+790 1721 0 1721 brk
+792 26 230 256 _IO_file_init@@GLIBC_2.2.5
+794 208 44 252 _IO_link_in
+796 141 86 227 _IO_file_fopen@@GLIBC_2.2.5
+798 4 10 14 open
+800 10 0 10 __open_nocancel
+802 50 0 50 __GI_strstr
+804 8 0 8 __fopen_maybe_mmap
+806 111 167 278 SimParameters::SimParameters()
+808 17805144 0 17805144 Vector::Vector()
+810 8410 7105 15515 Lattice::Lattice()
+812 147202531 0 147202531 Vector::Vector(double, double, double)
+814 108 102055 102163 SimParameters::readfile(_IO_FILE*)
+820 6109224 9612301 15721525 fgets
+822 185128 9427173 9612301 _IO_getline
+824 5831590 3595583 9427173 _IO_getline_info
+826 74087 57540 131627 _IO_file_underflow@@GLIBC_2.2.5
+828 54 330 384 _IO_doallocbuf
+830 126 204 330 _IO_file_doallocate
+832 12 30 42 _IO_file_stat
+834 30 0 30 _fxstat
+836 891 0 891 mmap
+838 37040 0 37040 _IO_switch_to_get_mode
+840 7408 12964 20372 _IO_file_read
+842 3704 9260 12964 read
+844 9260 0 9260 __read_nocancel
+846 1927124 0 1927124 memchr
+848 19652288 0 19652288 __GI_memcpy
+850 1582 98215 99797 _ZN13SimParameters8readfileEP8_IO_FILE_while.body
+856 8626 0 8626 strtok
+858 8589 70478 79067 SimParameters::setparam(char const*, char const*)
+860 2604 23941 26545 parse_param(char const*, char const*, char const*, Vector&)
+862 208 19279 19487 Vector::set(char const*)
+864 1148556 316437457 317586013 __strtod_internal
+866 174113532 142329243 316442775 ____strtod_l_internal
+868 53900452 0 53900452 str_to_mpn.isra.0
+870 15735405 0 15735405 __mpn_lshift
+872 25199620 5359452 30559072 round_and_return
+874 5359452 0 5359452 __mpn_construct_double
+876 3894 0 3894 _ZN6Vector3setEPKc_for.cond
+878 12831840 6852912 19684752 __mpn_mul
+880 8059216 0 8059216 __mpn_mul_1
+882 7192 17182 24374 parse_param(char const*, char const*, char const*, int&)
+888 150 2925 3075 atoi
+890 100 2825 2925 strtol
+892 4824 14735 19559 parse_param(char const*, char const*, char const*, double&)
+898 26 5370 5396 atof
+900 52 5318 5370 strtod
+902 80 0 80 __correctly_grouped_prefixmb
+904 96 383 479 Lattice::set(Vector, Vector, Vector, Vector)
+906 756974628 0 756974628 Vector::length2() const
+908 28 44 72 Lattice::volume() const
+910 100 28 128 cross(Vector const&, Vector const&)
+912 48 0 48 operator*(Vector const&, Vector const&)
+914 74 201 275 Lattice::recalculate()
+916 48 21 69 operator/(Vector const&, double const&)
+918 6 0 6 LJTable::LJTable()
+920 91 18349859 18349950 LJTable::readfile(_IO_FILE*)
+926 12578266 1275036629 1287614895 fscanf
+928 1479796 1273556833 1275036629 vfscanf
+934 5280 268513 273793 operator new[](unsigned long)
+940 13220 249897 263117 operator new(unsigned long)
+946 241 0 241 _ZN7LJTable8readfileEP8_IO_FILE_while.cond
+948 217564 18127031 18344595 _ZN7LJTable8readfileEP8_IO_FILE_for.cond
+950 30 1034 1064 Molecule::Molecule()
+956 16 258 274 ObjectArena<char>::ObjectArena()
+958 27 231 258 ResizeArray<char*>::ResizeArray()
+960 11 0 11 ResizeArrayRaw<char*>::ResizeArrayRaw()
+962 18 0 18 ResizeArrayRaw<char*>::resize(int)
+964 103 525906370 525906473 Molecule::readfile(_IO_FILE*)
+966 20319358 505584493 525903851 _ZN8Molecule8readfileEP8_IO_FILE_for.cond
+968 993790 719799 1713589 ObjectArena<char>::getNewArray(int)
+970 557000 0 557000 _ZN11ObjectArenaIcE11getNewArrayEi_while.cond.8
+972 9792 33976 43768 ResizeArray<char*>::add(char* const&)
+974 8170 0 8170 ResizeArrayRaw<char*>::size() const
+976 15776 15480 31256 ResizeArrayRaw<char*>::ins(char* const&, int)
+978 6733 8747 15480 ResizeArrayRaw<char*>::resizeRaw(int)
+984 10880 0 10880 _ZN11ObjectArenaIcE11getNewArrayEi_while.cond.33
+990 1319 177160 178479 operator delete[](void*)
+996 3963 171546 175509 operator delete(void*)
+1002 6443 85 6528 free
+1004 149326 0 149326 _int_free
+1006 345 1898523 1898868 ComputeNonbondedUtil::select(SimParameters*, Molecule*, LJTable*)
+1008 68 0 68 _ZN20ComputeNonbondedUtil6selectEP13SimParametersP8MoleculeP7LJTable_while.cond
+1010 137 0 137 _ZN20ComputeNonbondedUtil6selectEP13SimParametersP8MoleculeP7LJTable_while.cond.144
+1012 213 0 213 _ZN20ComputeNonbondedUtil6selectEP13SimParametersP8MoleculeP7LJTable_while.cond.162
+1014 231409 198666 430075 _ZN20ComputeNonbondedUtil6selectEP13SimParametersP8MoleculeP7LJTable_for.cond.188
+1020 24365 0 24365 sqrt
+1026 55275 45854 101129 erfc
+1032 13073 77669 90742 exp
+1036 123523 0 123523 __ieee754_exp_avx
+1038 1067835 0 1067835 _ZN20ComputeNonbondedUtil6selectEP13SimParametersP8MoleculeP7LJTable_for.cond.312
+1040 86139 0 86139 _ZN20ComputeNonbondedUtil6selectEP13SimParametersP8MoleculeP7LJTable_for.cond.443
+1042 313762 0 313762 _ZN20ComputeNonbondedUtil6selectEP13SimParametersP8MoleculeP7LJTable_for.cond.464
+1044 20 219 239 PatchList::PatchList(Lattice&)
+1046 2108 799244068 799246176 PatchList::readfile(_IO_FILE*)
+1048 45216 0 45216 Patch::Patch()
+1050 2753 799194686 799197439 _ZN9PatchList8readfileEP8_IO_FILE_for.cond
+1052 1320080 797874606 799194686 Patch::readfile(_IO_FILE*)
+1054 990810 1585296 2576106 CompAtom::CompAtom()
+1056 1199344 737792 1937136 _ZN5Patch8readfileEP8_IO_FILE_arrayctor.loop.17
+1058 1199344 737792 1937136 _ZN5Patch8readfileEP8_IO_FILE_arrayctor.loop.29
+1060 1199344 737792 1937136 _ZN5Patch8readfileEP8_IO_FILE_arrayctor.loop.41
+1062 11257808 779314809 790572617 _ZN5Patch8readfileEP8_IO_FILE_for.cond
+1064 8 0 8 ComputeList::ComputeList()
+1066 26348 4026882 4053230 ComputeList::readfile(_IO_FILE*, PatchList*)
+1068 26208 13104 39312 PairCompute::PairCompute()
+1070 14112 0 14112 ComputeNonbondedUtil::ComputeNonbondedUtil()
+1072 99237 3879683 3978920 _ZN11ComputeList8readfileEP8_IO_FILEP9PatchList_for.cond
+1074 1875 3024 4899 _ZN11ComputeList8readfileEP8_IO_FILEP9PatchList_arrayctor.loop.46
+1076 2016 1008 3024 SelfCompute::SelfCompute()
+1078 2026 0 2026 _ZN11ComputeList8readfileEP8_IO_FILEP9PatchList_for.cond.60
+1084 75 367 442 fclose@@GLIBC_2.2.5
+1086 111 22 133 _IO_un_link
+1088 48 65 113 _IO_file_close_it@@GLIBC_2.2.5
+1090 9 0 9 _IO_unsave_markers
+1092 2 5 7 _IO_file_close
+1094 5 0 5 __close_nocancel
+1096 90 0 90 munmap
+1098 8 24 32 _IO_file_finish@@GLIBC_2.2.5
+1100 14 10 24 _IO_default_finish
+1108 4872 398202 403074 printf
+1110 1917777 15497428 17415205 vfprintf
+1112 294809 0 294809 strchrnul
+1114 629196 220233 849429 _IO_file_xsputn@@GLIBC_2.2.5
+1116 1020 2518 3538 _IO_file_overflow@@GLIBC_2.2.5
+1118 1280 1075 2355 _IO_do_write@@GLIBC_2.2.5
+1120 493 0 493 _IO_default_xsputn
+1122 53156 0 53156 _itoa_word
+1124 354215 0 354215 __GI_mempcpy
+1126 616 27118264 27118880 ResultSet::ResultSet(int)
+1128 8392405 5164544 13556949 _ZN9ResultSetC2Ei_arrayctor.loop
+1130 8392405 5164544 13556949 _ZN9ResultSetC2Ei_arrayctor.loop.8
+1132 2964 1115519412 1115522376 PatchList::zeroresults()
+1134 528048 1114894464 1115422512 _ZN9PatchList11zeroresultsEv_for.cond
+1136 652298880 462595584 1114894464 Patch::zeroforces()
+1138 462603108 0 462603108 Vector::operator=(double const&)
+1140 96900 0 96900 _ZN9PatchList11zeroresultsEv_for.cond.2
+1142 3648 5089848526389 5089848530037 ComputeList::runComputes(PatchList*)
+1144 561108 1395781077340 1395781638448 _ZN11ComputeList11runComputesEP9PatchList_for.cond
+1146 1734624 1395779342716 1395781077340 SelfCompute::doWork(PatchList*)
+1148 2757888 3677184 6435072 nonbonded::nonbonded()
+1150 2150496 222218540697 222220691193 ComputeNonbondedUtil::calc_self_energy(nonbonded*)
+1152 121257088 0 121257088 _ZN20ComputeNonbondedUtil16calc_self_energyEP9nonbonded_for.cond
+1154 217276022039 4821261570 222097283609 _ZN20ComputeNonbondedUtil16calc_self_energyEP9nonbonded_for.cond.169
+1156 1316492226 0 1316492226 Molecule::get_excl_check_for_atom(int) const
+1158 69469539732 0 69469539732 Molecule::atomvdwtype(int) const
+1160 1418208264 0 1418208264 LJTable::table_row(unsigned int) const
+1162 7258836 3694059629105 3694066887941 _ZN11ComputeList11runComputesEP9PatchList_for.cond.2
+1164 29663712 3694029965393 3694059629105 PairCompute::doWork(PatchList*)
+1166 14514543 14164918 28679461 Patch::image(int, Lattice&)
+1168 1502303 12662615 14164918 Lattice::create(CompAtom*, int, int) const
+1170 8016 3507 11523 operator*(double const&, Vector const&)
+1172 336438496 147191842 483630338 operator+(Vector const&, Vector const&)
+1174 3074707 8157226 11231933 _ZNK7Lattice6createEP8CompAtomii_for.cond
+1176 6780032 0 6780032 CompAtom::operator=(CompAtom const&)
+1178 821433002 0 821433002 Vector::operator+=(Vector const&)
+1180 27671904 601043523232 601071195136 ComputeNonbondedUtil::calc_pair_energy(nonbonded*)
+1182 1577044080 0 1577044080 _ZN20ComputeNonbondedUtil16calc_pair_energyEP9nonbonded_for.cond
+1184 592253700685 7212778467 599466479152 _ZN20ComputeNonbondedUtil16calc_pair_energyEP9nonbonded_for.cond.182
+1186 16644 4564114716 4564131360 PatchList::setresults(ResultSet*)
+1188 659604 1009791936 1010451540 _ZN9PatchList10setresultsEP9ResultSet_for.cond
+1190 1009791936 0 1009791936 Patch::setforces(Vector*, Vector*)
+1192 74100 0 74100 _ZN9PatchList10setresultsEP9ResultSet_for.cond.5
+1194 1492925076 2060653056 3553578132 _ZN9PatchList10setresultsEP9ResultSet_for.cond.19
+1196 56092 17086955 17143047 ResultSet::writefile(_IO_FILE*)
+1202 68628 17017003 17085631 fprintf
+1204 6674163 7510815 14184978 __printf_fp
+1206 52668 0 52668 isnan
+1208 97812 0 97812 isinf
+1210 158004 0 158004 __mpn_extract_double
+1212 95590 0 95590 __mpn_cmp
+1214 182784 0 182784 __mpn_rshift
+1216 2674666 3090595 5765261 hack_digit.13574
+1218 1904835 0 1904835 __mpn_divrem
+1220 2604672 285041324251 285043928923 ComputeNonbondedUtil::calc_self_energy_fullelect(nonbonded*)
+1222 121257088 0 121257088 _ZN20ComputeNonbondedUtil26calc_self_energy_fullelectEP9nonbonded_for.cond
+1224 280098805593 4821261570 284920067163 _ZN20ComputeNonbondedUtil26calc_self_energy_fullelectEP9nonbonded_for.cond.172
+1226 33576192 690707105103 690740681295 ComputeNonbondedUtil::calc_pair_energy_fullelect(nonbonded*)
+1228 1577044080 0 1577044080 _ZN20ComputeNonbondedUtil26calc_pair_energy_fullelectEP9nonbonded_for.cond
+1230 681917282556 7212778467 689130061023 _ZN20ComputeNonbondedUtil26calc_pair_energy_fullelectEP9nonbonded_for.cond.185
+1232 2161440 223726222923 223728384363 ComputeNonbondedUtil::calc_self_energy_merge_fullelect(nonbonded*)
+1234 121257088 0 121257088 _ZN20ComputeNonbondedUtil32calc_self_energy_merge_fullelectEP9nonbonded_for.cond
+1236 218783704265 4821261570 223604965835 _ZN20ComputeNonbondedUtil32calc_self_energy_merge_fullelectEP9nonbonded_for.cond.169
+1238 27814176 602565726816 602593540992 ComputeNonbondedUtil::calc_pair_energy_merge_fullelect(nonbonded*)
+1240 1577044080 0 1577044080 _ZN20ComputeNonbondedUtil32calc_pair_energy_merge_fullelectEP9nonbonded_for.cond
+1242 593775904269 7212778467 600988682736 _ZN20ComputeNonbondedUtil32calc_pair_energy_merge_fullelectEP9nonbonded_for.cond.182
+1244 2073888 204788914951 204790988839 ComputeNonbondedUtil::calc_self(nonbonded*)
+1246 121257088 0 121257088 _ZN20ComputeNonbondedUtil9calc_selfEP9nonbonded_for.cond
+1248 199846396293 4821261570 204667657863 _ZN20ComputeNonbondedUtil9calc_selfEP9nonbonded_for.cond.169
+1250 26676000 576007317852 576033993852 ComputeNonbondedUtil::calc_pair(nonbonded*)
+1252 1577044080 0 1577044080 _ZN20ComputeNonbondedUtil9calc_pairEP9nonbonded_for.cond
+1254 567217495305 7212778467 574430273772 _ZN20ComputeNonbondedUtil9calc_pairEP9nonbonded_for.cond.182
+1256 2456928 253793523309 253795980237 ComputeNonbondedUtil::calc_self_fullelect(nonbonded*)
+1258 121257088 0 121257088 _ZN20ComputeNonbondedUtil19calc_self_fullelectEP9nonbonded_for.cond
+1260 248851004651 4821261570 253672266221 _ZN20ComputeNonbondedUtil19calc_self_fullelectEP9nonbonded_for.cond.172
+1262 31655520 646045042073 646076697593 ComputeNonbondedUtil::calc_pair_fullelect(nonbonded*)
+1264 1577044080 0 1577044080 _ZN20ComputeNonbondedUtil19calc_pair_fullelectEP9nonbonded_for.cond
+1266 637255219526 7212778467 644467997993 _ZN20ComputeNonbondedUtil19calc_pair_fullelectEP9nonbonded_for.cond.185
+1268 2084832 206196824681 206198909513 ComputeNonbondedUtil::calc_self_merge_fullelect(nonbonded*)
+1270 121257088 0 121257088 _ZN20ComputeNonbondedUtil25calc_self_merge_fullelectEP9nonbonded_for.cond
+1272 201254306023 4821261570 206075567593 _ZN20ComputeNonbondedUtil25calc_self_merge_fullelectEP9nonbonded_for.cond.169
+1274 26818272 577452383368 577479201640 ComputeNonbondedUtil::calc_pair_merge_fullelect(nonbonded*)
+1276 1577044080 0 1577044080 _ZN20ComputeNonbondedUtil25calc_pair_merge_fullelectEP9nonbonded_for.cond
+1278 568662560821 7212778467 575875339288 _ZN20ComputeNonbondedUtil25calc_pair_merge_fullelectEP9nonbonded_for.cond.182
+1280 37392 421534 458926 ResultSet::compare(ResultSet&)
+1282 28500 126540 155040 ResultSet::check()
+1284 47880 17100 64980 Vector::length() const
+1286 198360 0 198360 equal(double, double)
+1288 72504 73872 146376 equal(double*, double*)
+1290 57190 43092 100282 equal(double*, double*, double*, double*)
+1292 88122 1711670915 1711759037 PatchList::moveatoms()
+1294 266441412 1445229503 1711670915 Patch::moveatoms()
+1300 1445228524 0 1445228524 __cos_avx
+1302 108 2466 2574 __overflow
+1304 900 175 1075 _IO_file_write@@GLIBC_2.2.5
+1306 50 125 175 write
+1308 125 0 125 __write_nocancel
+1310 168 672 840 ResultSet::~ResultSet()
+1312 1921 42882 44803 ComputeList::~ComputeList()
+1314 720 720 1440 SelfCompute::~SelfCompute()
+1316 10080 0 10080 ComputeNonbondedUtil::~ComputeNonbondedUtil()
+1318 22467 18720 41187 _ZN11ComputeListD2Ev_arraydestroy.body.15
+1320 9360 9360 18720 PairCompute::~PairCompute()
+1322 1906 264643 266549 PatchList::~PatchList()
+1324 6336 258040 264376 Patch::~Patch()
+1326 72288 107997 180285 Patch::clearimages()
+1328 69765 22824 92589 Lattice::destroy(CompAtom**, int) const
+1330 36 109079 109115 Molecule::~Molecule()
+1332 14168 94736 108904 ObjectArena<char>::~ObjectArena()
+1334 3270 2725 5995 ResizeArray<char*>::size() const
+1336 4352 0 4352 ResizeArray<char*>::operator[](int)
+1338 33 9552 9585 ResizeArray<char*>::~ResizeArray()
+1340 18 8880 8898 ResizeArrayRaw<char*>::~ResizeArrayRaw()
+1342 5998 2725 8723 _ZN14ResizeArrayRawIPcED2Ev_for.cond
+1348 13 41 54 LJTable::~LJTable()
+1350 5 0 5 SimParameters::~SimParameters()
+1352 4 24019 24023 exit
+1354 66 23953 24019 __run_exit_handlers
+1356 569 22854 23423 _dl_fini
+1358 1535 349 1884 _dl_sort_fini
+1360 8 8 16 0x0000000000404e90
+1364 8 0 8 0x0000000000404e10
+1370 3 0 3 0x00000000004ab8b4
+1372 17 974 991 0x0000000000000630
+1384 386 10892 11278 __cxa_finalize
+1386 133 0 133 __unregister_atfork
+1390 9 0 9 0x00000000000005c0
+1396 3 0 3 0x0000000004a227e0
+1398 17 12276 12293 0x0000000000039c40
+1408 10 10737 10747 std::__1::ios_base::Init::~Init()
+1414 60 4851 4911 std::__1::basic_ostream<char, std::__1::char_traits<char> >::flush()
+1420 30 0 30 std::__1::basic_ostream<char, std::__1::char_traits<char> >::sentry::sentry(std::__1::basic_ostream<char, std::__1::char_traits<char> >&)
+1424 24 0 24 std::__1::__stdoutbuf<char>::sync()
+1426 6 0 6 std::__1::codecvt<char, char, __mbstate_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
+1432 72 0 72 fwrite
+1438 164 155 319 fflush
+1440 88 93 181 _IO_file_sync@@GLIBC_2.2.5
+1446 28 0 28 std::__1::basic_ostream<char, std::__1::char_traits<char> >::sentry::~sentry()
+1452 60 3915 3975 std::__1::basic_ostream<wchar_t, std::__1::char_traits<wchar_t> >::flush()
+1458 30 0 30 std::__1::basic_ostream<wchar_t, std::__1::char_traits<wchar_t> >::sentry::sentry(std::__1::basic_ostream<wchar_t, std::__1::char_traits<wchar_t> >&)
+1462 86 1863 1949 std::__1::__stdoutbuf<wchar_t>::sync()
+1464 90 1619 1709 std::__1::codecvt<wchar_t, char, __mbstate_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
+1472 124 88 212 wcrtomb
+1474 2 0 2 _dl_mcount_wrapper_check
+1476 80 0 80 __gconv_transform_internal_ascii
+1484 28 0 28 std::__1::basic_ostream<wchar_t, std::__1::char_traits<wchar_t> >::sentry::~sentry()
+1488 9 0 9 0x0000000000039bd0
+1494 3 0 3 0x0000000004ca9690
+1496 17 1502 1519 0x0000000000008b90
+1508 9 0 9 0x0000000000008b20
+1514 3 0 3 0x0000000004ef972c
+1516 17 1502 1519 0x00000000000057e0
+1530 9 0 9 0x0000000000005770
+1536 3 0 3 0x0000000005172988
+1538 17 1502 1519 0x0000000000002f80
+1552 9 0 9 0x0000000000002f10
+1558 3 0 3 0x0000000005417298
+1560 17 1502 1519 0x00000000000023b0
+1574 9 0 9 0x0000000000002340
+1580 3 0 3 0x0000000005bfd0b4
+1582 17 1502 1519 0x00000000000066e0
+1594 9 0 9 0x0000000000006670
+1600 3 0 3 0x00000000059ec7d4
+1602 165 360 525 _IO_cleanup
+1604 113 115 228 _IO_flush_all_lockp
+1606 30 102 132 _IO_file_setbuf@@GLIBC_2.2.5
+1608 76 26 102 _IO_default_setbuf
+1610 5 0 5 _Exit

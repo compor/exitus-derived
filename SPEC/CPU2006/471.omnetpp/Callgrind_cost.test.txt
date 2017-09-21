@@ -1,0 +1,1628 @@
+0 19 3296920779 3296920798 0x00000000000011e0
+2 657 1281209 1281866 _dl_start
+4 230 0 230 _dl_setup_hash
+6 619 1280567 1281186 _dl_sysdep_start
+8 12 0 12 brk
+10 2616 0 2616 strlen
+12 17 0 17 sbrk
+14 1426 1279073 1280499 dl_main
+16 554 0 554 _dl_next_ld_env_entry
+18 3063 0 3063 bcmp
+20 1728 2324 4052 _dl_new_object
+24 189 911 1100 calloc
+28 228 1907 2135 malloc
+32 1820 165 1985 __libc_memalign
+34 1953 0 1953 memcpy
+36 430 36 466 _dl_add_to_namespace_list
+38 58 0 58 rtld_lock_default_lock_recursive
+40 58 0 58 rtld_lock_default_unlock_recursive
+42 17794 71105 88899 strcmp
+43 71105 609095 680200 strcmp'2
+44 88 5 93 _dl_discover_osversion
+46 5 0 5 uname
+48 581 3459 4040 _dl_init_paths
+50 255 78 333 _dl_important_hwcaps
+52 1865 0 1865 mempcpy
+54 335 1153 1488 decompose_rpath
+56 198 1083 1281 expand_dynamic_string_token
+58 2566 0 2566 index
+60 457 2608 3065 fillin_rpath
+62 2738 0 2738 strsep
+66 12 0 12 free
+68 89 0 89 _dl_debug_initialize
+70 4 0 4 _dl_count_modids
+72 2 0 2 _dl_debug_state
+74 27 2683 2710 do_preload
+76 792 60473 61265 _dl_catch_error
+78 48 0 48 _dl_initial_error_catch_tsd
+80 440 0 440 __sigsetjmp
+82 12 2613 2625 map_doit
+84 4578 55042 59620 _dl_map_object
+86 26273 29824 56097 _dl_name_match_p
+88 2055 2849 4904 open_verify
+90 198 0 198 open
+92 40 0 40 read
+94 7094 18375 25469 _dl_map_object_from_fd
+96 90 0 90 _fxstat
+98 819 0 819 mmap
+100 90 0 90 mprotect
+102 13526 0 13526 memset
+104 45 0 45 close
+106 9 0 9 access
+108 4811 61257 66068 _dl_map_object_deps
+110 357 57007 57364 openaux
+112 1838 3328 5166 open_path
+114 140 0 140 _xstat
+116 1469 5440 6909 _dl_load_cache_lookup
+118 41 53 94 _dl_sysdep_read_whole_file
+120 4055 0 4055 _dl_cache_libcmp
+122 90 524 614 strdup
+124 6 0 6 _dl_next_tls_modid
+126 470 1801 2271 cache_rpath.part.5
+128 70 87 157 _dl_dst_count
+130 200 96 296 _dl_dst_substitute
+132 96 0 96 stpcpy
+134 370 36 406 memmove
+136 36 0 36 _wordcopy_fwd_aligned
+138 28 20724 20752 _dl_receive_error
+140 10 20712 20722 version_check_doit
+142 159 20553 20712 _dl_check_all_versions
+144 5389 15164 20553 _dl_check_map_versions
+146 3759 3284 7043 match_symbol
+148 102 554 656 init_tls
+150 56 0 56 _dl_determine_tlsoffset
+152 334 121 455 _dl_allocate_tls_storage
+154 195455 986900 1182355 _dl_relocate_object
+156 553230 565240 1118470 _dl_lookup_symbol_x
+158 403621 161619 565240 do_lookup_x
+160 68039 53677 121716 check_match.9440
+162 5 0 5 strcasecmp
+164 30 14 44 time
+166 35 0 35 _dl_vdso_vsym
+168 5 0 5 strnlen
+170 5 0 5 strncasecmp
+172 24 0 24 memset
+174 15 7 22 gettimeofday
+176 15 0 15 memcpy@GLIBC_2.2.5
+178 24 0 24 _dl_add_to_slotinfo
+180 8 0 8 __exp_finite
+182 16 0 16 cos
+184 5 0 5 rint
+186 5 0 5 __pow_finite
+188 8 0 8 __log_finite
+190 5 0 5 rintf
+192 5 0 5 __acos_finite
+194 5 0 5 floorf
+196 5 0 5 floor
+198 5 0 5 __asin_finite
+200 8 0 8 __atan2_finite
+202 8 0 8 sin
+204 81 157 238 _dl_allocate_tls_init
+206 1 0 1 _dl_sysdep_start_cleanup
+208 10 5 15 _dl_unload_cache
+210 5 0 5 munmap
+214 498 57765 58263 _dl_init
+216 4 9040 9044 0x00000000059e1400
+218 190 8850 9040 __pthread_initialize_minimal
+220 134 0 134 __libc_sigaction
+228 3712 142482 146194 _dl_runtime_resolve
+230 10158 132324 142482 _dl_fixup
+232 5 0 5 _dl_get_tls_static_info
+238 5 571 576 secure_getenv
+240 544 27 571 getenv
+242 1469 0 1469 __GI_strlen
+248 5 0 5 getrlimit
+254 3 0 3 __libc_dl_error_tsd
+260 393 50 443 __libc_pthread_init
+262 50 0 50 __register_atfork
+266 16 0 16 0x0000000000006720
+274 60 115 175 _init
+276 24 61 85 __init_misc
+278 61 0 61 __GI_strrchr
+280 16 0 16 __ctype_init
+282 150 1727 1877 init_cacheinfo
+284 94 1633 1727 handle_intel.isra.0
+286 407 1226 1633 intel_check_word
+288 902 324 1226 bsearch
+290 324 0 324 intel_02_known_compare
+292 6 0 6 0x0000000005bf9e98
+296 16 0 16 0x00000000000023f0
+304 6 0 6 0x00000000054077f8
+308 89 93 182 __cpu_indicator_init
+310 40 0 40 0x0000000000002c30
+314 53 0 53 0x0000000000002b60
+318 16 0 16 0x0000000000002fc0
+326 6 0 6 0x0000000005108278
+330 16 0 16 0x0000000000005820
+338 6 0 6 0x0000000004edd5c8
+342 16 0 16 0x0000000000008bd0
+350 6 0 6 0x0000000004c5b560
+354 16 0 16 0x0000000000039c80
+362 6 46320 46326 _GLOBAL__sub_I_iostream.cpp
+370 177 43978 44155 std::__1::ios_base::Init::Init()
+376 27 33990 34017 std::__1::basic_streambuf<char, std::__1::char_traits<char> >::basic_streambuf()
+382 70 33388 33458 std::__1::locale::locale()
+388 65 32597 32662 std::__1::locale::__global()
+394 54 3145 3199 __cxa_guard_acquire
+402 483 1449 1932 pthread_mutex_lock
+404 1692 0 1692 pthread_mutex_lock
+410 483 1173 1656 pthread_mutex_unlock
+412 1389 0 1389 pthread_mutex_unlock
+418 17 27190 27207 std::__1::locale::classic()
+420 207 26642 26849 std::__1::locale::__imp::__imp(unsigned long)
+422 240 23 263 std::__1::vector<std::__1::locale::facet*, std::__1::__sso_allocator<std::__1::locale::facet*, 28ul> >::vector(unsigned long)
+424 23 0 23 std::__1::vector<std::__1::locale::facet*, std::__1::__sso_allocator<std::__1::locale::facet*, 28ul> >::allocate(unsigned long)
+430 17 3722 3739 std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::basic_string(char const*)
+436 21 0 21 strlen
+438 31818 0 31818 __strlen_sse2_pminub
+444 84 1350 1434 std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::__init(char const*, unsigned long)
+450 33 0 33 memcpy@@GLIBC_2.14
+452 866 0 866 __memcpy_ssse3_back
+460 712 10315 11027 std::__1::locale::id::__get()
+468 812 8610 9422 std::__1::__call_once(unsigned long volatile&, void*, void (*)(void*))
+478 224 168 392 void std::__1::__call_once_proxy<std::__1::tuple<std::__1::(anonymous namespace)::__fake_bind&&> >(void*)
+482 168 0 168 std::__1::locale::id::__init()
+490 217 403 620 pthread_cond_broadcast@@GLIBC_2.3.2
+492 403 0 403 pthread_cond_broadcast@@GLIBC_2.3.2
+494 644 784 1428 std::__1::locale::__imp::install(std::__1::locale::facet*, long)
+500 98 0 98 std::__1::__shared_count::__add_shared()
+502 784 0 784 std::__1::vector<std::__1::locale::facet*, std::__1::__sso_allocator<std::__1::locale::facet*, 28ul> >::__append(unsigned long)
+514 14 5540 5554 std::__1::ctype<char>::ctype(unsigned short const*, bool, unsigned long)
+520 4 4781 4785 std::__1::ctype<char>::classic_table()
+526 20 4148 4168 std::__1::__cloc()
+532 40 0 40 newlocale
+538 36 2015 2051 __cxa_guard_release
+548 14 4 18 std::__1::codecvt<wchar_t, char, __mbstate_t>::codecvt(unsigned long)
+554 17 4 21 std::__1::numpunct<char>::numpunct(unsigned long)
+556 8 0 8 std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::basic_string()
+562 17 4 21 std::__1::numpunct<wchar_t>::numpunct(unsigned long)
+570 28 14 42 std::__1::locale::locale(std::__1::locale const&)
+574 18 822 840 std::__1::__stdinbuf<char>::imbue(std::__1::locale const&)
+580 36 168 204 std::__1::locale::use_facet(std::__1::locale::id&) const
+582 72 0 72 std::__1::locale::__imp::use_facet(long) const
+586 2 0 2 std::__1::codecvt<char, char, __mbstate_t>::do_encoding() const
+588 6 0 6 std::__1::codecvt<char, char, __mbstate_t>::do_always_noconv() const
+594 12 873 885 std::__1::locale::~locale()
+600 36 0 36 std::__1::__shared_count::__release_shared()
+610 168 120 288 std::__1::ios_base::init(void*)
+616 27 45 72 std::__1::basic_streambuf<wchar_t, std::__1::char_traits<wchar_t> >::basic_streambuf()
+618 18 4344 4362 std::__1::__stdinbuf<wchar_t>::imbue(std::__1::locale const&)
+622 36 4250 4286 std::__1::codecvt<wchar_t, char, __mbstate_t>::do_encoding() const
+628 168 0 168 uselocale
+636 19 0 19 mbtowc
+644 5 0 5 __ctype_get_mb_cur_max
+646 6 0 6 std::__1::codecvt<wchar_t, char, __mbstate_t>::do_always_noconv() const
+648 60 172 232 std::__1::__stdoutbuf<char>::__stdoutbuf(_IO_FILE*, __mbstate_t*)
+654 60 172 232 std::__1::__stdoutbuf<wchar_t>::__stdoutbuf(_IO_FILE*, __mbstate_t*)
+664 4004 9755 13759 __cxa_atexit
+666 8058 1697 9755 __new_exitfn
+668 6 0 6 0x0000000004a22560
+672 16 0 16 0x0000000000000670
+682 16 3295580634 3295580650 0x0000000000430785
+690 62 3295579133 3295579195 (below main)
+692 426 100703 101129 __libc_csu_init
+694 6 0 6 0x000000000042b360
+698 16 0 16 0x0000000000430850
+706 5 1487 1492 _GLOBAL__sub_I_EtherAppCli.cc
+708 22 1465 1487 __cxx_global_var_init
+710 1344 0 1344 ExecuteOnStartup::ExecuteOnStartup(void (*)())
+716 5 92 97 _GLOBAL__sub_I_EtherAppCli_n.cc
+718 18 74 92 __cxx_global_var_init.2
+720 5 92 97 _GLOBAL__sub_I_EtherAppSrv.cc
+722 18 74 92 __cxx_global_var_init.66
+724 5 92 97 _GLOBAL__sub_I_EtherAppSrv_n.cc
+726 18 74 92 __cxx_global_var_init.69
+728 8 368 376 _GLOBAL__sub_I_EtherApp_m.cc
+730 18 74 92 __cxx_global_var_init.88
+732 18 74 92 __cxx_global_var_init.1
+734 18 74 92 __cxx_global_var_init.4
+736 18 74 92 __cxx_global_var_init.5
+738 5 92 97 _GLOBAL__sub_I_EtherBus.cc
+740 18 74 92 __cxx_global_var_init.129
+742 5 92 97 _GLOBAL__sub_I_EtherBus_n.cc
+744 18 74 92 __cxx_global_var_init.131
+746 8 75582 75590 _GLOBAL__sub_I_EtherCtrl_m.cc
+748 60 66683 66743 __cxx_global_var_init.156
+750 198 75135 75333 sEnumBuilder::sEnumBuilder(char const*, ...)
+752 33 1612 1645 findEnum(char const*)
+754 1275 45412 46687 cHead::find(char const*) const
+756 9371 36041 45412 _ZNK5cHead4findEPKc_while.cond
+758 7658057 128205938 135863995 cObject::operator new(unsigned long)
+764 2360444 125459502 127819946 operator new[](unsigned long)
+770 19601736 176575659 196177395 operator new(unsigned long)
+776 41265493 135309769 176575262 malloc
+777 40 1056 1096 malloc'2
+778 11 57735 57746 malloc_hook_ini
+780 585 56054 56639 ptmalloc_init.part.8
+782 55994 51 56045 _dl_addr
+784 9 0 9 __linkin_atfork
+786 135181940 71882 135253822 _int_malloc
+788 8639855 0 8639855 malloc_consolidate
+790 5796 3747 9543 sysmalloc
+792 1736 10385 12121 __default_morecore
+794 6134 4251 10385 sbrk
+796 4251 0 4251 brk
+798 102 5032 5134 cEnum::cEnum(char const*, int)
+800 19444283 37090654 56534937 cObject::cObject(char const*)
+802 13714572 221755 13936327 opp_strdup(char const*)
+812 5 0 5 strcpy
+814 815911 0 815911 __strcpy_sse2_unaligned
+816 20969730 23066717 44036447 cObject::defaultOwner() const
+818 23066838 0 23066838 cSimulation::localList()
+820 181910609 0 181910609 cObject::setOwner(cObject*)
+822 744 0 744 _ZN5cEnumC2EPKci_for.cond
+824 780 6899 7679 _ZN12sEnumBuilderC2EPKcz_for.cond
+826 1350 5549 6899 cEnum::insert(int, char const*)
+828 401 0 401 _ZN5cEnum6insertEiPKc_while.cond.61
+830 30 3869 3899 __cxx_global_var_init.8
+832 29154488 116621529 145776017 cObject::isName(char const*) const
+834 58309596 58313725 116623321 opp_strcmp(char const*, char const*)
+840 5 0 5 strcmp
+842 58380344 0 58380344 __strcmp_sse42
+844 67 4781 4848 __cxx_global_var_init.13
+846 18 74 92 __cxx_global_var_init.23
+848 5 92 97 _GLOBAL__sub_I_EtherEncap.cc
+850 18 74 92 __cxx_global_var_init.206
+852 5 92 97 _GLOBAL__sub_I_EtherEncap_n.cc
+854 18 74 92 __cxx_global_var_init.209
+856 16 1104 1120 _GLOBAL__sub_I_EtherFrame_m.cc
+858 18 74 92 __cxx_global_var_init.244
+860 18 74 92 __cxx_global_var_init.1.245
+862 18 74 92 __cxx_global_var_init.4.246
+864 18 74 92 __cxx_global_var_init.5.247
+866 18 74 92 __cxx_global_var_init.8.248
+868 18 74 92 __cxx_global_var_init.9
+870 18 74 92 __cxx_global_var_init.13.249
+872 18 74 92 __cxx_global_var_init.14
+874 18 74 92 __cxx_global_var_init.18
+876 18 74 92 __cxx_global_var_init.19
+878 18 74 92 __cxx_global_var_init.21
+880 18 74 92 __cxx_global_var_init.22
+882 6 184 190 _GLOBAL__sub_I_EtherHost_n.cc
+884 18 74 92 __cxx_global_var_init.288
+886 18 74 92 __cxx_global_var_init.1.289
+888 5 92 97 _GLOBAL__sub_I_EtherHub.cc
+890 18 74 92 __cxx_global_var_init.306
+892 5 92 97 _GLOBAL__sub_I_EtherHub_n.cc
+894 18 74 92 __cxx_global_var_init.309
+896 5 92 97 _GLOBAL__sub_I_EtherLLC.cc
+898 18 74 92 __cxx_global_var_init.353
+900 5 441 446 _GLOBAL__sub_I_EtherLLC_n.cc
+902 18 423 441 __cxx_global_var_init.356
+906 443 1390 1833 calloc
+908 1410 0 1410 __GI_memset
+910 5 92 97 _GLOBAL__sub_I_EtherMAC.cc
+912 18 74 92 __cxx_global_var_init.416
+914 5 92 97 _GLOBAL__sub_I_EtherMAC_n.cc
+916 18 74 92 __cxx_global_var_init.418
+918 6 184 190 _GLOBAL__sub_I_EtherSwitch_n.cc
+920 18 74 92 __cxx_global_var_init.460
+922 18 74 92 __cxx_global_var_init.1.461
+924 16 1104 1120 _GLOBAL__sub_I_LargeNet_n.cc
+926 18 74 92 __cxx_global_var_init.549
+928 18 74 92 __cxx_global_var_init.1.550
+930 18 74 92 __cxx_global_var_init.2.551
+932 18 74 92 __cxx_global_var_init.21.552
+934 18 74 92 __cxx_global_var_init.22.553
+936 18 74 92 __cxx_global_var_init.29
+938 18 74 92 __cxx_global_var_init.30
+940 18 74 92 __cxx_global_var_init.42
+942 18 74 92 __cxx_global_var_init.43
+944 18 74 92 __cxx_global_var_init.87
+946 18 74 92 __cxx_global_var_init.90
+948 18 74 92 __cxx_global_var_init.92
+950 5 92 97 _GLOBAL__sub_I_MACAddress_m.cc
+952 18 74 92 __cxx_global_var_init.590
+954 5 92 97 _GLOBAL__sub_I_MACRelayUnitNP.cc
+956 18 74 92 __cxx_global_var_init.672
+958 5 92 97 _GLOBAL__sub_I_MACRelayUnitNP_n.cc
+960 18 74 92 __cxx_global_var_init.675
+962 5 92 97 _GLOBAL__sub_I_MACRelayUnitPP.cc
+964 18 74 92 __cxx_global_var_init.728
+966 5 92 97 _GLOBAL__sub_I_MACRelayUnitPP_n.cc
+968 18 74 92 __cxx_global_var_init.731
+970 5 92 97 _GLOBAL__sub_I_MACRelayUnit_n.cc
+972 18 74 92 __cxx_global_var_init.748
+974 19 1729 1748 _GLOBAL__sub_I_Networks_n.cc
+976 18 74 92 __cxx_global_var_init.830
+978 18 74 92 __cxx_global_var_init.1.831
+980 18 74 92 __cxx_global_var_init.44
+982 18 74 92 __cxx_global_var_init.45
+984 18 74 92 __cxx_global_var_init.50
+986 18 74 92 __cxx_global_var_init.51
+988 18 74 92 __cxx_global_var_init.60
+990 18 74 92 __cxx_global_var_init.61
+992 18 74 92 __cxx_global_var_init.64
+994 18 423 441 __cxx_global_var_init.65
+996 18 74 92 __cxx_global_var_init.73
+998 18 74 92 __cxx_global_var_init.76
+1000 18 74 92 __cxx_global_var_init.79
+1002 18 74 92 __cxx_global_var_init.81
+1004 18 74 92 __cxx_global_var_init.83
+1006 5 87 92 _GLOBAL__sub_I_utils.cc
+1008 15 72 87 __cxx_global_var_init.841
+1010 6 0 6 MessageTracer::MessageTracer()
+1012 5 92 97 _GLOBAL__sub_I_cmdenv.cc
+1014 18 74 92 __cxx_global_var_init.894
+1016 5 277 282 _GLOBAL__sub_I_heap.cc
+1018 16 261 277 __cxx_global_var_init.909
+1020 18 177 195 MemManager::MemManager(int)
+1022 6 549 555 _GLOBAL__sub_I_cenvir.cc
+1024 15 74 89 __cxx_global_var_init.943
+1026 8 0 8 cEnvir::cEnvir()
+1028 18 442 460 __cxx_global_var_init.1.944
+1030 546 11506 12052 cHead::cHead(char const*)
+1032 7 276 283 _GLOBAL__sub_I_filemgrs.cc
+1034 18 74 92 __cxx_global_var_init.1033
+1036 18 74 92 __cxx_global_var_init.11
+1038 18 74 92 __cxx_global_var_init.18.1034
+1040 5 92 97 _GLOBAL__sub_I_slaveapp.cc
+1042 18 74 92 __cxx_global_var_init.1208
+1044 6 184 190 _GLOBAL__sub_I_carray.cc
+1046 18 74 92 __cxx_global_var_init.1230
+1048 18 74 92 __cxx_global_var_init.1.1231
+1050 5 92 97 _GLOBAL__sub_I_cmessage.cc
+1052 18 74 92 __cxx_global_var_init.1319
+1054 5 92 97 _GLOBAL__sub_I_cpar.cc
+1056 18 74 92 __cxx_global_var_init.1419
+1058 20 1828 1848 _GLOBAL__sub_I_ctypes.cc
+1060 18 74 92 __cxx_global_var_init.1473
+1062 18 74 92 __cxx_global_var_init.1.1474
+1064 18 74 92 __cxx_global_var_init.2.1475
+1066 18 74 92 __cxx_global_var_init.3
+1068 18 74 92 __cxx_global_var_init.4.1476
+1070 18 74 92 __cxx_global_var_init.5.1477
+1072 18 74 92 __cxx_global_var_init.6
+1074 18 74 92 __cxx_global_var_init.7
+1076 18 74 92 __cxx_global_var_init.8.1478
+1078 18 74 92 __cxx_global_var_init.9.1479
+1080 18 74 92 __cxx_global_var_init.10
+1082 18 74 92 __cxx_global_var_init.11.1480
+1084 18 74 92 __cxx_global_var_init.12
+1086 18 430 448 __cxx_global_var_init.13.1481
+1088 18 74 92 __cxx_global_var_init.14.1482
+1090 18 74 92 __cxx_global_var_init.15
+1092 6 184 190 _GLOBAL__sub_I_cchannel.cc
+1094 18 74 92 __cxx_global_var_init.1513
+1096 18 74 92 __cxx_global_var_init.1.1514
+1098 5 92 97 _GLOBAL__sub_I_cfsm.cc
+1100 18 74 92 __cxx_global_var_init.1525
+1102 5 92 97 _GLOBAL__sub_I_cpsquare.cc
+1104 18 74 92 __cxx_global_var_init.1736
+1106 5 92 97 _GLOBAL__sub_I_cvarhist.cc
+1108 18 74 92 __cxx_global_var_init.1759
+1110 16 1104 1120 _GLOBAL__sub_I_util.cc
+1112 18 74 92 __cxx_global_var_init.1805
+1114 18 74 92 __cxx_global_var_init.1.1806
+1116 18 74 92 __cxx_global_var_init.2.1807
+1118 18 74 92 __cxx_global_var_init.3.1808
+1120 18 74 92 __cxx_global_var_init.4.1809
+1122 18 74 92 __cxx_global_var_init.5.1810
+1124 18 74 92 __cxx_global_var_init.6.1811
+1126 18 74 92 __cxx_global_var_init.7.1812
+1128 18 74 92 __cxx_global_var_init.8.1813
+1130 18 74 92 __cxx_global_var_init.9.1814
+1132 18 74 92 __cxx_global_var_init.10.1815
+1134 18 74 92 __cxx_global_var_init.11.1816
+1136 5 92 97 _GLOBAL__sub_I_cmsgheap.cc
+1138 18 74 92 __cxx_global_var_init.1892
+1140 5 92 97 _GLOBAL__sub_I_cqueue.cc
+1142 18 74 92 __cxx_global_var_init.1922
+1144 12 3366 3378 _GLOBAL__sub_I_chead.cc
+1146 18 445 463 __cxx_global_var_init.2022
+1148 18 469 487 __cxx_global_var_init.1.2023
+1150 18 449 467 __cxx_global_var_init.3.2024
+1152 18 449 467 __cxx_global_var_init.5.2025
+1154 18 446 464 __cxx_global_var_init.7.2026
+1156 18 444 462 __cxx_global_var_init.9.2027
+1158 18 446 464 __cxx_global_var_init.11.2028
+1160 18 74 92 __cxx_global_var_init.13.2029
+1162 5 1655 1660 _GLOBAL__sub_I_csimul.cc
+1164 18 1637 1655 __cxx_global_var_init.2123
+1166 64 1507 1571 cSimulation::cSimulation(char const*)
+1168 8 0 8 cCoroutine::cCoroutine()
+1170 30 588 618 cMessageHeap::cMessageHeap(char const*, int)
+1172 16550870 77061769 93612639 cObject::take(cObject*)
+1174 49 4838 4887 _GLOBAL__sub_I_distrib.cc
+1176 18 74 92 __cxx_global_var_init.2135
+1178 18 423 441 __cxx_global_var_init.5.2136
+1180 18 74 92 __cxx_global_var_init.6.2137
+1182 18 74 92 __cxx_global_var_init.7.2138
+1184 18 74 92 __cxx_global_var_init.8.2139
+1186 18 74 92 __cxx_global_var_init.9.2140
+1188 18 74 92 __cxx_global_var_init.10.2141
+1190 18 74 92 __cxx_global_var_init.11.2142
+1192 18 74 92 __cxx_global_var_init.12.2143
+1194 18 74 92 __cxx_global_var_init.13.2144
+1196 18 74 92 __cxx_global_var_init.14.2145
+1198 18 74 92 __cxx_global_var_init.15.2146
+1200 18 74 92 __cxx_global_var_init.16
+1202 18 74 92 __cxx_global_var_init.17
+1204 18 74 92 __cxx_global_var_init.18.2147
+1206 18 74 92 __cxx_global_var_init.19.2148
+1208 18 74 92 __cxx_global_var_init.20
+1210 18 74 92 __cxx_global_var_init.21.2149
+1212 18 74 92 __cxx_global_var_init.22.2150
+1214 18 74 92 __cxx_global_var_init.23.2151
+1216 18 74 92 __cxx_global_var_init.24
+1218 18 74 92 __cxx_global_var_init.25
+1220 18 74 92 __cxx_global_var_init.26
+1222 18 74 92 __cxx_global_var_init.27
+1224 18 74 92 __cxx_global_var_init.28
+1226 18 74 92 __cxx_global_var_init.29.2152
+1228 18 74 92 __cxx_global_var_init.30.2153
+1230 18 74 92 __cxx_global_var_init.31
+1232 18 74 92 __cxx_global_var_init.32
+1234 18 74 92 __cxx_global_var_init.33
+1236 18 74 92 __cxx_global_var_init.34
+1238 18 74 92 __cxx_global_var_init.35
+1240 18 74 92 __cxx_global_var_init.36
+1242 18 423 441 __cxx_global_var_init.37
+1244 18 74 92 __cxx_global_var_init.38
+1246 18 74 92 __cxx_global_var_init.39
+1248 18 74 92 __cxx_global_var_init.40
+1250 18 74 92 __cxx_global_var_init.41
+1252 18 74 92 __cxx_global_var_init.42.2154
+1254 18 74 92 __cxx_global_var_init.43.2155
+1256 18 74 92 __cxx_global_var_init.44.2156
+1258 18 74 92 __cxx_global_var_init.45.2157
+1260 18 74 92 __cxx_global_var_init.46
+1262 18 74 92 __cxx_global_var_init.47
+1264 18 74 92 __cxx_global_var_init.48
+1266 6 184 190 _GLOBAL__sub_I_chist.cc
+1268 18 74 92 __cxx_global_var_init.2217
+1270 18 74 92 __cxx_global_var_init.1.2218
+1272 5 92 97 _GLOBAL__sub_I_cobject.cc
+1274 18 74 92 __cxx_global_var_init.2271
+1276 6 184 190 _GLOBAL__sub_I_cstat.cc
+1278 18 74 92 __cxx_global_var_init.2331
+1280 18 74 92 __cxx_global_var_init.1.2332
+1282 5 92 97 _GLOBAL__sub_I_cksplit.cc
+1284 18 74 92 __cxx_global_var_init.2429
+1286 5 92 97 _GLOBAL__sub_I_cenum.cc
+1288 18 74 92 __cxx_global_var_init.2490
+1290 5 92 97 _GLOBAL__sub_I_cllist.cc
+1292 18 74 92 __cxx_global_var_init.2498
+1294 5 92 97 _GLOBAL__sub_I_cpacket.cc
+1296 18 74 92 __cxx_global_var_init.2507
+1298 5 92 97 _GLOBAL__sub_I_ctopo.cc
+1300 18 74 92 __cxx_global_var_init.2516
+1302 5 338 343 _GLOBAL__sub_I_random.cc
+1304 6 332 338 __cxx_global_var_init.2535
+1306 332 0 332 init_generators::init_generators()
+1308 6 84 90 _setjmp
+1310 57 27 84 __sigsetjmp
+1312 27 0 27 __sigjmp_save
+1314 67 3295343594 3295343661 main
+1316 6 0 6 cStaticFlag::cStaticFlag()
+1322 1071 34778 35849 printf
+1324 90805 242516 333321 vfprintf
+1326 20256 0 20256 strchrnul
+1328 2212 0 2212 _pthread_cleanup_push_defer
+1330 31233 14857 46090 _IO_file_xsputn@@GLIBC_2.2.5
+1332 118 379 497 _IO_file_overflow@@GLIBC_2.2.5
+1334 54 330 384 _IO_doallocbuf
+1336 126 204 330 _IO_file_doallocate
+1338 12 30 42 _IO_file_stat
+1340 30 0 30 _fxstat
+1342 99 0 99 mmap
+1344 3764 10 3774 _IO_setb
+1346 430 344 774 _IO_do_write@@GLIBC_2.2.5
+1348 29536 342 29878 _IO_default_xsputn
+1350 15191 0 15191 __GI_mempcpy
+1354 14730874 92345353 107076227 free
+1356 1264 0 1264 _pthread_cleanup_pop_restore
+1358 110017 250375 360392 testrand()
+1360 4196934 0 4196934 opp_nextrand(long&)
+1362 173 333880 334053 cEnvir::setup(int, char**)
+1364 1692 232330 234022 ExecuteOnStartup::executeAll()
+1366 840 231490 232330 ExecuteOnStartup::execute()
+1368 23 641 664 __cTopology__class_code()
+1370 731 15887 16618 cClassRegister::cClassRegister(char const*, void* (*)())
+1372 23 644 667 __cPacket__class_code()
+1374 23 643 666 __cLinkedList__class_code()
+1376 23 651 674 __cEnum__class_code()
+1378 23 664 687 __cKSplit__class_code()
+1380 23 664 687 __cWeightedStdDev__class_code()
+1382 23 641 664 __cStdDev__class_code()
+1384 23 664 687 __cObject__class_code()
+1386 23 665 688 __cDoubleHistogram__class_code()
+1388 23 643 666 __cLongHistogram__class_code()
+1390 25 672 697 __genk_truncnormal__3__func_code()
+1392 486 6536 7022 cFunctionType::cFunctionType(char const*, double (*)(double, double, double), int)
+1394 25 676 701 __genk_normal__3__func_code()
+1396 25 670 695 __genk_exponential__2__func_code()
+1398 864 11595 12459 cFunctionType::cFunctionType(char const*, double (*)(double, double), int)
+1400 25 651 676 __genk_intuniform__3__func_code()
+1402 25 662 687 __genk_uniform__3__func_code()
+1404 25 674 699 __poisson__2__func_code()
+1406 25 653 678 __negbinomial__3__func_code()
+1408 25 653 678 __geometric__2__func_code()
+1410 25 652 677 __binomial__3__func_code()
+1412 25 653 678 __bernoulli__2__func_code()
+1414 25 656 681 __intuniform__3__func_code()
+1416 25 656 681 __pareto_shifted__4__func_code()
+1418 54 717 771 cFunctionType::cFunctionType(char const*, double (*)(double, double, double, double), int)
+1420 25 654 679 __weibull__3__func_code()
+1422 25 676 701 __lognormal__3__func_code()
+1424 25 653 678 __triang__4__func_code()
+1426 25 653 678 __cauchy__3__func_code()
+1428 25 653 678 __student_t__2__func_code()
+1430 25 653 678 __chi_square__2__func_code()
+1432 25 655 680 __erlang_k__3__func_code()
+1434 25 661 686 __beta__3__func_code()
+1436 25 659 684 __gamma_d__3__func_code()
+1438 25 661 686 __truncnormal__3__func_code()
+1440 25 653 678 __normal__3__func_code()
+1442 25 653 678 __exponential__2__func_code()
+1444 25 659 684 __uniform__3__func_code()
+1446 25 674 699 __poisson__1__func_code()
+1448 567 7534 8101 cFunctionType::cFunctionType(char const*, double (*)(double), int)
+1450 25 653 678 __negbinomial__2__func_code()
+1452 25 653 678 __geometric__1__func_code()
+1454 25 652 677 __binomial__2__func_code()
+1456 25 653 678 __bernoulli__1__func_code()
+1458 25 656 681 __intuniform__2__func_code()
+1460 25 656 681 __pareto_shifted__3__func_code()
+1462 25 654 679 __weibull__2__func_code()
+1464 25 676 701 __lognormal__2__func_code()
+1466 25 653 678 __triang__3__func_code()
+1468 25 653 678 __cauchy__2__func_code()
+1470 25 653 678 __student_t__1__func_code()
+1472 25 653 678 __chi_square__1__func_code()
+1474 25 655 680 __erlang_k__2__func_code()
+1476 25 661 686 __beta__2__func_code()
+1478 25 659 684 __gamma_d__2__func_code()
+1480 25 661 686 __truncnormal__2__func_code()
+1482 25 653 678 __normal__2__func_code()
+1484 25 653 678 __exponential__1__func_code()
+1486 25 659 684 __uniform__2__func_code()
+1488 23 643 666 __cHead__class_code()
+1490 23 646 669 __cQueue__class_code()
+1492 23 643 666 __cMessageHeap__class_code()
+1494 25 676 701 __shift_right__2__func_code()
+1496 25 653 678 __shift_left__2__func_code()
+1498 25 653 678 __bin_compl__1__func_code()
+1500 25 651 676 __bin_xor__2__func_code()
+1502 25 656 681 __bin_or__2__func_code()
+1504 25 660 685 __bin_and__2__func_code()
+1506 25 660 685 __bool_not__1__func_code()
+1508 25 675 700 __bool_xor__2__func_code()
+1510 25 651 676 __bool_or__2__func_code()
+1512 25 652 677 __bool_and__2__func_code()
+1514 25 651 676 __max__2__func_code()
+1516 25 659 684 __min__2__func_code()
+1518 23 643 666 __cVarHistogram__class_code()
+1520 23 650 673 __cPSquare__class_code()
+1522 23 650 673 __cFSM__class_code()
+1524 23 652 675 __cSimpleChannel__class_code()
+1526 23 642 665 __cChannel__class_code()
+1528 25 653 678 __log10__1__func_code()
+1530 25 651 676 __log__1__func_code()
+1532 25 652 677 __fmod__2__func_code()
+1534 25 655 680 __fabs__1__func_code()
+1536 25 655 680 __sqrt__1__func_code()
+1538 25 654 679 __pow__2__func_code()
+1540 25 654 679 __exp__1__func_code()
+1542 25 661 686 __floor__1__func_code()
+1544 25 660 685 __ceil__1__func_code()
+1546 25 651 676 __tan__1__func_code()
+1548 25 651 676 __cos__1__func_code()
+1550 25 651 676 __sin__1__func_code()
+1552 25 676 701 __atan2__2__func_code()
+1554 25 652 677 __atan__1__func_code()
+1556 25 652 677 __asin__1__func_code()
+1558 25 652 677 __acos__1__func_code()
+1560 23 651 674 __cPar__class_code()
+1562 23 650 673 __cMessage__class_code()
+1564 23 643 666 __cArray__class_code()
+1566 23 642 665 __cBag__class_code()
+1568 29 994 1023 ____TSlaveApp_ui_code()
+1570 58 1406 1464 cOmnetAppRegistration::cOmnetAppRegistration(char const*, bool, int, char const*, TOmnetApp* (*)(ArgList*, cIniFile*))
+1572 44 1217 1261 opp_string::opp_string(char const*)
+1574 23 682 705 __cFileSnapshotManager__class_code()
+1576 23 662 685 __cFileOutputScalarManager__class_code()
+1578 23 681 704 __cFileOutputVectorManager__class_code()
+1580 29 1006 1035 ____TCmdenvApp_ui_code()
+1582 22 652 674 __busLAN__net_code()
+1584 14 371 385 busLAN::busLAN(char const*)
+1586 112 2859 2971 cNetworkType::cNetworkType(char const*)
+1588 22 654 676 __hubLAN__net_code()
+1590 14 371 385 hubLAN::hubLAN(char const*)
+1592 22 654 676 __switchedLAN__net_code()
+1594 14 371 385 switchedLAN::switchedLAN(char const*)
+1596 22 653 675 __twoHosts__net_code()
+1598 14 370 384 twoHosts::twoHosts(char const*)
+1600 22 661 683 __mixedLAN__net_code()
+1602 14 378 392 mixedLAN::mixedLAN(char const*)
+1604 27 924 951 __BusLAN__mod_code()
+1606 440 12868 13308 cModuleType::cModuleType(char const*, char const*, cModule* (*)(char const*, cModule*))
+1608 23 1580 1603 __BusLAN__if_code()
+1610 672 118333 119005 cModuleInterface::cModuleInterface(char const*, cModuleInterface::sDescrItem*)
+1612 714 76038 76752 cModuleInterface::setup(cModuleInterface::sDescrItem*)
+1614 3413 0 3413 _ZN16cModuleInterface5setupEPNS_10sDescrItemE_for.cond
+1616 1560 11013 12573 cModuleInterface::allocate(int, int, int)
+1618 8589 51463 60052 _ZN16cModuleInterface5setupEPNS_10sDescrItemE_for.cond.17
+1620 588 16989 17577 cModuleInterface::check_consistency()
+1622 20409045 0 20409045 cObject::owner() const
+1624 5258275 0 5258275 cObject::name() const
+1626 297 18294 18591 findModuleInterface(char const*)
+1628 27 932 959 __HubLAN__mod_code()
+1630 23 1723 1746 __HubLAN__if_code()
+1632 27 926 953 __SwitchedLAN__mod_code()
+1634 23 1858 1881 __SwitchedLAN__if_code()
+1636 27 970 997 __TwoHosts__mod_code()
+1638 23 2078 2101 __TwoHosts__if_code()
+1640 27 940 967 __MixedLAN__mod_code()
+1642 23 2221 2244 __MixedLAN__if_code()
+1644 23 5545 5568 __MACRelayUnit__if_code()
+1646 23 8957 8980 __MACRelayUnitPP__if_code()
+1648 27 926 953 __MACRelayUnitPP__mod_code()
+1650 23 9746 9769 __MACRelayUnitNP__if_code()
+1652 27 932 959 __MACRelayUnitNP__mod_code()
+1654 23 662 685 __MACAddressDescriptor__class_code()
+1656 22 653 675 __largeNet__net_code()
+1658 14 370 384 largeNet::largeNet(char const*)
+1660 22 653 675 __largeLAN__net_code()
+1662 14 370 384 largeLAN::largeLAN(char const*)
+1664 22 653 675 __smallLAN__net_code()
+1666 14 370 384 smallLAN::smallLAN(char const*)
+1668 27 940 967 __LargeNet__mod_code()
+1670 23 13487 13510 __LargeNet__if_code()
+1672 27 924 951 __LargeLAN__mod_code()
+1674 23 5955 5978 __LargeLAN__if_code()
+1676 27 942 969 __MediumLAN__mod_code()
+1678 23 5651 5674 __MediumLAN__if_code()
+1680 27 924 951 __SmallLAN__mod_code()
+1682 23 4929 4952 __SmallLAN__if_code()
+1684 27 650 677 __cable__linkt_code()
+1686 23 360 383 cLinkType::cLinkType(char const*, cPar* (*)(), cPar* (*)(), cPar* (*)())
+1688 27 926 953 __EtherSwitch__mod_code()
+1690 23 5125 5148 __EtherSwitch__if_code()
+1692 23 9285 9308 __EtherMAC__if_code()
+1694 27 924 951 __EtherMAC__mod_code()
+1696 23 6479 6502 __EtherLLC__if_code()
+1698 27 940 967 __EtherLLC__mod_code()
+1700 23 5542 5565 __EtherHub__if_code()
+1702 27 942 969 __EtherHub__mod_code()
+1704 27 972 999 __EtherHost__mod_code()
+1706 23 5172 5195 __EtherHost__if_code()
+1708 23 682 705 __EtherAutoconfigDescriptor__class_code()
+1710 23 641 664 __EtherAutoconfig__class_code()
+1712 23 663 686 __EtherPauseFrameDescriptor__class_code()
+1714 23 644 667 __EtherPauseFrame__class_code()
+1716 23 663 686 __EtherFrameWithSNAPDescriptor__class_code()
+1718 23 662 685 __EtherFrameWithSNAP__class_code()
+1720 23 667 690 __EtherFrameWithLLCDescriptor__class_code()
+1722 23 661 684 __EtherFrameWithLLC__class_code()
+1724 23 667 690 __EthernetIIFrameDescriptor__class_code()
+1726 23 664 687 __EthernetIIFrame__class_code()
+1728 23 662 685 __EtherFrameDescriptor__class_code()
+1730 23 643 666 __EtherFrame__class_code()
+1732 23 6562 6585 __EtherEncap__if_code()
+1734 27 926 953 __EtherEncap__mod_code()
+1736 23 665 688 __EtherCtrlDescriptor__class_code()
+1738 23 7273 7296 __EtherBus__if_code()
+1740 27 924 951 __EtherBus__mod_code()
+1742 23 663 686 __EtherAppRespDescriptor__class_code()
+1744 23 643 666 __EtherAppResp__class_code()
+1746 23 665 688 __EtherAppReqDescriptor__class_code()
+1748 23 666 689 __EtherAppReq__class_code()
+1750 23 6034 6057 __EtherAppSrv__if_code()
+1752 27 926 953 __EtherAppSrv__mod_code()
+1754 23 9450 9473 __EtherAppCli__if_code()
+1756 27 926 953 __EtherAppCli__mod_code()
+1758 6 0 6 ArgList::ArgList(int, char**)
+1760 150 245 395 ArgList::argValue(char, int)
+1762 245 0 245 _ZN7ArgList8argValueEci_for.cond
+1764 50 63705 63755 cIniFile::cIniFile(char const*)
+1766 6 63022 63028 cIniFile::readFile(char const*)
+1768 49 62973 63022 cIniFile::_readFile(char const*, int)
+1774 4 1155 1159 fopen@@GLIBC_2.2.5
+1776 80 1075 1155 __fopen_internal
+1780 3526 3856 7382 _IO_no_init
+1782 3856 0 3856 _IO_old_init
+1784 26 230 256 _IO_file_init@@GLIBC_2.2.5
+1786 208 44 252 _IO_link_in
+1788 141 86 227 _IO_file_fopen@@GLIBC_2.2.5
+1790 4 10 14 open
+1792 10 0 10 __open_nocancel
+1794 50 0 50 __GI_strstr
+1796 8 0 8 __fopen_maybe_mmap
+1798 16535 42840 59375 _ZN8cIniFile9_readFileEPKci_while.cond.outer
+1804 1872 0 1872 feof
+1810 3362 7253 10615 fgets
+1812 102 7151 7253 _IO_getline
+1814 1329 2389 3718 _IO_getline_info
+1816 182 401 583 __uflow
+1818 60 341 401 _IO_default_uflow
+1820 86 190 276 _IO_file_underflow@@GLIBC_2.2.5
+1822 40 0 40 _IO_switch_to_get_mode
+1824 8 14 22 _IO_file_read
+1826 4 10 14 read
+1828 10 0 10 __read_nocancel
+1830 1551 0 1551 memchr
+1832 4929 0 4929 __GI_memcpy
+1838 7 0 7 bcmp
+1840 6770972 0 6770972 __memcmp_sse4_1
+1846 6 0 6 index
+1848 3108 0 3108 __strchr_sse42
+1854 20 226 246 fclose@@GLIBC_2.2.5
+1856 222 44 266 _IO_un_link
+1858 105 223 328 _IO_file_close_it@@GLIBC_2.2.5
+1860 18 0 18 _IO_unsave_markers
+1862 4 10 14 _IO_file_close
+1864 10 0 10 __close_nocancel
+1866 10 0 10 munmap
+1868 16 48 64 _IO_file_finish@@GLIBC_2.2.5
+1870 28 20 48 _IO_default_finish
+1872 83714430 8630923 92345353 _int_free
+1874 378 0 378 cIniFile::error()
+1876 1607 702331 703938 cIniFile::getAsString(char const*, char const*, char const*)
+1878 15278 2957519 2972797 cIniFile::_getValue(char const*, char const*, int)
+1880 43337 35870 79207 _ZN8cIniFile9_getValueEPKcS1_i_for.cond
+1882 196426 2681886 2878312 _ZN8cIniFile9_getValueEPKcS1_i_for.cond.6
+1884 5 0 5 is_started_as_master()
+1886 90 87 177 chooseBestOmnetApp(bool)
+1888 1638 0 1638 cIterator::cIterator(cObject const&)
+1890 1704 0 1704 cIterator::end() const
+1892 2160 0 2160 cIterator::operator()() const
+1894 14 0 14 cOmnetAppRegistration::isSlave()
+1896 3765 0 3765 cIterator::operator++(int)
+1898 6 5 11 cOmnetAppRegistration::description()
+1900 60 0 60 opp_string::operator char const*() const
+1902 11 613 624 cOmnetAppRegistration::createOne(ArgList*, cIniFile*)
+1904 23 590 613 TCmdenvApp__create(ArgList*, cIniFile*)
+1906 17 294 311 TCmdenvApp::TCmdenvApp(ArgList*, cIniFile*)
+1908 64 225 289 TOmnetApp::TOmnetApp(ArgList*, cIniFile*)
+1910 955 0 955 opp_string::opp_string()
+1912 55 31812 31867 TCmdenvApp::setup()
+1914 87 28094 28181 TOmnetApp::setup()
+1916 5 0 5 cIniFile::filename()
+1918 1404 21857 23261 opp_string::operator=(char const*)
+1920 33 9789 9822 TCmdenvApp::readOptions()
+1922 98 7639 7737 TOmnetApp::readOptions()
+1924 3488 747433 750921 cIniFile::getAsBool(char const*, char const*, bool)
+1926 3256 0 3256 _ZN8cIniFile9getAsBoolEPKcS1_b_for.cond
+1928 1691 289273 290964 cIniFile::getAsInt(char const*, char const*, long)
+1930 5 12776 12781 cCoroutine::init(unsigned int, unsigned int)
+1932 39 12737 12776 task_init(unsigned int, unsigned int)
+1938 21 11259 11280 eat(_Task*, unsigned int, _Task*)
+1939 5415 1796697 1802112 eat(_Task*, unsigned int, _Task*)'2
+1940 3084 0 3084 dist(_Task*, _Task*)
+1950 14 50 64 longjmp
+1952 8 22 30 _longjmp_unwind
+1954 22 0 22 __pthread_cleanup_upto
+1956 20 0 20 __longjmp
+1958 5 0 5 cSimulation::init()
+1960 48 5090 5138 createOne(char const*)
+1962 15 761 776 cClassRegister::createOne() const
+1964 17 238 255 cFileOutputVectorManager__create()
+1966 19 12 31 cFileOutputVectorManager::cFileOutputVectorManager()
+1968 7 0 7 cOutputVectorManager::cOutputVectorManager()
+1970 17 237 254 cFileOutputScalarManager__create()
+1972 18 12 30 cFileOutputScalarManager::cFileOutputScalarManager()
+1974 7 0 7 cOutputScalarManager::cOutputScalarManager()
+1976 17 235 252 cFileSnapshotManager__create()
+1978 16 12 28 cFileSnapshotManager::cFileSnapshotManager()
+1980 7 0 7 cSnapshotManager::cSnapshotManager()
+1982 23 36 59 ArgList::argGiven(char)
+1984 36 0 36 _ZN7ArgList8argGivenEc_for.cond
+1986 6 0 6 cIniFileSectionIterator::cIniFileSectionIterator(cIniFile*)
+1988 151 3036 3187 _ZN10TCmdenvApp5setupEv_for.cond
+1990 70 0 70 cIniFileSectionIterator::end()
+1992 56 0 56 cIniFileSectionIterator::section()
+1998 5 0 5 strncmp
+2000 172 0 172 __strncmp_sse42
+2002 84 0 84 cIniFileSectionIterator::operator++(int)
+2008 5 0 5 strcat
+2010 75 0 75 __strcat_sse2_unaligned
+2012 16 3294633559 3294633575 cEnvir::run()
+2014 343 3294633216 3294633559 TCmdenvApp::run()
+2016 22 1587 1609 TCmdenvApp::setupSignals()
+2022 96 218 314 signal
+2024 8 210 218 sigaction
+2026 210 0 210 __libc_sigaction
+2028 26 1882 1908 EnumStringIterator::EnumStringIterator(char const*)
+2030 16 1584 1600 _ZN18EnumStringIteratorC2EPKc_while.cond
+2032 166 1746 1912 EnumStringIterator::operator++(int)
+2034 64 0 64 skip_whitespace(char const*&)
+2036 78 1604 1682 get_number(char const*&, int&)
+2038 52 0 52 _ZL10get_numberRPKcRi_while.cond
+2044 12 234 246 atoi
+2046 8 226 234 strtol
+2048 783 0 783 ____strtol_l_internal
+2050 54 0 54 _ZL10get_numberRPKcRi_while.cond.7
+2052 5 0 5 EnumStringIterator::error()
+2054 66 0 66 EnumStringIterator::operator()()
+2056 5538 0 5538 _itoa_word
+2062 369 735 1104 fflush
+2064 190 558 748 _IO_file_sync@@GLIBC_2.2.5
+2066 288 56 344 _IO_file_write@@GLIBC_2.2.5
+2068 16 40 56 write
+2070 40 0 40 __write_nocancel
+2072 103 434947 435050 TCmdenvApp::readPerRunOptions(int)
+2074 125 346742 346867 TOmnetApp::readPerRunOptions(int)
+2080 2561 139942 142503 sprintf
+2082 5738 137678 143416 vsprintf
+2084 4259 3633 7892 _IO_str_init_static_internal
+2086 1306 696882 698188 cIniFile::getAsString2(char const*, char const*, char const*, char const*)
+2088 1941 749356 751297 cIniFile::getAsBool2(char const*, char const*, char const*, bool)
+2090 15864 633933 649797 transform_pattern(char const*, short*)
+2092 633933 0 633933 _Z17transform_patternPKcPs_while.cond
+2094 25779 1984039 2009818 stringmatch(short const*, char const*)
+2096 15864 0 15864 _Z11stringmatchPKsPKc_while.cond
+2098 1006437 961738 1968175 _Z11stringmatchPKsPKc_while.cond.9
+2100 961738 0 961738 ismatch(short const*, short)
+2102 77 21116 21193 cIniFile::getAsTime2(char const*, char const*, char const*, double)
+2104 85 21031 21116 cIniFile::getAsTime(char const*, char const*, double)
+2106 208 6423 6631 strToSimtime(char const*)
+2108 182 0 182 _Z12strToSimtimePKc_while.cond
+2110 558 19755 20313 strToSimtime0(char const*&)
+2112 1619 18136 19755 _Z13strToSimtime0RPKc_while.cond
+2118 374 20598 20972 sscanf
+2120 726 19872 20598 vsscanf
+2122 400 0 400 __GI___rawmemchr
+2124 10407 6909 17316 _IO_vfscanf
+2126 518 0 518 _IO_sputbackc
+2128 33 5067 5100 __strtod_internal
+2130 2887 2180 5067 ____strtod_l_internal
+2132 880 0 880 str_to_mpn.isra.0
+2134 1575 0 1575 __mpn_lshift
+2136 761 154 915 round_and_return
+2138 154 0 154 __mpn_construct_double
+2140 1391 288973 290364 cIniFile::getAsInt2(char const*, char const*, char const*, long)
+2142 65 0 65 _IO_str_underflow
+2144 15 557 572 __strtol_internal
+2146 1539 283884 285423 _ZN9TOmnetApp17readPerRunOptionsEi_for.cond
+2148 44 20255 20299 cIniFile::exists2(char const*, char const*, char const*)
+2150 40 20215 20255 cIniFile::exists(char const*, char const*)
+2152 11 378 389 findNetwork(char const*)
+2154 26 1593644 1593670 cSimulation::setupNetwork(cNetworkType*, int)
+2156 149 1593490 1593639 twoHosts::setupNetwork()
+2158 1456 16002 17458 cPar::cPar(char const*)
+2160 736 0 736 cObject::takeOwnership(bool)
+2162 1677 15323 17000 cArray::cArray(char const*, int, int)
+2164 520 0 520 _ZN6cArrayC2EPKcii_for.cond
+2166 14 28 42 cEnvir::getPhysicalMachineFor(char const*)
+2168 28 0 28 TOmnetApp::getPhysicalMachineFor(char const*)
+2170 140 4627 4767 cPar::operator=(char const*)
+2172 2444 5343 7787 cPar::setStringValue(char const*)
+2174 6539805 0 6539805 cPar::isRedirected() const
+2176 945 0 945 cPar::beforeChange()
+2178 4459 0 4459 cPar::deleteold()
+2180 1034 992 2026 opp_strcpy(char*, char const*)
+2182 525 0 525 cPar::afterChange()
+2184 5744 20912 26656 cArray::add(cObject*)
+2186 9524879 0 9524879 cObject::takeOwnership() const
+2192 550 1375 1925 memoryIsLow()
+2194 550 825 1375 TCmdenvApp::memoryIsLow()
+2196 440 385 825 cmdenvMemoryIsLow()
+2198 6443346 0 6443346 MemManager::lowMemory()
+2200 121 5666 5787 findModuleType(char const*)
+2202 6067405 0 6067405 cSimulation::netInterface() const
+2204 1726 145558 147284 cModuleType::create(char const*, cModule*, bool)
+2206 110 0 110 cSimulation::setLocalList(cHead*)
+2208 23 2663 2686 TwoHosts__create(char const*, cModule*)
+2210 14 2433 2447 TwoHosts::TwoHosts(char const*, cModule*)
+2212 42 7262 7304 cCompoundModule::cCompoundModule(char const*, cModule*)
+2214 1001 25667 26668 cModule::cModule(char const*, cModule*)
+2216 55 0 55 cModule::setModuleType(cModuleType*)
+2218 343 848 1191 cSimulation::addModule(cModule*)
+2220 460 0 460 _ZN11cSimulation9addModuleEP7cModule_for.cond
+2222 55 0 55 cModule::setId(int)
+2224 5 0 5 cSimulation::setSystemModule(cModule*)
+2226 354 3093 3447 cModuleType::moduleInterface()
+2228 220 92046 92266 cModuleInterface::addParametersGatesTo(cModule*)
+2230 319 13343 13662 _ZN16cModuleInterface20addParametersGatesToEP7cModule_for.cond
+2232 363 12980 13343 cModule::addMachinePar(char const*)
+2234 759 32076 32835 _ZN16cModuleInterface20addParametersGatesToEP7cModule_for.cond.2
+2236 1087 44462 45549 _ZN16cModuleInterface20addParametersGatesToEP7cModule_for.cond.14
+2238 195 109394 109589 cHead::~cHead()
+2240 11481318 71240204 82721522 cObject::~cObject()
+2241 3838868 9040892 12879760 cObject::~cObject()'2
+2242 9426227 3534006 12960233 cEnvir::objectDeleted(cObject*)
+2244 3534006 0 3534006 TOmnetApp::objectDeleted(cObject*)
+2246 4711616 42238298 46949914 _ZN7cObjectD2Ev_while.cond
+2247 1181576 134076 1315652 _ZN7cObjectD2Ev_while.cond'2
+2248 275 3410 3685 cModule::setMachinePar(char const*, char const*)
+2250 2979 26311 29290 cArray::find(char const*) const
+2252 9550 16761 26311 _ZNK6cArray4findEPKc_for.cond
+2254 6624020 33120100 39744120 cArray::operator[](int)
+2256 33122000 0 33122000 cArray::get(int)
+2258 66 66 132 cModule::params() const
+2260 6182202 0 6182202 cArray::items() const
+2262 31 1581532 1581563 cModule::buildInside()
+2263 330 1564830 1565160 cModule::buildInside()'2
+2264 325 0 325 cSimulation::contextModule() const
+2266 24269140 9707675 33976815 cSimulation::setContextModule(cModule*)
+2268 171 0 171 cCompoundModule::isSimple() const
+2270 55 0 55 cModule::moduleType() const
+2272 176 13342 13518 cModuleInterface::checkParametersOf(cModule*)
+2274 1822 11520 13342 _ZN16cModuleInterface17checkParametersOfEP7cModule_for.cond
+2276 395 1581041 1581436 TwoHosts::doBuildInside()
+2278 230 2120 2350 cModule::machinePar(char const*)
+2280 868 980 1848 cPar::stringValue()
+2282 5563148 2945196 8508344 cPar::isInput() const
+2284 46 5331 5377 EtherHost__create(char const*, cModule*)
+2286 28 4871 4899 EtherHost::EtherHost(char const*, cModule*)
+2288 1064 31012 32076 cModule::addGate(char const*, char)
+2290 46805217 376347761 423152978 cModule::findGate(char const*, int) const
+2292 6182136 6182136 12364272 cModule::gates() const
+2294 97435930 258894579 356330509 _ZNK7cModule8findGateEPKci_while.cond
+2296 1260 12470 13730 cGate::cGate(char const*, char)
+2298 216 0 216 cGate::setOwnerModule(cModule*, int)
+2300 16778880 83894396 100673276 cModule::gate(int) const
+2302 13982400 69911996 83894396 cArray::operator[](int) const
+2304 69911996 0 69911996 cArray::get(int) const
+2306 19428189 0 19428189 cGate::size() const
+2308 525 0 525 _ZN6cArray3addEP7cObject_do.body
+2310 380 2569 2949 cModule::setDisplayString(int, char const*, bool)
+2312 980 0 980 cModule::parentModule() const
+2314 2550 1547934 1550484 EtherHost::doBuildInside()
+2316 56 7868 7924 EtherAppCli__create(char const*, cModule*)
+2318 62 7380 7442 EtherAppCli::EtherAppCli(char const*, cModule*, unsigned int)
+2320 464 26782 27246 cSimpleModule::cSimpleModule(char const*, cModule*, unsigned int)
+2322 290 3452 3742 cQueue::cQueue(char const*, int (*)(cObject*, cObject*), bool)
+2324 200 150 350 cQueue::setup(int (*)(cObject*, cObject*), bool)
+2326 5859120 2929560 8788680 cQueue::empty() const
+2328 3665440 0 3665440 cQueue::length() const
+2330 23548480 8241968 31790448 MACAddress::MACAddress()
+2332 8493947 0 8493947 MACAddress_Base::MACAddress_Base()
+2334 840 2772 3612 cOutVector::cOutVector(char const*, int)
+2336 80 464 544 cStdDev::cStdDev(char const*)
+2338 68 396 464 cStatistic::cStatistic(char const*)
+2340 120 40 160 cSimpleModule::setId(int)
+2342 1148 37450 38598 cModule::addPar(char const*)
+2344 168 6004 6172 cModule::findPar(char const*) const
+2346 448 10950 11398 cModulePar::cModulePar(char const*)
+2348 140 0 140 cModulePar::_construct()
+2350 1344 2520 3864 cModule::par(int)
+2352 140 0 140 cModulePar::setOwnerModule(cModule*)
+2354 1156 646 1802 cPar::setInput(bool)
+2356 1216 23388 24604 cModule::par(char const*)
+2358 1216 22172 23388 cArray::get(char const*)
+2364 755 87058 87813 operator delete[](void*)
+2370 15647195 113515200 129162395 operator delete(void*)
+2376 924 1337349 1338273 cPar::read()
+2378 300 0 300 cSimulation::runNumber() const
+2380 224 35552 35776 cModulePar::fullPath() const
+2382 1876 33676 35552 cModulePar::fullPath(char*, int) const
+2384 8960 119898 128858 cModule::fullPath(char*, int) const
+2385 14980 110316 125296 cModule::fullPath(char*, int) const'2
+2386 6720 7980 14700 cModule::fullName() const
+2388 3392 0 3392 cModule::isVector() const
+2390 12996 78962 91958 opp_strprettytrunc(char*, char const*, unsigned int)
+2396 5 0 5 strncpy
+2398 71366 0 71366 __strncpy_sse2_unaligned
+2400 140 308 448 cObject::fullName() const
+2402 196 1225869 1226065 cEnvir::getParameter(int, char const*)
+2404 840 1225029 1225869 TOmnetApp::getParameter(int, char const*)
+2406 1052 1205301 1206353 cIniFile::getRaw2(char const*, char const*, char const*, char const*)
+2408 1112 1204189 1205301 cIniFile::getRaw(char const*, char const*, char const*)
+2410 3848 71520 75368 cPar::setFromText(char const*, char)
+2416 280 0 280 toupper
+2418 448 0 448 _ZN4cPar11setFromTextEPKcc_while.cond
+2420 644 0 644 _ZN4cPar11setFromTextEPKcc_while.cond.14
+2426 6 0 6 strspn
+2428 490 0 490 __strspn_sse42
+2430 628 41569 42197 cPar::setfunction(char*)
+2432 928 0 928 _ZN4cPar11setfunctionEPc_for.cond
+2434 1608 1685 3293 _ZN4cPar11setfunctionEPc_for.cond.6
+2440 364 0 364 isspace
+2442 974 0 974 _ZN4cPar11setfunctionEPc_for.cond.16
+2444 162 21510 21672 findFunction(char const*, int)
+2446 4086 17370 21456 _Z12findFunctionPKci_for.cond
+2448 60 0 60 cFunctionType::argCount()
+2450 24 0 24 cFunctionType::mathFunc1Arg()
+2452 66 106 172 cPar::setDoubleValue(double (*)(double), double)
+2454 48 0 48 cFunctionType::mathFunc2Args()
+2456 144 212 356 cPar::setDoubleValue(double (*)(double, double), double, double)
+2458 408 636 1044 cPar::setBoolValue(bool)
+2460 10884928 0 10884928 cSimpleModule::isSimple() const
+2462 448 252 700 cPar::type() const
+2464 40 0 40 cModule::doBuildInside()
+2466 594 3586 4180 cArray::clear()
+2468 3094959 39147932 42242891 cObject::discard(cObject*)
+2469 1722 132354 134076 cObject::discard(cObject*)'2
+2470 737695 0 737695 cObject::storage() const
+2472 1120 16336 17456 cPar::~cPar()
+2473 624 5045 5669 cPar::~cPar()'2
+2474 2305 9188 11493 opp_string::~opp_string()
+2476 56 7810 7866 EtherAppSrv__create(char const*, cModule*)
+2478 52 7332 7384 EtherAppSrv::EtherAppSrv(char const*, cModule*, unsigned int)
+2480 56 7318 7374 EtherLLC__create(char const*, cModule*)
+2482 30 6862 6892 EtherLLC::EtherLLC(char const*, cModule*, unsigned int)
+2484 20 0 20 std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__tree(std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> const&)
+2486 600 10848 11448 cModule::setGateSize(char const*, int)
+2488 7948134 39740670 47688804 cModule::gate(int)
+2490 3679635 0 3679635 cGate::type() const
+2492 208 2136 2344 _ZN7cModule11setGateSizeEPKci_for.cond
+2494 212 336 548 cArray::remove(int)
+2496 21108752 101590718 122699470 cObject::drop(cObject*)
+2498 110 0 110 cGate::fromGate() const
+2500 5151295 0 5151295 cGate::toGate() const
+2502 432 13600 14032 cGate::~cGate()
+2503 792 7774 8566 cGate::~cGate()'2
+2504 564 340 904 _ZN7cModule11setGateSizeEPKci_for.cond.36
+2506 340 0 340 cArray::exist(int) const
+2508 48 0 48 cGate::setIndex(int, int)
+2510 542 1404 1946 cArray::addAt(int, cObject*)
+2512 188 0 188 _ZN6cArray5addAtEiP7cObject_do.body
+2514 56 11352 11408 EtherMAC__create(char const*, cModule*)
+2516 262 10282 10544 EtherMAC::EtherMAC(char const*, cModule*, unsigned int)
+2518 124 212 336 cPar::setLongValue(long)
+2520 288 14586 14874 connect(cModule*, int, cLinkType*, cModule*, int)
+2522 864 2574 3438 _connect(cModule*, int, cModule*, int)
+2524 90 0 90 cGate::setTo(cGate*)
+2526 90 0 90 cGate::setFrom(cGate*)
+2528 648 180 828 cModule::isOnLocalMachine() const
+2530 464 10490 10954 cGate::setLink(cLinkType*)
+2532 450 6768 7218 cSimpleChannel::cSimpleChannel(char const*, cLinkType*)
+2534 342 6426 6768 cChannel::cChannel(char const*, cLinkType*)
+2536 522 216 738 cGate::setChannel(cChannel*)
+2538 90 0 90 cChannel::setFromGate(cGate*)
+2540 735940 0 735940 cGate::index() const
+2542 81 6466 6547 cModule::checkInternalConnections() const
+2544 145 326 471 _ZNK7cModule24checkInternalConnectionsEv_for.cond
+2546 78 20 98 cGate::isConnectedInside() const
+2548 228 4752 4980 cSubModIterator::cSubModIterator(cModule const&)
+2550 2097 11154 13251 cSubModIterator::operator++(int)
+2552 1216 0 1216 cSubModIterator::end() const
+2554 380 0 380 cSimulation::lastModuleId() const
+2556 5417 4749 10166 _ZN15cSubModIteratorppEi_do.body
+2558 5597894 0 5597894 cSimulation::module(int) const
+2560 972 4219 5191 _ZNK7cModule24checkInternalConnectionsEv_for.cond.9
+2562 1035 1311 2346 cSubModIterator::operator()()
+2564 664 170 834 cGate::isConnectedOutside() const
+2566 789 45042 45831 cArray::~cArray()
+2567 42 1486 1528 cArray::~cArray()'2
+2568 10 164 174 cPar::operator=(double)
+2570 58 106 164 cPar::setDoubleValue(double)
+2572 56 6875 6931 connect(cModule*, int, cPar*, cPar*, cPar*, cModule*, int)
+2574 112 5169 5281 cGate::setDelay(cPar*)
+2580 50486115 59279541 109765656 __dynamic_cast
+2582 7352536 18734964 26087500 __cxxabiv1::__si_class_type_info::search_above_dst(__cxxabiv1::__dynamic_cast_info*, void const*, void const*, int, bool) const
+2583 2930830 8426130 11356960 __cxxabiv1::__si_class_type_info::search_above_dst(__cxxabiv1::__dynamic_cast_info*, void const*, void const*, int, bool) const'2
+2584 13046951 0 13046951 __cxxabiv1::__class_type_info::process_static_type_above_dst(__cxxabiv1::__dynamic_cast_info*, void const*, void const*, int) const
+2586 48 2898 2946 cSimpleChannel::setDelay(cPar*)
+2588 5004596 5014420 10019016 cObject::setName(char const*)
+2590 74 1864 1938 cChannel::_parList()
+2592 62 1802 1864 cChannel::_createparlist()
+2594 48 364 412 cArray::set(cObject*)
+2596 74 496 570 cGate::setError(cPar*)
+2598 46 302 348 cSimpleChannel::setError(cPar*)
+2600 64 492 556 cArray::remove(char const*)
+2602 74 496 570 cGate::setDataRate(cPar*)
+2604 46 302 348 cSimpleChannel::setDatarate(cPar*)
+2606 9707504 0 9707504 cSimulation::setGlobalContext()
+2608 5 1561 1566 TCmdenvApp::makeOptionsEffective()
+2610 532 1029 1561 TOmnetApp::makeOptionsEffective()
+2612 5 0 5 cSimulation::setNetIfCheckFreq(int)
+2614 1024 0 1024 genk_randseed(int, long)
+2616 29 1623590 1623619 TOmnetApp::startRun()
+2618 21 1272 1293 TOmnetApp::resetClock()
+2624 9 0 9 0x000000003805cf3d
+2628 36 23523 23559 cFileOutputVectorManager::startRun()
+2630 30 0 30 cFileOutputVectorManager::closeFile()
+2632 15 0 15 TOmnetApp::getIniFile()
+2634 114 64808 64922 createFileName(opp_string&, cIniFile*, int, char const*, char const*)
+2640 22 18 40 remove
+2642 18 0 18 unlink
+2644 26 22035 22061 cFileOutputScalarManager::startRun()
+2646 36 736 772 cFileOutputScalarManager::closeFile()
+2648 31 20738 20769 cFileSnapshotManager::startRun()
+2650 37 1555871 1555908 cSimulation::startRun()
+2652 148 1077 1225 cMessageHeap::clear()
+2654 6 0 6 cMessage::resetMessageCounters()
+2656 54 3091 3145 cCompoundModule::scheduleStart(double)
+2657 180 2090 2270 cCompoundModule::scheduleStart(double)'2
+2658 88 0 88 cSimpleModule::scheduleStart(double)
+2660 33 1552665 1552698 cModule::callInitialize()
+2662 96 1552569 1552665 cCompoundModule::callInitialize(int)
+2663 192 1550499 1550691 cCompoundModule::callInitialize(int)'2
+2664 108 0 108 cModule::numInitStages() const
+2666 117 1395250 1395367 cModule::initialize(int)
+2668 15 0 15 cModule::initialize()
+2670 164 1552021 1552185 _ZN15cCompoundModule14callInitializeEi_for.cond
+2671 588 1548471 1549059 _ZN15cCompoundModule14callInitializeEi_for.cond'2
+2672 584 1545179 1545763 cSimpleModule::callInitialize(int)
+2674 24 0 24 EtherAppCli::numInitStages() const
+2676 310 149050 149360 EtherAppCli::initialize(int)
+2678 108 119450 119558 EtherAppSrv::initialize()
+2680 980 1421777 1422757 cOutVector::setName(char const*)
+2682 896 102046 102942 cModule::fullPath() const
+2684 168 1386813 1386981 cEnvir::registerOutputVector(char const*, char const*, int)
+2686 644 1386169 1386813 TOmnetApp::registerOutputVector(char const*, char const*, int)
+2688 1792 1384377 1386169 cFileOutputVectorManager::registerVector(char const*, char const*, int)
+2690 532 6496 7028 cFileOutputVectorManager::createVectorData()
+2692 420 280 700 cFileOutputVectorManager::sVectorData::sVectorData()
+2694 2884 1356938 1359822 TOmnetApp::getOutVectorConfig(int, char const*, char const*, bool&, double&, double&)
+2696 360 7384 7744 cWatch::cWatch(char const*, long&)
+2698 134 12606 12740 EtherAppSrv::registerDSAP(int)
+2700 108 6388 6496 operator<<(cEnvir&, char const*)
+2702 240 6148 6388 cEnvir::puts(char const*)
+2704 304 7848 8152 TCmdenvApp::puts(char const*)
+2706 208 7640 7848 TOmnetApp::puts(char const*)
+2708 56 6038 6094 operator<<(cEnvir&, int)
+2710 252 5786 6038 cEnvir::printf(char const*, ...)
+2716 7358925 17955777 25314702 EtherCtrl::EtherCtrl()
+2718 2060499 0 2060499 cPolymorphic::cPolymorphic()
+2720 1471785 0 1471785 EtherCtrl::setDsap(int)
+2722 5887140 44448817 50335957 cMessage30::cMessage30(char const*, int)
+2724 30024975 59319306 89344281 cMessage::cMessage(char const*, int, long, int, bool)
+2726 30891365 0 30891365 cSimulation::simTime() const
+2728 5004069 0 5004069 cMessage30::setControlInfo(cPolymorphic*)
+2730 4415310 789629706 794045016 cSimpleModule::send(cMessage*, char const*, int)
+2732 17661240 771968466 789629706 cSimpleModule::sendDelayed(cMessage*, double, char const*, int)
+2734 16483824 460221886 476705710 cModule::gate(char const*, int)
+2736 50776065 394312615 445088680 cSimpleModule::sendDelayed(cMessage*, double, cGate*)
+2738 7358850 0 7358850 cGate::id() const
+2740 34930660 17465330 52395990 cSimpleModule::simTime() const
+2742 26695130 6067075 32762205 cMessage::setSentFrom(cModule*, int, double)
+2744 12134150 0 12134150 cModule::id() const
+2746 16189470 313365201 329554671 cGate::deliver(cMessage*, double)
+2747 26344639 351677541 378022180 cGate::deliver(cMessage*, double)'2
+2748 27227745 286137456 313365201 cSimpleChannel::deliver(cMessage*, double)
+2749 11332552 112930942 124263494 cSimpleChannel::deliver(cMessage*, double)'2
+2750 5151185 0 5151185 cChannel::fromGate() const
+2752 3679435 0 3679435 cGate::ownerModule() const
+2754 19133010 200922187 220055197 cSimpleModule::arrived(cMessage*, int, double)
+2756 26695130 6067075 32762205 cMessage::setArrival(cModule*, int, double)
+2758 60075552 237836393 297911945 cMessageHeap::insert(cMessage*)
+2760 72693223 87484618 160177841 _ZN12cMessageHeap6insertEP8cMessage_for.cond.16
+2762 13347605 88 13347693 cEnvir::messageSent(cMessage*)
+2764 88 0 88 TCmdenvApp::messageSent(cMessage*)
+2766 192 7348 7540 EtherLLC::initialize()
+2768 288 5974 6262 cWatch::cWatch(char const*, int&)
+2770 1226 1266911 1268137 EtherMAC::initialize()
+2772 40 528 568 cPar::operator char const*()
+2774 16 0 16 MACAddress::setAddressBytes(unsigned char*)
+2776 320 9674 9994 MACAddress::toHexString(char*) const
+2778 1872 0 1872 read_int
+2780 552 1008 1560 _IO_padn
+2782 42 384 426 cPar::operator bool()
+2784 406 490 896 cPar::boolValue()
+2786 14 122 136 cPar::operator int()
+2788 2447916 36319960 38767876 cPar::longValue()
+2790 70 0 70 cGate::destinationGate() const
+2792 44 76 120 cGate::isConnected() const
+2794 72 1472 1544 cWatch::cWatch(char const*, bool&)
+2796 140 3910 4050 EtherMAC::startAutoconfig()
+2798 735900 10008228 10744128 cPar::operator double()
+2800 12452636 39728259 52180895 cPar::doubleValue()
+2802 29606860 166999367 196606227 cSimpleModule::scheduleAt(double, cMessage*)
+2804 105640759 77120620 182761379 operator<=(cMessage&, cMessage&)
+2806 70307720 0 70307720 cMessage::arrivalTime() const
+2808 468 9766 10234 cWatch::cWatch(char const*, unsigned long&)
+2810 8586640 0 8586640 cMessage::priority() const
+2812 4293320 0 4293320 cMessage::insertOrder() const
+2814 226 20821 21047 EtherAppCli::resolveDestMACAddress()
+2816 12 28 40 std::__1::char_traits<char>::length(char const*)
+2826 28 1210 1238 std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::append(char const*)
+2832 80 24 104 std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::append(char const*, unsigned long)
+2834 262 6403 6665 cSimulation::moduleByPath(char const*) const
+2836 10 0 10 opp_string::buffer() const
+2842 486 0 486 strtok
+2844 10 0 10 cSimulation::systemModule() const
+2846 140 3441 3581 cModule::submodule(char const*, int)
+2848 246 2099 2345 _ZN7cModule9submoduleEPKci_for.cond
+2850 36 5956 5992 MACAddress::setAddress(char const*)
+2852 1610 4346 5956 hextobin(char const*, unsigned char*, int)
+2858 238 0 238 isxdigit
+2864 168 0 168 isdigit
+2870 42 0 42 islower
+2876 6 0 6 std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::~basic_string()
+2878 22390872 6397392 28788264 MACAddress::operator=(MACAddress const&)
+2880 6397392 0 6397392 MACAddress_Base::operator=(MACAddress_Base const&)
+2882 4955265 4955265 9910530 MACAddress::~MACAddress()
+2884 4955265 0 4955265 MACAddress_Base::~MACAddress_Base()
+2886 3973780 0 3973780 MACAddress::isEmpty() const
+2888 134 11291 11425 EtherAppCli::registerDSAP(int)
+2890 216000 8300429 8516429 _wrap_exponential(double)
+2892 612004 7688425 8300429 exponential(double, int)
+2894 1094832 5721647 6816479 genk_dblrand(int)
+2896 3468212 3946559 7414771 genk_intrand(int)
+2902 394120 12016600 12410720 log
+2906 6134 0 6134 
+2908 35189503 3255346129 3290535632 TCmdenvApp::simulate()
+2910 14 3 17 TOmnetApp::startClock()
+2912 60670600 48536480 109207080 cSimulation::selectNextModule()
+2914 9707296 0 9707296 cMessageHeap::empty() const
+2916 14560944 0 14560944 cMessageHeap::peekFirst() const
+2918 6067060 0 6067060 cMessage::arrivalModuleId() const
+2920 6067060 0 6067060 cSimpleModule::moduleState() const
+2922 6067125 0 6067125 cSimulation::eventNumber() const
+2924 819 45405 46224 simtimeToStr(double, char*)
+2926 65 0 65 cMessage::totalMessageCount()
+2928 49749892 3058658664 3108408556 cSimulation::doOneEvent(cSimpleModule*)
+2930 8493884 0 8493884 cSimpleModule::usesActivity() const
+2932 49749892 324373978 374123870 cMessageHeap::getFirst()
+2934 18689043 200172529 218861572 cMessageHeap::shiftup(int)
+2936 83163118 117009411 200172529 _ZN12cMessageHeap7shiftupEi_while.cond
+2938 21732650 95276761 117009411 operator>(cMessage&, cMessage&)
+2940 13347532 0 13347532 cEnvir::messageDelivered(cMessage*)
+2942 8241956 693567101 701809057 EtherLLC::handleMessage(cMessage*)
+2944 8830580 0 8830580 cMessage::kind() const
+2946 376 5560 5936 EtherLLC::handleRegisterSAP(cMessage*)
+2948 7358900 16189580 23548480 cMessage::arrivalGate() const
+2950 9732840 50286164 60019004 cMessage30* check_and_cast<cMessage30*>(cObject*)
+2952 2757183 13046855 15804038 __cxxabiv1::__class_type_info::search_above_dst(__cxxabiv1::__dynamic_cast_info*, void const*, void const*, int, bool) const
+2954 1099062 0 1099062 cMessage30::removeControlInfo()
+2956 735900 0 735900 EtherCtrl::getDsap() const
+2958 5004122 10008096 15012218 std::__1::__tree_iterator<std::__1::__value_type<int, int>, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, long> std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::find<int>(int const&)
+2960 10008096 0 10008096 std::__1::__tree_iterator<std::__1::__value_type<int, int>, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, long> std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__lower_bound<int>(int const&, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*)
+2962 3974080 15435817 19409897 std::__1::map<int, int, std::__1::less<int>, std::__1::allocator<std::__1::pair<int const, int> > >::operator[](int const&)
+2964 7211784 8221873 15433657 std::__1::map<int, int, std::__1::less<int>, std::__1::allocator<std::__1::pair<int const, int> > >::__find_equal_key(std::__1::__tree_node_base<void*>*&, int const&)
+2966 660 1114 1774 std::__1::map<int, int, std::__1::less<int>, std::__1::allocator<std::__1::pair<int const, int> > >::__construct_node_with_key(int const&)
+2968 152 234 386 std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__insert_node_at(std::__1::__tree_node_base<void*>*, std::__1::__tree_node_base<void*>*&, std::__1::__tree_node_base<void*>*)
+2970 140 94 234 void std::__1::__tree_balance_after_insert<std::__1::__tree_node_base<void*>*>(std::__1::__tree_node_base<void*>*, std::__1::__tree_node_base<void*>*)
+2972 94 0 94 _ZNSt3__127__tree_balance_after_insertIPNS_16__tree_node_baseIPvEEEEvT_S5__while.cond
+2974 1471813 28995208 30467021 cMessage30::~cMessage30()
+2975 20 864 884 cMessage30::~cMessage30()'2
+2976 4857055 82510487 87367542 cMessage::~cMessage()
+2977 1619112 12660416 14279528 cMessage::~cMessage()'2
+2978 25481684 6105564 31587248 TOmnetApp::checkTimeLimits()
+2980 8221873 0 8221873 _ZNSt3__13mapIiiNS_4lessIiEENS_9allocatorINS_4pairIKiiEEEEE16__find_equal_keyERPNS_16__tree_node_baseIPvEERS5__while.body
+2982 32525930 1427228794 1459754724 EtherMAC::handleMessage(cMessage*)
+2984 160 2702 2862 EtherMAC::handleAutoconfigMessage(cMessage*)
+2986 7064472 0 7064472 cMessage::isSelfMessage() const
+2988 148 0 148 EtherMAC::calculateParameters()
+2990 2858804 190144776 193003580 EtherAppCli::handleMessage(cMessage*)
+2992 3455808 104081359 107537167 EtherAppCli::sendPacket()
+2994 575968 6155658 6731626 EtherAppReq::EtherAppReq(char const*, int)
+2996 179990 0 179990 EtherAppReq::setRequestId(long)
+2998 3095828 647964 3743792 cPar::isNumeric() const
+3000 323982 2521078 2845060 _wrap_intuniform(double, double)
+3002 827954 1693124 2521078 intuniform(int, int, int)
+3004 7667517 0 7667517 cMessage::setLength(long)
+3006 215988 19219622 19435610 _wrap_truncnormal(double, double)
+3008 745396 18474226 19219622 truncnormal(double, double, int)
+3010 1327552 17146674 18474226 normal(double, double, int)
+3016 214140 0 214140 sqrt
+3022 5311598 79009 5390607 __cos_avx
+3024 179990 0 179990 EtherAppReq::setResponseBytes(long)
+3026 1471765 0 1471765 EtherCtrl::setSsap(int)
+3028 2649177 7947531 10596708 EtherCtrl::setDest(MACAddress const&)
+3030 19727104 325386436 345113540 EtherLLC::processPacketFromHigherLayer(cMessage*)
+3032 7358800 0 7358800 cMessage::length() const
+3034 11898011 34558998 46457009 __cxxabiv1::__si_class_type_info::search_below_dst(__cxxabiv1::__dynamic_cast_info*, void const*, int, bool) const
+3035 21294030 13264968 34558998 __cxxabiv1::__si_class_type_info::search_below_dst(__cxxabiv1::__dynamic_cast_info*, void const*, int, bool) const'2
+3036 2501992 34292008 36794000 EtherFrameWithLLC::EtherFrameWithLLC(char const*, int)
+3038 7358800 60783688 68142488 EtherFrame::EtherFrame(char const*, int)
+3040 735880 0 735880 EtherFrameWithLLC::setControl(int)
+3042 735880 0 735880 EtherCtrl::getSsap() const
+3044 735880 0 735880 EtherFrameWithLLC::setSsap(int)
+3046 735880 0 735880 EtherFrameWithLLC::setDsap(int)
+3048 883056 0 883056 EtherCtrl::getDest()
+3050 1324584 3973752 5298336 EtherFrame::setDest(MACAddress const&)
+3052 2198076 28700907 30898983 EtherCtrl::~EtherCtrl()
+3053 3846633 4579325 8425958 EtherCtrl::~EtherCtrl()'2
+3054 915865 0 915865 cPolymorphic::~cPolymorphic()
+3056 5151160 12951488 18102648 cMessage::encapsulate(cMessage*)
+3058 2943520 1177408 4120928 cSimulation::contextSimpleModule() const
+3060 69233930 0 69233930 EtherMAC::printState()
+3062 3532224 18249824 21782048 EtherFrame* check_and_cast<EtherFrame*>(cObject*)
+3064 17790924 95829906 113620830 EtherMAC::processFrameFromUpperLayer(EtherFrame*)
+3066 3532224 0 3532224 EtherFrame::getDest()
+3068 4120928 6770096 10891024 MACAddress::equals(MACAddress const&) const
+3070 1766112 0 1766112 EtherFrame::getSrc()
+3072 1324584 3973752 5298336 EtherFrame::setSrc(MACAddress const&)
+3074 6129276 29189947 35319223 cQueue::insert(cObject*)
+3076 2943520 61374937 64318457 EtherMAC::scheduleEndIFGPeriod()
+3078 5151160 463904822 469055982 EtherMAC::handleEndIFGPeriod()
+3080 3532224 0 3532224 cQueue::tail() const
+3082 7211624 452719446 459931070 EtherMAC::startFrameTransmission()
+3084 2943520 206329871 209273391 EtherFrameWithLLC::dup() const
+3086 3826576 163814507 167641083 EtherFrameWithLLC::EtherFrameWithLLC(EtherFrameWithLLC const&)
+3088 3679400 119661707 123341107 EtherFrameWithLLC::operator=(EtherFrameWithLLC const&)
+3090 4562456 115099251 119661707 EtherFrame::operator=(EtherFrame const&)
+3092 12657136 94494611 107151747 cMessage::operator=(cMessage const&)
+3093 10449496 883056 11332552 cMessage::operator=(cMessage const&)'2
+3094 1766112 0 1766112 cObject::operator=(cObject const&)
+3096 719940 21801547 22521487 EtherAppReq::dup() const
+3098 935922 12130989 13066911 EtherAppReq::EtherAppReq(EtherAppReq const&)
+3100 827931 3527706 4355637 EtherAppReq::operator=(EtherAppReq const&)
+3102 3090696 11332552 14423248 cMessage30::operator=(cMessage30 const&)
+3104 4120928 65560384 69681312 EtherMAC::scheduleEndTxPeriod(cMessage*)
+3106 9124912 76014234 85139146 EtherMAC::processMsgFromNetwork(cMessage*)
+3108 4120928 65270386 69391314 EtherMAC::scheduleEndRxPeriod(cMessage*)
+3110 15453480 201938413 217391893 EtherMAC::handleEndTxPeriod()
+3112 1913288 35868234 37781522 cQueue::pop()
+3114 7073134 28795100 35868234 cQueue::remove_qelem(cQueue::QElem*)
+3116 37971408 48568080 86539488 cOutVector::record(double)
+3118 7064448 37088352 44152800 cEnvir::recordInOutputVector(void*, double, double)
+3120 19427232 17661120 37088352 TOmnetApp::recordInOutputVector(void*, double, double)
+3122 17661120 0 17661120 cFileOutputVectorManager::record(void*, double, double)
+3124 3532224 131312323 134844547 EtherFrameWithLLC::~EtherFrameWithLLC()
+3125 1471760 84711554 86183314 EtherFrameWithLLC::~EtherFrameWithLLC()'2
+3126 6181392 78530162 84711554 EtherFrame::~EtherFrame()
+3128 863940 20469305 21333245 EtherAppReq::~EtherAppReq()
+3129 359975 7451484 7811459 EtherAppReq::~EtherAppReq()'2
+3130 3315803 38099782 41415585 EtherMAC::beginSendFrames()
+3132 5870216 263663879 269534095 EtherMAC::handleEndRxPeriod()
+3134 2796344 256494315 259290659 EtherMAC::frameReceptionComplete(EtherFrame*)
+3136 16189360 239569075 255758435 EtherMAC::processReceivedDataFrame(EtherFrame*)
+3138 1030232 0 1030232 cMessage::hasBitError() const
+3140 2207640 0 2207640 MACAddress::isBroadcast() const
+3142 3532224 12951488 16483712 EtherFrameWithLLC* check_and_cast<EtherFrameWithLLC*>(cObject*)
+3144 17072416 313419717 330492133 EtherLLC::processFrameFromMAC(EtherFrameWithLLC*)
+3146 1471760 0 1471760 EtherFrameWithLLC::getDsap() const
+3148 6475744 34419127 40894871 EtherLLC::findPortForSAP(int)
+3150 4856808 11626904 16483712 cMessage::decapsulate()
+3152 735880 0 735880 EtherFrameWithLLC::getSsap() const
+3154 1324584 3973752 5298336 EtherCtrl::setSrc(MACAddress const&)
+3156 10999944 253443241 264443185 EtherAppSrv::handleMessage(cMessage*)
+3158 735880 0 735880 cMessage::creationTime() const
+3160 6770224 1471760 8241984 cStdDev::collect(double)
+3162 735880 0 735880 cStatistic::transientDetectionObject() const
+3164 735880 0 735880 cStatistic::accuracyDetectionObject() const
+3166 863928 3167736 4031664 EtherAppReq* check_and_cast<EtherAppReq*>(cObject*)
+3168 863928 2591784 3455712 EtherCtrl* check_and_cast<EtherCtrl*>(cPolymorphic*)
+3170 215982 0 215982 EtherCtrl::getSrc()
+3172 575952 1223898 1799850 MACAddress::MACAddress(MACAddress const&)
+3174 179985 0 179985 EtherAppReq::getRequestId() const
+3176 179985 0 179985 EtherAppReq::getResponseBytes() const
+3178 1778864 19011609 20790473 EtherAppResp::EtherAppResp(char const*, int)
+3180 555895 0 555895 EtherAppResp::setRequestId(int)
+3182 5892487 164953104 170845591 EtherAppSrv::sendPacket(cMessage*, MACAddress const&)
+3184 2415861 9275822 11691683 cQueue::insbefore_qelem(cQueue::QElem*, cObject*)
+3186 2223580 60035928 62259508 EtherAppResp::dup() const
+3188 2890654 37467323 40357977 EtherAppResp::EtherAppResp(EtherAppResp const&)
+3190 2557117 10895542 13452659 EtherAppResp::operator=(EtherAppResp const&)
+3192 2668296 58635663 61303959 EtherAppResp::~EtherAppResp()
+3193 1111790 23014053 24125843 EtherAppResp::~EtherAppResp()'2
+3194 4558339 51723507 56281846 EtherAppCli::receivePacket(cMessage*)
+3196 6809 0 6809 csloww1
+3198 4908 0 4908 __dubsin
+3200 5333 1084 6417 csloww
+3202 45033 8374 53407 systrim.isra.3
+3204 78463 85230 163693 __printf_fp
+3206 644 0 644 isnan
+3208 1196 0 1196 isinf
+3210 1932 0 1932 __mpn_extract_double
+3212 1488 0 1488 __mpn_cmp
+3214 2244 0 2244 __mpn_rshift
+3216 30559 33775 64334 hack_digit.13574
+3218 19035 0 19035 __mpn_divrem
+3220 18132 0 18132 __mpn_mul_1
+3222 214 5525 5739 __docos
+3224 27 0 27 __dubcos
+3226 3724 3136 6860 __mpn_mul
+3232 18 2883 2901 __cxa_allocate_exception
+3242 52 951 1003 cTerminationException::cTerminationException(int, ...)
+3244 25 48 73 cException::cException()
+3246 30 10 40 cException::storeCtx()
+3248 10 8 18 exitIfStartupError(cException*)
+3250 8 0 8 cStaticFlag::isSet()
+3252 36 842 878 cException::init(cObject const*, int, char const*, __va_list_tag*)
+3258 22 32857 32879 __cxa_throw
+3264 25 8504 8529 __cxa_get_globals
+3270 21 4782 4803 __cxa_get_globals_fast
+3276 64 1621 1685 pthread_once
+3278 6 1590 1596 __cxxabiv1::(anonymous namespace)::construct_()
+3284 19 0 19 pthread_key_create
+3290 46 0 46 pthread_getspecific
+3300 34 0 34 pthread_setspecific
+3306 4 0 4 std::get_unexpected()
+3312 4 0 4 std::get_terminate()
+3314 179 22114 22293 _Unwind_RaiseException
+3316 93 5560 5653 uw_init_context_1
+3318 1931 12713 14644 uw_frame_state_for
+3320 277 8114 8391 _Unwind_Find_FDE
+3326 525 5954 6479 dl_iterate_phdr
+3328 2577 3020 5597 _Unwind_IteratePhdrCallback
+3330 182 0 182 base_from_cb_data.isra.4
+3332 875 0 875 read_encoded_value_with_base
+3334 343 1676 2019 get_cie_encoding
+3340 308 0 308 read_sleb128
+3342 84 0 84 size_of_encoded_value
+3344 3734 0 3734 execute_cfa_program
+3346 18 0 18 init_dwarf_reg_size_table
+3348 1880 0 1880 uw_update_context_1
+3350 116 1468 1584 uw_update_context
+3356 154 2507 2661 __gxx_personality_v0
+3358 892 1552 2444 scan_eh_tab
+3360 6 0 6 _Unwind_GetLanguageSpecificData
+3362 6 0 6 _Unwind_GetIP
+3364 6 0 6 _Unwind_GetRegionStart
+3366 1468 0 1468 readEncodedPointer
+3368 17 0 17 readSLEB128
+3370 23 32 55 get_shim_type_info
+3372 26 0 26 __cxxabiv1::__pointer_type_info::can_catch(__cxxabiv1::__shim_type_info const*, void*&) const
+3374 98 6266 6364 _Unwind_RaiseException_Phase2
+3376 20 34 54 set_registers.isra.0
+3378 16 0 16 _Unwind_SetGR
+3380 2 0 2 _Unwind_SetIP
+3382 296 1374 1670 uw_install_context_1
+3388 2 0 2 _Unwind_DebugHook
+3394 27 41 68 __cxa_begin_catch
+3396 22 8 30 TOmnetApp::stopClock()
+3398 20 1515 1535 TOmnetApp::displayMessage(cException*)
+3400 5 0 5 cException::moduleID()
+3402 6 5 11 cException::message()
+3404 63 1436 1499 cEnvir::printfmsg(char const*, ...)
+3406 17 798 815 TOmnetApp::putmsg(char const*)
+3408 5 150 155 cTerminationException::~cTerminationException()
+3410 15 135 150 cException::~cException()
+3416 26 2905 2931 __cxa_end_catch
+3422 12 2076 2088 __cxa_decrement_exception_refcount
+3428 2 1398 1400 __cxa_free_exception
+3430 16 1377 1393 __cxxabiv1::do_free(void*)
+3436 14 325240 325254 cSimulation::callFinish()
+3438 31 325209 325240 cCompoundModule::callFinish()
+3439 62 324234 324296 cCompoundModule::callFinish()'2
+3440 45 324961 325006 _ZN15cCompoundModule10callFinishEv_for.cond
+3441 158 323334 323492 _ZN15cCompoundModule10callFinishEv_for.cond'2
+3442 200 321780 321980 cSimpleModule::callFinish()
+3444 126 52733 52859 EtherAppCli::finish()
+3446 1120 315562 316682 cSimpleModule::recordScalar(char const*, double)
+3448 480 315082 315562 cEnvir::recordScalar(cModule*, char const*, double)
+3450 1840 313242 315082 TOmnetApp::recordScalar(cModule*, char const*, double)
+3452 2801 310441 313242 cFileOutputScalarManager::recordScalar(cModule*, char const*, double)
+3454 41 3209 3250 cFileOutputScalarManager::init()
+3456 28 643 671 cFileOutputScalarManager::openFile()
+3458 5 0 5 cSimulation::networkType() const
+3464 2017 232857 234874 fprintf
+3466 52 0 52 cStdDev::mean() const
+3468 32 128 160 cStdDev::stddev() const
+3470 108 0 108 cStdDev::variance() const
+3472 20 0 20 cStdDev::min() const
+3474 20 0 20 cStdDev::max() const
+3476 126 48571 48697 EtherAppSrv::finish()
+3478 90 37762 37852 EtherLLC::finish()
+3480 650 181394 182044 EtherMAC::finish()
+3482 15 0 15 cModule::finish()
+3484 28 793 821 TOmnetApp::endRun()
+3486 11 5 16 cSimulation::endRun()
+3488 5 0 5 cFileSnapshotManager::endRun()
+3490 5 752 757 cFileOutputScalarManager::endRun()
+3492 5 10 15 cFileOutputVectorManager::endRun()
+3494 72 109326 109398 cSimulation::deleteNetwork()
+3496 12 107953 107965 TwoHosts::~TwoHosts()
+3497 5 107797 107802 TwoHosts::~TwoHosts()'2
+3498 5 107792 107797 cCompoundModule::~cCompoundModule()
+3499 10 105673 105683 cCompoundModule::~cCompoundModule()'2
+3500 46 107746 107792 cModule::~cModule()
+3501 460 147563 148023 cModule::~cModule()'2
+3502 24 105982 106006 EtherHost::~EtherHost()
+3503 10 105683 105693 EtherHost::~EtherHost()'2
+3504 24 53834 53858 EtherMAC::~EtherMAC()
+3505 162 53392 53554 EtherMAC::~EtherMAC()'2
+3506 616 17496 18112 cOutVector::~cOutVector()
+3508 168 11644 11812 cEnvir::deregisterOutputVector(void*)
+3510 448 11196 11644 TOmnetApp::deregisterOutputVector(void*)
+3512 448 10748 11196 cFileOutputVectorManager::deregisterVector(void*)
+3514 420 7168 7588 cFileOutputVectorManager::sVectorData::~sVectorData()
+3516 160 1894 2054 cQueue::~cQueue()
+3518 328 77878 78206 cSimpleModule::~cSimpleModule()
+3520 112 0 112 cQueue::clear()
+3522 2702 29234 31936 cSimpleModule::discardLocals()
+3524 792 21358 22150 cWatch::~cWatch()
+3525 330 13574 13904 cWatch::~cWatch()'2
+3526 88 0 88 cSimpleModule::clearHeap()
+3528 336 12582 12918 cModulePar::~cModulePar()
+3529 392 8282 8674 cModulePar::~cModulePar()'2
+3530 24 17076 17100 EtherLLC::~EtherLLC()
+3531 32 16768 16800 EtherLLC::~EtherLLC()'2
+3532 10 654 664 std::__1::map<int, int, std::__1::less<int>, std::__1::allocator<std::__1::pair<int const, int> > >::~map()
+3534 14 640 654 std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::~__tree()
+3536 52 588 640 std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::destroy(std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*)
+3537 136 282 418 std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::destroy(std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*)'2
+3538 24 11498 11522 EtherAppSrv::~EtherAppSrv()
+3539 42 11180 11222 EtherAppSrv::~EtherAppSrv()'2
+3540 20 832 852 cStdDev::~cStdDev()
+3542 20 812 832 cStatistic::~cStatistic()
+3544 24 17300 17324 EtherAppCli::~EtherAppCli()
+3545 52 16972 17024 EtherAppCli::~EtherAppCli()'2
+3546 25 12988 13013 cEnvir::shutdown()
+3548 13 10 23 TOmnetApp::shutdown()
+3550 12 12953 12965 TCmdenvApp::~TCmdenvApp()
+3551 17 12787 12804 TCmdenvApp::~TCmdenvApp()'2
+3552 101 12558 12659 TOmnetApp::~TOmnetApp()
+3554 5 10680 10685 cIniFile::~cIniFile()
+3556 42 10638 10680 cIniFile::clearContents()
+3558 138 690 828 _ZN8cIniFile13clearContentsEv_for.cond
+3560 1467 7935 9402 _ZN8cIniFile13clearContentsEv_for.cond.2
+3562 12 273 285 cFileOutputVectorManager::~cFileOutputVectorManager()
+3563 17 143 160 cFileOutputVectorManager::~cFileOutputVectorManager()'2
+3564 5 0 5 cOutputVectorManager::~cOutputVectorManager()
+3566 12 273 285 cFileOutputScalarManager::~cFileOutputScalarManager()
+3567 17 143 160 cFileOutputScalarManager::~cFileOutputScalarManager()'2
+3568 5 0 5 cOutputScalarManager::~cOutputScalarManager()
+3570 12 263 275 cFileSnapshotManager::~cFileSnapshotManager()
+3571 17 133 150 cFileSnapshotManager::~cFileSnapshotManager()'2
+3572 5 0 5 cSnapshotManager::~cSnapshotManager()
+3574 6 0 6 cStaticFlag::~cStaticFlag()
+3576 4 134243 134247 exit
+3578 3756 130487 134243 __run_exit_handlers
+3580 840 0 840 ExecuteOnStartup::~ExecuteOnStartup()
+3582 34 9177 9211 cSimulation::~cSimulation()
+3584 23 351 374 cMessageHeap::~cMessageHeap()
+3586 13 0 13 cCoroutine::~cCoroutine()
+3588 216 7563 7779 cSimpleChannel::~cSimpleChannel()
+3589 90 5439 5529 cSimpleChannel::~cSimpleChannel()'2
+3590 90 5349 5439 cChannel::~cChannel()
+3592 516 13456 13972 cClassRegister::~cClassRegister()
+3593 215 8382 8597 cClassRegister::~cClassRegister()'2
+3594 876 22846 23722 cFunctionType::~cFunctionType()
+3595 365 14232 14597 cFunctionType::~cFunctionType()'2
+3596 12 310 322 cLinkType::~cLinkType()
+3597 5 192 197 cLinkType::~cLinkType()'2
+3598 240 8797 9037 cModuleType::~cModuleType()
+3599 380 6157 6537 cModuleType::~cModuleType()'2
+3600 252 37804 38056 cModuleInterface::~cModuleInterface()
+3601 972 34459 35431 cModuleInterface::~cModuleInterface()'2
+3602 1008 4068 5076 _ZN16cModuleInterfaceD2Ev_for.cond
+3604 2298 14012 16310 _ZN16cModuleInterfaceD2Ev_for.cond.2
+3606 672 2373 3045 _ZN16cModuleInterfaceD2Ev_for.cond.20
+3608 12 318 330 smallLAN::~smallLAN()
+3609 5 200 205 smallLAN::~smallLAN()'2
+3610 40 1557 1597 cNetworkType::~cNetworkType()
+3612 12 318 330 largeLAN::~largeLAN()
+3613 5 200 205 largeLAN::~largeLAN()'2
+3614 12 318 330 largeNet::~largeNet()
+3615 5 200 205 largeNet::~largeNet()'2
+3616 12 318 330 mixedLAN::~mixedLAN()
+3617 5 200 205 mixedLAN::~mixedLAN()'2
+3618 12 318 330 twoHosts::~twoHosts()
+3619 5 200 205 twoHosts::~twoHosts()'2
+3620 12 318 330 switchedLAN::~switchedLAN()
+3621 5 200 205 switchedLAN::~switchedLAN()'2
+3622 12 318 330 hubLAN::~hubLAN()
+3623 5 200 205 hubLAN::~hubLAN()'2
+3624 12 315 327 busLAN::~busLAN()
+3625 5 197 202 busLAN::~busLAN()'2
+3626 24 903 927 cOmnetAppRegistration::~cOmnetAppRegistration()
+3627 34 643 677 cOmnetAppRegistration::~cOmnetAppRegistration()'2
+3628 5 0 5 cEnvir::~cEnvir()
+3630 15 116 131 MemManager::~MemManager()
+3632 10 0 10 MessageTracer::~MessageTracer()
+3634 569 22881 23450 _dl_fini
+3636 1535 349 1884 _dl_sort_fini
+3638 8 8 16 0x0000000000430830
+3642 8 0 8 0x00000000004307b0
+3648 3 0 3 0x0000000000513134
+3650 17 974 991 0x0000000000000630
+3662 386 10919 11305 __cxa_finalize
+3664 133 0 133 __unregister_atfork
+3668 9 0 9 0x00000000000005c0
+3674 3 0 3 0x0000000004a227e0
+3676 17 12303 12320 0x0000000000039c40
+3686 10 10764 10774 std::__1::ios_base::Init::~Init()
+3692 60 4851 4911 std::__1::basic_ostream<char, std::__1::char_traits<char> >::flush()
+3698 30 0 30 std::__1::basic_ostream<char, std::__1::char_traits<char> >::sentry::sentry(std::__1::basic_ostream<char, std::__1::char_traits<char> >&)
+3702 86 2807 2893 std::__1::__stdoutbuf<char>::sync()
+3704 6 0 6 std::__1::codecvt<char, char, __mbstate_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
+3710 72 0 72 fwrite
+3720 28 0 28 std::__1::basic_ostream<char, std::__1::char_traits<char> >::sentry::~sentry()
+3726 60 3923 3983 std::__1::basic_ostream<wchar_t, std::__1::char_traits<wchar_t> >::flush()
+3732 30 0 30 std::__1::basic_ostream<wchar_t, std::__1::char_traits<wchar_t> >::sentry::sentry(std::__1::basic_ostream<wchar_t, std::__1::char_traits<wchar_t> >&)
+3736 86 1863 1949 std::__1::__stdoutbuf<wchar_t>::sync()
+3738 90 1619 1709 std::__1::codecvt<wchar_t, char, __mbstate_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
+3746 124 88 212 wcrtomb
+3748 8 0 8 _dl_mcount_wrapper_check
+3750 80 0 80 __gconv_transform_internal_ascii
+3758 28 0 28 std::__1::basic_ostream<wchar_t, std::__1::char_traits<wchar_t> >::sentry::~sentry()
+3762 9 0 9 0x0000000000039bd0
+3768 3 0 3 0x0000000004ca9690
+3770 17 1502 1519 0x0000000000008b90
+3782 9 0 9 0x0000000000008b20
+3788 3 0 3 0x0000000004ef972c
+3790 17 1502 1519 0x00000000000057e0
+3804 9 0 9 0x0000000000005770
+3810 3 0 3 0x0000000005172988
+3812 17 1502 1519 0x0000000000002f80
+3826 9 0 9 0x0000000000002f10
+3832 3 0 3 0x0000000005417298
+3834 17 1502 1519 0x00000000000023b0
+3848 9 0 9 0x0000000000002340
+3854 3 0 3 0x0000000005bfd0b4
+3856 17 1502 1519 0x00000000000066e0
+3868 9 0 9 0x0000000000006670
+3874 3 0 3 0x00000000059ec7d4
+3876 101 154 255 _IO_cleanup
+3878 88 0 88 _IO_flush_all_lockp
+3880 15 51 66 _IO_file_setbuf@@GLIBC_2.2.5
+3882 38 13 51 _IO_default_setbuf
+3884 5 0 5 _Exit
