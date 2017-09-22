@@ -1,0 +1,10 @@
+2938 752 275 119387 119662 main
+1514 808 129 0 129 _ZN12pov_frontend13MessageOutputC2EPv_for.cond
+2898 826 158 0 158 _ZN21POVMS_MessageReceiver11AddNodeBackEjjPNS_9HandlerOOEPNS_7HandlerE_while.cond
+2862 872 44 0 44 _Z16POVMSObject_FindP9POVMSDataj_for.cond
+3042 876 157 32474 32631 _ZN8pov_base14ProcessOptions11ParseStringEPKcP9POVMSDatab_while.cond
+3058 892 2415 1482 3897 _ZN8pov_base14ProcessOptions15Parse_CL_StringERPKci_while.cond
+3054 900 1222 10386 11608 _ZN8pov_base14ProcessOptions15Parse_CL_OptionERPKcP9POVMSDatab_while.cond
+3098 958 53 0 53 _ZN12pov_frontend20ProcessRenderOptions17OpenINIFileStreamEPKcjPcP9POVMSData_for.cond
+3094 960 76 0 76 _ZN12pov_frontend20ProcessRenderOptions17OpenINIFileStreamEPKcjPcP9POVMSData_for.cond.30
+2794 1260 676 0 676 _Z28POVMS_FindReceiveHandlerNodeP16POVMSContextDatajj_for.cond
