@@ -15,5 +15,12 @@ BEGIN {
 }
 
 NR == FNR { func2id[$2]=$1; next; }
-{ if($NF in func2id) print func2id[$NF]" "$0; }
+{
+  if($NF in func2id) print func2id[$NF]" "$0;
+
+  if(index($NF, "'")) {
+    split($NF, a, "'")
+    if(a[1] in func2id) print func2id[a[1]]" "$0;
+  }
+}
 
