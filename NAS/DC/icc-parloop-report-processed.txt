@@ -1,0 +1,17 @@
+/bulk/workbench/repos/nauseous/DC/src/adc.c 342 3 
+/bulk/workbench/repos/nauseous/DC/src/adc.c 549 5 
+/bulk/workbench/repos/nauseous/DC/src/adc.c 571 3 
+/bulk/workbench/repos/nauseous/DC/src/extbuild.c 262 5 
+/bulk/workbench/repos/nauseous/DC/src/extbuild.c 310 4 
+/bulk/workbench/repos/nauseous/DC/src/extbuild.c 509 12 
+/bulk/workbench/repos/nauseous/DC/src/extbuild.c 515 12 
+/bulk/workbench/repos/nauseous/DC/src/extbuild.c 523 7 
+/bulk/workbench/repos/nauseous/DC/src/extbuild.c 545 4 
+/bulk/workbench/repos/nauseous/DC/src/extbuild.c 706 4 
+/bulk/workbench/repos/nauseous/DC/src/jobcntl.c 271 3 
+/bulk/workbench/repos/nauseous/DC/src/jobcntl.c 351 4 
+/bulk/workbench/repos/nauseous/DC/src/jobcntl.c 472 4 
+/bulk/workbench/repos/nauseous/DC/src/jobcntl.c 489 4 
+/bulk/workbench/repos/nauseous/DC/src/jobcntl.c 551 5 
+/bulk/workbench/repos/nauseous/DC/src/rbt.c 152 3 
+/bulk/workbench/repos/nauseous/DC/src/rbt.c 163 3 
